@@ -6,3 +6,6 @@ src/work/*.log
 src/work/parts/
 src/work/zh/
 src/work/assets-en/
+
+# 发布资产例外（55MB，GitHub 单文件限制 100MB）
+!dist/Beat-zh.app.zip

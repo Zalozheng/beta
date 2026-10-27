@@ -1,0 +1,46 @@
+name: release
+
+# 打 tag 就发布：git tag v2.3.2-zh.1 && git push origin v2.3.2-zh.1
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出
+        uses: actions/checkout@v4
+
+      - name: 校验成品
+        run: |
+          set -euo pipefail
+          test -f dist/Beat-zh.app.zip || { echo "缺少 dist/Beat-zh.app.zip"; exit 1; }
+          ls -lh dist/Beat-zh.app.zip
+          shasum -a 256 dist/Beat-zh.app.zip | tee dist/SHA256SUMS.txt
+
+      - name: 发布 Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: Beat 中文版 ${{ github.ref_name }}
+          body: |
+            Beat 2.3.2 简体中文版（macOS，universal：Apple Silicon / Intel）
+
+            安装：解压 `Beat-zh.app.zip`，把 `Beat-zh.app` 拖进「应用程序」。
+            首次启动若被 Gatekeeper 拦，右键 → 打开；或执行：
+            ```
+            xattr -dr com.apple.quarantine /Applications/Beat-zh.app
+            ```
+
+            设置（⌘,）最上方可切换「简体中文 / English」，立即生效。
+            语言包：`~/Documents/Beat Projects/.beat-lang/zh-CN.json`
+
+            SHA256 见 `SHA256SUMS.txt`。
+          files: |
+            dist/Beat-zh.app.zip
+            dist/SHA256SUMS.txt
+          generate_release_notes: true

@@ -117,3 +117,39 @@ xattr -dr com.apple.quarantine /Applications/Beat.app
 - 本构建 **不再联网检查更新**：设置页 Update 按钮直接打开 `https://github.com/Zalozheng/beta`。
 - 作者署名已从界面、鸣谢、About、Info.plist、README 清除；`build_i18n.py` 会在每次构建时再抹一遍（64 处注释/文案）。
 - 上游换版后：前端资源需重新 `extract_assets.js` 定位，`strings.json` 的 offset 要重新生成；`i18n.js` 与语言包不受影响。
+
+## 发布（打 tag 自动出 Release）
+
+成品已经压好放在 `dist/Beat-zh.app.zip`（55 MB，GitHub 单文件限制 100 MB 以内），打 tag 即自动创建 Release 并上传这个 zip：
+
+```bash
+bash release.sh v2.3.2-zh.1
+```
+
+等价于：
+
+```bash
+git tag -a v2.3.2-zh.1 -m "Beat 中文版 v2.3.2-zh.1"
+git push origin HEAD
+git push origin v2.3.2-zh.1
+```
+
+workflow 在 `.github/workflows/release.yml`：tag 触发 → 校验 zip → 生成 `SHA256SUMS.txt` → `softprops/action-gh-release` 发布。上传的是**本地验证过的成品**，不在 CI 里重新构建，所以发布内容与 `/Applications/Beat.app` 完全一致。
+
+重新打包成品（改完源码、重建并安装后）：
+
+```bash
+rm -rf dist/Beat-zh.app dist/Beat-zh.app.zip
+cp -R /Applications/Beat.app dist/Beat-zh.app
+ditto -c -k --keepParent dist/Beat-zh.app dist/Beat-zh.app.zip
+rm -rf dist/Beat-zh.app
+```
+
+首次 push 前配置远端：
+
+```bash
+git remote add origin https://github.com/Zalozheng/beta.git
+git push -u origin main
+```
+
+如果仓库默认分支不是 `main`，把最后一句改成实际分支名；tag 推送与分支无关。
