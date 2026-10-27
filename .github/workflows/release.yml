@@ -21,7 +21,11 @@ jobs:
           set -euo pipefail
           test -f dist/Beat-zh.app.zip || { echo "缺少 dist/Beat-zh.app.zip"; exit 1; }
           ls -lh dist/Beat-zh.app.zip
-          shasum -a 256 dist/Beat-zh.app.zip | tee dist/SHA256SUMS.txt
+          if command -v shasum >/dev/null 2>&1; then
+            shasum -a 256 dist/Beat-zh.app.zip | tee dist/SHA256SUMS.txt
+          else
+            sha256sum dist/Beat-zh.app.zip | tee dist/SHA256SUMS.txt
+          fi
 
       - name: 发布 Release
         uses: softprops/action-gh-release@v2
