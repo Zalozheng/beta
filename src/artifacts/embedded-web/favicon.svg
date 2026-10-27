@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Flat by design (Joao, July 2026): no gradients, sheens, glows or shadows.
+       Round 3 (Aug 2026), his pick of five: the AMBER PLATE. The tile is the
+       brand, the mark is punched out of it, and the triangle and the dot share
+       one colour, which was the note. No hairline rim any more: a solid amber
+       tile holds its own edge on any Dock background, light or dark.
+       NOTE, keep this comment free of double-hyphens and non-ASCII: the
+       rasterize step parses this file as strict XML. -->
+  <rect width="64" height="64" rx="14.5" fill="#E8A33D"/>
+  <path d="M26.34 24.09 L26.34 41.91 L41.42 33.00 Z" fill="#1A1206" stroke="#1A1206" stroke-width="6" stroke-linejoin="round"/>
+  <circle cx="48" cy="18" r="5" fill="#1A1206"/>
+</svg>

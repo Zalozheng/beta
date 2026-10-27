@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beat</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css?v=10.6-round63c">
+</head>
+<body>
+<div id="bootSplash" hidden>
+  <div class="boot-lockup">
+    <svg class="boot-mark" viewBox="-14 -14 92 92" width="96" height="96" aria-hidden="true">
+      <circle class="boot-ring" cx="32" cy="32" r="43"/>
+      <rect class="boot-plate" x="1" y="1" width="62" height="62" rx="14.5"/>
+      <circle class="boot-pulse" cx="48" cy="18" r="5"/>
+      <path class="boot-tri" d="M26.34 24.09 L26.34 41.91 L41.42 33.00 Z"/>
+      <circle class="boot-dot" cx="48" cy="18" r="5"/>
+    </svg>
+    <div class="boot-word"><i>B</i><i>e</i><i>a</i><i>t</i></div>
+  </div>
+</div>
+<div id="bar">
+  <div class="bar-brand">
+    <!-- Flat white mark (matches src-tauri/icons/icon-source.svg). Rim is a
+         touch stronger than the app icon's: at 24px on a near-white toolbar the
+         .10 rim disappears, so this one holds its edge at .16.
+         Mark A — plate: the accent split runs through the mark itself, ink
+         triangle and amber dot. Alternates B (bare) and C (solid) live in
+         docs/_accentshot.html until the letter comes back.
+         The two hexes are literals, not var(--point): this mark sits on a
+         FIXED white plate in both themes, so its colours are plate-relative,
+         not theme-relative — and favicon.svg, which must match it, cannot read
+         CSS variables at all. Marks B and C do use the tokens. -->
+    <svg class="brand-logo" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <rect width="64" height="64" rx="14.5" fill="#E8A33D"/>
+      <path d="M26.34 24.09 L26.34 41.91 L41.42 33.00 Z" fill="#1A1206" stroke="#1A1206" stroke-width="6" stroke-linejoin="round"/>
+      <circle cx="48" cy="18" r="5" fill="#1A1206"/>
+    </svg>
+    <span class="brand" id="brandLabel">Beat</span>
+    <input class="brand-project" id="brandProjectName" type="text" placeholder="Untitled project" />
+  </div>
+  <div class="bar-center">
+  <input type="search" class="search-inp" id="searchInp" placeholder="Search beats" />
+  <span class="search-meta" id="searchMeta"></span>
+  <span class="runtime-meter" id="runtimeMeter" title="Total runtime of connected beats" hidden></span>
+  <span class="bar-div" aria-hidden="true"></span>
+  <button class="btn" id="saveProjectBtn" title="Save project + refresh the thumbnail (autosaves continuously as you type)">Save</button>
+  <span class="saved-pulse" id="savedPulse" hidden>Saved</span>
+  <button class="btn" id="infoBtn" title="Edit this project's settings — name, theme, palette, AI context">Project info</button>
+  <!-- The Canvas·Write·Outline·Audio switcher was tried and rejected (Joao,
+       2026-08-05): Canvas is always on, so segments lied about being tabs. -->
+  <button class="btn" id="outlineBtn" title="Outline — the document/treatment view of this board (groups → nodes, in reading order)">Outline</button>
+  <button class="btn" id="writeBtn" title="Write — edit your story as a live document; changes sync with the canvas both ways">Write</button>
+  <button class="btn" id="onsetBtn" title="On set — run a shot list as a shoot day, full screen">On set</button>
+  <span class="bar-div" aria-hidden="true"></span>
+  <div class="add-wrap">
+    <button class="btn btn-accent" id="exportBtn" title="Export center — every format with a live preview">Export</button>
+    <div class="add-menu" id="exportMenu" hidden>
+      <button data-x="export-center">Export center…</button>
+      <div class="add-sep"></div>
+      <div class="add-menu-head">Documents</div>
+      <button data-x="shot-list">Project overview (PDF)</button>
+      <button data-x="treatment">Treatment (PDF) — section per page</button>
+      <button data-x="print-layout">Canvas to PDF (print layout)…</button>
+      <button data-x="storyboard">Storyboard (PDF)</button>
+      <button data-x="pitch-deck">Pitch deck (PDF) — 16:9</button>
+      <button data-x="docx-clean">Word — clean (.docx)</button>
+      <button data-x="docx-annotated">Word — annotated (.docx)</button>
+      <div class="add-sep"></div>
+      <div class="add-menu-head">Production</div>
+      <button data-x="shotlist-pdf">Shot list (PDF)</button>
+      <button data-x="shotlist-csv">Shot list (CSV)</button>
+      <button data-x="breakdown">Breakdown sheets (PDF)</button>
+      <button data-x="gear-summary">Gear summary (PDF)</button>
+      <div class="add-sep"></div>
+      <div class="add-menu-head">Handoff</div>
+      <button data-x="fountain">Screenplay scaffold (.fountain)</button>
+      <button data-x="ai-llm">For AI chat development (.md)</button>
+      <button data-x="media-zip">Export all media (.zip)</button>
+    </div>
+  </div>
+  </div>
+  <div class="bar-right">
+  <button class="btn btn-icon" id="projectsBtn" title="All your projects" aria-label="All your projects">
+    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 11 12 3.5l8.5 7.5"/><path d="M6 12v8.5h12V12"/><path d="M10 20.5V15h4v5.5"/></svg>
+  </button>
+  <button class="btn btn-icon" id="filterBtn" title="Filter view" aria-label="Filter view">
+    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16l-6.2 7.2V19l-3.6-2v-4.8Z"/></svg>
+  </button>
+  <button class="btn btn-icon" id="inspectorBtn" title="Inspector — everything about the selected card, in a side panel (I)" aria-label="Inspector">
+    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4.5" width="18" height="15" rx="2.5"/><path d="M14 4.5v15"/><path d="M16.5 9.5h2M16.5 13h2"/></svg>
+  </button>
+  <button class="btn btn-icon news-bell" id="newsBell" title="News from Beat" aria-label="News from Beat">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none"><path d="M18 8a6 6 0 1 0-12 0c0 7-3 8-3 8h18s-3-1-3-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M13.7 21a2 2 0 0 1-3.4 0" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+  <div class="add-wrap">
+    <button class="btn btn-icon" id="moreBtn" title="More" aria-haspopup="true" aria-expanded="false">⋯</button>
+    <!-- Grouped the same way the + Add menu is (Joao's tidy-up round): section
+         headers + icons instead of nine unlabelled rows in a row. The things
+         testers actually hunt for — Preferences, Version history, Locations
+         map — were 6th, 9th and 7th of nine; they lead their sections now.
+         Undo / Redo lost the top two slots and sit last: the keyboard is the
+         real route (⌘Z / ⇧⌘Z), and macOS's own Edit menu shows the pair — but
+         those are AppKit's predefined text-editing items, which never reach
+         Beat's canvas history, so the rows stay until that is genuinely true.
+         Ids are load-bearing: app.js binds every action by id. -->
+    <div class="add-menu more-menu" id="moreMenu" hidden>
+      <div class="add-menu-head">This project</div>
+      <button id="versionHistoryBtn" title="Restore an earlier snapshot of this project"><span class="add-ic"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3.2 12a8.8 8.8 0 1 0 2.6-6.2L3 8.6"/><path d="M3 4.2v4.4h4.4"/><path d="M12 7.6V12l3 1.8"/></svg></span><span class="add-lb">Version history</span></button>
+      <button id="locationsMapBtn" title="See every pinned location on one map"><span class="add-ic"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s6.5-5.4 6.5-10.5a6.5 6.5 0 1 0-13 0C5.5 15.6 12 21 12 21z"/><circle cx="12" cy="10.2" r="2.4"/></svg></span><span class="add-lb">Locations map</span></button>
+      <div class="add-sep"></div>
+      <div class="add-menu-head">Show</div>
+      <button id="presentBtn" title="Present your story full screen"><span class="add-ic"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M12 16v4M8.5 20h7"/><path d="m10.6 8.2 3.8 2-3.8 2z" fill="currentColor" stroke="none"/></svg></span><span class="add-lb">Present</span></button>
+      <button id="walkthroughBtn" title="See and replay every walkthrough"><span class="add-ic"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.6"/><path d="m15.4 8.6-2 4.8-4.8 2 2-4.8z"/></svg></span><span class="add-lb">Show me around</span></button>
+      <button id="helpBtn" title="Keyboard shortcuts (?)"><span class="add-ic"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.4" y="6" width="19.2" height="12" rx="2"/><path d="M6 10h.01M10 10h.01M14 10h.01M18 10h.01M8 14h8"/></svg></span><span class="add-lb">Keyboard shortcuts</span><kbd class="add-kbd">?</kbd></button>
+      <div class="add-sep"></div>
+      <div class="add-menu-head">Settings</div>
+      <button id="prefsBtn" title="Preferences — your library folder, your name &amp; credit on exports"><span class="add-ic"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h9M19 6h1M4 12h3M13 12h7M4 18h7M17 18h3"/><circle cx="16" cy="6" r="2.2"/><circle cx="10" cy="12" r="2.2"/><circle cx="14" cy="18" r="2.2"/></svg></span><span class="add-lb">Preferences</span><kbd class="add-kbd">⌘ ,</kbd></button>
+      <button id="changeLibraryMenuBtn" title="Point Beat at a different projects folder — nothing is moved or copied"><span class="add-ic"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7.5a2 2 0 0 1 2-2h3.6l2 2H19a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></span><span class="add-lb">Change library folder…</span></button>
+      <div class="add-sep"></div>
+      <div class="add-menu-head">Edit</div>
+      <button id="undoMenuBtn" title="Undo the last change"><span class="add-ic"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 14 4 9l5-5"/><path d="M4 9h10a5.5 5.5 0 0 1 0 11h-3"/></svg></span><span class="add-lb">Undo</span><kbd class="add-kbd">⌘ Z</kbd></button>
+      <button id="redoMenuBtn" title="Redo the change you undid"><span class="add-ic"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m15 14 5-5-5-5"/><path d="M20 9H10a5.5 5.5 0 0 0 0 11h3"/></svg></span><span class="add-lb">Redo</span><kbd class="add-kbd">⇧ ⌘ Z</kbd></button>
+    </div>
+  </div>
+  </div>
+</div>
+<div id="mainRow">
+<div id="viewport">
+  <aside id="mediaTab" class="media-tab" hidden>
+    <header class="media-tab-head">
+      <span class="media-tab-title">Vault</span>
+      <span class="media-tab-count">0</span>
+      <button class="media-tab-add" title="Add to Vault">+</button>
+      <button class="wt-replay" title="Walkthrough">?</button>
+      <button class="media-tab-close" title="Close">✕</button>
+    </header>
+    <div class="media-tab-controls" hidden>
+      <select class="media-filter" title="Filter by type"></select>
+      <select class="media-sort" title="Sort">
+        <option value="newest">Newest</option>
+        <option value="oldest">Oldest</option>
+        <option value="type">By type</option>
+      </select>
+      <input class="media-size" type="range" min="1" max="4" step="1" title="Thumbnail size" aria-label="Thumbnail size"/>
+    </div>
+    <div class="media-tab-body"></div>
+    <div class="media-tab-empty">Stash images, videos, nodes, and links here for later. Drag tiles back onto the canvas to put them back. Items stay in the Vault until you drag them out or click ✕.</div>
+    <div class="media-tab-resize" title="Drag to resize"></div>
+  </aside>
+  <!-- Cast — the story's people, places and things, and where each one shows up.
+       Same docked-card treatment as the Vault (Joao picked B over a flush panel). -->
+  <aside id="castPanel" class="media-tab cast-panel" hidden>
+    <header class="media-tab-head">
+      <span class="media-tab-title">Elements</span>
+      <span class="media-tab-count" id="castCount">0</span>
+      <button class="wt-replay" id="castTourBtn" title="Walkthrough">?</button>
+      <button class="media-tab-close" id="castCloseBtn" title="Close">✕</button>
+    </header>
+    <div class="cast-body" id="castBody"></div>
+    <div class="cast-empty" id="castEmpty">Add a character, a location or a prop and it appears here. Click one to fly to it and open its profile. Type <b>@</b> in a beat to name one.</div>
+  </aside>
+  <aside id="sideTools" class="side-tools">
+    <div class="tool-pod">
+    <div class="add-wrap">
+      <button class="tool-btn tool-accent" id="addBtn" title="Add to the board — story cards, people and places, visuals, production and attachments">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+      </button>
+      <!-- Category rows + icon flyouts. Every card type stays a
+           button[data-type] INSIDE #addMenu — renderSidebarPins() and
+           _openSpawnMenu() walk that selector and set inline display on it.
+           The .add-cat-ic / .add-ic spans are filled from ADDABLE_ITEMS by
+           paintAddMenuIcons() so the icons never drift from the pin prefs. -->
+      <div class="add-menu add-menu-cats" id="addMenu" hidden>
+        <div class="add-cat" data-cat="story">
+          <button type="button" class="add-cat-row" aria-haspopup="true" aria-expanded="false"><span class="add-cat-ic"></span><span class="add-cat-lb">Story</span><span class="add-cat-chev"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></span></button>
+          <div class="add-fly" hidden>
+            <button data-type="beat"><span class="add-ic"></span><span class="add-lb">Beat</span><kbd class="add-kbd">2&times; click canvas</kbd></button>
+            <button data-type="title"><span class="add-ic"></span><span class="add-lb">Title</span></button>
+            <button data-type="note"><span class="add-ic"></span><span class="add-lb">Note</span></button>
+            <button data-type="thought"><span class="add-ic"></span><span class="add-lb">Thought</span></button>
+          </div>
+        </div>
+        <div class="add-cat" data-cat="people">
+          <button type="button" class="add-cat-row" aria-haspopup="true" aria-expanded="false"><span class="add-cat-ic"></span><span class="add-cat-lb">People &amp; places</span><span class="add-cat-chev"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></span></button>
+          <div class="add-fly" hidden>
+            <button data-type="character"><span class="add-ic"></span><span class="add-lb">Character</span></button>
+            <button data-type="location"><span class="add-ic"></span><span class="add-lb">Location</span></button>
+            <button data-type="prop"><span class="add-ic"></span><span class="add-lb">Prop</span></button>
+          </div>
+        </div>
+        <div class="add-cat" data-cat="visual">
+          <button type="button" class="add-cat-row" aria-haspopup="true" aria-expanded="false"><span class="add-cat-ic"></span><span class="add-cat-lb">Visual</span><span class="add-cat-chev"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></span></button>
+          <div class="add-fly" hidden>
+            <button data-type="gallery"><span class="add-ic"></span><span class="add-lb">Gallery</span></button>
+            <button data-type="sketch"><span class="add-ic"></span><span class="add-lb">Sketch</span></button>
+            <button data-type="image" data-spawn-hide><span class="add-ic"></span><span class="add-lb">Reference image</span></button>
+            <button data-type="palette"><span class="add-ic"></span><span class="add-lb">Colour palette</span></button>
+          </div>
+        </div>
+        <div class="add-cat" data-cat="production">
+          <button type="button" class="add-cat-row" aria-haspopup="true" aria-expanded="false"><span class="add-cat-ic"></span><span class="add-cat-lb">Production</span><span class="add-cat-chev"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></span></button>
+          <div class="add-fly" hidden>
+            <button data-type="shotlist"><span class="add-ic"></span><span class="add-lb">Shot list</span></button>
+            <button data-type="setplan"><span class="add-ic"></span><span class="add-lb">Set Plan…</span></button>
+            <button data-type="checklist"><span class="add-ic"></span><span class="add-lb">Checklist</span></button>
+          </div>
+        </div>
+        <div class="add-cat" data-cat="attach">
+          <button type="button" class="add-cat-row" aria-haspopup="true" aria-expanded="false"><span class="add-cat-ic"></span><span class="add-cat-lb">Attach</span><span class="add-cat-chev"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></span></button>
+          <div class="add-fly" hidden>
+            <button data-type="document" data-spawn-hide><span class="add-ic"></span><span class="add-lb">Document…</span></button>
+            <button data-type="importscript" data-spawn-hide><span class="add-ic"></span><span class="add-lb">Import script…</span></button>
+            <button data-type="link" data-spawn-hide><span class="add-ic"></span><span class="add-lb">Link card</span></button>
+            <button data-type="video-import" data-spawn-hide><span class="add-ic"></span><span class="add-lb">Import video…</span></button>
+            <button data-type="video-link" data-spawn-hide><span class="add-ic"></span><span class="add-lb">Video link…</span></button>
+          </div>
+        </div>
+        <div class="add-sep add-tail-sep" data-spawn-hide></div>
+        <button data-type="group" data-spawn-hide>Group<kbd class="add-kbd">&#8679; drag + A</kbd></button>
+        <button data-type="customize-sidebar" data-spawn-hide>Customise sidebar…</button>
+      </div>
+    </div>
+    <button class="tool-btn" id="sectionsBtn" title="Sections — jump to any Title or group">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4H5.5v16H9"/><path d="M15 4h3.5v16H15"/><path d="M12 8.5v7"/></svg>
+    </button>
+    <button class="tool-btn" id="cleanCardsBtn" title="Clean cards: hide empty fields and buttons until you hover a card">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="16" height="14" rx="2.5"/><path d="m7.5 16.5 9-9"/></svg>
+    </button>
+    <button class="tool-btn" id="audioDockBtn" title="Audio timeline — load a track, drop markers, spawn timecoded beats">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 10v4M8 7v10M12 4v16M16 8v8M20 11v2"/></svg>
+    </button>
+    <button class="tool-btn" id="mediaTabBtn" title="Vault — stash images, videos, cards and links here for later (Cmd B)">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="4.5" width="17" height="15" rx="2"/><path d="M3.5 9.5h17"/><path d="M10 13.5h4"/></svg>
+    </button>
+    <button class="tool-btn" id="castBtn" title="Elements — every character, location and prop, and everywhere each one shows up">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="3.4"/><path d="M5.5 20c0-3.6 2.9-6 6.5-6s6.5 2.4 6.5 6"/></svg>
+    </button>
+    </div>
+    <div class="tool-pod">
+    <!-- Zoom in / out buttons removed (Joao, round 3): pinch and Control+wheel
+         already zoom anchored on the cursor, which is both faster and more
+         precise than stepping 1.2x from the centre, and the shortcuts panel
+         documents them. The pod keeps the two that are not otherwise reachable:
+         Recenter and the minimap. -->
+    <button class="tool-btn" id="fitBtn" title="Recenter">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none"><circle cx="12" cy="12" r="2.5" fill="currentColor"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <button class="tool-btn" id="minimapBtn" title="Toggle minimap">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none"><rect x="3" y="4" width="18" height="16" rx="2" stroke="currentColor" stroke-width="2"/><rect x="6" y="7" width="7" height="6" rx="1" fill="currentColor" opacity="0.5"/></svg>
+    </button>
+    </div>
+    <span class="status" id="status"></span>
+  </aside>
+  <div id="zoomBadge" class="zoom-badge">100%</div>
+  <div id="minimap" hidden>
+    <canvas id="minimapCanvas"></canvas>
+    <div class="minimap-resize" title="Drag to resize"></div>
+  </div>
+  <!-- Empty-board starters. Deliberately OUTSIDE #world: they are chrome, not
+       content, so no pan / zoom / fitView can strand or shrink them. -->
+  <div id="ghostStarters" class="ghost-starters" hidden></div>
+  <div id="world">
+    <svg id="edges"></svg>
+    <div id="groupslayer"></div>
+    <div id="imglayer"></div>
+    <div id="edgelayer"></div>
+    <div id="printFrames"></div>
+    <div id="nodes"></div>
+  </div>
+</div>
+<div id="writeDivider" hidden>
+  <button class="wd-snap" id="writeSnapDoc" title="Expand document">‹</button>
+  <div class="wd-grip" title="Drag to resize"></div>
+  <button class="wd-snap" id="writeSnapCanvas" title="Back to canvas">›</button>
+</div>
+<div id="onsetPane" class="onset-pane" hidden>
+  <div class="onset-top">
+    <button class="btn btn-icon" id="onsetCloseBtn" aria-label="Leave On set">✕</button>
+    <span class="onset-day" id="onsetDayTitle"></span>
+    <span class="onset-date" id="onsetDate"></span>
+    <span class="onset-flex"></span>
+    <button class="btn" id="onsetSizeDown" title="Smaller">A−</button>
+    <button class="btn" id="onsetSizeUp" title="Bigger">A+</button>
+    <button class="btn btn-icon" id="onsetCompactBtn" title="Collapse every shot — the slim list for rearranging the day"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4l5 4 5-4"/><path d="M7 20l5-4 5 4"/><path d="M4 12h16"/></svg></button>
+    <button class="btn onset-day-btn" id="onsetDayBtn" title="Start or pause the day clock">▶ Start day</button>
+    <div class="onset-order-wrap">
+      <div class="onset-order-stack">
+        <span class="onset-order-k">Order</span>
+        <div class="onset-order-seg" id="onsetOrderSeg" title="The running order — the story's, or the AD's">
+          <i class="onset-seg-thumb" id="onsetSegThumb"></i>
+          <button data-order="story">Story</button>
+          <button data-order="custom">Shooting</button>
+        </div>
+      </div>
+      <button class="btn btn-icon" id="onsetOrderLock" hidden></button>
+    </div>
+    <button class="btn" id="onsetWrapBtn" title="Wrap day — freeze the clock, print the report, carry the rest">Wrap day</button>
+    <button class="btn btn-icon" id="onsetSheetBtn" title="Day sheet — the wrap report as a PDF"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 8V3h10v5"/><rect x="4" y="8" width="16" height="8" rx="2"/><path d="M7 14h10v7H7z"/></svg></button>
+    <button class="btn btn-icon" id="onsetTourBtn" title="Show me around">?</button>
+    <span class="onset-prog" id="onsetProg"></span>
+  </div>
+  <div class="onset-progbar"><i id="onsetProgFill"></i></div>
+  <div class="onset-main">
+    <aside class="onset-rail" id="onsetRail"></aside>
+    <div class="onset-rail-drag" id="onsetRailDrag" title="Drag to resize — double-click to collapse"></div>
+    <div class="onset-list-wrap">
+      <div class="onset-rows" id="onsetRows"></div>
+      <div class="onset-keys" aria-hidden="true"><b>space</b> take · <b>1–9</b> chosen · <b>d</b> done · <b>s</b> skip · <b>↑↓</b> move</div>
+    </div>
+  </div>
+</div>
+<aside id="writePane" hidden>
+  <div class="write-head">
+    <span class="write-count" id="writeCount"></span>
+    <button class="btn btn-icon" id="writeFocusBtn" aria-pressed="false" title="Focus: full screen writing — everything but your current block dims">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none"><path d="M4 9V6a2 2 0 0 1 2-2h3M15 4h3a2 2 0 0 1 2 2v3M20 15v3a2 2 0 0 1-2 2h-3M9 20H6a2 2 0 0 1-2-2v-3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/></svg>
+    </button>
+    <button class="btn btn-icon" id="writeThemeBtn" title="Writing surface: match the app, or force light / dark paper">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none"><circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="2"/><path d="M12 4a8 8 0 0 1 0 16Z" fill="currentColor"/></svg>
+    </button>
+    <button class="btn write-outline-btn" id="writeOutlineBtn" title="Add to your story — type or paste, mark lines as Shot, Prop, Note…">New entry…</button>
+    <button class="wt-replay" id="writeTourBtn" title="Walkthrough">?</button>
+    <button class="btn oc-close" id="writeCloseBtn" aria-label="Close" title="Close Writing Mode">✕</button>
+  </div>
+  <div class="write-doc" id="writeDoc"></div>
+  <div class="outline-composer" id="outlineComposer" hidden>
+    <div class="oc-panel">
+      <header class="oc-head"><span class="oc-title">New entry</span><button class="btn oc-close" id="ocCloseBtn" aria-label="Close">✕</button></header>
+      <div class="oc-elemrow">
+        <div class="write-elembar" id="writeElemBar"></div>
+        <button class="btn btn-icon write-elem-gear" id="writeElemGearBtn" title="Edit elements — the categories on this bar" aria-label="Edit elements">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none"><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h.01a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51h.01a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v.01a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+      <textarea class="oc-input" id="ocInput" spellcheck="true" placeholder="Shot: Em in dress, looking in mirror&#10;Shot: Kat getting out of bed&#10;    Costuming: white crop top&#10;    Series from stretching to shower&#10;Note: emphasize black/white early"></textarea>
+      <div class="oc-foot">
+        <span class="oc-count" id="ocCount">Paste or type an outline</span>
+        <select id="ocDest" class="pl-select" title="Where the new beats go"></select>
+        <div class="oc-actions">
+          <button class="btn" id="ocCancelBtn">Cancel</button>
+          <button class="btn btn-accent" id="ocAddBtn" disabled>Add to story</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="outline-composer" id="elemManager" hidden>
+    <div class="oc-panel">
+      <header class="oc-head"><span class="oc-title">Elements</span><button class="btn oc-close" id="emCloseBtn" aria-label="Close">✕</button></header>
+      <div class="em-list" id="emList"></div>
+      <div class="oc-foot">
+        <button class="btn" id="emAddBtn">+ Add element</button>
+        <div class="oc-actions">
+          <button class="btn" id="emCancelBtn">Cancel</button>
+          <button class="btn btn-accent" id="emSaveBtn">Save</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</aside>
+</div>
+<div id="printLayoutBar" class="pl-bar" hidden>
+  <span class="pl-title">Print layout</span>
+  <select id="plPaper" class="pl-select" title="Paper">
+    <option value="a4-l">A4 landscape</option><option value="a4-p">A4 portrait</option>
+    <option value="letter-l">Letter landscape</option><option value="letter-p">Letter portrait</option>
+    <option value="169">16:9</option>
+  </select>
+  <button class="btn" id="plAddBtn" title="Add a page frame at the view center">+ Add page</button>
+  <button class="btn" id="plAutoBtn" title="One page per section">Auto: one per section</button>
+  <select id="plMode" class="pl-select" title="How pages render">
+    <option value="clean">Clean (print)</option><option value="screen">As on screen (experimental)</option>
+  </select>
+  <span class="pl-flex"></span>
+  <button class="btn btn-accent" id="plExportBtn">Export PDF</button>
+  <button class="btn" id="plCloseBtn" title="Close (Esc)">✕</button>
+</div>
+<div id="printLayoutRail" class="pl-rail" hidden><div class="pl-rail-head">Pages</div><div id="plPageList"></div></div>
+<div id="selToolbar" class="sel-toolbar" hidden></div>
+<aside id="infoPanel" class="info-panel" hidden>
+  <header class="info-head">
+    <h2 class="info-title">Project info</h2>
+    <button class="btn" id="closeInfoBtn" aria-label="Close">✕</button>
+  </header>
+  <div class="info-body" id="infoBody">
+    <!-- filled by renderInfoPanel() -->
+  </div>
+</aside>
+<aside id="inspPanel" class="info-panel insp-panel" hidden>
+  <header class="info-head">
+    <h2 class="info-title" id="inspHeadTitle">Card</h2>
+    <button class="btn" id="closeInspBtn" aria-label="Close">✕</button>
+  </header>
+  <div class="info-body" id="inspBody">
+    <!-- filled by renderInspector() -->
+  </div>
+</aside>
+<aside id="outlinePanel" class="info-panel outline-panel" hidden>
+  <header class="info-head">
+    <h2 class="info-title">Outline</h2>
+    <button class="wt-replay" id="outlineTourBtn" title="Walkthrough">?</button>
+    <button class="btn" id="closeOutlineBtn" aria-label="Close">✕</button>
+  </header>
+  <div class="info-body" id="outlineTree">
+    <!-- filled by renderOutline() -->
+  </div>
+</aside>
+<div id="filterPop" class="filter-pop" hidden>
+  <header class="filter-head">
+    <h3>Filter view</h3>
+    <button class="btn" id="clearFiltersBtn">Clear all</button>
+    <button class="btn" id="closeFilterBtn" aria-label="Close">✕</button>
+  </header>
+  <div class="filter-body" id="filterBody"></div>
+</div>
+<div id="projectsModal" class="modal" hidden>
+  <div class="modal-backdrop"></div>
+  <div class="modal-panel">
+    <header class="modal-head">
+      <h2 class="modal-title">Projects</h2>
+      <button class="btn" id="closeProjectsBtn" aria-label="Close">✕</button>
+    </header>
+    <div class="modal-body" id="projectsBody">
+      <!-- list view and new-project flow render here -->
+    </div>
+    <footer class="modal-credit">
+      <button class="credit-touch" id="linkClaudeBtn" type="button">Link to Claude</button>
+      <button class="credit-touch" id="changeLibraryBtn" type="button" hidden title="Point Beat at a different library folder. Projects are not moved or copied — same as first run.">Change library folder…</button>
+    </footer>
+    <!-- Docked selection footer: slides up flush over the credit footer while
+         project cards are selected. Lives outside #projectsBody so re-renders
+         never replay its entrance. Content is filled by updateProjSelFoot(). -->
+    <div class="proj-selfoot" id="projSelFoot"></div>
+  </div>
+</div>
+<div id="prefsPanel" class="modal" hidden>
+  <div class="modal-backdrop" data-prefs-close></div>
+  <div class="modal-panel prefs-panel">
+    <header class="modal-head">
+      <h2 class="modal-title">Preferences</h2>
+      <button class="btn" id="closePrefsBtn" aria-label="Close" data-prefs-close>✕</button>
+    </header>
+    <div class="modal-body">
+      <!-- Only settings that are the same in every project belong here. Anything
+           that lives on state.* (theme, card fields, snap to grid, numbering…)
+           is per project and stays in Project info. -->
+      <div class="info-section" id="prefsLangSection">
+        <h3>Language / 界面语言</h3>
+        <p class="help">Switch the interface between English and Simplified Chinese. The language pack is stored separately in your library folder.</p>
+        <label class="prefs-row"><span>Interface language</span>
+          <select id="prefUiLang" class="info-input">
+            <option value="zh-CN">简体中文</option>
+            <option value="en">English</option>
+          </select></label>
+      </div>
+      <div class="info-section" id="prefsLibSection">
+        <h3>Library</h3>
+        <p class="help">The folder that holds every one of your projects. This folder is the part that travels: put it in iCloud Drive and both your Macs open the same projects — just open a project on one Mac at a time, because two at once makes iCloud pick a winner. Everything else on this page is remembered on this Mac only.</p>
+        <div class="prefs-path" id="prefsLibPath" title="Your library folder"></div>
+        <div class="prefs-actions">
+          <button class="btn" id="prefsRevealLibBtn" type="button">Show in Finder</button>
+          <button class="btn" id="prefsChangeLibBtn" type="button">Change library folder…</button>
+        </div>
+      </div>
+      <div class="info-section">
+        <h3>Your name on exports</h3>
+        <p class="help">Shared across all your projects. Your name appears as an author credit on export covers (Word, PDF overview, For AI chat). Leave blank to show no credit. Each project can also turn the credit off on its own, in Project info.</p>
+        <label class="prefs-row"><span>Name</span><input type="text" id="prefName" class="info-input" maxlength="80" placeholder="Your name"></label>
+        <label class="prefs-row"><span>Role</span><input type="text" id="prefRole" class="info-input" maxlength="80" placeholder="Director, Writer…"></label>
+        <label class="prefs-row"><span>Email</span><input type="text" id="prefEmail" class="info-input" maxlength="120" placeholder="you@studio.com"></label>
+        <label class="prefs-row"><span>Website</span><input type="text" id="prefWebsite" class="info-input" maxlength="120" placeholder="studio.com"></label>
+        <label class="prefs-row"><span>Credit line</span><input type="text" id="prefCredit" class="info-input" maxlength="120" placeholder="Short studio / credit"></label>
+      </div>
+      <div class="info-section">
+        <h3>Canvas</h3>
+        <p class="help">How the board moves under your hands, and the small map of the whole board bottom-right. Shift and drag always draws a selection box, whichever way these are set.</p>
+        <label class="prefs-row"><span>Pan the canvas with</span>
+          <select id="prefNavPan" class="info-input">
+            <option value="left">Dragging empty canvas</option>
+            <option value="modifier">Middle or Ctrl drag (left drag selects)</option>
+          </select></label>
+        <label class="prefs-row"><span>Mouse wheel</span>
+          <select id="prefNavWheel" class="info-input">
+            <option value="pan">Pans the board</option>
+            <option value="zoom">Zooms in and out</option>
+          </select></label>
+        <p class="help">Trackpad pinch zooms either way.</p>
+        <label class="info-check"><input type="checkbox" id="prefMinimap"><span>Show the minimap</span></label>
+      </div>
+      <div class="info-section">
+        <h3>Walkthroughs</h3>
+        <p class="help">The short guided tours that play the first time you open a tool.</p>
+        <button class="btn" id="prefsReplayToursBtn" type="button">Play them all again</button>
+      </div>
+      <div class="info-section" id="prefsUpdateSection">
+        <h3>Updates</h3>
+        <p class="help">New versions are published on the GitHub project page. Nothing about you or your projects is ever sent anywhere.</p>
+        <label class="prefs-row"><span>When a new version is out</span>
+          <select id="prefUpdateMode" class="info-input">
+            <option value="notify">Tell me, and I decide</option>
+            <option value="auto">Start the download for me</option>
+            <option value="silent">Say nothing — I update by hand</option>
+          </select></label>
+        <div class="prefs-update-row" id="prefsUpdateRow" hidden>
+          <span class="prefs-update-tx" id="prefsUpdateTx"></span>
+          <button class="btn" id="prefsUpdateGetBtn" type="button">Download</button>
+        </div>
+        <div class="prefs-actions">
+          <button class="btn" id="prefsUpdateCheckBtn" type="button">Open project page</button>
+        </div>
+      </div>
+    </div>
+    <footer class="prefs-foot">
+      <button class="btn" id="prefsCancelBtn" data-prefs-close>Cancel</button>
+      <button class="btn btn-accent" id="prefsSaveBtn">Save</button>
+    </footer>
+  </div>
+</div>
+<div id="printDoc" hidden></div>
+<div id="docViewer" class="doc-viewer" hidden>
+  <div class="doc-viewer-backdrop"></div>
+  <div class="doc-viewer-panel">
+    <header class="doc-viewer-head">
+      <span class="doc-viewer-title">Document</span>
+      <button class="btn doc-viewer-download" title="Download">⤓ Download</button>
+      <button class="btn doc-viewer-close" title="Close (Esc)">✕</button>
+    </header>
+    <div class="doc-viewer-body"></div>
+  </div>
+</div>
+<div id="sidebarPrefs" class="sidebar-prefs" hidden>
+  <div class="sidebar-prefs-backdrop"></div>
+  <div class="sidebar-prefs-panel">
+    <header class="sidebar-prefs-head">
+      <h2>Customise sidebar</h2>
+      <button class="btn sidebar-prefs-close">✕</button>
+    </header>
+    <p class="sidebar-prefs-hint">Pin items here to give them their own button in the sidebar. Unpinned items live inside the + menu. Applies to all your projects.</p>
+    <div class="sidebar-prefs-list"></div>
+  </div>
+</div>
+<div id="debugPanel" class="debug-modal" hidden>
+  <div class="debug-backdrop"></div>
+  <div class="debug-panel">
+    <header class="debug-head">
+      <h2 class="debug-title">Beat Debug</h2>
+      <button class="btn debug-close-btn" title="Close (Esc)">✕</button>
+    </header>
+    <div class="debug-body">
+      <section class="debug-section">
+        <div class="debug-section-head">
+          <h3>Self-test</h3>
+          <button class="btn btn-accent debug-run-btn">Run diagnostic</button>
+          <button class="btn debug-update-btn" title="Re-fetch the latest yt-dlp from GitHub">⤓ Update extractor</button>
+          <button class="btn debug-copy-result-btn" title="Copy result to clipboard">Copy</button>
+        </div>
+        <pre class="debug-result">Press "Run diagnostic" to test the extractor.</pre>
+      </section>
+      <section class="debug-section">
+        <div class="debug-section-head">
+          <h3>Recent log <span class="debug-log-hint"></span></h3>
+          <button class="btn debug-refresh-log-btn">Refresh</button>
+          <button class="btn debug-copy-log-btn" title="Copy full log to clipboard">Copy</button>
+          <button class="btn debug-open-log-btn" title="Reveal log folder in Finder">Reveal</button>
+        </div>
+        <pre class="debug-log">Press "Refresh" to load.</pre>
+      </section>
+    </div>
+  </div>
+</div>
+<div id="welcomeModal" class="welcome-modal" hidden>
+  <div class="welcome-backdrop"></div>
+  <div class="welcome-panel">
+    <svg class="welcome-logo" viewBox="0 0 64 64" width="56" height="56" aria-hidden="true">
+      <rect width="64" height="64" rx="14.5" fill="#E8A33D"/>
+      <path d="M26.34 24.09 L26.34 41.91 L41.42 33.00 Z" fill="#1A1206" stroke="#1A1206" stroke-width="6" stroke-linejoin="round"/>
+      <circle cx="48" cy="18" r="5" fill="#1A1206"/>
+    </svg>
+    <h2 class="welcome-title">Welcome to Beat</h2>
+    <p class="welcome-body">
+      Pick a folder where your projects will live. Each project becomes a folder
+      you can back up, copy, or move around like any other folder.
+    </p>
+    <div class="welcome-default">
+      <span class="welcome-default-label">Default:</span>
+      <code class="welcome-default-path" id="welcomeDefaultPath">~/Documents/Beat Projects</code>
+    </div>
+    <div class="welcome-actions">
+      <button class="btn" id="welcomePickBtn">Pick a folder…</button>
+      <button class="btn btn-accent" id="welcomeUseDefaultBtn">Use default</button>
+    </div>
+  </div>
+</div>
+<script src="templates.js?v=10.6-round63c"></script>
+<script src="app.js?v=10.6-round63c"></script>
+</body>
+</html>

@@ -1,0 +1,235 @@
+[2026-10-27T23:59:53] ===== BeatMenuZh loaded =====
+[2026-10-27T23:59:53] pid=10533 bundle=io.beat.canvas
+[2026-10-27T23:59:53] swizzle ok: NSMenuItem -setTitle:
+[2026-10-27T23:59:53] swizzle ok: NSMenu -setTitle:
+[2026-10-27T23:59:53] swizzle ok: NSMenu -addItemWithTitle:action:keyEquivalent:
+[2026-10-27T23:59:53] swizzle ok: NSMenu -insertItemWithTitle:action:keyEquivalent:atIndex:
+[2026-10-27T23:59:53] swizzle ok: NSMenu -addItem:
+[2026-10-27T23:59:53] swizzle ok: NSMenu -insertItem:atIndex:
+[2026-10-27T23:59:53] swizzle ok: NSWindow -setTitle:
+[2026-10-27T23:59:53] swizzle ok: NSAlert -setMessageText:
+[2026-10-27T23:59:53] swizzle ok: NSAlert -setInformativeText:
+[2026-10-27T23:59:53] swizzle ok: NSApplication -orderFrontStandardAboutPanelWithOptions:
+[2026-10-27T23:59:53] extra: "Minimize" -> "最小化"
+[2026-10-27T23:59:53] extra: "Zoom" -> "缩放"
+[2026-10-27T23:59:53] title: "About Beat" -> "关于 Beat"
+[2026-10-27T23:59:53] extra: "Services" -> "服务"
+[2026-10-27T23:59:53] title: "Hide Beat" -> "隐藏 Beat"
+[2026-10-27T23:59:53] title: "Hide Others" -> "隐藏其他"
+[2026-10-27T23:59:53] title: "Quit Beat" -> "退出 Beat"
+[2026-10-27T23:59:53] extra: "Undo" -> "撤销"
+[2026-10-27T23:59:53] extra: "Redo" -> "重做"
+[2026-10-27T23:59:53] extra: "Cut" -> "剪切"
+[2026-10-27T23:59:53] extra: "Copy" -> "拷贝"
+[2026-10-27T23:59:53] extra: "Paste" -> "粘贴"
+[2026-10-27T23:59:53] extra: "Select All" -> "全选"
+[2026-10-27T23:59:53] extra: "Toggle Full Screen" -> "切换全屏"
+[2026-10-27T23:59:53] title: "About Beat" -> "关于 Beat"
+[2026-10-27T23:59:53] extra: "Services" -> "服务"
+[2026-10-27T23:59:53] title: "Hide Beat" -> "隐藏 Beat"
+[2026-10-27T23:59:53] title: "Hide Others" -> "隐藏其他"
+[2026-10-27T23:59:53] title: "Quit Beat" -> "退出 Beat"
+[2026-10-27T23:59:53] title: "File" -> "文件"
+[2026-10-27T23:59:53] title: "File" -> "文件"
+[2026-10-27T23:59:53] title: "Edit" -> "编辑"
+[2026-10-27T23:59:53] extra: "Undo" -> "撤销"
+[2026-10-27T23:59:53] extra: "Redo" -> "重做"
+[2026-10-27T23:59:53] extra: "Cut" -> "剪切"
+[2026-10-27T23:59:53] extra: "Copy" -> "拷贝"
+[2026-10-27T23:59:53] extra: "Paste" -> "粘贴"
+[2026-10-27T23:59:53] extra: "Select All" -> "全选"
+[2026-10-27T23:59:53] title: "Edit" -> "编辑"
+[2026-10-27T23:59:53] title: "View" -> "视图"
+[2026-10-27T23:59:53] extra: "Toggle Full Screen" -> "切换全屏"
+[2026-10-27T23:59:53] title: "View" -> "视图"
+[2026-10-27T23:59:53] title: "Window" -> "窗口"
+[2026-10-27T23:59:53] extra: "Minimize" -> "最小化"
+[2026-10-27T23:59:53] extra: "Zoom" -> "缩放"
+[2026-10-27T23:59:53] title: "Window" -> "窗口"
+[2026-10-27T23:59:53] title: "Help" -> "帮助"
+[2026-10-27T23:59:53] title: "Help" -> "帮助"
+[2026-10-27T23:59:53] extra: "Contact…" -> "联系人…"
+[2026-10-27T23:59:53] extra: "Passwords…" -> "密码…"
+[2026-10-27T23:59:53] extra: "Credit Card…" -> "信用卡…"
+[2026-10-27T23:59:53] extra: "AutoFill" -> "自动填充"
+[2026-10-27T23:59:53] extra: "Start Dictation…" -> "开始听写…"
+[2026-10-27T23:59:53] extra: "Start Dictation…" -> "开始听写…"
+[2026-10-27T23:59:53] extra: "Emoji & Symbols" -> "表情与符号"
+[2026-10-27T23:59:53] extra: "Emoji & Symbols" -> "表情与符号"
+[2026-10-27T23:59:53] extra: "Emoji & Symbols" -> "表情与符号"
+[2026-10-27T23:59:53] title: "About Beat" -> "关于 Beat"
+[2026-10-27T23:59:53] title: "Preferences…" -> "偏好设置…"
+[2026-10-27T23:59:53] extra: "Services" -> "服务"
+[2026-10-27T23:59:53] title: "Hide Beat" -> "隐藏 Beat"
+[2026-10-27T23:59:53] title: "Hide Others" -> "隐藏其他"
+[2026-10-27T23:59:53] title: "Show All" -> "全部显示"
+[2026-10-27T23:59:53] title: "Quit Beat" -> "退出 Beat"
+[2026-10-27T23:59:53] title: "New Project…" -> "新建项目…"
+[2026-10-27T23:59:53] title: "Open Project…" -> "打开项目…"
+[2026-10-27T23:59:53] title: "Projects…" -> "项目…"
+[2026-10-27T23:59:53] title: "Save" -> "保存"
+[2026-10-27T23:59:53] title: "Reveal Project in Finder" -> "在访达中显示项目"
+[2026-10-27T23:59:53] extra: "Share…" -> "共享…"
+[2026-10-27T23:59:53] title: "Export Beat Overview (PDF)" -> "导出 Beat 概览（PDF）"
+[2026-10-27T23:59:53] title: "Export Storyboard (PDF)" -> "导出故事板（PDF）"
+[2026-10-27T23:59:53] title: "Export DOCX Chapters" -> "导出 DOCX 章节"
+[2026-10-27T23:59:53] title: "Export for AI chat development (.md)" -> "导出供 AI 对话开发用（.md）"
+[2026-10-27T23:59:53] title: "Close Tab" -> "关闭标签页"
+[2026-10-27T23:59:53] extra: "Undo" -> "撤销"
+[2026-10-27T23:59:53] extra: "Redo" -> "重做"
+[2026-10-27T23:59:53] extra: "Cut" -> "剪切"
+[2026-10-27T23:59:53] extra: "Copy" -> "拷贝"
+[2026-10-27T23:59:53] extra: "Paste" -> "粘贴"
+[2026-10-27T23:59:53] extra: "Select All" -> "全选"
+[2026-10-27T23:59:53] title: "Find Beat…" -> "查找 Beat…"
+[2026-10-27T23:59:53] title: "Toggle Vault" -> "切换保险库"
+[2026-10-27T23:59:53] title: "Project Info" -> "项目信息"
+[2026-10-27T23:59:53] title: "Locations Map" -> "地点地图"
+[2026-10-27T23:59:53] extra: "Fit View" -> "适应视图"
+[2026-10-27T23:59:53] title: "Zoom In" -> "放大"
+[2026-10-27T23:59:53] title: "Zoom Out" -> "缩小"
+[2026-10-27T23:59:53] title: "Debug Panel" -> "调试面板"
+[2026-10-27T23:59:53] extra: "Minimize" -> "最小化"
+[2026-10-27T23:59:53] extra: "Zoom" -> "缩放"
+[2026-10-27T23:59:53] extra: "Toggle Full Screen" -> "切换全屏"
+[2026-10-27T23:59:53] title: "Keyboard Shortcuts" -> "键盘快捷键"
+[2026-10-27T23:59:53] title: "Show Beat.log" -> "打开 Beat.log"
+[2026-10-27T23:59:53] title: "Update Extractor (yt-dlp)" -> "更新提取器（yt-dlp）"
+[2026-10-27T23:59:53] title: "About Beat" -> "关于 Beat"
+[2026-10-27T23:59:53] title: "Preferences…" -> "偏好设置…"
+[2026-10-27T23:59:53] extra: "Services" -> "服务"
+[2026-10-27T23:59:53] title: "Hide Beat" -> "隐藏 Beat"
+[2026-10-27T23:59:53] title: "Hide Others" -> "隐藏其他"
+[2026-10-27T23:59:53] title: "Show All" -> "全部显示"
+[2026-10-27T23:59:53] title: "Quit Beat" -> "退出 Beat"
+[2026-10-27T23:59:53] title: "File" -> "文件"
+[2026-10-27T23:59:53] title: "New Project…" -> "新建项目…"
+[2026-10-27T23:59:53] title: "Open Project…" -> "打开项目…"
+[2026-10-27T23:59:53] title: "Projects…" -> "项目…"
+[2026-10-27T23:59:53] title: "Save" -> "保存"
+[2026-10-27T23:59:53] title: "Reveal Project in Finder" -> "在访达中显示项目"
+[2026-10-27T23:59:53] extra: "Share…" -> "共享…"
+[2026-10-27T23:59:53] title: "Export Beat Overview (PDF)" -> "导出 Beat 概览（PDF）"
+[2026-10-27T23:59:53] title: "Export Storyboard (PDF)" -> "导出故事板（PDF）"
+[2026-10-27T23:59:53] title: "Export DOCX Chapters" -> "导出 DOCX 章节"
+[2026-10-27T23:59:53] title: "Export for AI chat development (.md)" -> "导出供 AI 对话开发用（.md）"
+[2026-10-27T23:59:53] title: "Close Tab" -> "关闭标签页"
+[2026-10-27T23:59:53] title: "File" -> "文件"
+[2026-10-27T23:59:53] title: "Edit" -> "编辑"
+[2026-10-27T23:59:53] extra: "Undo" -> "撤销"
+[2026-10-27T23:59:53] extra: "Redo" -> "重做"
+[2026-10-27T23:59:53] extra: "Cut" -> "剪切"
+[2026-10-27T23:59:53] extra: "Copy" -> "拷贝"
+[2026-10-27T23:59:53] extra: "Paste" -> "粘贴"
+[2026-10-27T23:59:53] extra: "Select All" -> "全选"
+[2026-10-27T23:59:53] title: "Find Beat…" -> "查找 Beat…"
+[2026-10-27T23:59:53] title: "Edit" -> "编辑"
+[2026-10-27T23:59:53] title: "View" -> "视图"
+[2026-10-27T23:59:53] title: "Toggle Vault" -> "切换保险库"
+[2026-10-27T23:59:53] title: "Project Info" -> "项目信息"
+[2026-10-27T23:59:53] title: "Locations Map" -> "地点地图"
+[2026-10-27T23:59:53] extra: "Fit View" -> "适应视图"
+[2026-10-27T23:59:53] title: "Zoom In" -> "放大"
+[2026-10-27T23:59:53] title: "Zoom Out" -> "缩小"
+[2026-10-27T23:59:53] title: "Debug Panel" -> "调试面板"
+[2026-10-27T23:59:53] title: "View" -> "视图"
+[2026-10-27T23:59:53] title: "Window" -> "窗口"
+[2026-10-27T23:59:53] extra: "Minimize" -> "最小化"
+[2026-10-27T23:59:53] extra: "Zoom" -> "缩放"
+[2026-10-27T23:59:53] extra: "Toggle Full Screen" -> "切换全屏"
+[2026-10-27T23:59:53] title: "Window" -> "窗口"
+[2026-10-27T23:59:53] title: "Help" -> "帮助"
+[2026-10-27T23:59:53] title: "Keyboard Shortcuts" -> "键盘快捷键"
+[2026-10-27T23:59:53] title: "Show Beat.log" -> "打开 Beat.log"
+[2026-10-27T23:59:53] title: "Update Extractor (yt-dlp)" -> "更新提取器（yt-dlp）"
+[2026-10-27T23:59:53] title: "Help" -> "帮助"
+[2026-10-27T23:59:53] extra: "Contact…" -> "联系人…"
+[2026-10-27T23:59:53] extra: "Passwords…" -> "密码…"
+[2026-10-27T23:59:53] extra: "Credit Card…" -> "信用卡…"
+[2026-10-27T23:59:53] extra: "AutoFill" -> "自动填充"
+[2026-10-27T23:59:53] extra: "Start Dictation…" -> "开始听写…"
+[2026-10-27T23:59:53] extra: "Start Dictation…" -> "开始听写…"
+[2026-10-27T23:59:53] extra: "Emoji & Symbols" -> "表情与符号"
+[2026-10-27T23:59:53] extra: "Emoji & Symbols" -> "表情与符号"
+[2026-10-27T23:59:53] extra: "Emoji & Symbols" -> "表情与符号"
+[2026-10-27T23:59:54] ===== NSApp.mainMenu (live) =====
+- Beat
+  - 关于 Beat
+  -   <separator>
+  - 偏好设置…
+  -   <separator>
+  - 服务
+  -   <separator>
+  - 隐藏 Beat
+  - 隐藏其他
+  - 全部显示
+  -   <separator>
+  - 退出 Beat
+- 文件
+  - 新建项目…
+  - 打开项目…
+  - 项目…
+  -   <separator>
+  - 保存
+  -   <separator>
+  - 在访达中显示项目
+  - 共享…
+  -   <separator>
+  - 导出 Beat 概览（PDF）
+  - 导出故事板（PDF）
+  - 导出 DOCX 章节
+  - 导出供 AI 对话开发用（.md）
+  -   <separator>
+  - 关闭标签页
+- 编辑
+  - 撤销
+  - 重做
+  -   <separator>
+  - 剪切
+  - 拷贝
+  - 粘贴
+  - 全选
+  -   <separator>
+  - 查找 Beat…
+  -   <separator>
+  - 自动填充
+    - 联系人…
+    - 密码…
+    - 信用卡…
+  - 开始听写…
+  - 开始听写…
+  - 表情与符号
+  - 表情与符号
+  - 表情与符号
+- 视图
+  - 切换保险库
+  - 项目信息
+  - 地点地图
+  -   <separator>
+  - 适应视图
+  - 放大
+  - 缩小
+  -   <separator>
+  - 调试面板
+- 窗口
+  - 最小化
+  - 缩放
+  -   <separator>
+  - 切换全屏
+  - 切换全屏
+- 帮助
+  - 键盘快捷键
+  - 打开 Beat.log
+  - 更新提取器（yt-dlp）
+
+[2026-10-27T23:59:55] ----- selftest: 真实对象回环（不显示窗口）-----
+[2026-10-27T23:59:55] title: "Save" -> "保存"
+[2026-10-27T23:59:56] title: "Save media as" -> "媒体保存为"
+[2026-10-27T23:59:56] selftest: NSSavePanel.title = "媒体保存为"
+[2026-10-27T23:59:56] title: "Export media as .zip" -> "将媒体导出为 .zip"
+[2026-10-27T23:59:56] title: "Save as Beat template" -> "保存为 Beat 模板"
+[2026-10-27T23:59:56] selftest: NSAlert.messageText = "将媒体导出为 .zip" informativeText = "保存为 Beat 模板"
+[2026-10-27T23:59:56] title: "Beat — story planning canvas" -> "Beat —— 故事规划画布"
+[2026-10-27T23:59:56] selftest: NSWindow.title = "Beat —— 故事规划画布"
+[2026-10-27T23:59:56] title: "Beat template" -> "Beat 模板"
+[2026-10-27T23:59:56] selftest: NSWindow.title = "Beat 模板"

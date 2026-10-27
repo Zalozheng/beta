@@ -1,0 +1,7030 @@
+[
+ {
+  "source": "embedded-web",
+  "en": "Leave On set",
+  "zh": "离开拍摄模式",
+  "file": "index.html",
+  "offset": "attr:aria-label@23461"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Edit elements",
+  "zh": "编辑元素",
+  "file": "index.html",
+  "offset": "attr:aria-label@27673"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Inspector",
+  "zh": "检查器",
+  "file": "index.html",
+  "offset": "attr:aria-label@5724"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Untitled project",
+  "zh": "未命名项目",
+  "file": "index.html",
+  "offset": "attr:placeholder@2117"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Search beats",
+  "zh": "搜索节拍",
+  "file": "index.html",
+  "offset": "attr:placeholder@2244"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Shot: Em in dress, looking in mirror Shot: Kat getting out of bed Costuming: white crop top Series from stretching to shower Note: emphasize black/white early",
+  "zh": "镜头：Em 穿裙子，照镜子 镜头：Kat 起床 造型：白色短上衣 从伸展到沐浴的连续镜头 备注：强调黑白部分",
+  "file": "index.html",
+  "offset": "attr:placeholder@28652"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Your name",
+  "zh": "你的名字",
+  "file": "index.html",
+  "offset": "attr:placeholder@37358"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Director, Writer…",
+  "zh": "导演、编剧…",
+  "file": "index.html",
+  "offset": "attr:placeholder@37508"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Short studio / credit",
+  "zh": "简短的工作室名 / 署名",
+  "file": "index.html",
+  "offset": "attr:placeholder@37992"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Point Beat at a different projects folder — nothing is moved or copied",
+  "zh": "把 Beat 指向另一个项目文件夹 —— 不会移动或复制任何文件",
+  "file": "index.html",
+  "offset": "attr:title@10243"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Undo the last change",
+  "zh": "撤销上一步修改",
+  "file": "index.html",
+  "offset": "attr:title@10763"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Redo the change you undid",
+  "zh": "重做已撤销的修改",
+  "file": "index.html",
+  "offset": "attr:title@11143"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Add to Vault",
+  "zh": "添加到保险库",
+  "file": "index.html",
+  "offset": "attr:title@11790"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Walkthrough",
+  "zh": "引导演示",
+  "file": "index.html",
+  "offset": "attr:title@11854"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Filter by type",
+  "zh": "按类型筛选",
+  "file": "index.html",
+  "offset": "attr:title@12041"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Thumbnail size",
+  "zh": "缩略图大小",
+  "file": "index.html",
+  "offset": "attr:title@12347"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Drag to resize",
+  "zh": "拖动调整大小",
+  "file": "index.html",
+  "offset": "attr:title@12688"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Add to the board — story cards, people and places, visuals, production and attachments",
+  "zh": "添加到画布 —— 故事卡片、人物与地点、视觉参考、拍摄制作与附件",
+  "file": "index.html",
+  "offset": "attr:title@13684"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Sections — jump to any Title or group",
+  "zh": "章节 —— 跳转到任意标题或分组",
+  "file": "index.html",
+  "offset": "attr:title@19594"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Clean cards: hide empty fields and buttons until you hover a card",
+  "zh": "简洁卡片：隐藏空字段和按钮，鼠标悬停时才显示",
+  "file": "index.html",
+  "offset": "attr:title@19937"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Audio timeline — load a track, drop markers, spawn timecoded beats",
+  "zh": "音频时间轴 —— 载入音轨、放置标记、按时间码生成节拍",
+  "file": "index.html",
+  "offset": "attr:title@20310"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Elements — every character, location and prop, and everywhere each one shows up",
+  "zh": "元素 —— 所有人物、地点和道具，以及它们出现的每一处",
+  "file": "index.html",
+  "offset": "attr:title@21023"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Recenter",
+  "zh": "重新居中",
+  "file": "index.html",
+  "offset": "attr:title@21802"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Toggle minimap",
+  "zh": "显示/隐藏小地图",
+  "file": "index.html",
+  "offset": "attr:title@22109"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Expand document",
+  "zh": "展开文档",
+  "file": "index.html",
+  "offset": "attr:title@23155"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Back to canvas",
+  "zh": "返回画布",
+  "file": "index.html",
+  "offset": "attr:title@23290"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Total runtime of connected beats",
+  "zh": "已连接节拍的总时长",
+  "file": "index.html",
+  "offset": "attr:title@2368"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Smaller",
+  "zh": "更小",
+  "file": "index.html",
+  "offset": "attr:title@23680"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Bigger",
+  "zh": "更大",
+  "file": "index.html",
+  "offset": "attr:title@23749"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Collapse every shot — the slim list for rearranging the day",
+  "zh": "收起所有镜头 —— 用于调整当日顺序的紧凑列表",
+  "file": "index.html",
+  "offset": "attr:title@23830"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Start or pause the day clock",
+  "zh": "开始或暂停当日计时",
+  "file": "index.html",
+  "offset": "attr:title@24184"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The running order — the story's, or the AD's",
+  "zh": "播放顺序 —— 按故事顺序，或按副导演的拍摄顺序",
+  "file": "index.html",
+  "offset": "attr:title@24420"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Wrap day — freeze the clock, print the report, carry the rest",
+  "zh": "收工 —— 冻结计时、打印报告、把剩余镜头带到下一天",
+  "file": "index.html",
+  "offset": "attr:title@24796"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Day sheet — the wrap report as a PDF",
+  "zh": "当日单页 —— 收工报告（PDF）",
+  "file": "index.html",
+  "offset": "attr:title@24936"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Drag to resize — double-click to collapse",
+  "zh": "拖动调整大小 —— 双击收起",
+  "file": "index.html",
+  "offset": "attr:title@25580"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Focus: full screen writing — everything but your current block dims",
+  "zh": "专注：全屏写作 —— 除当前段落外全部变暗",
+  "file": "index.html",
+  "offset": "attr:title@26076"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Writing surface: match the app, or force light / dark paper",
+  "zh": "写作界面：跟随应用，或强制浅色 / 深色纸张",
+  "file": "index.html",
+  "offset": "attr:title@26530"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Add to your story — type or paste, mark lines as Shot, Prop, Note…",
+  "zh": "添加到故事 —— 输入或粘贴，把行标记为镜头、道具、备注…",
+  "file": "index.html",
+  "offset": "attr:title@26872"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Close Writing Mode",
+  "zh": "关闭写作模式",
+  "file": "index.html",
+  "offset": "attr:title@27117"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Edit elements — the categories on this bar",
+  "zh": "编辑元素 —— 这条栏上的分类",
+  "file": "index.html",
+  "offset": "attr:title@27617"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Where the new beats go",
+  "zh": "新节拍的去处",
+  "file": "index.html",
+  "offset": "attr:title@29005"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Add a page frame at the view center",
+  "zh": "在视图中心添加页面边框",
+  "file": "index.html",
+  "offset": "attr:title@30308"
+ },
+ {
+  "source": "embedded-web",
+  "en": "One page per section",
+  "zh": "每个章节一页",
+  "file": "index.html",
+  "offset": "attr:title@30409"
+ },
+ {
+  "source": "embedded-web",
+  "en": "How pages render",
+  "zh": "页面渲染方式",
+  "file": "index.html",
+  "offset": "attr:title@30509"
+ },
+ {
+  "source": "embedded-web",
+  "en": "On set — run a shot list as a shoot day, full screen",
+  "zh": "拍摄 —— 以拍摄日的方式全屏执行镜头表",
+  "file": "index.html",
+  "offset": "attr:title@3291"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Point Beat at a different library folder. Projects are not moved or copied — same as first run.",
+  "zh": "把 Beat 指向另一个库文件夹。项目不会被移动或复制 —— 与首次启动时相同。",
+  "file": "index.html",
+  "offset": "attr:title@33023"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Export center — every format with a live preview",
+  "zh": "导出中心 —— 每种格式都可实时预览",
+  "file": "index.html",
+  "offset": "attr:title@3494"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Your library folder",
+  "zh": "你的库文件夹",
+  "file": "index.html",
+  "offset": "attr:title@36622"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Copy result to clipboard",
+  "zh": "复制结果到剪贴板",
+  "file": "index.html",
+  "offset": "attr:title@42164"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Copy full log to clipboard",
+  "zh": "复制完整日志到剪贴板",
+  "file": "index.html",
+  "offset": "attr:title@42593"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Reveal log folder in Finder",
+  "zh": "在访达中显示日志文件夹",
+  "file": "index.html",
+  "offset": "attr:title@42691"
+ },
+ {
+  "source": "embedded-web",
+  "en": "All your projects",
+  "zh": "你的所有项目",
+  "file": "index.html",
+  "offset": "attr:title@4968"
+ },
+ {
+  "source": "embedded-web",
+  "en": "News from Beat",
+  "zh": "来自 Beat 的消息",
+  "file": "index.html",
+  "offset": "attr:title@6077"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Restore an earlier snapshot of this project",
+  "zh": "恢复此项目的早期快照",
+  "file": "index.html",
+  "offset": "attr:title@7453"
+ },
+ {
+  "source": "embedded-web",
+  "en": "See every pinned location on one map",
+  "zh": "在一张地图上查看所有已标记地点",
+  "file": "index.html",
+  "offset": "attr:title@7876"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Present your story full screen",
+  "zh": "全屏演示你的故事",
+  "file": "index.html",
+  "offset": "attr:title@8373"
+ },
+ {
+  "source": "embedded-web",
+  "en": "See and replay every walkthrough",
+  "zh": "查看并重播所有引导",
+  "file": "index.html",
+  "offset": "attr:title@8819"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Preferences",
+  "zh": "偏好设置",
+  "file": "index.html",
+  "offset": "char@10138"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Change library folder…",
+  "zh": "更改库文件夹…",
+  "file": "index.html",
+  "offset": "char@10608"
+ },
+ {
+  "source": "embedded-web",
+  "en": "⌘ Z",
+  "zh": "⌘ Z",
+  "file": "index.html",
+  "offset": "char@11086"
+ },
+ {
+  "source": "embedded-web",
+  "en": "⇧ ⌘ Z",
+  "zh": "⇧ ⌘ Z",
+  "file": "index.html",
+  "offset": "char@11472"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Newest",
+  "zh": "最新",
+  "file": "index.html",
+  "offset": "char@12145"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Oldest",
+  "zh": "最早",
+  "file": "index.html",
+  "offset": "char@12192"
+ },
+ {
+  "source": "embedded-web",
+  "en": "By type",
+  "zh": "按类型",
+  "file": "index.html",
+  "offset": "char@12237"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Stash images, videos, nodes, and links here for later. Drag tiles back onto the canvas to put them back. Items stay in the Vault until you drag them out or click ✕.",
+  "zh": "把图片、视频、节点和链接暂存到这里，稍后再用。把图块拖回画布即可放回。项目会一直留在保险库里，直到你把它拖出或点 ✕。",
+  "file": "index.html",
+  "offset": "char@12476"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Elements",
+  "zh": "元素",
+  "file": "index.html",
+  "offset": "char@13024"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Add a character, a location or a prop and it appears here. Click one to fly to it and open its profile. Type",
+  "zh": "添加人物、地点或道具，它就会出现在这里。点击可飞到它并打开它的档案。输入",
+  "file": "index.html",
+  "offset": "char@13366"
+ },
+ {
+  "source": "embedded-web",
+  "en": "in a beat to name one.",
+  "zh": "在节拍里即可命名。",
+  "file": "index.html",
+  "offset": "char@13483"
+ },
+ {
+  "source": "embedded-web",
+  "en": "2× click canvas",
+  "zh": "双击画布",
+  "file": "index.html",
+  "offset": "char@14976"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Thought",
+  "zh": "想法",
+  "file": "index.html",
+  "offset": "char@15318"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Character",
+  "zh": "人物",
+  "file": "index.html",
+  "offset": "char@15950"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Location",
+  "zh": "地点",
+  "file": "index.html",
+  "offset": "char@16066"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Visual",
+  "zh": "视觉",
+  "file": "index.html",
+  "offset": "char@16430"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Gallery",
+  "zh": "图集",
+  "file": "index.html",
+  "offset": "char@16791"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Sketch",
+  "zh": "草图",
+  "file": "index.html",
+  "offset": "char@16903"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Reference image",
+  "zh": "参考图",
+  "file": "index.html",
+  "offset": "char@17029"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Colour palette",
+  "zh": "配色板",
+  "file": "index.html",
+  "offset": "char@17150"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Shot list",
+  "zh": "镜头表",
+  "file": "index.html",
+  "offset": "char@17783"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Set Plan…",
+  "zh": "场景计划…",
+  "file": "index.html",
+  "offset": "char@17898"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Checklist",
+  "zh": "清单",
+  "file": "index.html",
+  "offset": "char@18015"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Attach",
+  "zh": "附件",
+  "file": "index.html",
+  "offset": "char@18273"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Document…",
+  "zh": "文档…",
+  "file": "index.html",
+  "offset": "char@18651"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Import script…",
+  "zh": "导入剧本…",
+  "file": "index.html",
+  "offset": "char@18787"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Link card",
+  "zh": "链接卡片",
+  "file": "index.html",
+  "offset": "char@18920"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Import video…",
+  "zh": "导入视频…",
+  "file": "index.html",
+  "offset": "char@19056"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Video link…",
+  "zh": "视频链接…",
+  "file": "index.html",
+  "offset": "char@19194"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Customise sidebar…",
+  "zh": "自定义侧边栏…",
+  "file": "index.html",
+  "offset": "char@19489"
+ },
+ {
+  "source": "embedded-web",
+  "en": "A−",
+  "zh": "A−",
+  "file": "index.html",
+  "offset": "char@23689"
+ },
+ {
+  "source": "embedded-web",
+  "en": "▶ Start day",
+  "zh": "▶ 开始当日",
+  "file": "index.html",
+  "offset": "char@24214"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Shooting",
+  "zh": "拍摄中",
+  "file": "index.html",
+  "offset": "char@24618"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Wrap day",
+  "zh": "收工",
+  "file": "index.html",
+  "offset": "char@24859"
+ },
+ {
+  "source": "embedded-web",
+  "en": "New entry…",
+  "zh": "新建条目…",
+  "file": "index.html",
+  "offset": "char@26940"
+ },
+ {
+  "source": "embedded-web",
+  "en": "New entry",
+  "zh": "新建条目",
+  "file": "index.html",
+  "offset": "char@27344"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Project info",
+  "zh": "项目信息",
+  "file": "index.html",
+  "offset": "char@2777"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Paste or type an outline",
+  "zh": "粘贴或输入大纲",
+  "file": "index.html",
+  "offset": "char@28920"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Cancel",
+  "zh": "取消",
+  "file": "index.html",
+  "offset": "char@29119"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Add to story",
+  "zh": "添加到故事",
+  "file": "index.html",
+  "offset": "char@29199"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Print layout",
+  "zh": "打印版式",
+  "file": "index.html",
+  "offset": "char@29947"
+ },
+ {
+  "source": "embedded-web",
+  "en": "A4 landscape",
+  "zh": "A4 横向",
+  "file": "index.html",
+  "offset": "char@30048"
+ },
+ {
+  "source": "embedded-web",
+  "en": "A4 portrait",
+  "zh": "A4 纵向",
+  "file": "index.html",
+  "offset": "char@30090"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Letter landscape",
+  "zh": "Letter 横向",
+  "file": "index.html",
+  "offset": "char@30140"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Letter portrait",
+  "zh": "Letter 纵向",
+  "file": "index.html",
+  "offset": "char@30190"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Auto: one per section",
+  "zh": "自动：每章节一页",
+  "file": "index.html",
+  "offset": "char@30431"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Export PDF",
+  "zh": "导出 PDF",
+  "file": "index.html",
+  "offset": "char@30730"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Outline",
+  "zh": "大纲",
+  "file": "index.html",
+  "offset": "char@3089"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Filter view",
+  "zh": "筛选视图",
+  "file": "index.html",
+  "offset": "char@32124"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Clear all",
+  "zh": "全部清除",
+  "file": "index.html",
+  "offset": "char@32186"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Projects",
+  "zh": "项目",
+  "file": "index.html",
+  "offset": "char@32521"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Made by",
+  "zh": "制作者",
+  "file": "index.html",
+  "offset": "char@32809"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Link to Claude",
+  "zh": "连接 Claude",
+  "file": "index.html",
+  "offset": "char@32914"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Get in touch",
+  "zh": "联系我们",
+  "file": "index.html",
+  "offset": "char@33220"
+ },
+ {
+  "source": "embedded-web",
+  "en": "On set",
+  "zh": "拍摄",
+  "file": "index.html",
+  "offset": "char@3345"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Instagram",
+  "zh": "Instagram",
+  "file": "index.html",
+  "offset": "char@33701"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Send feedback",
+  "zh": "发送反馈",
+  "file": "index.html",
+  "offset": "char@34468"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Tell us what to build next",
+  "zh": "告诉我们下一步要做什么",
+  "file": "index.html",
+  "offset": "char@34491"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Buy me a coffee",
+  "zh": "请我喝杯咖啡",
+  "file": "index.html",
+  "offset": "char@34921"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Export",
+  "zh": "导出",
+  "file": "index.html",
+  "offset": "char@3544"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Library",
+  "zh": "库",
+  "file": "index.html",
+  "offset": "char@36218"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Export center…",
+  "zh": "导出中心…",
+  "file": "index.html",
+  "offset": "char@3647"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Show in Finder",
+  "zh": "在访达中显示",
+  "file": "index.html",
+  "offset": "char@36753"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Your name on exports",
+  "zh": "导出件上的署名",
+  "file": "index.html",
+  "offset": "char@36949"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Documents",
+  "zh": "文档",
+  "file": "index.html",
+  "offset": "char@3738"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Website",
+  "zh": "网站",
+  "file": "index.html",
+  "offset": "char@37733"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Credit line",
+  "zh": "署名行",
+  "file": "index.html",
+  "offset": "char@37891"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Canvas",
+  "zh": "画布",
+  "file": "index.html",
+  "offset": "char@38082"
+ },
+ {
+  "source": "embedded-web",
+  "en": "How the board moves under your hands, and the small map of the whole board bottom-right. Shift and drag always draws a selection box, whichever way these are set.",
+  "zh": "画布在你手下的移动方式，以及右下角整块画布的小地图。无论这些如何设置，Shift + 拖动始终是框选。",
+  "file": "index.html",
+  "offset": "char@38118"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Pan the canvas with",
+  "zh": "平移画布的方式",
+  "file": "index.html",
+  "offset": "char@38324"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Dragging empty canvas",
+  "zh": "拖动空白画布",
+  "file": "index.html",
+  "offset": "char@38438"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Mouse wheel",
+  "zh": "鼠标滚轮",
+  "file": "index.html",
+  "offset": "char@38622"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Pans the board",
+  "zh": "平移画布",
+  "file": "index.html",
+  "offset": "char@38729"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Zooms in and out",
+  "zh": "缩放",
+  "file": "index.html",
+  "offset": "char@38786"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Trackpad pinch zooms either way.",
+  "zh": "触控板捏合可双向缩放。",
+  "file": "index.html",
+  "offset": "char@38864"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Show the minimap",
+  "zh": "显示小地图",
+  "file": "index.html",
+  "offset": "char@38981"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Walkthroughs",
+  "zh": "引导演示",
+  "file": "index.html",
+  "offset": "char@39071"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The short guided tours that play the first time you open a tool.",
+  "zh": "首次打开某个工具时自动播放的简短引导。",
+  "file": "index.html",
+  "offset": "char@39113"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Play them all again",
+  "zh": "全部重播",
+  "file": "index.html",
+  "offset": "char@39249"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Updates",
+  "zh": "更新",
+  "file": "index.html",
+  "offset": "char@39360"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Beat checks one small file on its own site to learn when a new version is out. Nothing about you or your projects is ever sent anywhere.",
+  "zh": "Beat 只会检查自己网站上的一个小文件，用来得知是否有新版本。绝不会发送任何与你或你的项目相关的信息。",
+  "file": "index.html",
+  "offset": "char@39397"
+ },
+ {
+  "source": "embedded-web",
+  "en": "When a new version is out",
+  "zh": "出现新版本时",
+  "file": "index.html",
+  "offset": "char@39577"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Tell me, and I decide",
+  "zh": "通知我，由我决定",
+  "file": "index.html",
+  "offset": "char@39703"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Start the download for me",
+  "zh": "替我自动开始下载",
+  "file": "index.html",
+  "offset": "char@39767"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Say nothing — I update by hand",
+  "zh": "不提示 —— 我手动更新",
+  "file": "index.html",
+  "offset": "char@39837"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Download",
+  "zh": "下载",
+  "file": "index.html",
+  "offset": "char@40105"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Check now",
+  "zh": "立即检查",
+  "file": "index.html",
+  "offset": "char@40243"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Document",
+  "zh": "文档",
+  "file": "index.html",
+  "offset": "char@40740"
+ },
+ {
+  "source": "embedded-web",
+  "en": "⤓ Download",
+  "zh": "⤓ 下载",
+  "file": "index.html",
+  "offset": "char@40819"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Customise sidebar",
+  "zh": "自定义侧边栏",
+  "file": "index.html",
+  "offset": "char@41167"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Beat Debug",
+  "zh": "Beat 调试",
+  "file": "index.html",
+  "offset": "char@41664"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Self-test",
+  "zh": "自检",
+  "file": "index.html",
+  "offset": "char@41889"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Run diagnostic",
+  "zh": "运行诊断",
+  "file": "index.html",
+  "offset": "char@41959"
+ },
+ {
+  "source": "embedded-web",
+  "en": "⤓ Update extractor",
+  "zh": "⤓ 更新提取器",
+  "file": "index.html",
+  "offset": "char@42077"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Press \"Run diagnostic\" to test the extractor.",
+  "zh": "点「运行诊断」测试提取器。",
+  "file": "index.html",
+  "offset": "char@42253"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Recent log",
+  "zh": "最近日志",
+  "file": "index.html",
+  "offset": "char@42415"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Refresh",
+  "zh": "刷新",
+  "file": "index.html",
+  "offset": "char@42520"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Reveal",
+  "zh": "显示",
+  "file": "index.html",
+  "offset": "char@42720"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Press \"Refresh\" to load.",
+  "zh": "点「刷新」加载。",
+  "file": "index.html",
+  "offset": "char@42782"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Production",
+  "zh": "制作",
+  "file": "index.html",
+  "offset": "char@4301"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Welcome to Beat",
+  "zh": "欢迎使用 Beat",
+  "file": "index.html",
+  "offset": "char@43360"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Pick a folder where your projects will live. Each project becomes a folder you can back up, copy, or move around like any other folder.",
+  "zh": "选择一个存放项目的文件夹。每个项目会成为一个文件夹，你可以像普通文件夹一样备份、复制或移动它。",
+  "file": "index.html",
+  "offset": "char@43409"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Default:",
+  "zh": "默认：",
+  "file": "index.html",
+  "offset": "char@43643"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Pick a folder…",
+  "zh": "选择文件夹…",
+  "file": "index.html",
+  "offset": "char@43848"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Use default",
+  "zh": "使用默认",
+  "file": "index.html",
+  "offset": "char@43935"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Handoff",
+  "zh": "交接",
+  "file": "index.html",
+  "offset": "char@4636"
+ },
+ {
+  "source": "embedded-web",
+  "en": "This project",
+  "zh": "本项目",
+  "file": "index.html",
+  "offset": "char@7390"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Version history",
+  "zh": "版本历史",
+  "file": "index.html",
+  "offset": "char@7802"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Locations map",
+  "zh": "地点地图",
+  "file": "index.html",
+  "offset": "char@8228"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Present",
+  "zh": "演示",
+  "file": "index.html",
+  "offset": "char@8754"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Show me around",
+  "zh": "带我逛逛",
+  "file": "index.html",
+  "offset": "char@9129"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Keyboard shortcuts",
+  "zh": "键盘快捷键",
+  "file": "index.html",
+  "offset": "char@9532"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Settings",
+  "zh": "设置",
+  "file": "index.html",
+  "offset": "char@9662"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Call to Adventure",
+  "zh": "冒险的召唤",
+  "file": "templates.js",
+  "offset": "char@1030"
+ },
+ {
+  "source": "embedded-web",
+  "en": "A call to leave the familiar. A problem or challenge appears.",
+  "zh": "离开熟悉世界的召唤。问题或挑战出现。",
+  "file": "templates.js",
+  "offset": "char@1062"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Refusal of the Call",
+  "zh": "拒绝召唤",
+  "file": "templates.js",
+  "offset": "char@1144"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Hesitation, fear, doubt. The hero resists.",
+  "zh": "犹豫、恐惧、怀疑。主角抗拒。",
+  "file": "templates.js",
+  "offset": "char@1176"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Meeting the Mentor",
+  "zh": "遇见导师",
+  "file": "templates.js",
+  "offset": "char@1239"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Wisdom or training from a guide.",
+  "zh": "从引路人那里获得智慧或训练。",
+  "file": "templates.js",
+  "offset": "char@1271"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Crossing the Threshold",
+  "zh": "跨越第一道门槛",
+  "file": "templates.js",
+  "offset": "char@1324"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Hero commits and enters the special world.",
+  "zh": "主角下定决心，进入特殊世界。",
+  "file": "templates.js",
+  "offset": "char@1356"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Tests, Allies, Enemies",
+  "zh": "考验、盟友、敌人",
+  "file": "templates.js",
+  "offset": "char@1419"
+ },
+ {
+  "source": "embedded-web",
+  "en": "New rules, new relationships, first challenges.",
+  "zh": "新的规则、新的关系、最初的挑战。",
+  "file": "templates.js",
+  "offset": "char@1451"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Approach to the Inmost Cave",
+  "zh": "接近最深的洞穴",
+  "file": "templates.js",
+  "offset": "char@1519"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Preparing for the central ordeal.",
+  "zh": "为最核心的磨难做准备。",
+  "file": "templates.js",
+  "offset": "char@1556"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Ordeal",
+  "zh": "磨难",
+  "file": "templates.js",
+  "offset": "char@1610"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The biggest crisis so far. Death-and-rebirth moment.",
+  "zh": "迄今最大的危机。死亡与重生的时刻。",
+  "file": "templates.js",
+  "offset": "char@1642"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Reward",
+  "zh": "奖赏",
+  "file": "templates.js",
+  "offset": "char@1715"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Seize the prize. Celebration. New knowledge.",
+  "zh": "夺得奖赏。庆祝。获得新的认知。",
+  "file": "templates.js",
+  "offset": "char@1747"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The Road Back",
+  "zh": "归途",
+  "file": "templates.js",
+  "offset": "char@1812"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Begin the return. New stakes, last temptations.",
+  "zh": "开始返回。新的赌注，最后的诱惑。",
+  "file": "templates.js",
+  "offset": "char@1844"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Resurrection",
+  "zh": "复活",
+  "file": "templates.js",
+  "offset": "char@1912"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Final climax. Hero is tested at their highest level.",
+  "zh": "最终高潮。主角在最高层次上受到考验。",
+  "file": "templates.js",
+  "offset": "char@1944"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Return with the Elixir",
+  "zh": "带着灵药归来",
+  "file": "templates.js",
+  "offset": "char@2017"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Hero returns home transformed, bringing something of value.",
+  "zh": "主角焕然一新地回到家乡，并带回有价值的东西。",
+  "file": "templates.js",
+  "offset": "char@2049"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Fifteen beats",
+  "zh": "十五节拍",
+  "file": "templates.js",
+  "offset": "char@2163"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Blank canvas",
+  "zh": "空白画布",
+  "file": "templates.js",
+  "offset": "char@218"
+ },
+ {
+  "source": "embedded-web",
+  "en": "15 beats. The common commercial shape, from opening image to closing image.",
+  "zh": "15 个节拍。常见的商业片结构，从开场画面到收尾画面。",
+  "file": "templates.js",
+  "offset": "char@2197"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Opening image",
+  "zh": "开场画面",
+  "file": "templates.js",
+  "offset": "char@2304"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The 'before' snapshot. Tone, mood, world.",
+  "zh": "「之前」的快照。基调、情绪、世界。",
+  "file": "templates.js",
+  "offset": "char@2332"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The question",
+  "zh": "主题问题",
+  "file": "templates.js",
+  "offset": "char@2394"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Someone names, out loud, what the story is really about.",
+  "zh": "有人把故事真正要讲的东西说出口。",
+  "file": "templates.js",
+  "offset": "char@2422"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Start from nothing. Add beats as you think.",
+  "zh": "从零开始。边想边加节拍。",
+  "file": "templates.js",
+  "offset": "char@251"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Introduce the hero and the world. Plant what needs fixing.",
+  "zh": "介绍主角与世界。埋下需要解决的问题。",
+  "file": "templates.js",
+  "offset": "char@2527"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The disruption",
+  "zh": "打破日常",
+  "file": "templates.js",
+  "offset": "char@2606"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The thing that knocks the hero out of their world.",
+  "zh": "把主角踢出原有世界的那件事。",
+  "file": "templates.js",
+  "offset": "char@2634"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Hesitation",
+  "zh": "犹豫",
+  "file": "templates.js",
+  "offset": "char@2705"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Should I go? The last moment of refusing.",
+  "zh": "我该去吗？最后的抗拒时刻。",
+  "file": "templates.js",
+  "offset": "char@2733"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Commitment",
+  "zh": "下定决心",
+  "file": "templates.js",
+  "offset": "char@2795"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The hero decides and steps into the new world.",
+  "zh": "主角做出决定，迈入新世界。",
+  "file": "templates.js",
+  "offset": "char@2823"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Second thread",
+  "zh": "第二条线",
+  "file": "templates.js",
+  "offset": "char@2890"
+ },
+ {
+  "source": "embedded-web",
+  "en": "A relationship or subplot that carries the theme.",
+  "zh": "承载主题的一段关系或支线。",
+  "file": "templates.js",
+  "offset": "char@2918"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The promise kept",
+  "zh": "兑现承诺",
+  "file": "templates.js",
+  "offset": "char@2988"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The part the audience came for. The premise, delivered.",
+  "zh": "观众真正想看的部分。前提被兑现。",
+  "file": "templates.js",
+  "offset": "char@3016"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Midpoint",
+  "zh": "中点",
+  "file": "templates.js",
+  "offset": "char@3092"
+ },
+ {
+  "source": "embedded-web",
+  "en": "A false win or a false loss. The stakes change shape.",
+  "zh": "虚假的胜利或虚假的失败。赌注的形状改变。",
+  "file": "templates.js",
+  "offset": "char@3120"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Pressure builds",
+  "zh": "压力升级",
+  "file": "templates.js",
+  "offset": "char@3194"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Outside forces close in. Inside, the cracks show.",
+  "zh": "外部力量逼近。内部裂缝显现。",
+  "file": "templates.js",
+  "offset": "char@3222"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The low point",
+  "zh": "最低点",
+  "file": "templates.js",
+  "offset": "char@3292"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The bottom. A death, literal or otherwise.",
+  "zh": "谷底。一次死亡，字面或隐喻皆可。",
+  "file": "templates.js",
+  "offset": "char@3320"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The reckoning",
+  "zh": "清算",
+  "file": "templates.js",
+  "offset": "char@3383"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The hero sits with the loss until something turns.",
+  "zh": "主角与失去共处，直到某处开始转变。",
+  "file": "templates.js",
+  "offset": "char@3411"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The new idea",
+  "zh": "新的想法",
+  "file": "templates.js",
+  "offset": "char@3482"
+ },
+ {
+  "source": "embedded-web",
+  "en": "A way through appears, and the hero acts on it.",
+  "zh": "出路出现，主角付诸行动。",
+  "file": "templates.js",
+  "offset": "char@3510"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Three-act structure",
+  "zh": "三幕结构",
+  "file": "templates.js",
+  "offset": "char@352"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Climax",
+  "zh": "高潮",
+  "file": "templates.js",
+  "offset": "char@3578"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Every thread converges. The question gets answered.",
+  "zh": "所有线索汇聚。问题得到回答。",
+  "file": "templates.js",
+  "offset": "char@3606"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Closing image",
+  "zh": "收尾画面",
+  "file": "templates.js",
+  "offset": "char@3678"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The 'after' snapshot. Show how the world has changed.",
+  "zh": "「之后」的快照。展现世界发生了怎样的变化。",
+  "file": "templates.js",
+  "offset": "char@3706"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Pixar story spine",
+  "zh": "皮克斯故事骨架",
+  "file": "templates.js",
+  "offset": "char@3812"
+ },
+ {
+  "source": "embedded-web",
+  "en": "6 beats. Friendly, accessible, works for any narrative.",
+  "zh": "6 个节拍。亲切易懂，适用于任何叙事。",
+  "file": "templates.js",
+  "offset": "char@3850"
+ },
+ {
+  "source": "embedded-web",
+  "en": "3 beats: Setup, Confrontation, Resolution.",
+  "zh": "3 个节拍：铺垫、对抗、解决。",
+  "file": "templates.js",
+  "offset": "char@392"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Once upon a time...",
+  "zh": "从前……",
+  "file": "templates.js",
+  "offset": "char@3937"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Establish the ordinary.",
+  "zh": "建立日常。",
+  "file": "templates.js",
+  "offset": "char@3975"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Every day...",
+  "zh": "每一天……",
+  "file": "templates.js",
+  "offset": "char@4019"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Show the normal rhythm.",
+  "zh": "展现正常的节奏。",
+  "file": "templates.js",
+  "offset": "char@4057"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Until one day...",
+  "zh": "直到有一天……",
+  "file": "templates.js",
+  "offset": "char@4101"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Something disrupts the normal.",
+  "zh": "有什么打破了日常。",
+  "file": "templates.js",
+  "offset": "char@4139"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Because of that...",
+  "zh": "因此……",
+  "file": "templates.js",
+  "offset": "char@4190"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The first consequence.",
+  "zh": "第一个后果。",
+  "file": "templates.js",
+  "offset": "char@4228"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The second consequence — escalation.",
+  "zh": "第二个后果 —— 升级。",
+  "file": "templates.js",
+  "offset": "char@4309"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Until finally...",
+  "zh": "直到最终……",
+  "file": "templates.js",
+  "offset": "char@4366"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Climax and new equilibrium.",
+  "zh": "高潮与新的平衡。",
+  "file": "templates.js",
+  "offset": "char@4404"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Establish the protagonist in their zone of comfort.",
+  "zh": "建立主角在舒适区中的样子。",
+  "file": "templates.js",
+  "offset": "char@4638"
+ },
+ {
+  "source": "embedded-web",
+  "en": "They want something.",
+  "zh": "他想要某样东西。",
+  "file": "templates.js",
+  "offset": "char@4727"
+ },
+ {
+  "source": "embedded-web",
+  "en": "They enter an unfamiliar situation.",
+  "zh": "他进入一个陌生的处境。",
+  "file": "templates.js",
+  "offset": "char@4785"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Search",
+  "zh": "搜索",
+  "file": "templates.js",
+  "offset": "char@4841"
+ },
+ {
+  "source": "embedded-web",
+  "en": "They adapt and struggle.",
+  "zh": "他适应、挣扎。",
+  "file": "templates.js",
+  "offset": "char@4858"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Introduce world, characters, status quo, inciting incident.",
+  "zh": "介绍世界、人物、现状与激励事件。",
+  "file": "templates.js",
+  "offset": "char@489"
+ },
+ {
+  "source": "embedded-web",
+  "en": "They get what they wanted.",
+  "zh": "他得到了想要的。",
+  "file": "templates.js",
+  "offset": "char@4920"
+ },
+ {
+  "source": "embedded-web",
+  "en": "But they pay a heavy price for it.",
+  "zh": "但他为此付出沉重代价。",
+  "file": "templates.js",
+  "offset": "char@4984"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Return",
+  "zh": "回归",
+  "file": "templates.js",
+  "offset": "char@5039"
+ },
+ {
+  "source": "embedded-web",
+  "en": "They return to their familiar situation.",
+  "zh": "他回到熟悉的处境。",
+  "file": "templates.js",
+  "offset": "char@5056"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Change",
+  "zh": "更改",
+  "file": "templates.js",
+  "offset": "char@5117"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Having changed.",
+  "zh": "已更改。",
+  "file": "templates.js",
+  "offset": "char@5134"
+ },
+ {
+  "source": "embedded-web",
+  "en": "A documentary/brand treatment laid out as slides: Cover, Synopsis, Character, Story, Visual Language, References, Sound, Closing. Each section is a group.",
+  "zh": "一份按幻灯片排布的纪录片／品牌提案：封面、梗概、人物、故事、视觉语言、参考、声音、结语。每个部分都是一个分组。",
+  "file": "templates.js",
+  "offset": "char@5241"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Synopsis",
+  "zh": "梗概",
+  "file": "templates.js",
+  "offset": "char@5582"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The Character",
+  "zh": "人物",
+  "file": "templates.js",
+  "offset": "char@5634"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The Story",
+  "zh": "故事",
+  "file": "templates.js",
+  "offset": "char@5686"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Confrontation",
+  "zh": "对抗",
+  "file": "templates.js",
+  "offset": "char@569"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Visual Language",
+  "zh": "视觉语言",
+  "file": "templates.js",
+  "offset": "char@5738"
+ },
+ {
+  "source": "embedded-web",
+  "en": "References",
+  "zh": "参考",
+  "file": "templates.js",
+  "offset": "char@5790"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Closing",
+  "zh": "结语",
+  "file": "templates.js",
+  "offset": "char@5895"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Protagonist faces escalating obstacles. Stakes rise. Midpoint twist.",
+  "zh": "主角面对不断升级的障碍。赌注升高。中点反转。",
+  "file": "templates.js",
+  "offset": "char@592"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Project title",
+  "zh": "项目标题",
+  "file": "templates.js",
+  "offset": "char@6010"
+ },
+ {
+  "source": "embedded-web",
+  "en": "A one-line statement of what this is.",
+  "zh": "用一句话说明这是什么。",
+  "file": "templates.js",
+  "offset": "char@6033"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The piece in a paragraph — premise, tone, why now.",
+  "zh": "用一段话讲清这部作品 —— 前提、基调、为什么是现在。",
+  "file": "templates.js",
+  "offset": "char@6153"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Who they are",
+  "zh": "他们是谁",
+  "file": "templates.js",
+  "offset": "char@6268"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The character/subject. Bio, voice, what makes them magnetic.",
+  "zh": "人物／对象。简介、声音、魅力所在。",
+  "file": "templates.js",
+  "offset": "char@6290"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The story we tell",
+  "zh": "我们讲的故事",
+  "file": "templates.js",
+  "offset": "char@6415"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The arc. What we open on, where we land.",
+  "zh": "弧线。我们从哪里开始，落到哪里。",
+  "file": "templates.js",
+  "offset": "char@6442"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Palette, lensing, light, texture, references for the image.",
+  "zh": "配色、镜头、光线、质感、画面参考。",
+  "file": "templates.js",
+  "offset": "char@6568"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Reference board",
+  "zh": "参考板",
+  "file": "templates.js",
+  "offset": "char@6692"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Drop stills, frames, and inspiration here.",
+  "zh": "把剧照、画面和灵感放在这里。",
+  "file": "templates.js",
+  "offset": "char@6717"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Resolution",
+  "zh": "解决",
+  "file": "templates.js",
+  "offset": "char@681"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Score direction, diegetic sound, voice-over approach.",
+  "zh": "配乐方向、同期声、旁白方式。",
+  "file": "templates.js",
+  "offset": "char@6847"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Closing thought",
+  "zh": "结语思考",
+  "file": "templates.js",
+  "offset": "char@6965"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The line that leaves them wanting to make it.",
+  "zh": "那句让他们想要动手去做的话。",
+  "file": "templates.js",
+  "offset": "char@6990"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Climax. Aftermath. New equilibrium.",
+  "zh": "高潮。余波。新的平衡。",
+  "file": "templates.js",
+  "offset": "char@704"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Production timeline",
+  "zh": "制作时间线",
+  "file": "templates.js",
+  "offset": "char@7087"
+ },
+ {
+  "source": "embedded-web",
+  "en": "A single timeline group with ordered phases: Prep, Shoot, Edit, Finish.",
+  "zh": "一条按顺序排列阶段的时间线分组：筹备、拍摄、剪辑、完成。",
+  "file": "templates.js",
+  "offset": "char@7127"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Timeline",
+  "zh": "时间线",
+  "file": "templates.js",
+  "offset": "char@7301"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Pre-production",
+  "zh": "前期筹备",
+  "file": "templates.js",
+  "offset": "char@7401"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Scout, cast, schedule, gear, permits.",
+  "zh": "勘景、选角、排期、器材、许可。",
+  "file": "templates.js",
+  "offset": "char@7425"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Principal photography. Shot list, days, locations.",
+  "zh": "主拍摄期。镜头表、拍摄日、地点。",
+  "file": "templates.js",
+  "offset": "char@7536"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Assembly, rough cut, fine cut, picture lock.",
+  "zh": "初剪、粗剪、精剪、锁定画面。",
+  "file": "templates.js",
+  "offset": "char@7659"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Finish",
+  "zh": "完成",
+  "file": "templates.js",
+  "offset": "char@7762"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Colour, sound mix, graphics, delivery.",
+  "zh": "调色、混音、图形、交付。",
+  "file": "templates.js",
+  "offset": "char@7778"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Two reference groups ready for stills and inspiration — pure mood/visual research.",
+  "zh": "两个准备好的参考分组，用于剧照和灵感 —— 纯情绪／视觉研究。",
+  "file": "templates.js",
+  "offset": "char@7904"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Visual references",
+  "zh": "视觉参考",
+  "file": "templates.js",
+  "offset": "char@8097"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Visual direction",
+  "zh": "视觉方向",
+  "file": "templates.js",
+  "offset": "char@8268"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Drop frames, photos, palettes here.",
+  "zh": "把画面、照片、配色放这里。",
+  "file": "templates.js",
+  "offset": "char@8294"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The feeling we are chasing.",
+  "zh": "我们追求的感觉。",
+  "file": "templates.js",
+  "offset": "char@8408"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Ordinary World",
+  "zh": "平凡世界",
+  "file": "templates.js",
+  "offset": "char@925"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Hero in their normal life. Establish what they lack.",
+  "zh": "主角在日常生活里。建立他缺少什么。",
+  "file": "templates.js",
+  "offset": "char@957"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Extract from image…",
+  "zh": "从图片提取…",
+  "file": "app.js",
+  "offset": "assign@1005530"
+ },
+ {
+  "source": "embedded-web",
+  "en": "↗ Use for project tags",
+  "zh": "↗ 用作项目标签",
+  "file": "app.js",
+  "offset": "assign@1006348"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Templates",
+  "zh": "模板",
+  "file": "app.js",
+  "offset": "assign@1029066"
+ },
+ {
+  "source": "embedded-web",
+  "en": "No templates yet. Save one from a shot list’s Export menu.",
+  "zh": "还没有模板。在镜头表的导出菜单里保存一个。",
+  "file": "app.js",
+  "offset": "assign@1029724"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Cheat sheet",
+  "zh": "速查表",
+  "file": "app.js",
+  "offset": "assign@1033385"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Fill ↓",
+  "zh": "向下填充 ↓",
+  "file": "app.js",
+  "offset": "assign@1046287"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Shoot day",
+  "zh": "拍摄日",
+  "file": "app.js",
+  "offset": "assign@1163582"
+ },
+ {
+  "source": "embedded-web",
+  "en": "People",
+  "zh": "人物",
+  "file": "app.js",
+  "offset": "assign@1166844"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Call sheet PDF",
+  "zh": "通告单 PDF",
+  "file": "app.js",
+  "offset": "assign@1170224"
+ },
+ {
+  "source": "embedded-web",
+  "en": "None set",
+  "zh": "未设置",
+  "file": "app.js",
+  "offset": "assign@1174600"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Columns",
+  "zh": "列",
+  "file": "app.js",
+  "offset": "assign@1177850"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Built-in",
+  "zh": "内置",
+  "file": "app.js",
+  "offset": "assign@1181524"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Beat field",
+  "zh": "节拍字段",
+  "file": "app.js",
+  "offset": "assign@1182483"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Beat fields",
+  "zh": "节拍字段",
+  "file": "app.js",
+  "offset": "assign@1186938"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Scene total:",
+  "zh": "场景总计：",
+  "file": "app.js",
+  "offset": "assign@1248462"
+ },
+ {
+  "source": "embedded-web",
+  "en": "List total:",
+  "zh": "列表总计：",
+  "file": "app.js",
+  "offset": "assign@1248841"
+ },
+ {
+  "source": "embedded-web",
+  "en": "↗ Watch on",
+  "zh": "↗ 在…观看",
+  "file": "app.js",
+  "offset": "assign@1257466"
+ },
+ {
+  "source": "embedded-web",
+  "en": "A makes this a group",
+  "zh": "按 A 使其成为分组",
+  "file": "app.js",
+  "offset": "assign@1293114"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Unlink",
+  "zh": "解除关联",
+  "file": "app.js",
+  "offset": "assign@1308745"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Duplicate",
+  "zh": "制作副本",
+  "file": "app.js",
+  "offset": "assign@1309237"
+ },
+ {
+  "source": "embedded-web",
+  "en": "To shot list",
+  "zh": "转为镜头表",
+  "file": "app.js",
+  "offset": "assign@1310266"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Sections",
+  "zh": "章节",
+  "file": "app.js",
+  "offset": "assign@1402150"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Not named in any beat yet",
+  "zh": "还未在任何节拍中命名",
+  "file": "app.js",
+  "offset": "assign@1413447"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Export center",
+  "zh": "导出中心",
+  "file": "app.js",
+  "offset": "assign@1459483"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Project identity on the cover",
+  "zh": "封面上的项目标识",
+  "file": "app.js",
+  "offset": "assign@1467072"
+ },
+ {
+  "source": "embedded-web",
+  "en": "No options for this format.",
+  "zh": "此格式没有可选项。",
+  "file": "app.js",
+  "offset": "assign@1467413"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Rendering…",
+  "zh": "渲染中…",
+  "file": "app.js",
+  "offset": "assign@1467755"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Preview unavailable",
+  "zh": "预览不可用",
+  "file": "app.js",
+  "offset": "assign@1471586"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Nothing to render for this format yet. Add the matching content — beats, shots or set plans — and the preview appears here.",
+  "zh": "这个格式暂时没有可渲染的内容。添加相应内容 —— 节拍、镜头或场景计划 —— 预览就会出现在这里。",
+  "file": "app.js",
+  "offset": "assign@1471670"
+ },
+ {
+  "source": "embedded-web",
+  "en": "No pages yet",
+  "zh": "还没有页面",
+  "file": "app.js",
+  "offset": "assign@1506699"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Saved to Downloads —",
+  "zh": "已保存到「下载」——",
+  "file": "app.js",
+  "offset": "assign@1511867"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Select all",
+  "zh": "全选",
+  "file": "app.js",
+  "offset": "assign@1635701"
+ },
+ {
+  "source": "embedded-web",
+  "en": "↓ Export .md",
+  "zh": "↓ 导出 .md",
+  "file": "app.js",
+  "offset": "assign@1636420"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The colours themselves are edited right on the card.",
+  "zh": "颜色本身就在卡片上编辑。",
+  "file": "app.js",
+  "offset": "assign@1712639"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Tap a photo to include it in exports. Untapped photos stay on the card only.",
+  "zh": "点选照片才会包含进导出。未点选的照片只留在卡片上。",
+  "file": "app.js",
+  "offset": "assign@1719112"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Images, links and documents keep their own controls on the board.",
+  "zh": "图片、链接和文档在画布上保留各自的控件。",
+  "file": "app.js",
+  "offset": "assign@1723673"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Pick tones for one, and every selected beat takes the same set.",
+  "zh": "为其中一个选好色调，所有已选节拍会套用同一套。",
+  "file": "app.js",
+  "offset": "assign@1725816"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Reading…",
+  "zh": "正在读取…",
+  "file": "app.js",
+  "offset": "assign@1731019"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Beat could not read the path",
+  "zh": "Beat 无法读取该路径",
+  "file": "app.js",
+  "offset": "assign@1731148"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Shot lists",
+  "zh": "镜头表",
+  "file": "app.js",
+  "offset": "assign@1777982"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Scenes",
+  "zh": "场景",
+  "file": "app.js",
+  "offset": "assign@1778628"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Wrapped",
+  "zh": "已收工",
+  "file": "app.js",
+  "offset": "assign@1787027"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Unwrap",
+  "zh": "取消收工",
+  "file": "app.js",
+  "offset": "assign@1787872"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Wrap the day",
+  "zh": "收工",
+  "file": "app.js",
+  "offset": "assign@1788559"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Copy day report",
+  "zh": "复制当日报告",
+  "file": "app.js",
+  "offset": "assign@1788853"
+ },
+ {
+  "source": "embedded-web",
+  "en": "TAKE",
+  "zh": "条次",
+  "file": "app.js",
+  "offset": "assign@1804796"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Skip →",
+  "zh": "跳过 →",
+  "file": "app.js",
+  "offset": "assign@1806204"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Loose on canvas",
+  "zh": "散落在画布上",
+  "file": "app.js",
+  "offset": "assign@1854595"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Show on canvas",
+  "zh": "在画布上显示",
+  "file": "app.js",
+  "offset": "assign@1875136"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Remove from story",
+  "zh": "从故事中移除",
+  "file": "app.js",
+  "offset": "assign@1875454"
+ },
+ {
+  "source": "embedded-web",
+  "en": "paste or type an outline",
+  "zh": "粘贴或输入大纲",
+  "file": "app.js",
+  "offset": "assign@1877429"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Order:",
+  "zh": "排序：",
+  "file": "app.js",
+  "offset": "assign@1895030"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Sending…",
+  "zh": "发送中…",
+  "file": "app.js",
+  "offset": "assign@190150"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Hidden",
+  "zh": "已隐藏",
+  "file": "app.js",
+  "offset": "assign@1905218"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Nothing to outline yet. Add beats and groups, or open a template.",
+  "zh": "还没有可生成大纲的内容。添加节拍和分组，或打开一个模板。",
+  "file": "app.js",
+  "offset": "assign@1906697"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Thanks — got it.",
+  "zh": "谢谢 —— 收到了。",
+  "file": "app.js",
+  "offset": "assign@190778"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Looking…",
+  "zh": "正在查找…",
+  "file": "app.js",
+  "offset": "assign@1908917"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Nothing to clear — every file in this project is being used.",
+  "zh": "没有需要清理的内容 —— 此项目中的每个文件都正在使用。",
+  "file": "app.js",
+  "offset": "assign@1909042"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Couldn’t send — try again later.",
+  "zh": "发送失败 —— 请稍后再试。",
+  "file": "app.js",
+  "offset": "assign@190997"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Moving…",
+  "zh": "正在移动…",
+  "file": "app.js",
+  "offset": "assign@1910379"
+ },
+ {
+  "source": "embedded-web",
+  "en": "About this story",
+  "zh": "关于这个故事",
+  "file": "app.js",
+  "offset": "assign@1911477"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Used as context for AI suggestions. Leave empty if you want the AI to work only from your beats.",
+  "zh": "用作 AI 建议的上下文。如果你希望 AI 只依据你的节拍工作，留空即可。",
+  "file": "app.js",
+  "offset": "assign@1911613"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Exports",
+  "zh": "导出",
+  "file": "app.js",
+  "offset": "assign@1912289"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Show author credit on exports",
+  "zh": "在导出件上显示作者署名",
+  "file": "app.js",
+  "offset": "assign@1912704"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Project identity",
+  "zh": "项目标识",
+  "file": "app.js",
+  "offset": "assign@1913312"
+ },
+ {
+  "source": "embedded-web",
+  "en": "↺ Reset to default",
+  "zh": "↺ 重置为默认",
+  "file": "app.js",
+  "offset": "assign@1921659"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Beat numbering",
+  "zh": "节拍编号",
+  "file": "app.js",
+  "offset": "assign@1922195"
+ },
+ {
+  "source": "embedded-web",
+  "en": "How beat numbers appear on each node.",
+  "zh": "节拍编号在每个节点上的显示方式。",
+  "file": "app.js",
+  "offset": "assign@1922329"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Customise Beat Nodes",
+  "zh": "自定义节拍节点",
+  "file": "app.js",
+  "offset": "assign@1923168"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Choose which fields show on beat cards. Main text and images are always shown. Hidden fields keep their data and still appear in exports.",
+  "zh": "选择节拍卡片上显示哪些字段。主文本和图片始终显示。隐藏的字段会保留数据，也仍会出现在导出中。",
+  "file": "app.js",
+  "offset": "assign@1923308"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Cards:",
+  "zh": "卡片：",
+  "file": "app.js",
+  "offset": "assign@1924732"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Custom fields",
+  "zh": "自定义字段",
+  "file": "app.js",
+  "offset": "assign@1927505"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Your own fields on every beat card — Emotion, Rhythm, Budget, anything. Add presets to get a dropdown. Values show in Writing Mode, in exports, and can become shot-list columns.",
+  "zh": "每个节拍卡片上你自己的字段 —— 情绪、节奏、预算，任何东西。添加预设即可得到下拉选项。取值会显示在写作模式和导出中，也可以成为镜头表的列。",
+  "file": "app.js",
+  "offset": "assign@1927638"
+ },
+ {
+  "source": "embedded-web",
+  "en": "When on, dragging nodes and groups aligns them to a 20px grid.",
+  "zh": "开启后，拖动节点和分组会对齐到 20px 网格。",
+  "file": "app.js",
+  "offset": "assign@1933811"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Snap to 20px grid",
+  "zh": "对齐到 20px 网格",
+  "file": "app.js",
+  "offset": "assign@1934325"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Project actions",
+  "zh": "项目操作",
+  "file": "app.js",
+  "offset": "assign@1934603"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Reset to",
+  "zh": "重置为",
+  "file": "app.js",
+  "offset": "assign@1935028"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Save as starter template",
+  "zh": "保存为起始模板",
+  "file": "app.js",
+  "offset": "assign@1935336"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Save as template…",
+  "zh": "保存为模板…",
+  "file": "app.js",
+  "offset": "assign@1935861"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Delete project",
+  "zh": "删除项目",
+  "file": "app.js",
+  "offset": "assign@1936622"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Storage",
+  "zh": "存储",
+  "file": "app.js",
+  "offset": "assign@1937109"
+ },
+ {
+  "source": "embedded-web",
+  "en": "From Beat",
+  "zh": "来自 Beat",
+  "file": "app.js",
+  "offset": "assign@195411"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Got it",
+  "zh": "知道了",
+  "file": "app.js",
+  "offset": "assign@197122"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Saving…",
+  "zh": "保存中…",
+  "file": "app.js",
+  "offset": "assign@2036821"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Open card",
+  "zh": "打开卡片",
+  "file": "app.js",
+  "offset": "assign@2042610"
+ },
+ {
+  "source": "embedded-web",
+  "en": "✓ Copied",
+  "zh": "✓ 已复制",
+  "file": "app.js",
+  "offset": "assign@2051139"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Available in the Beat desktop app.",
+  "zh": "在 Beat 桌面应用中可用。",
+  "file": "app.js",
+  "offset": "assign@2051607"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Starting the connector…",
+  "zh": "正在启动连接器…",
+  "file": "app.js",
+  "offset": "assign@2051708"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Linking…",
+  "zh": "正在关联…",
+  "file": "app.js",
+  "offset": "assign@2052653"
+ },
+ {
+  "source": "embedded-web",
+  "en": "You picked a new library folder. Your",
+  "zh": "你选择了新的库文件夹。你的",
+  "file": "app.js",
+  "offset": "assign@2063003"
+ },
+ {
+  "source": "embedded-web",
+  "en": "There is not enough room on that disk to copy your projects. They need about",
+  "zh": "那块磁盘上没有足够空间复制你的项目。它们需要大约",
+  "file": "app.js",
+  "offset": "assign@2064151"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Beat could not check how much room is free on that disk, so it cannot promise everything will fit.",
+  "zh": "Beat 无法检查那块磁盘的可用空间，因此无法保证所有内容都放得下。",
+  "file": "app.js",
+  "offset": "assign@2064667"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Beat does not recognise",
+  "zh": "Beat 无法识别",
+  "file": "app.js",
+  "offset": "assign@2065676"
+ },
+ {
+  "source": "embedded-web",
+  "en": "That folder already has its own folders, pinned card types and saved templates — from your other Mac, most likely. Beat will not write over them, so the ones on this Mac stay behind in the old folder.",
+  "zh": "那个文件夹已经有自己的文件夹、固定卡片类型和已保存模板 —— 很可能来自你的另一台 Mac。Beat 不会覆盖它们，因此这台 Mac 上的那些会留在旧文件夹里。",
+  "file": "app.js",
+  "offset": "assign@2066399"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The new folder already has something called",
+  "zh": "新文件夹里已经有名为",
+  "file": "app.js",
+  "offset": "assign@2066727"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Leave Beat open until this finishes. Nothing is deleted until every project has arrived and been checked.",
+  "zh": "请保持 Beat 打开直到完成。在所有项目都到达并核对完成之前，不会删除任何东西。",
+  "file": "app.js",
+  "offset": "assign@2072237"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Getting ready…",
+  "zh": "准备中…",
+  "file": "app.js",
+  "offset": "assign@2072597"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Clearing the old folder…",
+  "zh": "正在清理旧文件夹…",
+  "file": "app.js",
+  "offset": "assign@2073009"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Finishing up…",
+  "zh": "收尾中…",
+  "file": "app.js",
+  "offset": "assign@2073121"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Nothing was moved.",
+  "zh": "什么都没有移动。",
+  "file": "app.js",
+  "offset": "assign@2074082"
+ },
+ {
+  "source": "embedded-web",
+  "en": "OK",
+  "zh": "好",
+  "file": "app.js",
+  "offset": "assign@2074499"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Still in the old folder:",
+  "zh": "仍在旧文件夹中：",
+  "file": "app.js",
+  "offset": "assign@2076419"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Beat also left",
+  "zh": "Beat 还留下了",
+  "file": "app.js",
+  "offset": "assign@2076914"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Your folders, pinned card types and saved templates stayed with the old library — the new folder already had its own. Your projects themselves are all here.",
+  "zh": "你的文件夹、固定卡片类型和已保存模板留在了旧库 —— 新文件夹已经有自己的了。你的项目本身都在这里。",
+  "file": "app.js",
+  "offset": "assign@2077805"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Remove the old copy",
+  "zh": "移除旧副本",
+  "file": "app.js",
+  "offset": "assign@2078802"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Removing…",
+  "zh": "正在移除…",
+  "file": "app.js",
+  "offset": "assign@2079309"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Removed",
+  "zh": "已移除",
+  "file": "app.js",
+  "offset": "assign@2079718"
+ },
+ {
+  "source": "embedded-web",
+  "en": "New folder",
+  "zh": "新建文件夹",
+  "file": "app.js",
+  "offset": "assign@2088650"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Try again",
+  "zh": "重试",
+  "file": "app.js",
+  "offset": "assign@2092258"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Open sample project",
+  "zh": "打开示例项目",
+  "file": "app.js",
+  "offset": "assign@2094537"
+ },
+ {
+  "source": "embedded-web",
+  "en": "← All projects",
+  "zh": "← 所有项目",
+  "file": "app.js",
+  "offset": "assign@2095367"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Delete folder",
+  "zh": "删除文件夹",
+  "file": "app.js",
+  "offset": "assign@2097290"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Inside projects",
+  "zh": "项目内部",
+  "file": "app.js",
+  "offset": "assign@2106588"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Searching every project…",
+  "zh": "正在搜索每个项目…",
+  "file": "app.js",
+  "offset": "assign@2106722"
+ },
+ {
+  "source": "embedded-web",
+  "en": "No matches found inside any project.",
+  "zh": "任何项目内都没有找到匹配项。",
+  "file": "app.js",
+  "offset": "assign@2107361"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Search failed:",
+  "zh": "搜索失败：",
+  "file": "app.js",
+  "offset": "assign@2108873"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Deselect all",
+  "zh": "取消全选",
+  "file": "app.js",
+  "offset": "assign@2109893"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Move to folder…",
+  "zh": "移到文件夹…",
+  "file": "app.js",
+  "offset": "assign@2110191"
+ },
+ {
+  "source": "embedded-web",
+  "en": "No folders yet — create one from the library grid.",
+  "zh": "还没有文件夹 —— 在库网格里创建一个。",
+  "file": "app.js",
+  "offset": "assign@2112355"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Create project",
+  "zh": "创建项目",
+  "file": "app.js",
+  "offset": "assign@2122082"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Creating…",
+  "zh": "创建中…",
+  "file": "app.js",
+  "offset": "assign@2122331"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Click to seek — double-click to drop a marker",
+  "zh": "单击跳转 —— 双击放置标记",
+  "file": "app.js",
+  "offset": "assign@2172014"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Play your track under the story — drop markers, then turn them into timecoded beats.",
+  "zh": "在故事下方播放你的音轨 —— 放置标记，再把它们变成带时间码的节拍。",
+  "file": "app.js",
+  "offset": "assign@2172276"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Load audio…",
+  "zh": "载入音频…",
+  "file": "app.js",
+  "offset": "assign@2172503"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Audio timeline",
+  "zh": "音频时间轴",
+  "file": "app.js",
+  "offset": "assign@2175365"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Replace…",
+  "zh": "替换…",
+  "file": "app.js",
+  "offset": "assign@2175709"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Previewing the version from",
+  "zh": "正在预览来自…的版本",
+  "file": "app.js",
+  "offset": "assign@220820"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Restore this version",
+  "zh": "恢复此版本",
+  "file": "app.js",
+  "offset": "assign@221404"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Back to current",
+  "zh": "返回当前版本",
+  "file": "app.js",
+  "offset": "assign@221867"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Page to Vault",
+  "zh": "页面送入保险库",
+  "file": "app.js",
+  "offset": "assign@2238269"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Nothing to filter yet.",
+  "zh": "还没有可筛选的内容。",
+  "file": "app.js",
+  "offset": "assign@2252327"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Running…",
+  "zh": "运行中…",
+  "file": "app.js",
+  "offset": "assign@2253859"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Diagnostic failed:",
+  "zh": "诊断失败：",
+  "file": "app.js",
+  "offset": "assign@2254408"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Log read failed:",
+  "zh": "日志读取失败：",
+  "file": "app.js",
+  "offset": "assign@2255204"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Updating…",
+  "zh": "更新中…",
+  "file": "app.js",
+  "offset": "assign@2256999"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Quick look",
+  "zh": "快速查看",
+  "file": "app.js",
+  "offset": "assign@229442"
+ },
+ {
+  "source": "embedded-web",
+  "en": "No snapshots yet — they accumulate as you work.",
+  "zh": "还没有快照 —— 它们会随着你的工作累积。",
+  "file": "app.js",
+  "offset": "assign@230952"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Preview on canvas",
+  "zh": "在画布上预览",
+  "file": "app.js",
+  "offset": "assign@233915"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Focus session",
+  "zh": "专注时段",
+  "file": "app.js",
+  "offset": "assign@239778"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Minutes per session",
+  "zh": "每次时长（分钟）",
+  "file": "app.js",
+  "offset": "assign@240707"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Saved · just now",
+  "zh": "已保存 · 刚刚",
+  "file": "app.js",
+  "offset": "assign@258776"
+ },
+ {
+  "source": "embedded-web",
+  "en": "— fps",
+  "zh": "— fps",
+  "file": "app.js",
+  "offset": "assign@269547"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Planned",
+  "zh": "计划",
+  "file": "app.js",
+  "offset": "assign@297328"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Remove connection",
+  "zh": "移除连接",
+  "file": "app.js",
+  "offset": "assign@527273"
+ },
+ {
+  "source": "embedded-web",
+  "en": "↗ Watch",
+  "zh": "↗ 观看",
+  "file": "app.js",
+  "offset": "assign@538269"
+ },
+ {
+  "source": "embedded-web",
+  "en": "↓ Download",
+  "zh": "↓ 下载",
+  "file": "app.js",
+  "offset": "assign@548870"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Appears in",
+  "zh": "出现于",
+  "file": "app.js",
+  "offset": "assign@63843"
+ },
+ {
+  "source": "embedded-web",
+  "en": "This card did not draw",
+  "zh": "这张卡片没画出来",
+  "file": "app.js",
+  "offset": "assign@678614"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Your work is safe — it is in the file, it just could not be shown.",
+  "zh": "你的内容安全 —— 它在文件里，只是无法显示。",
+  "file": "app.js",
+  "offset": "assign@678724"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Reload the board",
+  "zh": "重新加载画布",
+  "file": "app.js",
+  "offset": "assign@679125"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Photo has a different location — use it?",
+  "zh": "照片带有不同位置 —— 使用它吗？",
+  "file": "app.js",
+  "offset": "assign@724094"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Add Set Plan",
+  "zh": "添加场景计划",
+  "file": "app.js",
+  "offset": "assign@725703"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Sun-plan a beat…",
+  "zh": "为节拍做日照规划…",
+  "file": "app.js",
+  "offset": "assign@726326"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Make main path",
+  "zh": "设为主路径",
+  "file": "app.js",
+  "offset": "assign@773593"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Colour",
+  "zh": "颜色",
+  "file": "app.js",
+  "offset": "assign@77854"
+ },
+ {
+  "source": "embedded-web",
+  "en": "GIF",
+  "zh": "GIF",
+  "file": "app.js",
+  "offset": "assign@845014"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Encoding GIF — 0 /",
+  "zh": "正在编码 GIF —— 0 /",
+  "file": "app.js",
+  "offset": "assign@849342"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Encoding GIF —",
+  "zh": "正在编码 GIF ——",
+  "file": "app.js",
+  "offset": "assign@850537"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Finalizing GIF —",
+  "zh": "正在收尾 GIF ——",
+  "file": "app.js",
+  "offset": "assign@850937"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Edit plan",
+  "zh": "编辑计划",
+  "file": "app.js",
+  "offset": "assign@861449"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Click to add points · double-click or Enter to finish · Esc to cancel",
+  "zh": "单击添加点 · 双击或回车完成 · Esc 取消",
+  "file": "app.js",
+  "offset": "assign@955828"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Click to add movement points · double-click or Enter to finish",
+  "zh": "单击添加运动点 · 双击或回车完成",
+  "file": "app.js",
+  "offset": "assign@956483"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Drag any one to move them all. Delete removes them all. Shift-click an element to add or remove it.",
+  "zh": "拖动任意一个即可整体移动。Delete 会删除全部。Shift + 单击元素可加入或移出。",
+  "file": "app.js",
+  "offset": "assign@968546"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Delete",
+  "zh": "删除",
+  "file": "app.js",
+  "offset": "assign@968753"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Delete this point",
+  "zh": "删除此点",
+  "file": "app.js",
+  "offset": "assign@983559"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Delete element",
+  "zh": "删除元素",
+  "file": "app.js",
+  "offset": "assign@985943"
+ },
+ {
+  "source": "embedded-web",
+  "en": "× H",
+  "zh": "× H",
+  "file": "app.js",
+  "offset": "assign@993810"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Remove",
+  "zh": "移除",
+  "file": "app.js",
+  "offset": "assign@995545"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Set plan",
+  "zh": "场景计划",
+  "file": "app.js",
+  "offset": "attr:alt@1760720"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Planned time",
+  "zh": "计划时间",
+  "file": "app.js",
+  "offset": "attr:aria-label@1073542"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Shoot time",
+  "zh": "拍摄时间",
+  "file": "app.js",
+  "offset": "attr:aria-label@1988374"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Frame rate",
+  "zh": "帧率",
+  "file": "app.js",
+  "offset": "attr:aria-label@834169"
+ },
+ {
+  "source": "embedded-web",
+  "en": "e.g. Doc Kit",
+  "zh": "例如：纪录片套件",
+  "file": "app.js",
+  "offset": "attr:placeholder@1027084"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Search address or place…",
+  "zh": "搜索地址或地点…",
+  "file": "app.js",
+  "offset": "attr:placeholder@1985691"
+ },
+ {
+  "source": "embedded-web",
+  "en": "e.g. Emotion",
+  "zh": "例如：情绪",
+  "file": "app.js",
+  "offset": "attr:placeholder@746945"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Filter elements…",
+  "zh": "筛选元素…",
+  "file": "app.js",
+  "offset": "attr:placeholder@941660"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Scene colour — click to change",
+  "zh": "场景颜色 —— 单击更改",
+  "file": "app.js",
+  "offset": "attr:title@1779653"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Time actually spent on this shot",
+  "zh": "这个镜头实际花的时间",
+  "file": "app.js",
+  "offset": "attr:title@1792348"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Time on this shot",
+  "zh": "此镜头用时",
+  "file": "app.js",
+  "offset": "attr:title@1800581"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Close street panel",
+  "zh": "关闭街景面板",
+  "file": "app.js",
+  "offset": "attr:title@1986440"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Close Sun path",
+  "zh": "关闭日照路径",
+  "file": "app.js",
+  "offset": "attr:title@1987425"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Day of year",
+  "zh": "一年中的第几天",
+  "file": "app.js",
+  "offset": "attr:title@1988873"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Make a palette node from this image",
+  "zh": "用这张图生成配色节点",
+  "file": "app.js",
+  "offset": "attr:title@559502"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Custom stroke colour",
+  "zh": "自定义描边颜色",
+  "file": "app.js",
+  "offset": "attr:title@606217"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Stroke width",
+  "zh": "描边宽度",
+  "file": "app.js",
+  "offset": "attr:title@606374"
+ },
+ {
+  "source": "embedded-web",
+  "en": "No fill",
+  "zh": "无填充",
+  "file": "app.js",
+  "offset": "attr:title@606795"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Custom fill colour",
+  "zh": "自定义填充颜色",
+  "file": "app.js",
+  "offset": "attr:title@607041"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Rotate left",
+  "zh": "向左旋转",
+  "file": "app.js",
+  "offset": "attr:title@607311"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Rotate right",
+  "zh": "向右旋转",
+  "file": "app.js",
+  "offset": "attr:title@607415"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Flip horizontal",
+  "zh": "水平翻转",
+  "file": "app.js",
+  "offset": "attr:title@607521"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Flip vertical",
+  "zh": "垂直翻转",
+  "file": "app.js",
+  "offset": "attr:title@607631"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Drag to move",
+  "zh": "拖动移动",
+  "file": "app.js",
+  "offset": "attr:title@629125"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Drag to resize text",
+  "zh": "拖动调整文本大小",
+  "file": "app.js",
+  "offset": "attr:title@629241"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Capture the current frame as a still",
+  "zh": "将当前画面截为静帧",
+  "file": "app.js",
+  "offset": "attr:title@833172"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Mark current time as GIF start",
+  "zh": "把当前时间标为 GIF 起点",
+  "file": "app.js",
+  "offset": "attr:title@833837"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Mark current time as GIF end",
+  "zh": "把当前时间标为 GIF 终点",
+  "file": "app.js",
+  "offset": "attr:title@834003"
+ },
+ {
+  "source": "embedded-web",
+  "en": "8 fps · smallest size",
+  "zh": "8 fps · 最小体积",
+  "file": "app.js",
+  "offset": "attr:title@834254"
+ },
+ {
+  "source": "embedded-web",
+  "en": "18 fps · smoother",
+  "zh": "18 fps · 更流畅",
+  "file": "app.js",
+  "offset": "attr:title@834365"
+ },
+ {
+  "source": "embedded-web",
+  "en": "24 fps · cinematic",
+  "zh": "24 fps · 电影感",
+  "file": "app.js",
+  "offset": "attr:title@834473"
+ },
+ {
+  "source": "embedded-web",
+  "en": "GIF width — larger looks crisper in treatments",
+  "zh": "GIF 宽度 —— 越大在提案中越清晰",
+  "file": "app.js",
+  "offset": "attr:title@834605"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Encode the marked range as an animated GIF",
+  "zh": "把标记区间编码为动图 GIF",
+  "file": "app.js",
+  "offset": "attr:title@835030"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Clear start and end marks",
+  "zh": "清除起点和终点标记",
+  "file": "app.js",
+  "offset": "attr:title@835544"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Set room scale",
+  "zh": "设置房间比例",
+  "file": "app.js",
+  "offset": "attr:title@939965"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Show a scale reference bar on the floor",
+  "zh": "在地面上显示比例参考条",
+  "file": "app.js",
+  "offset": "attr:title@940057"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Toggle grid",
+  "zh": "显示/隐藏网格",
+  "file": "app.js",
+  "offset": "attr:title@940174"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Snap to grid",
+  "zh": "对齐网格",
+  "file": "app.js",
+  "offset": "attr:title@940258"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Reference underlay",
+  "zh": "参考底图",
+  "file": "app.js",
+  "offset": "attr:title@940347"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Show light rays",
+  "zh": "显示光线",
+  "file": "app.js",
+  "offset": "attr:title@940454"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Light / dark floor — easier to read over an underlay",
+  "zh": "浅色／深色地面 —— 叠加底图时更易读",
+  "file": "app.js",
+  "offset": "attr:title@940543"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Room size — type here or drag the floor’s bottom-right corner",
+  "zh": "房间尺寸 —— 在此输入，或拖动地面的右下角",
+  "file": "app.js",
+  "offset": "attr:title@940651"
+ },
+ {
+  "source": "embedded-web",
+  "en": "DOCX export skipped media:",
+  "zh": "DOCX 导出跳过了媒体：",
+  "file": "app.js",
+  "offset": "call@1697095"
+ },
+ {
+  "source": "embedded-web",
+  "en": "beat-sync listen failed:",
+  "zh": "beat-sync 监听失败：",
+  "file": "app.js",
+  "offset": "call@2224163"
+ },
+ {
+  "source": "embedded-web",
+  "en": "beat-sync listen threw:",
+  "zh": "beat-sync 监听抛出异常：",
+  "file": "app.js",
+  "offset": "call@2224258"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Mark this beat as an alternative? It will use the slate \"Alt\" badge and stay off the main path until you \"Make main path\" it again.",
+  "zh": "把这个节拍标为备选？它会显示「Alt」场记标签，并在你再次「设为主路径」前不进入主路径。",
+  "file": "app.js",
+  "offset": "call@772243"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Discard",
+  "zh": "放弃",
+  "file": "app.js",
+  "offset": "call@820971"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Discard changes to this Set Plan?",
+  "zh": "放弃对这个场景计划的修改？",
+  "file": "app.js",
+  "offset": "call@997852"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Name this shot-list template",
+  "zh": "为这个镜头表模板命名",
+  "file": "app.js",
+  "offset": "char@1027001"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Save template",
+  "zh": "保存模板",
+  "file": "app.js",
+  "offset": "char@1027233"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Sun path",
+  "zh": "日照路径",
+  "file": "app.js",
+  "offset": "char@1073267"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Show diagram on card",
+  "zh": "在卡片上显示示意图",
+  "file": "app.js",
+  "offset": "char@1073922"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Drag the sun along the path · ← → nudge 5 minutes · times are local to this computer",
+  "zh": "沿路径拖动太阳 · ← → 微调 5 分钟 · 时间为本机本地时间",
+  "file": "app.js",
+  "offset": "char@1073992"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Paste a URL",
+  "zh": "粘贴链接",
+  "file": "app.js",
+  "offset": "char@1253916"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Add link",
+  "zh": "添加链接",
+  "file": "app.js",
+  "offset": "char@1254112"
+ },
+ {
+  "source": "embedded-web",
+  "en": "SP",
+  "zh": "SP",
+  "file": "app.js",
+  "offset": "char@1393382"
+ },
+ {
+  "source": "embedded-web",
+  "en": "What to include",
+  "zh": "包含内容",
+  "file": "app.js",
+  "offset": "char@1450838"
+ },
+ {
+  "source": "embedded-web",
+  "en": "· page x / y ·",
+  "zh": "· 第 x / y 页 ·",
+  "file": "app.js",
+  "offset": "char@1521267"
+ },
+ {
+  "source": "embedded-web",
+  "en": "THE END",
+  "zh": "剧终",
+  "file": "app.js",
+  "offset": "char@157474"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Slug:",
+  "zh": "场记名：",
+  "file": "app.js",
+  "offset": "char@1597402"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Body:",
+  "zh": "正文：",
+  "file": "app.js",
+  "offset": "char@1597586"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Function:",
+  "zh": "作用：",
+  "file": "app.js",
+  "offset": "char@1597635"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Tones:",
+  "zh": "色调：",
+  "file": "app.js",
+  "offset": "char@1603872"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Why this fits:",
+  "zh": "为什么合适：",
+  "file": "app.js",
+  "offset": "char@1603940"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Export for AI chat development",
+  "zh": "导出供 AI 对话开发用",
+  "file": "app.js",
+  "offset": "char@1631554"
+ },
+ {
+  "source": "embedded-web",
+  "en": "in this project. Consider including",
+  "zh": "在此项目中。考虑包含",
+  "file": "app.js",
+  "offset": "char@1632736"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Could not draw this plan",
+  "zh": "无法绘制此计划",
+  "file": "app.js",
+  "offset": "char@1760888"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Nothing written on this card yet",
+  "zh": "这张卡片还没有内容",
+  "file": "app.js",
+  "offset": "char@1762677"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Call time",
+  "zh": "集合时间",
+  "file": "app.js",
+  "offset": "char@1768635"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Shot / Beat",
+  "zh": "镜头 / 节拍",
+  "file": "app.js",
+  "offset": "char@1786130"
+ },
+ {
+  "source": "embedded-web",
+  "en": "NOW",
+  "zh": "现在",
+  "file": "app.js",
+  "offset": "char@1800194"
+ },
+ {
+  "source": "embedded-web",
+  "en": "SHOT",
+  "zh": "镜头",
+  "file": "app.js",
+  "offset": "char@1800242"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Replay all walkthroughs",
+  "zh": "重播所有引导",
+  "file": "app.js",
+  "offset": "char@1825830"
+ },
+ {
+  "source": "embedded-web",
+  "en": "▶ Play",
+  "zh": "▶ 播放",
+  "file": "app.js",
+  "offset": "char@1826234"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Built with the community",
+  "zh": "与社区一起打造",
+  "file": "app.js",
+  "offset": "char@193407"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Contributors",
+  "zh": "贡献者",
+  "file": "app.js",
+  "offset": "char@193656"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Release notes",
+  "zh": "版本说明",
+  "file": "app.js",
+  "offset": "char@193719"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Sun stays far below the horizon",
+  "zh": "太阳始终远在地平线以下",
+  "file": "app.js",
+  "offset": "char@1971071"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Location Scout",
+  "zh": "场景勘察",
+  "file": "app.js",
+  "offset": "char@1984842"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Street view",
+  "zh": "街景",
+  "file": "app.js",
+  "offset": "char@1986330"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Street View window active — it floats above this panel",
+  "zh": "街景窗口已激活 —— 它浮在此面板之上",
+  "file": "app.js",
+  "offset": "char@1986572"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Snapshots land on the card when you Save",
+  "zh": "保存时快照会落到卡片上",
+  "file": "app.js",
+  "offset": "char@1986776"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Pin the location to see sun times",
+  "zh": "固定位置即可查看日照时间",
+  "file": "app.js",
+  "offset": "char@1987543"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Use in exports",
+  "zh": "用于导出",
+  "file": "app.js",
+  "offset": "char@1988688"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Shadow of",
+  "zh": "阴影长度：",
+  "file": "app.js",
+  "offset": "char@1989137"
+ },
+ {
+  "source": "embedded-web",
+  "en": "2 m person",
+  "zh": "2 米高的人",
+  "file": "app.js",
+  "offset": "char@1989272"
+ },
+ {
+  "source": "embedded-web",
+  "en": "10 m wall",
+  "zh": "10 米高的墙",
+  "file": "app.js",
+  "offset": "char@1989366"
+ },
+ {
+  "source": "embedded-web",
+  "en": "30 m building",
+  "zh": "30 米高的楼",
+  "file": "app.js",
+  "offset": "char@1989459"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Show sun on map",
+  "zh": "在地图上显示太阳",
+  "file": "app.js",
+  "offset": "char@1989662"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Show the path on the card",
+  "zh": "在卡片上显示路径",
+  "file": "app.js",
+  "offset": "char@1989787"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Drag the sun — on the path or on the map · times are local to this computer",
+  "zh": "拖动太阳 —— 在路径上或地图上 · 时间为本机本地时间",
+  "file": "app.js",
+  "offset": "char@1989869"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Save location",
+  "zh": "保存位置",
+  "file": "app.js",
+  "offset": "char@1990431"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Sun below the horizon",
+  "zh": "太阳位于地平线以下",
+  "file": "app.js",
+  "offset": "char@2028589"
+ },
+ {
+  "source": "embedded-web",
+  "en": "It can add and edit, but can’t delete — and every change is snapshotted, so Version History can roll it back.",
+  "zh": "它可以添加和编辑，但无法删除 —— 而且每次修改都会生成快照，版本历史可以回滚。",
+  "file": "app.js",
+  "offset": "char@2045808"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Live.",
+  "zh": "实时。",
+  "file": "app.js",
+  "offset": "char@2045943"
+ },
+ {
+  "source": "embedded-web",
+  "en": "If the project is open in Beat, Claude’s edits appear on your canvas in a second or two.",
+  "zh": "如果项目正在 Beat 中打开，Claude 的修改会在一两秒内出现在你的画布上。",
+  "file": "app.js",
+  "offset": "char@2045952"
+ },
+ {
+  "source": "embedded-web",
+  "en": "One-time setup,",
+  "zh": "一次性设置，",
+  "file": "app.js",
+  "offset": "char@2046066"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Enable Link to Claude",
+  "zh": "启用「连接 Claude」",
+  "file": "app.js",
+  "offset": "char@2046280"
+ },
+ {
+  "source": "embedded-web",
+  "en": "You’ll drive Beat from a Claude app on this Mac —",
+  "zh": "你将通过这台 Mac 上的 Claude 应用来驱动 Beat ——",
+  "file": "app.js",
+  "offset": "char@2046381"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Claude Desktop",
+  "zh": "Claude 桌面版",
+  "file": "app.js",
+  "offset": "char@2046434"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Claude Code",
+  "zh": "Claude Code",
+  "file": "app.js",
+  "offset": "char@2046459"
+ },
+ {
+  "source": "embedded-web",
+  "en": "— not the website, because only an app on your computer can reach tools on it. Beat sets up both.",
+  "zh": "—— 而不是网站，因为只有你电脑上的应用才能访问它的工具。Beat 会同时配置两者。",
+  "file": "app.js",
+  "offset": "char@2046474"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Download Claude Desktop from",
+  "zh": "从以下地址下载 Claude 桌面版",
+  "file": "app.js",
+  "offset": "char@2046609"
+ },
+ {
+  "source": "embedded-web",
+  "en": "claude.ai/download",
+  "zh": "claude.ai/download",
+  "file": "app.js",
+  "offset": "char@2046660"
+ },
+ {
+  "source": "embedded-web",
+  "en": "and install it.",
+  "zh": "并安装。",
+  "file": "app.js",
+  "offset": "char@2046685"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Open it once and sign in.",
+  "zh": "打开一次并登录。",
+  "file": "app.js",
+  "offset": "char@2046721"
+ },
+ {
+  "source": "embedded-web",
+  "en": "No Claude Desktop? You can still use the “Export for AI chat development” file to paste into any Claude chat — that path never goes away.",
+  "zh": "没有 Claude 桌面版？你仍然可以用「导出供 AI 对话开发用」文件粘贴到任何 Claude 对话里 —— 这条路一直可用。",
+  "file": "app.js",
+  "offset": "char@2046786"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Let Beat set up Claude Desktop for you — it safely adds the Beat connection without touching your other Claude settings:",
+  "zh": "让 Beat 替你配置 Claude 桌面版 —— 它会安全地添加 Beat 连接，不会动你的其他 Claude 设置：",
+  "file": "app.js",
+  "offset": "char@2046981"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Or set it up manually",
+  "zh": "或者手动配置",
+  "file": "app.js",
+  "offset": "char@2047322"
+ },
+ {
+  "source": "embedded-web",
+  "en": "In Claude Desktop:",
+  "zh": "在 Claude 桌面版中：",
+  "file": "app.js",
+  "offset": "char@2047369"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Claude → Settings → Developer → Edit Config",
+  "zh": "Claude → 设置 → 开发者 → 编辑配置",
+  "file": "app.js",
+  "offset": "char@2047391"
+ },
+ {
+  "source": "embedded-web",
+  "en": "claude_desktop_config.json",
+  "zh": "claude_desktop_config.json",
+  "file": "app.js",
+  "offset": "char@2047473"
+ },
+ {
+  "source": "embedded-web",
+  "en": "server into any existing",
+  "zh": "服务器加入任何已有的",
+  "file": "app.js",
+  "offset": "char@2047570"
+ },
+ {
+  "source": "embedded-web",
+  "en": "⧉ Copy config",
+  "zh": "⧉ 复制配置",
+  "file": "app.js",
+  "offset": "char@2047801"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The library path is filled in with your actual Beat folder above.",
+  "zh": "库路径已在上面填入你实际的 Beat 文件夹。",
+  "file": "app.js",
+  "offset": "char@2047855"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Quit your Claude app completely and reopen it, so it loads the new connection.",
+  "zh": "完全退出 Claude 应用再重新打开，让它加载新的连接。",
+  "file": "app.js",
+  "offset": "char@2048006"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Test the connection",
+  "zh": "测试连接",
+  "file": "app.js",
+  "offset": "char@2048155"
+ },
+ {
+  "source": "embedded-web",
+  "en": "This starts the Beat connector and asks what it can do. A real check, not a saved setting: if it answers with a tool count, the connection genuinely works.",
+  "zh": "这会启动 Beat 连接器并询问它能做什么。这是真实检查而非保存的设置：如果它返回工具数量，说明连接真的可用。",
+  "file": "app.js",
+  "offset": "char@2048281"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Then start a chat and try:",
+  "zh": "然后开始一段对话试试：",
+  "file": "app.js",
+  "offset": "char@2048454"
+ },
+ {
+  "source": "embedded-web",
+  "en": "What projects do I have in Beat?",
+  "zh": "我在 Beat 里有哪些项目？",
+  "file": "app.js",
+  "offset": "char@2048516"
+ },
+ {
+  "source": "embedded-web",
+  "en": "If Claude lists your projects, you’re connected. Try:",
+  "zh": "如果 Claude 列出了你的项目，说明已连接。试试：",
+  "file": "app.js",
+  "offset": "char@2048568"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Open my board and tell me where act two drags.",
+  "zh": "打开我的画布，告诉我第二幕哪里拖沓。",
+  "file": "app.js",
+  "offset": "char@2048657"
+ },
+ {
+  "source": "embedded-web",
+  "en": "‹ Back",
+  "zh": "‹ 上一步",
+  "file": "app.js",
+  "offset": "char@2049246"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Next ›",
+  "zh": "下一步 ›",
+  "file": "app.js",
+  "offset": "char@2049381"
+ },
+ {
+  "source": "embedded-web",
+  "en": "fully quit and reopen",
+  "zh": "完全退出并重新打开",
+  "file": "app.js",
+  "offset": "char@2053052"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Skip walkthrough",
+  "zh": "跳过引导",
+  "file": "app.js",
+  "offset": "char@205655"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Beat could not read your library.",
+  "zh": "Beat 无法读取你的库。",
+  "file": "app.js",
+  "offset": "char@2091657"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Nothing has been lost — your projects are still in the folder below. This is Beat failing to list them.",
+  "zh": "什么都没有丢失 —— 你的项目还在下面的文件夹里。只是 Beat 没能列出它们。",
+  "file": "app.js",
+  "offset": "char@2091709"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Your library",
+  "zh": "你的库",
+  "file": "app.js",
+  "offset": "char@2093595"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Welcome to Beat.",
+  "zh": "欢迎使用 Beat。",
+  "file": "app.js",
+  "offset": "char@2093618"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Nothing here yet. Start your first project — or open one you already have, from the ⋯ above.",
+  "zh": "这里还什么都没有。开始你的第一个项目 —— 或者用上面的 ⋯ 打开一个已有的项目。",
+  "file": "app.js",
+  "offset": "char@2093653"
+ },
+ {
+  "source": "embedded-web",
+  "en": "No matches",
+  "zh": "没有匹配项",
+  "file": "app.js",
+  "offset": "char@2105289"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Empty folder",
+  "zh": "空文件夹",
+  "file": "app.js",
+  "offset": "char@2105929"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Project name",
+  "zh": "项目名称",
+  "file": "app.js",
+  "offset": "char@2119691"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Pick a starting point",
+  "zh": "选择起点",
+  "file": "app.js",
+  "offset": "char@2120052"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Template name",
+  "zh": "模板名称",
+  "file": "app.js",
+  "offset": "char@2133745"
+ },
+ {
+  "source": "embedded-web",
+  "en": "This Beat snapshot could not be loaded.",
+  "zh": "无法加载这个 Beat 快照。",
+  "file": "app.js",
+  "offset": "char@2221195"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Reload",
+  "zh": "重新加载",
+  "file": "app.js",
+  "offset": "char@2224939"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Loading…",
+  "zh": "加载中…",
+  "file": "app.js",
+  "offset": "char@2233114"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Could not load DOCX renderer.",
+  "zh": "无法加载 DOCX 渲染器。",
+  "file": "app.js",
+  "offset": "char@2234192"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Empty document",
+  "zh": "空文档",
+  "file": "app.js",
+  "offset": "char@2234607"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Could not load the spreadsheet renderer.",
+  "zh": "无法加载表格渲染器。",
+  "file": "app.js",
+  "offset": "char@2235270"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Could not read that spreadsheet.",
+  "zh": "无法读取该表格。",
+  "file": "app.js",
+  "offset": "char@2235522"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Empty spreadsheet.",
+  "zh": "空表格。",
+  "file": "app.js",
+  "offset": "char@2235647"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Preview not available for this file type. Use Download to save it.",
+  "zh": "此文件类型无法预览。用「下载」保存它。",
+  "file": "app.js",
+  "offset": "char@2236668"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Could not render this PDF.",
+  "zh": "无法渲染此 PDF。",
+  "file": "app.js",
+  "offset": "char@2238846"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Optimize media for this project",
+  "zh": "为这个项目优化媒体",
+  "file": "app.js",
+  "offset": "char@48295"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Open without optimizing",
+  "zh": "不优化直接打开",
+  "file": "app.js",
+  "offset": "char@48693"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Click Extract for a thumbnail",
+  "zh": "点「提取」生成缩略图",
+  "file": "app.js",
+  "offset": "char@534828"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Extracting…",
+  "zh": "提取中…",
+  "file": "app.js",
+  "offset": "char@536234"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Edit image",
+  "zh": "编辑图片",
+  "file": "app.js",
+  "offset": "char@559443"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Palette",
+  "zh": "配色",
+  "file": "app.js",
+  "offset": "char@559539"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Stroke",
+  "zh": "描边",
+  "file": "app.js",
+  "offset": "char@605964"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Add a field to this card",
+  "zh": "给这张卡片添加字段",
+  "file": "app.js",
+  "offset": "char@746857"
+ },
+ {
+  "source": "embedded-web",
+  "en": "One line of text",
+  "zh": "一行文本",
+  "file": "app.js",
+  "offset": "char@747075"
+ },
+ {
+  "source": "embedded-web",
+  "en": "A checklist you can tick",
+  "zh": "可勾选的清单",
+  "file": "app.js",
+  "offset": "char@747182"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Add field",
+  "zh": "添加字段",
+  "file": "app.js",
+  "offset": "char@747378"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Capture frame",
+  "zh": "截取画面",
+  "file": "app.js",
+  "offset": "char@833504"
+ },
+ {
+  "source": "embedded-web",
+  "en": "GIF range",
+  "zh": "GIF 区间",
+  "file": "app.js",
+  "offset": "char@833745"
+ },
+ {
+  "source": "embedded-web",
+  "en": "8 fps",
+  "zh": "8 fps",
+  "file": "app.js",
+  "offset": "char@834277"
+ },
+ {
+  "source": "embedded-web",
+  "en": "18 fps",
+  "zh": "18 fps",
+  "file": "app.js",
+  "offset": "char@834384"
+ },
+ {
+  "source": "embedded-web",
+  "en": "24 fps",
+  "zh": "24 fps",
+  "file": "app.js",
+  "offset": "char@834493"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Size: Standard",
+  "zh": "大小：标准",
+  "file": "app.js",
+  "offset": "char@834692"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Size: Large",
+  "zh": "大小：大",
+  "file": "app.js",
+  "offset": "char@834754"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Size: X-Large",
+  "zh": "大小：特大",
+  "file": "app.js",
+  "offset": "char@834813"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Size: Original",
+  "zh": "大小：原始",
+  "file": "app.js",
+  "offset": "char@834872"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Make GIF",
+  "zh": "生成 GIF",
+  "file": "app.js",
+  "offset": "char@835405"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Nothing captured yet",
+  "zh": "还没有截取内容",
+  "file": "app.js",
+  "offset": "char@836040"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Captured stills and GIFs will appear here.",
+  "zh": "截取的静帧和 GIF 会出现在这里。",
+  "file": "app.js",
+  "offset": "char@836193"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Double-click to edit",
+  "zh": "双击编辑",
+  "file": "app.js",
+  "offset": "char@861137"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Scale bar",
+  "zh": "比例尺",
+  "file": "app.js",
+  "offset": "char@940098"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Underlay",
+  "zh": "底图",
+  "file": "app.js",
+  "offset": "char@940367"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Export image",
+  "zh": "导出图片",
+  "file": "app.js",
+  "offset": "char@941017"
+ },
+ {
+  "source": "embedded-web",
+  "en": "New symbol",
+  "zh": "新建符号",
+  "file": "app.js",
+  "offset": "char@949804"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Drag an element from the left onto the floor, or select one to edit it.",
+  "zh": "从左侧把元素拖到地面上，或选中一个进行编辑。",
+  "file": "app.js",
+  "offset": "char@969104"
+ },
+ {
+  "source": "embedded-web",
+  "en": "No characters/locations/props in this project yet.",
+  "zh": "这个项目里还没有人物／地点／道具。",
+  "file": "app.js",
+  "offset": "char@986449"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Reference underlay — choose from project media",
+  "zh": "参考底图 —— 从项目媒体中选择",
+  "file": "app.js",
+  "offset": "char@994962"
+ },
+ {
+  "source": "embedded-web",
+  "en": "No images in this project yet — add some to the Vault or canvas first.",
+  "zh": "这个项目里还没有图片 —— 先往保险库或画布添加一些。",
+  "file": "app.js",
+  "offset": "char@996373"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Camera Lens",
+  "zh": "镜头",
+  "file": "app.js",
+  "offset": "key:label@10075"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Camera Move",
+  "zh": "运镜",
+  "file": "app.js",
+  "offset": "key:label@10173"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Est.",
+  "zh": "估计",
+  "file": "app.js",
+  "offset": "key:label@10271"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Character/Object",
+  "zh": "人物／对象",
+  "file": "app.js",
+  "offset": "key:label@10369"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Description",
+  "zh": "描述",
+  "file": "app.js",
+  "offset": "key:label@10467"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Duplicate shot",
+  "zh": "复制镜头",
+  "file": "app.js",
+  "offset": "key:label@1054733"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Delete shot",
+  "zh": "删除镜头",
+  "file": "app.js",
+  "offset": "key:label@1055543"
+ },
+ {
+  "source": "embedded-web",
+  "en": "From Script",
+  "zh": "来自剧本",
+  "file": "app.js",
+  "offset": "key:label@10565"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Pull text from beat",
+  "zh": "从节拍取文本",
+  "file": "app.js",
+  "offset": "key:label@1063032"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Open linked beat",
+  "zh": "打开关联的节拍",
+  "file": "app.js",
+  "offset": "key:label@1063129"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Unlink beat",
+  "zh": "解除节拍关联",
+  "file": "app.js",
+  "offset": "key:label@1063208"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Open linked Set Plan",
+  "zh": "打开关联的场景计划",
+  "file": "app.js",
+  "offset": "key:label@1063515"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Unlink Set Plan",
+  "zh": "解除场景计划关联",
+  "file": "app.js",
+  "offset": "key:label@1063598"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Linked to beat",
+  "zh": "关联到节拍",
+  "file": "app.js",
+  "offset": "key:label@10663"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Observations",
+  "zh": "观察备注",
+  "file": "app.js",
+  "offset": "key:label@10877"
+ },
+ {
+  "source": "embedded-web",
+  "en": "On set mode",
+  "zh": "拍摄模式",
+  "file": "app.js",
+  "offset": "key:label@1159686"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Export CSV",
+  "zh": "导出 CSV",
+  "file": "app.js",
+  "offset": "key:label@1160216"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Import CSV…",
+  "zh": "导入 CSV…",
+  "file": "app.js",
+  "offset": "key:label@1160284"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Stats…",
+  "zh": "统计…",
+  "file": "app.js",
+  "offset": "key:label@1160367"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Columns…",
+  "zh": "列…",
+  "file": "app.js",
+  "offset": "key:label@1160448"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Cheat sheet…",
+  "zh": "速查表…",
+  "file": "app.js",
+  "offset": "key:label@1160519"
+ },
+ {
+  "source": "embedded-web",
+  "en": "New from template ▸",
+  "zh": "从模板新建 ▸",
+  "file": "app.js",
+  "offset": "key:label@1160689"
+ },
+ {
+  "source": "embedded-web",
+  "en": "No templates yet",
+  "zh": "还没有模板",
+  "file": "app.js",
+  "offset": "key:label@1160810"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Manage templates…",
+  "zh": "管理模板…",
+  "file": "app.js",
+  "offset": "key:label@1161029"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Clear the location",
+  "zh": "清除位置",
+  "file": "app.js",
+  "offset": "key:label@1165199"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Column",
+  "zh": "列",
+  "file": "app.js",
+  "offset": "key:label@128589"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Import script",
+  "zh": "导入剧本",
+  "file": "app.js",
+  "offset": "key:label@1391646"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Import video",
+  "zh": "导入视频",
+  "file": "app.js",
+  "offset": "key:label@1392766"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Video link",
+  "zh": "视频链接",
+  "file": "app.js",
+  "offset": "key:label@1392944"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Set Plan",
+  "zh": "场景计划",
+  "file": "app.js",
+  "offset": "key:label@1393104"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Sun path diagrams",
+  "zh": "日照路径图",
+  "file": "app.js",
+  "offset": "key:label@1446860"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Title cards",
+  "zh": "标题卡",
+  "file": "app.js",
+  "offset": "key:label@1447002"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Thoughts",
+  "zh": "想法",
+  "file": "app.js",
+  "offset": "key:label@1447235"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Galleries",
+  "zh": "图集",
+  "file": "app.js",
+  "offset": "key:label@1447354"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Palettes",
+  "zh": "配色板",
+  "file": "app.js",
+  "offset": "key:label@1447632"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Set Plans",
+  "zh": "场景计划",
+  "file": "app.js",
+  "offset": "key:label@1447751"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Checklists",
+  "zh": "清单",
+  "file": "app.js",
+  "offset": "key:label@1447992"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Pinned comments",
+  "zh": "固定评论",
+  "file": "app.js",
+  "offset": "key:label@1448192"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Continue the spine",
+  "zh": "继续故事骨架",
+  "file": "app.js",
+  "offset": "key:label@1596992"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Three alternative endings",
+  "zh": "三个备选结局",
+  "file": "app.js",
+  "offset": "key:label@1597893"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Build the character bible",
+  "zh": "建立人物圣经",
+  "file": "app.js",
+  "offset": "key:label@1598789"
+ },
+ {
+  "source": "embedded-web",
+  "en": "One-page treatment",
+  "zh": "单页提案",
+  "file": "app.js",
+  "offset": "key:label@1599718"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Five loglines",
+  "zh": "五个一句话故事",
+  "file": "app.js",
+  "offset": "key:label@1600576"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Antagonism audit",
+  "zh": "对抗性审查",
+  "file": "app.js",
+  "offset": "key:label@1601356"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Suggest cuts",
+  "zh": "建议删减",
+  "file": "app.js",
+  "offset": "key:label@1602275"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Fill the blank beats",
+  "zh": "补全空白节拍",
+  "file": "app.js",
+  "offset": "key:label@1602997"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Propose the visual identity",
+  "zh": "提出视觉识别",
+  "file": "app.js",
+  "offset": "key:label@1604088"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Pitch-deck outline",
+  "zh": "提案大纲",
+  "file": "app.js",
+  "offset": "key:label@1607622"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Character consistency pass",
+  "zh": "人物一致性检查",
+  "file": "app.js",
+  "offset": "key:label@1609981"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Production breakdown audit",
+  "zh": "制作拆解审查",
+  "file": "app.js",
+  "offset": "key:label@1610715"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Alternatives adjudication",
+  "zh": "备选方案裁定",
+  "file": "app.js",
+  "offset": "key:label@1611440"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Obsidian vault sync",
+  "zh": "Obsidian 库同步",
+  "file": "app.js",
+  "offset": "key:label@1612115"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Canvas basics",
+  "zh": "画布基础",
+  "file": "app.js",
+  "offset": "key:label@1822300"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Writing Mode",
+  "zh": "写作模式",
+  "file": "app.js",
+  "offset": "key:label@1822477"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The Vault",
+  "zh": "保险库",
+  "file": "app.js",
+  "offset": "key:label@1823561"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Image editor",
+  "zh": "图片编辑器",
+  "file": "app.js",
+  "offset": "key:label@1823703"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Lightbox",
+  "zh": "灯箱",
+  "file": "app.js",
+  "offset": "key:label@1823846"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Video importer",
+  "zh": "视频导入器",
+  "file": "app.js",
+  "offset": "key:label@1824009"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Presentation",
+  "zh": "演示",
+  "file": "app.js",
+  "offset": "key:label@1824624"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Download update",
+  "zh": "下载更新",
+  "file": "app.js",
+  "offset": "key:label@182733"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Jun 21",
+  "zh": "6月21日",
+  "file": "app.js",
+  "offset": "key:label@1962745"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Dec 21",
+  "zh": "12月21日",
+  "file": "app.js",
+  "offset": "key:label@1962826"
+ },
+ {
+  "source": "embedded-web",
+  "en": "From a template…",
+  "zh": "从模板…",
+  "file": "app.js",
+  "offset": "key:label@2088168"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Open project…",
+  "zh": "打开项目…",
+  "file": "app.js",
+  "offset": "key:label@2088977"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Import a project…",
+  "zh": "导入项目…",
+  "file": "app.js",
+  "offset": "key:label@2089117"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Preferences…",
+  "zh": "偏好设置…",
+  "file": "app.js",
+  "offset": "key:label@2089588"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Export all…",
+  "zh": "全部导出…",
+  "file": "app.js",
+  "offset": "key:label@2089927"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Open the sample project",
+  "zh": "打开示例项目",
+  "file": "app.js",
+  "offset": "key:label@2090113"
+ },
+ {
+  "source": "embedded-web",
+  "en": "she burns it",
+  "zh": "她把它烧掉",
+  "file": "app.js",
+  "offset": "key:label@214107"
+ },
+ {
+  "source": "embedded-web",
+  "en": "she keeps it",
+  "zh": "她把它留下",
+  "file": "app.js",
+  "offset": "key:label@214181"
+ },
+ {
+  "source": "embedded-web",
+  "en": "New beat",
+  "zh": "新建节拍",
+  "file": "app.js",
+  "offset": "key:label@2207590"
+ },
+ {
+  "source": "embedded-web",
+  "en": "New character",
+  "zh": "新建人物",
+  "file": "app.js",
+  "offset": "key:label@2207681"
+ },
+ {
+  "source": "embedded-web",
+  "en": "New location",
+  "zh": "新建地点",
+  "file": "app.js",
+  "offset": "key:label@2207777"
+ },
+ {
+  "source": "embedded-web",
+  "en": "New prop",
+  "zh": "新建道具",
+  "file": "app.js",
+  "offset": "key:label@2207872"
+ },
+ {
+  "source": "embedded-web",
+  "en": "New note",
+  "zh": "新建备注",
+  "file": "app.js",
+  "offset": "key:label@2207963"
+ },
+ {
+  "source": "embedded-web",
+  "en": "New gallery",
+  "zh": "新建图集",
+  "file": "app.js",
+  "offset": "key:label@2208054"
+ },
+ {
+  "source": "embedded-web",
+  "en": "New sketch",
+  "zh": "新建草图",
+  "file": "app.js",
+  "offset": "key:label@2208148"
+ },
+ {
+  "source": "embedded-web",
+  "en": "New shot list",
+  "zh": "新建镜头表",
+  "file": "app.js",
+  "offset": "key:label@2208241"
+ },
+ {
+  "source": "embedded-web",
+  "en": "New set plan",
+  "zh": "新建场景计划",
+  "file": "app.js",
+  "offset": "key:label@2208336"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Toggle Writing Mode",
+  "zh": "切换写作模式",
+  "file": "app.js",
+  "offset": "key:label@2208433"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Toggle Outline",
+  "zh": "切换大纲",
+  "file": "app.js",
+  "offset": "key:label@2208554"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Toggle Vault",
+  "zh": "切换保险库",
+  "file": "app.js",
+  "offset": "key:label@2208659"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Toggle Project info",
+  "zh": "切换项目信息",
+  "file": "app.js",
+  "offset": "key:label@2208777"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Present story",
+  "zh": "演示故事",
+  "file": "app.js",
+  "offset": "key:label@2209463"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Fit view",
+  "zh": "适配视图",
+  "file": "app.js",
+  "offset": "key:label@2209592"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Minimap: map / strip",
+  "zh": "小地图：地图 / 条带",
+  "file": "app.js",
+  "offset": "key:label@2209802"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Open Projects",
+  "zh": "打开项目",
+  "file": "app.js",
+  "offset": "key:label@2209954"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Save now",
+  "zh": "立即保存",
+  "file": "app.js",
+  "offset": "key:label@2210072"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Toggle Clean cards",
+  "zh": "切换简洁卡片",
+  "file": "app.js",
+  "offset": "key:label@2210789"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Show keyboard shortcuts",
+  "zh": "显示键盘快捷键",
+  "file": "app.js",
+  "offset": "key:label@2212018"
+ },
+ {
+  "source": "embedded-web",
+  "en": "ARRI ALEXA 35",
+  "zh": "ARRI ALEXA 35",
+  "file": "app.js",
+  "offset": "key:label@311247"
+ },
+ {
+  "source": "embedded-web",
+  "en": "ARRI ALEXA Mini LF",
+  "zh": "ARRI ALEXA Mini LF",
+  "file": "app.js",
+  "offset": "key:label@311613"
+ },
+ {
+  "source": "embedded-web",
+  "en": "ARRI ALEXA LF",
+  "zh": "ARRI ALEXA LF",
+  "file": "app.js",
+  "offset": "key:label@311900"
+ },
+ {
+  "source": "embedded-web",
+  "en": "ARRI ALEXA Mini",
+  "zh": "ARRI ALEXA Mini",
+  "file": "app.js",
+  "offset": "key:label@312180"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Blackmagic URSA Mini Pro 12K",
+  "zh": "Blackmagic URSA Mini Pro 12K",
+  "file": "app.js",
+  "offset": "key:label@313293"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Blackmagic Pocket 6K",
+  "zh": "Blackmagic Pocket 6K",
+  "file": "app.js",
+  "offset": "key:label@313440"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Canon EOS C70",
+  "zh": "Canon EOS C70",
+  "file": "app.js",
+  "offset": "key:label@313566"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Canon EOS C500 Mark II",
+  "zh": "Canon EOS C500 Mark II",
+  "file": "app.js",
+  "offset": "key:label@313678"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Micro Four Thirds",
+  "zh": "Micro Four Thirds",
+  "file": "app.js",
+  "offset": "key:label@314009"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Super 16",
+  "zh": "Super 16",
+  "file": "app.js",
+  "offset": "key:label@314119"
+ },
+ {
+  "source": "embedded-web",
+  "en": "EWS frame",
+  "zh": "极远景",
+  "file": "app.js",
+  "offset": "key:label@577637"
+ },
+ {
+  "source": "embedded-web",
+  "en": "WS frame",
+  "zh": "全景",
+  "file": "app.js",
+  "offset": "key:label@577800"
+ },
+ {
+  "source": "embedded-web",
+  "en": "MS frame",
+  "zh": "中景",
+  "file": "app.js",
+  "offset": "key:label@577960"
+ },
+ {
+  "source": "embedded-web",
+  "en": "MCU frame",
+  "zh": "中近景",
+  "file": "app.js",
+  "offset": "key:label@578149"
+ },
+ {
+  "source": "embedded-web",
+  "en": "CU frame",
+  "zh": "特写",
+  "file": "app.js",
+  "offset": "key:label@578323"
+ },
+ {
+  "source": "embedded-web",
+  "en": "1 person",
+  "zh": "1 人",
+  "file": "app.js",
+  "offset": "key:label@578485"
+ },
+ {
+  "source": "embedded-web",
+  "en": "2 people",
+  "zh": "2 人",
+  "file": "app.js",
+  "offset": "key:label@578588"
+ },
+ {
+  "source": "embedded-web",
+  "en": "3 people",
+  "zh": "3 人",
+  "file": "app.js",
+  "offset": "key:label@578728"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Interior",
+  "zh": "室内",
+  "file": "app.js",
+  "offset": "key:label@581584"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Exterior",
+  "zh": "室外",
+  "file": "app.js",
+  "offset": "key:label@582052"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Clouds",
+  "zh": "云",
+  "file": "app.js",
+  "offset": "key:label@582777"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Camera",
+  "zh": "摄影机",
+  "file": "app.js",
+  "offset": "key:label@583379"
+ },
+ {
+  "source": "embedded-web",
+  "en": "OTS frame",
+  "zh": "过肩镜头",
+  "file": "app.js",
+  "offset": "key:label@584509"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Two-shot",
+  "zh": "双人镜头",
+  "file": "app.js",
+  "offset": "key:label@585061"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Walking",
+  "zh": "行走",
+  "file": "app.js",
+  "offset": "key:label@585731"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Seated",
+  "zh": "坐姿",
+  "file": "app.js",
+  "offset": "key:label@586470"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Golden hour",
+  "zh": "黄金时刻",
+  "file": "app.js",
+  "offset": "key:label@587262"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Window light",
+  "zh": "窗光",
+  "file": "app.js",
+  "offset": "key:label@588596"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Tripod",
+  "zh": "三脚架",
+  "file": "app.js",
+  "offset": "key:label@590908"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Light stand",
+  "zh": "灯架",
+  "file": "app.js",
+  "offset": "key:label@591362"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Boom mic",
+  "zh": "挑杆麦克风",
+  "file": "app.js",
+  "offset": "key:label@592018"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Curved arrow",
+  "zh": "弧形箭头",
+  "file": "app.js",
+  "offset": "key:label@593218"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Eyeline",
+  "zh": "视线",
+  "file": "app.js",
+  "offset": "key:label@593558"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Circle",
+  "zh": "圆形",
+  "file": "app.js",
+  "offset": "key:label@595487"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Question",
+  "zh": "问号",
+  "file": "app.js",
+  "offset": "key:label@595673"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Exclamation",
+  "zh": "叹号",
+  "file": "app.js",
+  "offset": "key:label@596133"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Zoom in",
+  "zh": "放大",
+  "file": "app.js",
+  "offset": "key:label@596416"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Framing",
+  "zh": "取景",
+  "file": "app.js",
+  "offset": "key:label@597743"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Setting",
+  "zh": "场景设定",
+  "file": "app.js",
+  "offset": "key:label@598090"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Edit plan…",
+  "zh": "编辑计划…",
+  "file": "app.js",
+  "offset": "key:label@655844"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Link to a beat",
+  "zh": "关联到节拍",
+  "file": "app.js",
+  "offset": "key:label@655914"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Link to a card",
+  "zh": "关联到卡片",
+  "file": "app.js",
+  "offset": "key:label@656287"
+ },
+ {
+  "source": "embedded-web",
+  "en": "No colour",
+  "zh": "无颜色",
+  "file": "app.js",
+  "offset": "key:label@658490"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Convert into",
+  "zh": "转换为",
+  "file": "app.js",
+  "offset": "key:label@658627"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Rename…",
+  "zh": "重命名…",
+  "file": "app.js",
+  "offset": "key:label@660187"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Delete group",
+  "zh": "删除分组",
+  "file": "app.js",
+  "offset": "key:label@660668"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Location from metadata",
+  "zh": "从元数据取位置",
+  "file": "app.js",
+  "offset": "key:label@661328"
+ },
+ {
+  "source": "embedded-web",
+  "en": "View larger",
+  "zh": "查看大图",
+  "file": "app.js",
+  "offset": "key:label@661430"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Edit image…",
+  "zh": "编辑图片…",
+  "file": "app.js",
+  "offset": "key:label@661545"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Make palette from this image",
+  "zh": "用这张图生成配色",
+  "file": "app.js",
+  "offset": "key:label@661707"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Move to Vault",
+  "zh": "移到保险库",
+  "file": "app.js",
+  "offset": "key:label@661829"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Open link",
+  "zh": "打开链接",
+  "file": "app.js",
+  "offset": "key:label@662157"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Subject",
+  "zh": "主体",
+  "file": "app.js",
+  "offset": "key:label@953684"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Camera Shot",
+  "zh": "景别",
+  "file": "app.js",
+  "offset": "key:label@9977"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Pick a pinned location…",
+  "zh": "选择已固定的位置…",
+  "file": "app.js",
+  "offset": "key:name@1075669"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Beat Title",
+  "zh": "节拍标题",
+  "file": "app.js",
+  "offset": "key:name@1664326"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Beat Kicker",
+  "zh": "节拍引题",
+  "file": "app.js",
+  "offset": "key:name@1664608"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Beat Heading 1",
+  "zh": "节拍一级标题",
+  "file": "app.js",
+  "offset": "key:name@1664930"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Beat Heading 2",
+  "zh": "节拍二级标题",
+  "file": "app.js",
+  "offset": "key:name@1665355"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Beat Heading 3",
+  "zh": "节拍三级标题",
+  "file": "app.js",
+  "offset": "key:name@1665675"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Beat Caption",
+  "zh": "节拍图注",
+  "file": "app.js",
+  "offset": "key:name@1665966"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Stephen Follows",
+  "zh": "Stephen Follows",
+  "file": "app.js",
+  "offset": "key:name@172558"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Adam Wilt",
+  "zh": "Adam Wilt",
+  "file": "app.js",
+  "offset": "key:name@172768"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Roberto",
+  "zh": "Roberto",
+  "file": "app.js",
+  "offset": "key:name@172934"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Piotr Jamróz",
+  "zh": "Piotr Jamróz",
+  "file": "app.js",
+  "offset": "key:name@173185"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Eva Derks",
+  "zh": "Eva Derks",
+  "file": "app.js",
+  "offset": "key:name@173363"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Brett Terpstra",
+  "zh": "Brett Terpstra",
+  "file": "app.js",
+  "offset": "key:name@173579"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Andres Aguilo",
+  "zh": "Andres Aguilo",
+  "file": "app.js",
+  "offset": "key:name@173785"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Ryota Takemoto",
+  "zh": "Ryota Takemoto",
+  "file": "app.js",
+  "offset": "key:name@173926"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Jesse Hart",
+  "zh": "Jesse Hart",
+  "file": "app.js",
+  "offset": "key:name@174183"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Chris Walton",
+  "zh": "Chris Walton",
+  "file": "app.js",
+  "offset": "key:name@174323"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Eli Jackson",
+  "zh": "Eli Jackson",
+  "file": "app.js",
+  "offset": "key:name@174457"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Vivien Hackenhaar",
+  "zh": "Vivien Hackenhaar",
+  "file": "app.js",
+  "offset": "key:name@174585"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Edan Cohen",
+  "zh": "Edan Cohen",
+  "file": "app.js",
+  "offset": "key:name@174677"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Casey Cross",
+  "zh": "Casey Cross",
+  "file": "app.js",
+  "offset": "key:name@174781"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Dale Dunbar",
+  "zh": "Dale Dunbar",
+  "file": "app.js",
+  "offset": "key:name@175037"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Joao Lutz",
+  "zh": "Joao Lutz",
+  "file": "app.js",
+  "offset": "key:name@175266"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Sample — The Last Roll",
+  "zh": "示例 ——《最后一卷》",
+  "file": "app.js",
+  "offset": "key:name@208036"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Act I — The unwrap",
+  "zh": "第一幕 —— 拆卷",
+  "file": "app.js",
+  "offset": "key:name@214379"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Act II — The print",
+  "zh": "第二幕 —— 冲印",
+  "file": "app.js",
+  "offset": "key:name@214477"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Restored project",
+  "zh": "已恢复的项目",
+  "file": "app.js",
+  "offset": "key:name@219921"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Project",
+  "zh": "项目",
+  "file": "app.js",
+  "offset": "key:name@222577"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Tension",
+  "zh": "紧张",
+  "file": "app.js",
+  "offset": "key:name@31434"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Comedy",
+  "zh": "喜剧",
+  "file": "app.js",
+  "offset": "key:name@31478"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Romance",
+  "zh": "爱情",
+  "file": "app.js",
+  "offset": "key:name@31610"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Action",
+  "zh": "动作",
+  "file": "app.js",
+  "offset": "key:name@31654"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Tragedy",
+  "zh": "悲剧",
+  "file": "app.js",
+  "offset": "key:name@31698"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Mystery",
+  "zh": "悬疑",
+  "file": "app.js",
+  "offset": "key:name@31742"
+ },
+ {
+  "source": "embedded-web",
+  "en": "EWS",
+  "zh": "EWS",
+  "file": "app.js",
+  "offset": "key:name@6852"
+ },
+ {
+  "source": "embedded-web",
+  "en": "WS",
+  "zh": "WS",
+  "file": "app.js",
+  "offset": "key:name@6965"
+ },
+ {
+  "source": "embedded-web",
+  "en": "CS",
+  "zh": "CS",
+  "file": "app.js",
+  "offset": "key:name@7193"
+ },
+ {
+  "source": "embedded-web",
+  "en": "MS",
+  "zh": "MS",
+  "file": "app.js",
+  "offset": "key:name@7307"
+ },
+ {
+  "source": "embedded-web",
+  "en": "MCU",
+  "zh": "MCU",
+  "file": "app.js",
+  "offset": "key:name@7421"
+ },
+ {
+  "source": "embedded-web",
+  "en": "CU",
+  "zh": "CU",
+  "file": "app.js",
+  "offset": "key:name@7535"
+ },
+ {
+  "source": "embedded-web",
+  "en": "ECU",
+  "zh": "ECU",
+  "file": "app.js",
+  "offset": "key:name@7649"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Static",
+  "zh": "固定",
+  "file": "app.js",
+  "offset": "key:name@7777"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Tracking",
+  "zh": "跟随",
+  "file": "app.js",
+  "offset": "key:name@7911"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Trucking",
+  "zh": "横移",
+  "file": "app.js",
+  "offset": "key:name@8447"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Dutch Angle",
+  "zh": "荷兰角",
+  "file": "app.js",
+  "offset": "key:name@8849"
+ },
+ {
+  "source": "embedded-web",
+  "en": "N shots",
+  "zh": "N 个镜头",
+  "file": "app.js",
+  "offset": "key:text@1190834"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Linking to Claude now keeps a copy of your existing configuration before it writes, so nothing of yours is lost if the merge goes wrong.",
+  "zh": "「连接 Claude」现在会在写入前备份你现有的配置，所以即使合并不顺，也不会丢失你的东西。",
+  "file": "app.js",
+  "offset": "key:text@147479"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Reordering a gallery leaves your chosen picture alone. Dragging thumbs around never swaps out a hero you pinned on purpose.",
+  "zh": "重新排列图集不会改变你选定的图片。拖动缩略图永远不会换掉你特意固定的主图。",
+  "file": "app.js",
+  "offset": "key:text@149201"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The sample project, The Last Roll, exists because someone said plainly that the walkthrough got her in the door but never showed what Beat could do.",
+  "zh": "示例项目《最后一卷》之所以存在，是因为有人直说：引导让她入了门，却从没展示 Beat 能做什么。",
+  "file": "app.js",
+  "offset": "key:text@149586"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Shift-click now adds and removes a card from the selection wherever you click on it. It only worked on the header before, which is the one part of a beat card you are least likely to aim at.",
+  "zh": "Shift + 单击现在可以在卡片的任意位置加入或移出选择。以前只在标题条上有效，而那恰好是节拍卡片上你最不会瞄的地方。",
+  "file": "app.js",
+  "offset": "key:text@150723"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Images can leave a gallery. Drag one onto the canvas, or onto another image in the same gallery to reorder. Until now pictures could go into a gallery and never come out.",
+  "zh": "图片可以离开图集了。把一张拖到画布上，或拖到同一图集里的另一张图上即可重排。此前图片进了图集就再也出不来。",
+  "file": "app.js",
+  "offset": "key:text@150933"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The Vault scrolls down at every thumbnail size. It used to start scrolling sideways once the thumbnails were small enough to fit more columns.",
+  "zh": "保险库在任何缩略图尺寸下都向下滚动。以前缩略图小到能放更多列时，它会改成横向滚动。",
+  "file": "app.js",
+  "offset": "key:text@151123"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Shift-click in the Vault picks several items at once, and dragging one of them brings them all onto the canvas.",
+  "zh": "在保险库里 Shift + 单击可一次选中多项，拖动其中一项会把它们一起带到画布上。",
+  "file": "app.js",
+  "offset": "key:text@151285"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Nothing about how Beat works has changed in this version. It is the same 2.0.10 you already had, properly signed. That was the whole point.",
+  "zh": "这个版本里 Beat 的工作方式没有任何改变。就是你已有的 2.0.10，只是签名正确了。这就是全部意义。",
+  "file": "app.js",
+  "offset": "key:text@152053"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Because it is per camera, a plan can hold an ALEXA 35 on a 35 and a VENICE 2 on a 40 at once, each with its own true cone. It is set once and only changes when you change it.",
+  "zh": "因为它按摄影机设定，一个计划可以同时容纳装在 35 上的 ALEXA 35 和装在 40 上的 VENICE 2，各有各的真实视角锥。它只需设定一次，只有你改动时才变。",
+  "file": "app.js",
+  "offset": "key:text@153983"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The format is printed on the plan itself, top left of the floor, so an angle is never a number without a sensor behind it. It rides along into the image export and into your PDF and Word documents.",
+  "zh": "画幅会印在计划本身的地面左上角，所以角度永远不是没有传感器作依托的数字。它也会随图片导出，进入你的 PDF 和 Word 文档。",
+  "file": "app.js",
+  "offset": "key:text@155903"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The call sheet writes itself — give a shoot day its date, location, call time and crew, and Beat prints a professional call sheet: sunrise and sunset, the schedule, per-person calls, cast and props.",
+  "zh": "通告单会自己生成 —— 给拍摄日填上日期、地点、集合时间和剧组，Beat 就会打印一张专业通告单：日出日落、日程、个人集合时间、演员和道具。",
+  "file": "app.js",
+  "offset": "key:text@159165"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Wrap the day — one button ends the shoot, shows what is in the can against what was skipped, carries unshot setups to the next day, and prints a wrap report.",
+  "zh": "收工 —— 一个按钮结束拍摄，对照已拍与跳过，把未拍的机位带到下一天，并打印收工报告。",
+  "file": "app.js",
+  "offset": "key:text@159393"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Sockets and coloured wires — every connection gets its own plug on the card edge and its own colour, shared by the wire and both rings, so you can trace any line at a glance.",
+  "zh": "插口与彩色连线 —— 每条连接在卡片边缘都有自己的插头和自己颜色，线与两端圆环共用同一颜色，一眼就能追到任意一条线。",
+  "file": "app.js",
+  "offset": "key:text@162114"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Audio timeline — drop a song anywhere on the canvas and it plays under your story as a waveform. Drop markers, drag them, name them, then turn them into beats that carry their timecode.",
+  "zh": "音频时间轴 —— 把一首歌拖到画布任意位置，它就会以波形形式在你的故事下方播放。放置标记、拖动、命名，再把它们变成带时间码的节拍。",
+  "file": "app.js",
+  "offset": "key:text@162572"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Sketch — a blank drawing card for shots that do not exist yet, with a 45-piece stamp library: shot framings, people, day and night, interiors, gear and arrows.",
+  "zh": "草图 —— 给还不存在的镜头用的空白绘制卡片，带 45 件图章库：景别框、人物、日与夜、室内、器材和箭头。",
+  "file": "app.js",
+  "offset": "key:text@162787"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Custom fields on beats — define your own, like Emotion and Rhythm, with presets, on every beat or a single card, flowing into exports and the shot list.",
+  "zh": "节拍上的自定义字段 —— 自己定义，比如情绪和节奏，可带预设，可作用于每个节拍或单张卡片，并流入导出和镜头表。",
+  "file": "app.js",
+  "offset": "key:text@162988"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Checklists — a field on a beat can be a checklist, and there is a whole checklist card: tickable items, Enter for the next one, live in Writing Mode, printed with real boxes in your PDFs.",
+  "zh": "清单 —— 节拍上的字段可以是清单，还有整张清单卡片：可勾选条目，回车加下一条，在写作模式中实时可见，PDF 里打印成真正的方框。",
+  "file": "app.js",
+  "offset": "key:text@163182"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The Outline reads like a document — numbered rows with a body excerpt, a duration and a thumbnail, under group headers that count their beats and sum their runtime.",
+  "zh": "大纲读起来像文档 —— 带编号的行，含正文摘录、时长和缩略图，分组标题会统计其节拍数并累加总时长。",
+  "file": "app.js",
+  "offset": "key:text@164080"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Line things up — select a few cards and the toolbar offers align left, centre and right, top, middle and bottom, and even spacing — across cards, images, links, embeds and documents alike.",
+  "zh": "对齐 —— 选中几张卡片，工具栏就提供左对齐、居中、右对齐、顶部、中部、底部对齐，以及等距分布 —— 卡片、图片、链接、嵌入和文档都一样。",
+  "file": "app.js",
+  "offset": "key:text@164921"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Faster under the hand — taps land instantly in On set, drags stay smooth on heavy boards, and saving never gets in the way.",
+  "zh": "手感更快 —— 在拍摄模式下点按立即响应，重型画布上拖动依旧顺滑，保存再也不会挡路。",
+  "file": "app.js",
+  "offset": "key:text@165472"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Made with Beat",
+  "zh": "用 Beat 制作",
+  "file": "app.js",
+  "offset": "key:text@1681210"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Note:",
+  "zh": "备注：",
+  "file": "app.js",
+  "offset": "key:text@1685362"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Address:",
+  "zh": "地址：",
+  "file": "app.js",
+  "offset": "key:text@1687592"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Set plan ·",
+  "zh": "场景计划 ·",
+  "file": "app.js",
+  "offset": "key:text@1689893"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Much faster and steadier — smoother dragging and panning, tamed GIFs, and a fix for the multi-minute save hang on cloud and external drives.",
+  "zh": "快得多也稳得多 —— 拖动与平移更顺滑、GIF 得到约束，并修好了云盘和外接盘上长达数分钟的保存卡顿。",
+  "file": "app.js",
+  "offset": "key:text@168997"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Clean cards — optionally hide empty fields until you hover, for a tidier board.",
+  "zh": "简洁卡片 —— 可选地隐藏空字段，悬停时才显示，画布更清爽。",
+  "file": "app.js",
+  "offset": "key:text@169175"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Shot Type:",
+  "zh": "景别：",
+  "file": "app.js",
+  "offset": "key:text@1693113"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Duration:",
+  "zh": "时长：",
+  "file": "app.js",
+  "offset": "key:text@1693348"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Involves:",
+  "zh": "涉及：",
+  "file": "app.js",
+  "offset": "key:text@1694309"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Alternative version",
+  "zh": "备选版本",
+  "file": "app.js",
+  "offset": "key:text@1695332"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Customize Beat Nodes — choose which fields show on your beats, per project.",
+  "zh": "自定义节拍节点 —— 按项目选择在你的节拍上显示哪些字段。",
+  "file": "app.js",
+  "offset": "key:text@170278"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The portrait",
+  "zh": "肖像",
+  "file": "app.js",
+  "offset": "key:title@101335"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The bed",
+  "zh": "床",
+  "file": "app.js",
+  "offset": "key:title@101892"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The candles",
+  "zh": "蜡烛",
+  "file": "app.js",
+  "offset": "key:title@102914"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The floor",
+  "zh": "地面",
+  "file": "app.js",
+  "offset": "key:title@103639"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The mirror",
+  "zh": "镜子",
+  "file": "app.js",
+  "offset": "key:title@105210"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Back to the bed",
+  "zh": "回到床",
+  "file": "app.js",
+  "offset": "key:title@105840"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The feet",
+  "zh": "双脚",
+  "file": "app.js",
+  "offset": "key:title@106459"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Filter, sort, resize",
+  "zh": "筛选、排序、调整大小",
+  "file": "app.js",
+  "offset": "key:title@1406925"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Drag anything onto the canvas",
+  "zh": "把任何东西拖到画布上",
+  "file": "app.js",
+  "offset": "key:title@1407150"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Everyone and everything in the story",
+  "zh": "故事里的每个人和每样东西",
+  "file": "app.js",
+  "offset": "key:title@1414480"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The profile",
+  "zh": "档案",
+  "file": "app.js",
+  "offset": "key:title@1414744"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Every format in one place",
+  "zh": "所有格式集中一处",
+  "file": "app.js",
+  "offset": "key:title@1461394"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Live preview",
+  "zh": "实时预览",
+  "file": "app.js",
+  "offset": "key:title@1461605"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Only the options that matter",
+  "zh": "只保留真正需要的选项",
+  "file": "app.js",
+  "offset": "key:title@1461828"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Beat 2.3.2",
+  "zh": "Beat 2.3.2",
+  "file": "app.js",
+  "offset": "key:title@147038"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Beat 2.3.1",
+  "zh": "Beat 2.3.1",
+  "file": "app.js",
+  "offset": "key:title@147767"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Beat 2.3.0",
+  "zh": "Beat 2.3.0",
+  "file": "app.js",
+  "offset": "key:title@148305"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Beat 2.2.0",
+  "zh": "Beat 2.2.0",
+  "file": "app.js",
+  "offset": "key:title@149942"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Frame your board",
+  "zh": "框住你的画布",
+  "file": "app.js",
+  "offset": "key:title@1508948"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Pages in order",
+  "zh": "按顺序的页面",
+  "file": "app.js",
+  "offset": "key:title@1509167"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Beat 2.1.0",
+  "zh": "Beat 2.1.0",
+  "file": "app.js",
+  "offset": "key:title@151650"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Beat 2.0.10",
+  "zh": "Beat 2.0.10",
+  "file": "app.js",
+  "offset": "key:title@152398"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Beat 2.0.9",
+  "zh": "Beat 2.0.9",
+  "file": "app.js",
+  "offset": "key:title@152779"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Beat 2.0.8",
+  "zh": "Beat 2.0.8",
+  "file": "app.js",
+  "offset": "key:title@154609"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Beat 2.0.7",
+  "zh": "Beat 2.0.7",
+  "file": "app.js",
+  "offset": "key:title@155146"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Beat 2.0.6",
+  "zh": "Beat 2.0.6",
+  "file": "app.js",
+  "offset": "key:title@156470"
+ },
+ {
+  "source": "embedded-web",
+  "en": "TITLE",
+  "zh": "标题",
+  "file": "app.js",
+  "offset": "key:title@1576071"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Beat 2.0",
+  "zh": "Beat 2.0",
+  "file": "app.js",
+  "offset": "key:title@157765"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Beat 1.5.1",
+  "zh": "Beat 1.5.1",
+  "file": "app.js",
+  "offset": "key:title@166049"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Beat 1.5",
+  "zh": "Beat 1.5",
+  "file": "app.js",
+  "offset": "key:title@167519"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Beat 1.1",
+  "zh": "Beat 1.1",
+  "file": "app.js",
+  "offset": "key:title@169854"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Beat 1.0",
+  "zh": "Beat 1.0",
+  "file": "app.js",
+  "offset": "key:title@171719"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The shoot day",
+  "zh": "拍摄日",
+  "file": "app.js",
+  "offset": "key:title@1764652"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Days, then scenes",
+  "zh": "先按天，再按场",
+  "file": "app.js",
+  "offset": "key:title@1765000"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Your story as a list",
+  "zh": "你的故事的清单形式",
+  "file": "app.js",
+  "offset": "key:title@1814893"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Auto or custom order",
+  "zh": "自动或自定义顺序",
+  "file": "app.js",
+  "offset": "key:title@1815105"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Jump to any beat",
+  "zh": "跳到任意节拍",
+  "file": "app.js",
+  "offset": "key:title@1815676"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Structured columns",
+  "zh": "结构化列",
+  "file": "app.js",
+  "offset": "key:title@1817027"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Build the list",
+  "zh": "构建清单",
+  "file": "app.js",
+  "offset": "key:title@1817277"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Update available",
+  "zh": "有可用更新",
+  "file": "app.js",
+  "offset": "key:title@182675"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Projects that start themselves",
+  "zh": "自己开工的项目",
+  "file": "app.js",
+  "offset": "key:title@1833173"
+ },
+ {
+  "source": "embedded-web",
+  "en": "One story, two faces",
+  "zh": "一个故事，两副面孔",
+  "file": "app.js",
+  "offset": "key:title@1837181"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Reorder by feel",
+  "zh": "凭感觉重排",
+  "file": "app.js",
+  "offset": "key:title@1837727"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Your split, your call",
+  "zh": "怎么分栏你决定",
+  "file": "app.js",
+  "offset": "key:title@1838038"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Focus mode",
+  "zh": "专注模式",
+  "file": "app.js",
+  "offset": "key:title@1838262"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Share it as a treatment",
+  "zh": "以提案形式分享",
+  "file": "app.js",
+  "offset": "key:title@1838446"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Cards, and the inspector",
+  "zh": "卡片与检查器",
+  "file": "app.js",
+  "offset": "key:title@199871"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Sockets",
+  "zh": "插口",
+  "file": "app.js",
+  "offset": "key:title@200272"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Select many at once",
+  "zh": "一次多选",
+  "file": "app.js",
+  "offset": "key:title@200880"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Groups become sections",
+  "zh": "分组变成章节",
+  "file": "app.js",
+  "offset": "key:title@201199"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Add anything",
+  "zh": "添加任何内容",
+  "file": "app.js",
+  "offset": "key:title@201692"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Write and Outline",
+  "zh": "写作与大纲",
+  "file": "app.js",
+  "offset": "key:title@202066"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Find anything",
+  "zh": "查找任何内容",
+  "file": "app.js",
+  "offset": "key:title@202424"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Beat saves as you work",
+  "zh": "Beat 边写边存",
+  "file": "app.js",
+  "offset": "key:title@202786"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Pin a place",
+  "zh": "固定一个地点",
+  "file": "app.js",
+  "offset": "key:title@2030635"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Map or Satellite",
+  "zh": "地图或卫星",
+  "file": "app.js",
+  "offset": "key:title@2031017"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Capture snapshots",
+  "zh": "截取快照",
+  "file": "app.js",
+  "offset": "key:title@2032328"
+ },
+ {
+  "source": "embedded-web",
+  "en": "What this does",
+  "zh": "这是做什么的",
+  "file": "app.js",
+  "offset": "key:title@2045432"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Step 1 — Get Claude Desktop",
+  "zh": "第一步 —— 获取 Claude 桌面版",
+  "file": "app.js",
+  "offset": "key:title@2046335"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Step 2 — Connect",
+  "zh": "第二步 —— 连接",
+  "file": "app.js",
+  "offset": "key:title@2046946"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The Last Roll",
+  "zh": "《最后一卷》",
+  "file": "app.js",
+  "offset": "key:title@208718"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Start a new project from a .beattemplate file",
+  "zh": "从 .beattemplate 文件开始一个新项目",
+  "file": "app.js",
+  "offset": "key:title@2088195"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Darkroom kit",
+  "zh": "暗房套件",
+  "file": "app.js",
+  "offset": "key:title@208845"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Pick a Beat project folder anywhere on your Mac",
+  "zh": "在你的 Mac 上任意位置选择 Beat 项目文件夹",
+  "file": "app.js",
+  "offset": "key:title@2089001"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Import a project from a .json file",
+  "zh": "从 .json 文件导入项目",
+  "file": "app.js",
+  "offset": "key:title@2089145"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Your library folder, your name and credit on exports",
+  "zh": "你的库文件夹、你的名字、导出件上的署名",
+  "file": "app.js",
+  "offset": "key:title@2089611"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Export every project as a .zip with one .json per project",
+  "zh": "把每个项目导出为 .zip，每个项目一个 .json",
+  "file": "app.js",
+  "offset": "key:title@2089949"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Loads \"The Last Roll\" — a small, complete story that shows how Beat thinks",
+  "zh": "载入《最后一卷》—— 一个短小但完整、能展示 Beat 思路的故事",
+  "file": "app.js",
+  "offset": "key:title@2090147"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Amber room",
+  "zh": "琥珀房间",
+  "file": "app.js",
+  "offset": "key:title@209090"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Maya unwraps the roll",
+  "zh": "Maya 拆开胶卷",
+  "file": "app.js",
+  "offset": "key:title@209234"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The bath turns wrong",
+  "zh": "浴缸那段出了岔子",
+  "file": "app.js",
+  "offset": "key:title@209661"
+ },
+ {
+  "source": "embedded-web",
+  "en": "She burns the roll",
+  "zh": "她烧掉胶卷",
+  "file": "app.js",
+  "offset": "key:title@210900"
+ },
+ {
+  "source": "embedded-web",
+  "en": "She prints them all",
+  "zh": "她把它们全部冲印",
+  "file": "app.js",
+  "offset": "key:title@211272"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The Mentor",
+  "zh": "导师",
+  "file": "app.js",
+  "offset": "key:title@211991"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The Darkroom",
+  "zh": "暗房",
+  "file": "app.js",
+  "offset": "key:title@212390"
+ },
+ {
+  "source": "embedded-web",
+  "en": "The Pentax K1000",
+  "zh": "宾得 K1000",
+  "file": "app.js",
+  "offset": "key:title@212739"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Sound design",
+  "zh": "声音设计",
+  "file": "app.js",
+  "offset": "key:title@213062"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Your track under the story",
+  "zh": "故事下方的你的音轨",
+  "file": "app.js",
+  "offset": "key:title@2168686"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Drop markers",
+  "zh": "放置标记",
+  "file": "app.js",
+  "offset": "key:title@2168992"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Markers become beats",
+  "zh": "标记变成节拍",
+  "file": "app.js",
+  "offset": "key:title@2169201"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Your story on stage",
+  "zh": "舞台上的你的故事",
+  "file": "app.js",
+  "offset": "key:title@2200820"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Moving through it",
+  "zh": "在其中穿行",
+  "file": "app.js",
+  "offset": "key:title@2201040"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Order, and the way out",
+  "zh": "顺序与退出方式",
+  "file": "app.js",
+  "offset": "key:title@2201236"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Titles",
+  "zh": "标题",
+  "file": "app.js",
+  "offset": "key:title@2247908"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Caption this photo",
+  "zh": "为这张照片加图注",
+  "file": "app.js",
+  "offset": "key:title@558059"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Edit or extract",
+  "zh": "编辑或提取",
+  "file": "app.js",
+  "offset": "key:title@558253"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Pen, line, arrow, shapes, text",
+  "zh": "画笔、直线、箭头、形状、文字",
+  "file": "app.js",
+  "offset": "key:title@598847"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Stamps",
+  "zh": "图章",
+  "file": "app.js",
+  "offset": "key:title@599086"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Crop is re-adjustable",
+  "zh": "裁剪可再调整",
+  "file": "app.js",
+  "offset": "key:title@599635"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Save keeps edits editable",
+  "zh": "保存后修改仍可编辑",
+  "file": "app.js",
+  "offset": "key:title@599819"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Write your first beat",
+  "zh": "写下你的第一个节拍",
+  "file": "app.js",
+  "offset": "key:title@694738"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Start from a template",
+  "zh": "从模板开始",
+  "file": "app.js",
+  "offset": "key:title@695035"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Drop something real",
+  "zh": "放入真实内容",
+  "file": "app.js",
+  "offset": "key:title@695181"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Open a project",
+  "zh": "打开项目",
+  "file": "app.js",
+  "offset": "key:title@695337"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Paste a link or pick a file",
+  "zh": "粘贴链接或选择文件",
+  "file": "app.js",
+  "offset": "key:title@829679"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Scrub and capture stills",
+  "zh": "拖动定位并截取静帧",
+  "file": "app.js",
+  "offset": "key:title@829930"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Mark a range for a GIF",
+  "zh": "标记 GIF 区间",
+  "file": "app.js",
+  "offset": "key:title@830161"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Everything lands in the Vault",
+  "zh": "一切都进保险库",
+  "file": "app.js",
+  "offset": "key:title@830356"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Build your set",
+  "zh": "搭建你的场景",
+  "file": "app.js",
+  "offset": "key:title@920850"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Top-down floor",
+  "zh": "俯视地面",
+  "file": "app.js",
+  "offset": "key:title@921126"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Tweak anything",
+  "zh": "微调任何东西",
+  "file": "app.js",
+  "offset": "key:title@921347"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Right-click an element",
+  "zh": "右键单击元素",
+  "file": "app.js",
+  "offset": "key:title@921728"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Scale · Sensor · Underlay · Dark · Rays",
+  "zh": "比例 · 传感器 · 底图 · 暗色 · 光线",
+  "file": "app.js",
+  "offset": "key:title@921966"
+ },
+ {
+  "source": "embedded-web",
+  "en": "Your own symbols",
+  "zh": "你自己的符号",
+  "file": "app.js",
+  "offset": "key:title@922305"
+ },
+ {
+  "source": "native-menu",
+  "en": "About Beat",
+  "zh": "关于 Beat",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xab786c (__TEXT,__const+0x122cec)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Preferences…",
+  "zh": "偏好设置…",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xab7876 (__TEXT,__const+0x122cf6)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Hide Beat",
+  "zh": "隐藏 Beat",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xab789c (__TEXT,__const+0x122d1c)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Quit Beat",
+  "zh": "退出 Beat",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xab78a5 (__TEXT,__const+0x122d25)"
+ },
+ {
+  "source": "native-menu",
+  "en": "New Project…",
+  "zh": "新建项目…",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xab78ae (__TEXT,__const+0x122d2e)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Open Project…",
+  "zh": "打开项目…",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xab78c7 (__TEXT,__const+0x122d47)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Projects…",
+  "zh": "项目…",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xab78ea (__TEXT,__const+0x122d6a)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Save",
+  "zh": "保存",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xc989a4 (__TEXT,__const+0x303e24)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Reveal Project in Finder",
+  "zh": "在访达中显示项目",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xab7921 (__TEXT,__const+0x122da1)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Share",
+  "zh": "共享",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xc98930 (__TEXT,__const+0x303db0)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Export Beat Overview (PDF)",
+  "zh": "导出 Beat 概览（PDF）",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xab7970 (__TEXT,__const+0x122df0)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Export Storyboard (PDF)",
+  "zh": "导出故事板（PDF）",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xab799e (__TEXT,__const+0x122e1e)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Export DOCX Chapters",
+  "zh": "导出 DOCX 章节",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xab79cb (__TEXT,__const+0x122e4b)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Export for AI chat development (.md)",
+  "zh": "导出供 AI 对话开发用（.md）",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xab79df (__TEXT,__const+0x122e5f)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Close Tab",
+  "zh": "关闭标签页",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xab7a12 (__TEXT,__const+0x122e92)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Find Beat…",
+  "zh": "查找 Beat…",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xab7a34 (__TEXT,__const+0x122eb4)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Toggle Vault",
+  "zh": "切换保险库",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xab7a54 (__TEXT,__const+0x122ed4)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Project Info",
+  "zh": "项目信息",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xab7a7c (__TEXT,__const+0x122efc)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Locations Map",
+  "zh": "地点地图",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xab7a9c (__TEXT,__const+0x122f1c)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Zoom In",
+  "zh": "放大",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xab7ac1 (__TEXT,__const+0x122f41)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Zoom Out",
+  "zh": "缩小",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xc98948 (__TEXT,__const+0x303dc8)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Debug Panel",
+  "zh": "调试面板",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xab7af7 (__TEXT,__const+0x122f77)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Window",
+  "zh": "窗口",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xab7b1d (__TEXT,__const+0x122f9d)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Keyboard Shortcuts",
+  "zh": "键盘快捷键",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xab7b23 (__TEXT,__const+0x122fa3)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Show Beat.log",
+  "zh": "打开 Beat.log",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xab7b44 (__TEXT,__const+0x122fc4)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Update Extractor (yt-dlp)",
+  "zh": "更新提取器（yt-dlp）",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xab7b51 (__TEXT,__const+0x122fd1)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Beat",
+  "zh": "Beat",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xc9899c (__TEXT,__const+0x303e1c)"
+ },
+ {
+  "source": "native-menu",
+  "en": "File",
+  "zh": "文件",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xc989a0 (__TEXT,__const+0x303e20)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Edit",
+  "zh": "编辑",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xc989a8 (__TEXT,__const+0x303e28)"
+ },
+ {
+  "source": "native-menu",
+  "en": "View",
+  "zh": "视图",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xc989ac (__TEXT,__const+0x303e2c)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Help",
+  "zh": "帮助",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xab7310 (__TEXT,__const+0x122790)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Hide Others",
+  "zh": "隐藏其他",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xcee835 (__TEXT,__const+0x359cb5)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Show All",
+  "zh": "全部显示",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xcee688 (__TEXT,__const+0x359b08)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Bring All to Front",
+  "zh": "全部置于顶层",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xcee84d (__TEXT,__const+0x359ccd)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Beat — story planning canvas",
+  "zh": "Beat —— 故事规划画布",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xa95ecc (__TEXT,__const+0x10134c)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Joao Lutz",
+  "zh": "Joao Lutz",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xa95ebe (__TEXT,__const+0x10133e)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Save media as",
+  "zh": "媒体保存为",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0x995145 (__TEXT,__const+0x5c5)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Export media as .zip",
+  "zh": "将媒体导出为 .zip",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0x99516b (__TEXT,__const+0x5eb)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Save as Beat template",
+  "zh": "保存为 Beat 模板",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0x9951ba (__TEXT,__const+0x63a)"
+ },
+ {
+  "source": "native-menu",
+  "en": "Beat template",
+  "zh": "Beat 模板",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0x9951c2 (__TEXT,__const+0x642)"
+ },
+ {
+  "source": "remote-webview",
+  "en": "Capture snapshot",
+  "zh": "截取快照",
+  "file": "Contents/MacOS/beat (arm64 slice)",
+  "offset": "0xc969e3 (__TEXT,__const+0x301e63)"
+ }
+]

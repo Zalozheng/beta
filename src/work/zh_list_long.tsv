@@ -1,0 +1,227 @@
+l0	(Debug panel runs full diagnostics only inside the Tauri app)
+l1	)"><circle class="sp-rot" data-rot="1" cx="0" cy="
+l2	)"><rect class="sp-note-shadow" x="2" y="3" width="
+l3	<br>Try “Link now” on the previous step, then test again.
+l4	<div class="doc-viewer-error">Could not preview this document:
+l5	<div class="simple-prompt"><label>Paste a YouTube or Vimeo URL</label><input type="url" placeholder="https://www.youtube.com/watch?v=…" /><div class="simple-prompt-actions"><button class="btn" data-act="cancel">Cancel</button><button class="btn btn-accent" data-act="ok">Add</button></div></div>
+l6	<div class="sp-media-head"><span>Room size — sets the floor and the real-world scale. (You can also drag the floor’s bottom-right corner.)</span></div>
+l7	<div><div class="vimporter-title-name"></div><div class="vimporter-title-hint">Capture stills and GIFs. The video itself isn't saved.</div></div>
+l8	<h2>Keyboard shortcuts</h2><div class="cheat-grid">
+l9	<h3 class="snapshot-title">Version history</h3>
+l10	<span class="onset-r-move"><span class="onset-r-grab
+l11	<span></span><span></span><span>Shot</span><span>Scene</span><span>Refs</span>
+l12	<span></span><span>Shot</span><span>Refs</span><span>Shot / Beat</span><span>Location</span>
+l13	A 1-3 sentence description of your story: tone, format, characters, anything that helps the AI.
+l14	A 1970s film SLR. Dented on the left side. Strap stained dark. The mentor's only inheritance to her.
+l15	A card carries its fields right on the board — add or hide them per project in Project info, and the rail's Clean cards toggle keeps empties tucked away until you hover. For the deep dive, press I (or the Inspector button up top): a side panel with everything about the selected card.
+l16	A comma-separated spreadsheet: one block per shot list, a header row with that list’s columns, then one row per shot tagged with its list and scene. Opens in Excel, Numbers or Google Sheets.
+l17	A company name, contact line and logo that print on every export cover — this project's own letterhead, separate from your personal credit in Preferences.
+l18	A converted bathroom in Maya's apartment. Two amber bulbs, a chemical bath, a clothesline of prints, the perpetual smell of stop-bath.
+l19	A cover, then one slide per section, title and beat — images included. Nothing on your board changes; this is just a lens on it.
+l20	A name that matches nobody offers to become somebody — type @Maya where no Maya exists and the menu offers to make her: a new character, location or prop, born right beside the beat.
+l21	A new plan starts on Super 35, because that is what most people shoot. Every plan you have already drawn stays on full frame, so nothing you made before this changes shape. Change it whenever you like.
+l22	A plain-text screenplay scaffold in Fountain format: scene headings from your slugs, action lines from beat text. Opens in any screenwriting app for the real draft.
+l23	A polished story document: cover, sections in reading order, beats with their text and images, galleries, reference cards and shot-list tables. No internal annotations — ready to share.
+l24	A production plan laid out as an ordered timeline of phases.
+l25	A real-scale floor. Two-finger drag to pan; pinch on a trackpad, or hold Control and scroll, to zoom. Drag the floor’s bottom-right corner to resize the room.
+l26	A song, photos, a location — or click to pick images.
+l27	A structured Markdown file with your full project content, a reading guide for the assistant, and the development tasks you choose. Export opens the task picker.
+l28	A treatment for a film/brand piece. Each group is a slide/section of the final document.
+l29	A visual reference board. Each group is a theme of references.
+l30	A whole new look — flat, calm surfaces in ink and amber, one rail of tools down the left, a new mark on the dock and an opening leader when the app wakes. All thirteen card types now share one quiet sheet: a grabber to hold, grouped fields, a single colour strip, and a type label so you always know what you are reading.
+l31	Add a field to this card only (project-wide fields live in Project info)
+l32	Add a shot to a scene here, and add scenes at the bottom. Duplicate a shot, drag scenes to reorder, and fill a value down a column.
+l33	Add these beats to a shot list as scene(s) — grouped by their canvas groups
+l34	An 80-second short film. A young photographer (Maya) returns to her childhood darkroom to develop the final roll left by her late mentor — but the chemistry behaves wrong, and the prints aren't what she shot. A study in inheritance, loss, and the patience of the image. Sensorial, restrained, tactile. No score until the final beat.
+l35	An image that lands in a card now shows itself. Add one, drop one in from the Vault, or drag one over from another card, and it lights up for a second. In a gallery it also becomes the big picture. Images arrive at the end of the list, where nobody is looking, so a move that worked used to read as a move that failed.
+l36	An open profile carries its photos, its full description, the beats that mention it in story order, what it is wired to on the canvas, and any Set Plan it stands in. Click any of those to jump straight there.
+l37	Anamorphic. Pick a squeeze of 1.33x, 1.5x, 1.8x or 2x and the cone widens the way an anamorphic lens really does, horizontally only, while the vertical angle stays put. The inspector reads the horizontal angle the cone is drawn from, the vertical angle, and the desqueezed aspect the format and squeeze give you.
+l38	Asked which sensor the Set Plan draws its coverage cones from and whether you could change it, then specified the per camera body, format and anamorphic model (Cinematography Mailing List)
+l39	Audited the app and the site unprompted and found eight things, including the unverified yt-dlp download and the inconsistent minimum macOS
+l40	Auto places one page per section. Drag any frame to move it, or pull its corner to resize — a smaller frame means a closer crop.
+l41	Auto reads your board in columns: left to right across the board, then top to bottom inside each column. Switch to Custom to drag rows into the exact order you want — that order carries straight into your exports.
+l42	Beat cannot find your library folder anymore (
+l43	Beat now opens filling your screen. It used to wake up as a small window in the middle of the desktop, so the first thing you did every single time was drag it bigger before you could see your board. Now the board is already there. You can still resize the window however you like, Beat only starts full.
+l44	Beat snapshots your project automatically as you work. Click a version for a quick look; "Preview on canvas" opens it on the real board — you choose there whether to restore it.
+l45	Break the link — these items will move independently again
+l46	Called out the download and the missing notarization, then asked the one question that turned it from a someday problem into a today one
+l47	Captured stills and GIFs collect on this shelf. Done saves them all into this project's Vault.
+l48	Caught images failing to load in custom project folders (RIGHT UP Inc.)
+l49	Caught stretched Word-export images, silent export saves, and the lost-library trap
+l50	Caught that the window always opened maximised and never remembered where you left it (CML technical services)
+l51	Caught the zoom shortcut hint, then designed the one that shipped: drag out from a port, let go on empty canvas, pick a type, and the new card lands already connected
+l52	Claude can build a whole project — through Link to Claude it can now create the project, write the beats and groups, place images, build linked shot lists, dress set plans, export treatments, check its own work for errors and undo its mistakes.
+l53	Clean cards: hide empty fields and buttons until you hover a card
+l54	Clean prints crisp cards on a white page — best for handouts. As on screen captures your theme exactly as you see it (experimental).
+l55	Click a row to select its card on the canvas, or use its arrow to fly there. The checkbox hides a beat from exports without deleting it.
+l56	Column type — click to switch between free text and a dropdown
+l57	Connection options — colour, style, label, condition
+l58	Connector reliability — caught the long save hang
+l59	Couldn’t link automatically — use “set it up manually” below. (
+l60	Create a beat on the canvas carrying this timecode
+l61	Crop never throws pixels away. Reopen the crop tool any time to move it — or widen it back out.
+l62	Current page — edit to jump, then “Page to Vault” sends it
+l63	Customize Beat Nodes · Clean cards view · Quiet cards at every zoom · Connection handles · Checklist fields · Canvas navigation · Mention backlinks · Wires you can see and reach
+l64	Documents, production paperwork and handoff files — pick a format here. Your last choice is remembered per project.
+l65	Double-click the waveform to drop a marker at that moment. Drag a flag left or right to move it, double-click the flag to name it.
+l66	Drag a Camera, Light, the Subject, a prop, a wall, window or door from here onto the floor. Set & grip carries the real gear — C-stand, tripod, crane, apple boxes — each drawn at its true size next to the subject.
+l67	Drag a tile onto the canvas to place it there. Items stay in the Vault until you drag them out or remove them.
+l68	Drag the sun along the path, or use ← → to nudge 5 minutes
+l69	Drag to resize the two faces. The arrows snap to full document or back to canvas. Cmd Shift W toggles Writing Mode from anywhere.
+l70	Draw on the image with the pen, lines, arrows, rectangles, ellipses and text. Stroke colour, width and fill sit just to the right.
+l71	Drop a screenplay on the canvas — a Fountain or Final Draft file becomes a board: one group per act, one beat per scene, and the characters arrive as cards with their names woven into the text as mentions.
+l72	Each scene gets its own coloured band and heading. Shots number 1, 2, 3 — the # button in the head switches to industry scene letters (1A, 1B, 2A…). Durations total per scene and for the whole list.
+l73	Edit image opens the crop-and-annotate editor without leaving the lightbox. Palette reads this photo's colours into a palette card placed beside its owner.
+l74	Edit this project's settings — name, theme, palette, AI context
+l75	Elements — a panel listing every character, location and prop in your story. Click one and the canvas flies to its card and opens a full profile: photos, details, every beat it appears in, its connections, the set plans it stands in.
+l76	Every Set Plan symbol at real scale — all 48 redrawn at their real-world sizes: a car is 4.5 m, a chair half a metre; people, cameras and lights true to the tape.
+l77	Every character, location and prop you have made, grouped in one place. Click a row and Beat flies to that card on the canvas AND opens its profile right here.
+l78	Every frame becomes a page in the PDF. Reorder with the arrows; each caption names the section that page covers.
+l79	Every on-disk asset in the project as one zip, organized into a folder per section plus Free on canvas and Vault, with a plain-text manifest naming what each file is. Beat desktop app only.
+l80	Every shot list in the project is a day — tap one to switch. Below, the day’s scenes with their progress and, when a beat is sun-planned, its planned clock. Drag the divider to resize the rail, or collapse it with the chevron. The small dot recolours a scene, synced with the card.
+l81	Everyone whose suggestion or bug report ships gets credited here.</p>
+l82	Everything you can put on the board lives here: Story, People & places, Visual, Production, Attach. Hover a row and its cards slide out. Or skip the menu and just paste — Beat works out whether you gave it an image, a link or text.
+l83	Everything you have made, and the folders you filed it in.
+l84	Export <span class="shotlist-menu-caret">▾</span>
+l85	Export this shot list, or manage the shared cheat sheet
+l86	Filter by type, sort by newest, oldest or type, and drag the slider to resize thumbnails. The bar appears once the Vault has items.
+l87	Frame after frame after frame. Her hands shake. The mentor watches through her now.
+l88	Freeze the clock, print the wrap report, carry the rest
+l89	From its canvas group — type to override, clear to follow the group
+l90	From the linked beat’s Shot type — click to override
+l91	Grab a paragraph by its handle — a line shows exactly where it will land, even into another section. Hover between paragraphs for + to add; the three dots remove (undoable). Enter at the end of a title starts the next beat.
+l92	INT/EXT, shot size, lens and camera move are dropdowns with sensible presets — and you can add your own options. The other columns type like a spreadsheet.
+l93	Images, links and documents keep their own controls on the board.
+l94	In any beat’s description, type @ and then a name. Beat offers your characters, locations and props; pick one and it becomes a chip you can click to jump to that card. That is what fills this list — nothing here is ever typed twice.
+l95	Inspector — everything about the selected card, in a side panel (I)
+l96	Lay the canvas itself out on real pages. Beat drops page frames over the board — one per section, or wherever you put them — and you drag the cards into each frame until the spread looks right. Export to PDF from the designer’s own bar when you are happy.
+l97	Link cards to this shot — location, set plan, checklist, sketch…
+l98	Link these items so moving any one moves them all together
+l99	Link to Claude was writing itself into one Claude app and not the other, so if you drive Beat from Claude Code it registered nothing at all, silently, with no error to explain it. It now sets up both. It also re-points itself every time Beat starts, which fixes the case where you moved Beat to Applications after linking and the connection quietly died pointing at the old place.
+l100	Load a beat sequence into this list — one linked shot per beat
+l101	Load a different audio file (markers are kept)
+l102	Load a song with the button — or just drag an audio file from Finder onto the dock, or anywhere on the canvas. It becomes a waveform: press and drag to scrub, Space plays and pauses while the dock is focused.
+l103	Loads "The Last Roll" — a small, complete story that shows how Beat thinks
+l104	Location Scouting — pin a place on a real map, walk its street view, switch between Map and Satellite, capture stills, and save them to a location card with its full address. See every pinned location together on one map.
+l105	Mark Start and End around a moment, pick a frame rate and size, then Make GIF encodes that range.
+l106	Marked follows each card’s picked photos; Card default ignores the picks and uses every card’s default set.
+l107	Maya cuts the tape on a film canister wrapped in twine. Her mentor's old Pentax sits on the table. **She has been waiting for this for three weeks.**
+l108	Mid-twenties photographer finishing her MFA. The mentor was her father's oldest friend. Holds her camera the way some people hold rosaries.
+l109	Names remember where they have been — type @Ana in a beat and her card lists every beat she appears in, in story order.
+l110	New column type — click to switch between free text and a dropdown
+l111	New entry — type or paste your ideas and every line becomes a beat; paste a whole outline and Beat builds the connected column for you.
+l112	Nothing gets lost — failed saves retry until they land, deleted photos survive for undo, pasted cards carry their images between projects, one broken card can no longer blank a board, and a new Storage section in Project info lists unused files and moves them to a recoverable trash instead of deleting.
+l113	Nothing on this one yet. Add a photo, a description, or name it in a beat with @.
+l114	On set — a full-screen room for the shoot day itself. One operator marks shots done or skipped, steps the chosen take and types observations while the crew reads the board from across the room. A day clock anchors to your call time and says how far ahead or behind you are, the current shot opens into a dashboard with its imagery, set plan, map and checklist, and the day can run in a different order than the story without touching the film. A printable day sheet goes to set in your pocket.
+l115	One click opens the Export center: PDF, Word, treatment, storyboard, shot list, screenplay scaffold — with a live preview, in the order your cards sit on the board. The ⋯ menu holds Present, the locations map, and Show me around — every walkthrough, ready to replay. That is everything. Double-click the canvas and write your first beat.
+l116	Outline entry — the outline-first workflow: paste an outline, get beats (PROJECT-JTH)
+l117	Outline — the document/treatment view of this board (groups → nodes, in reading order)
+l118	PDF formats render a real preview of the actual file, refreshed as you change options. The other formats describe exactly what you will get.
+l119	Pick a beat and plan its time of day at this location
+l120	Pick the .zip you exported from web Beat (Projects modal → Export all)
+l121	Pin items here to give them their own button in the sidebar. Unpinned items live inside the + menu. Applies to all your projects.
+l122	Play / pause (Space while the dock is focused)
+l123	Play, drag the timeline, or step frame by frame with the arrow keys. Capture frame saves the exact frame you are on as a still.
+l124	Point Beat at a different projects folder — nothing is moved or copied
+l125	Preferences — your library folder, your name &amp; credit on exports
+l126	Prints "by <your name>" + credit line from Preferences (toolbar ··· menu) on this project's export covers.
+l127	Prints on this project's export covers: the logo up top, company and contact under the credit.
+l128	Promote this alternative to the main path. The previous main becomes the new alternative.
+l129	Read-only columns pulled from each shot's linked beat. Planned time comes from the beat's sun plan; your own fields are defined in Project info.
+l130	Remove from the pick-list (cells keep their text)
+l131	Reopen the day. Carried copies stay on the other day — unwrap does not pull them back.
+l132	Replay the walkthrough of Beat's core controls
+l133	Restore an earlier snapshot of this project (auto-saved every 3 minutes)
+l134	Right arrow, Space or a click on the right half advances; left arrow or the left half goes back. Home jumps to the cover, End to the last slide.
+l135	Right-click anything on the floor for its own menu: duplicate it, lock it in place, start a movement path, and move it in front of or behind whatever it overlaps.
+l136	Said plainly that the walkthrough got her in the door but never showed what Beat could do. That note is why the sample project exists (Asubakatchin Productions)
+l137	Save a portable .beattemplate file with every card and asset — import it from the Projects screen
+l138	Save any project as a portable .beattemplate — every card and image included — from Project info or the template button on a project card here. From a template… starts a fresh project from that file.
+l139	Save keeps your drawings and crop as live objects — reopen the image later and adjust them. Rotate or flip bakes everything in.
+l140	Save project + refresh the thumbnail (autosaves continuously as you type)
+l141	Save this project's structure (without images) as a reusable starter template in the new-project picker
+l142	Saved shot-list templates (columns + numbering + cheat-sheet presets). Available in every project. Delete removes a template everywhere; it never touches shot lists already created from it.
+l143	Screenplay import reads the page properly — a note or a comment above your title page no longer costs you the title, a comment running over two lines can no longer swallow the scene underneath it, emphasis arrives as clean words instead of stray asterisks and underscores, centred title cards come through as text, and FADE OUT. is no longer mistaken for a character.
+l144	Search an address in the pill at the top left, or just click the map to drop a pin. Drag the pin to fine-tune the spot. A photo shot on a phone usually knows where it was taken — hover it on a card or on the board and a "Location from photo" pin appears; click that and the place is pinned for you.
+l145	Select a marker and press + Beat: a beat carrying that timecode lands on the canvas, chained to the previous marker beat. The chain button beside it points the marker at a beat you already wrote instead — same result, no new card. Replace swaps the mix and keeps every marker; the timecode badge on a beat card jumps the playhead back here.
+l146	Select an element to edit it — colour, size, light fixture, door swing, Flip to mirror it horizontally or vertically, and a numbered movement / blocking path.
+l147	Select picks up anything you have drawn — move it, change its colour, width or fill, or delete it.
+l148	Sequence <span class="shotlist-menu-caret">▾</span>
+l149	Set the room size in metres, pick the camera sensor every FOV cone is drawn from with Sensor, load a reference floor plan with Underlay and flip the floor to Dark to trace it, and toggle Rays to preview light throw and bounce.
+l150	Shape this shot list. Toggle a column to show or hide it, reorder with the arrows, and add your own. Built-in columns can be hidden and reordered but not deleted. Dropdown columns share the project cheat sheet.
+l151	Shared across all your projects. Your name appears as an author credit on export covers (Word, PDF overview, For AI chat). Leave blank to show no credit. Each project can also turn the credit off on its own, in Project info.
+l152	She holds the strip up to a candle. The image disappears. **She breathes for the first time in weeks.**
+l153	She lifts a print from the bath. The photograph is of her own kitchen — taken from an angle she would never choose. *Someone else stood there.*
+l154	Shift-drag on empty canvas to sweep a box around cards, or Shift-click them one by one. The toolbar appears below, and the inspector becomes a bulk editor — colour, tone, group or delete them all in one move.
+l155	Shoot day — date, location, people, call sheet
+l156	Shot List — a full shot-list table right on the canvas, with Google-Sheets-style dropdown columns (shot size, lens, camera move, INT/EXT) that carry your own presets and definitions. Colour-coded chips, real scenes with 1A/1B numbering, a duration column that totals the day, multi-value cells, and show / hide / reorder / custom columns.
+l157	Shot List — the dropdown shot-list concept & spec (Legacy Productions)
+l158	Simplify cards when zoomed far out (faster on huge boards)
+l159	Sixty-four, late-stage cancer. Half-Korean, half-Polish, never quite at home anywhere. We never see his face directly — only his hands, the back of his head, his reflection in glass.
+l160	Sketch — placeholder drawings for shots without stills, with the stamp library
+l161	Slides follow the board's reading order — the same order as the Outline and your exports. Hidden-from-export cards stay off stage. Esc leaves the presentation.
+l162	Start or pause the day clock — or set a call time from the … next to it
+l163	Stills, GIFs, links, video embeds — even whole cards you stash from the canvas. The + button adds images or a video from disk.
+l164	Story order mirrors the card. Switch to Shooting order, unlock the padlock, and drag the day into the order production needs — collapse all first and a forty-shot day rearranges in seconds. Lock it again and the day is set.
+l165	Street view opens imagery at the pin in a split panel on the right. Walk around inside — the map pin follows wherever you go.
+l166	Sun path shows sunrise, sunset, golden and blue hour for this exact pin, any day of the year. Drag the day slider, then stamp the times onto the location card for the crew. Drag the sun itself along its path to pick a shoot time — the map draws the sun's direction and a true-to-scale shadow band right over the street, and the whole day's sweep with it.
+l167	Sun path — plan a shoot by light. A pinned location gets the sun's true path for any day of the year: drag the sun on the graph or right on the map, golden and blue hour on the path itself, a day ring around your pin with the golden hours at their real compass bearings, and a true-to-scale shadow band over the streets. Beats carry their own planned moment and it prints in every document.
+l168	Switch the base layer in the top-right corner of the map. With the street panel open, drag the divider between the two to resize.
+l169	Takes and observations become columns on the shot-list card and its PDF, and the printer button builds the DAY SHEET — the wrap report as a clean document for the production chat. Esc leaves; there is nothing to save.
+l170	Takes rolled — the circled take is marked in On set
+l171	Tested Beat's Fountain import against the afterwriting suite and found the comment and emphasis handling (afterwriting)
+l172	The Capture pill floats over the street imagery — each press stages a clean 3:2 still. Save location writes the snapshots to the card.
+l173	The Custom group holds symbols you draw yourself — open it and hit + Symbol… (right-click one of yours to remove it). They save with the project and print in exports.
+l174	The Last Roll — a sample project to learn the app inside: an original short film planned in beats, with characters, a location, a prop, a palette and a checklist, so you can open a real board and take it apart.
+l175	The Set Plan grows real gear — a tripod (full and slim), a crane and a camera at its true size; objects flip from the inspector and reorder from the right-click menu.
+l176	The Set Plan takes the keyboard now. Shift-drag the floor to select a box of elements, nudge a selection with the arrow keys (hold Shift for a bigger step), ⌘D to duplicate, ⌘A to select all, and Delete to remove. The shortcuts sit on the panel whenever nothing is selected.
+l177	The chemistry shifts colour faster than it should — amber to copper to black in seconds. She pulls her hands back.
+l178	The day runs from call — tap to change or clear
+l179	The day that fits — a strip on the shot list stacks every shot's estimated minutes from call to wrap, over bands of night, daylight and golden hour, so you can see whether the day actually fits before you are standing in it.
+l180	The folder that holds every one of your projects. This folder is the part that travels: put it in iCloud Drive and both your Macs open the same projects — just open a project on one Mac at a time, because two at once makes iCloud pick a winner. Everything else on this page is remembered on this Mac only.
+l181	The gallery grows downward. The thumbnail strip used to scroll sideways, and the only way to move it was to grab the scrollbar, because a two finger swipe pans the board instead. It wraps now and the card just gets taller.
+l182	The inspector — press I and a side panel holds everything about the selected card: fields, colours, images, sun path, lock, delete. It follows your selection, edits many cards at once, and stays out of the way until you ask.
+l183	The outline is every beat and section on your board, top to bottom — a fast way to see the whole shape and jump around it.
+l184	The rings on a card's edges are its connections — every line gets its own plug and its own colour, with one free ring always waiting. Drag from it to another card to connect, or release over empty canvas and the Add menu opens right there, already wired. Come near a wire and a dot springs in at its middle — ✕ removes it, ⋯ opens its options. A wire also steps around any card in its way rather than hiding behind one. Click a line and press Delete to remove it; right-click opens its editor.
+l185	The same story document with the internal layer kept in: pinned comments, alternative beats and working notes, marked as such throughout.
+l186	The shape of the film — the minimap gains a strip mode: the whole story as one row of segments in reading order, each as wide as its duration, coloured by its beat, with a you-are-here line. Click or scrub to jump.
+l187	The shot list listens to your beats — shot type, description, duration, cast, location and elements all flow live from the linked beat, canvas groups become the scenes, and a linked shot carries its beat's number, so the board, the list, On set and every export agree on what shot 3 means.
+l188	The shot you are on expands right in the list — imagery and linked cards as tiles, every pulled fact, the planned sun with its countdown, the chosen take. Done advances to the next open shot; above and below it sit the day’s past and future. Observations save as you type.
+l189	The stamp tool drops ready-made placeholder drawings — shot framings, people, day / night, interior / exterior, backgrounds, camera and arrows, grouped by type. Pick one, click to place it, then move or restyle it like any other mark. Perfect for blank Sketch cards.
+l190	The whisper by the Save button tells you when. Undo names what it undid. The Save button also refreshes your project's cover, and the ⋯ menu keeps full version history — nothing you do here is ever one mistake from lost.
+l191	The whole day as text — paste it in the production chat
+l192	The whole film should sound like it's underwater — even the (sparse) dialogue. Bath bubbles, distant traffic, ticking radiator, no music until the very last beat.
+l193	The window remembers the size and position you left it at. It still fills the screen the first time you ever open Beat, so the board is there waiting, but from then on it is yours. Before this it opened maximised every launch and forgot everything, so resizing was the first thing you did every single time.
+l194	There is a Test the connection button now. It starts the connector for real and tells you how many tools answered. The old screen only told you a setting had been saved, which it kept saying happily while nothing worked.
+l195	These are the colour tags available on each beat. Click a swatch to change it, hover to remove, + to add. Or extract from an image.
+l196	These presets are shared by every shot list in this project. Rename them, add definitions, give each a colour to read the table at a glance, reorder, or add your own. Removing a preset leaves any cells already using it untouched.
+l197	This document IS your canvas — same beats, same order. Type here and the card updates live; edit a card and the document follows. Click a beat's number to find its card.
+l198	This is your canvas — one endless page for a story. On a fresh board, four dashed cards offer a way in. Otherwise double-click anywhere to drop a beat, or right-click to add any card there. Two-finger swipe pans; pinch zooms.
+l199	This menu holds Columns… (show, hide, reorder or add your own — including Beat fields, read-only columns pulled live from each shot's linked beat), Import CSV and Export CSV. Your shot list also flows into the PDF and Word production docs.
+l200	This toggle dims everything except the block you are writing in — the rest of the document fades until you move on. Remembered per project.
+l201	Treatment & print layout — sharing the board the way you arranged it (Steyer)
+l202	Treatment and Print layout — share the board the way you arranged it: a cover, a map of your board, one section per page; or place page frames right on the canvas and export a print-ready PDF.
+l203	Type here and the caption prints under this exact photo in your exports. Every image keeps its own.
+l204	Type here to highlight matching beats, Enter to fly to the first hit. Or press Cmd+Space (or Cmd+K) anywhere for the command palette — jump straight to a card by name, or run a command without touching the mouse.
+l205	Type or paste your ideas — every line becomes a beat. Inside, mark a line as Shot, Prop, Note and more with one click or Cmd 1-9; indented lines fold into the beat above. The gear edits your categories.
+l206	Vault — stash images, videos, cards and links here for later (Cmd B)
+l207	Videos arrive here from a link you extract on a video card, or a file you pick from disk. The video itself is never saved — only what you capture.
+l208	What if the roll was actually his — and the last few exposures are of *her* as a child?
+l209	What to include, marked photos or all, project identity on the cover, paper size — each format shows just the choices it really has. "Sun path diagrams" appears once a beat shows one on its card, and prints it. Export runs it.
+l210	When the structure clicks, Export then "Treatment (PDF)" makes a shareable document: a map of your board plus one section per page — the board, the way you arranged it.
+l211	When you shoot, open this list in On set mode: every shot as a big check-off row with a live progress bar, elapsed time per shot, and a printable day sheet. Two ways in — the menu above, or the On set button in the top bar.
+l212	While sweeping that Shift-drag box, tap A — the rectangle becomes a Group that size. Groups and Title cards are your sections: they name the chapters of your exports, and the Sections button in the left rail flies you to any of them.
+l213	Wires you can see and reach — hover near a wire and a dot springs up offering remove or edit, and wires arc around cards, images and documents instead of hiding behind them. Click one and Delete removes it.
+l214	With a call time the day clock runs on the schedule — no button to press on the morning.
+l215	Words come through clean. Italics, bold and underline no longer arrive as literal asterisks and underscores in the middle of your sentences, and an escaped \* now reads as a plain asterisk instead of a backslash on the card.
+l216	Write the screenplay (traditional script format)
+l217	Write to beat@joaolutz.com. It is the address for Beat everywhere now, in this window, inside the download and on the site, and it still reaches me directly.
+l218	Write turns your board into a live document that syncs both ways — edit either side. Outline is the reading order as a draggable list. And the audio timeline, in the left rail, lays your story against a track.
+l219	Write — edit your story as a live document; changes sync with the canvas both ways
+l220	Writing Mode — your board as a live written document, side by side with the canvas. Type in the document and the card updates; edit a card and the document follows. Add, reorder and remove beats from either side, all undoable.
+l221	You can see your selection at any zoom. The ring around a picked card was drawn inside the canvas, so it shrank with the board and vanished long before you were far enough out to want it. It now holds the same thickness on screen whatever the zoom, and it survives both the simplified far-out view and the zoom gesture itself, which used to hide it at exactly the moment you were looking for it.
+l222	Your own fields on every beat card — Emotion, Budget, anything. Give one presets and it becomes a dropdown. Values flow to Writing Mode, exports and shot-list columns.
+l223	Your shot list as a running day. Right-click the clock button to set a CALL TIME — then the day runs itself from the schedule and the bar reads your pace against it. A− and A+ size the whole room; the chevrons button collapses every shot to one slim line.
+l224	macOS no longer calls Beat unidentified. The app, and every helper inside it, is signed with a Developer ID, hardened, and notarised by Apple. It opens the way any other Mac app opens. No right click, no Open Anyway, no warning.
+l225	send feedback and anything that ships gets credited to you, right here and in the “What’s new” notes.</p>
+l226	— tick the content you want in this export.</p>

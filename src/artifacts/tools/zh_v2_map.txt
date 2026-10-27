@@ -1,0 +1,754 @@
+(Log file only exists inside the Tauri app)	（日志文件只在 Tauri 应用内存在）
+(No shots yet.)	（还没有镜头。）
++ Add	+ 添加
++ Beat	+ 节拍
++ Column	+ 列
++ Field…	+ 字段…
++ Image…	+ 图片…
++ Item	+ 条目
++ Link	+ 链接
++ Link to story…	+ 链接到故事…
++ New project	+ 新建项目
++ New shot list	+ 新建镜头表
++ Scene	+ 场景
++ Shot	+ 镜头
++ Tone…	+ 基调…
+</b> of	</b> 共
+A SHORT FILM	一部短片
+A beat is one moment of your story.	一个节拍，就是故事里的一个瞬间。
+A frame she didn't shoot	一张不是她拍的画面
+About this story	关于这个故事
+Add Set Plan	添加场景计划
+Add a comment…	添加评论…
+Add an element — Prop, Sound, VFX…	添加元素 —— 道具、声音、视效…
+Add anything	添加任何东西
+Add colour	添加颜色
+Add element	添加元素
+Add here	添加到这里
+Add image…	添加图片…
+Add more images	添加更多图片
+Add page	添加页面
+Add reference image	添加参考图
+Add to Vault	添加到保险库
+Add value	添加值
+Address:	地址：
+Align	对齐
+Align or distribute the selection	对齐或分布所选内容
+All	全部
+All your projects	你的所有项目
+Apply	应用
+Arrow	箭头
+Audio timeline	音频时间轴
+Available in the Beat desktop app.	仅在 Beat 桌面应用中可用。
+Back to current	回到当前
+Beat field	节拍字段
+Beat fields	节拍字段
+Beat title	节拍标题
+Beat —	Beat ——
+Beat's Focus:	Beat 的重点：
+Beat's focus	Beat 的重点
+Beats	节拍
+Because of that...	因此……
+Boom	摇臂
+Breakdown sheets (PDF)	分镜表（PDF）
+Built-in	内置
+Call	通告
+Call sheet PDF	通告单 PDF
+Camera	摄影机
+Camera Lens	镜头
+Camera Move	运镜
+Camera Shot	景别
+Camera move, action, mood, products…	运镜、动作、情绪、产品…
+Cancel	取消
+Canvas	画布
+Canvas to PDF (print layout)	画布转 PDF（印刷排版）
+Canvas to PDF (print layout)…	画布转 PDF（印刷排版）…
+Card	卡片
+Carry	结转
+Cast	演员
+Change library folder…	更改素材库文件夹…
+Character	角色
+Character/Object	角色/物体
+Characters, locations & props	角色、地点与道具
+Cheat sheet	速查表
+Check	对勾
+Checklist	清单
+Checklists	清单
+Circle	圆形
+City	城市
+Clear	清除
+Clear colour on all	清除全部颜色
+Clear this beat's sun plan	清除这个节拍的日照计划
+Clear — back to the manual clock	清除 —— 回到手动计时
+Close	关闭
+Close (Esc)	关闭（Esc）
+Close tab	关闭标签页
+Colour	颜色
+Colour all	为全部上色
+Colour palette	色板
+Column	列
+Column name	列名
+Columns	列
+Columns, CSV & export	列、CSV 与导出
+Columns…	列…
+Company or production name	公司或制作名称
+Condition (e.g. if Olivia trusts Marco)	条件（例如：如果 Olivia 信任 Marco）
+Condition —	条件 ——
+Connection options	连接选项
+Contact line (email, phone, website)	联系方式（邮箱、电话、网站）
+Contact sheet (PDF)	联系表（PDF）
+Convert into	转换为
+Copy	复制
+Copy the selection (⌘C) — paste with ⌘V	复制所选（⌘C）—— 用 ⌘V 粘贴
+Cover	封面
+Coverage & gap analysis	覆盖与缺口分析
+Create a Set Plan linked to this location	创建一个链接到此地点的场景计划
+Create project	创建项目
+Creator — design, engineering & direction	创作者 —— 设计、工程与导演
+Cross	十字
+Crowd	人群
+Custom	自定义
+Custom fields	自定义字段
+Custom tone…	自定义基调…
+Dan Harmon's story circle	Dan Harmon 的故事圈
+Day sheet (PDF)	日程单（PDF）
+Dec 21	12月21日
+Default colour	默认颜色
+Definition (optional)	定义（可选）
+Delete	删除
+Delete beat	删除节拍
+Delete folder	删除文件夹
+Delete gallery	删除图库
+Delete group	删除分组
+Delete note	删除备注
+Delete palette	删除色板
+Delete project	删除项目
+Delete saved template	删除已保存的模板
+Delete scene and its shots	删除场景及其镜头
+Delete shot	删除镜头
+Delete shot list	删除镜头表
+Delete sketch	删除草图
+Delete this column (removes its cells)	删除这一列（连同其单元格）
+Delete this template	删除这个模板
+Delete thought	删除想法
+Description	描述
+Description / notes…	描述 / 备注…
+Discard	放弃
+Dismiss	收起
+Document	文档
+Documents	文稿
+Dolly	推轨
+Done	完成
+Download	下载
+Drag group	拖动分组
+Drag to connect	拖动以连接
+Drag to move	拖动以移动
+Drag to re-attach the source	拖动以重新接上起点
+Drag to re-attach the target	拖动以重新接上终点
+Drag to reorder	拖动以重新排序
+Drag to reorder scene	拖动以重排场景
+Drag to resize	拖动以调整大小
+Drag to resize · double-click to reset	拖动调整大小 · 双击重置
+Draw	绘制
+Drone	无人机
+Duplicate	创建副本
+Duplicate shot	复制镜头
+Duplicate the selection (⌘D)	复制所选（⌘D）
+Duration	时长
+Duration (e.g. 5s, 1:20)	时长（例如 5s、1:20）
+Duration:	时长：
+EYEBROW	眉标题
+Edit	编辑
+Edit image	编辑图片
+Edit plan	编辑计划
+Edit this beat's sun plan	编辑这个节拍的日照计划
+Element name	元素名称
+Elements	元素
+Elements & mentions	元素与提及
+Email	邮箱
+Est.	预估
+Exclude this from exports	从导出中排除
+Exit (Esc)	退出（Esc）
+Expand	展开
+Export	导出
+Export CSV	导出 CSV
+Export PDF	导出 PDF
+Export all media (.zip)	导出全部素材（.zip）
+Export center	导出中心
+Export preview	导出预览
+Exports	导出
+Exterior	外景
+Extract from image…	从图片提取…
+Fewer	更少
+Field name	字段名称
+Figure (fem)	人物（女）
+Figure (masc)	人物（男）
+Fill the blank beats	填满空白节拍
+Filter view	筛选视图
+Find	查找
+Fit view	适应视图
+Focus	重点
+Focus mode	专注模式
+Focus session	专注时段
+Folder colour and icon	文件夹颜色与图标
+Folder name	文件夹名称
+For AI chat development (.md)	用于 AI 对话开发（.md）
+From Script	来自剧本
+From a template…	从模板…
+From the linked beat — jump to	来自链接的节拍 —— 跳转到
+From the linked beat — type to override	来自链接的节拍 —— 输入以覆盖
+Full	全景
+Galleries	图库
+Gallery	图库
+Gear	器材
+Gear summary (PDF)	器材汇总（PDF）
+God's eye	上帝视角
+Golden hour	黄金时刻
+Got it	知道了
+Group	分组
+Group colour	分组颜色
+Group name:	分组名称：
+Group projects into a folder	把项目归入文件夹
+Heart	心形
+Hero's journey	英雄之旅
+Hidden	已隐藏
+Hide	隐藏
+Hills	丘陵
+Icon	图标
+Icons	图标
+Image	图片
+Image editor	图片编辑器
+Import CSV…	导入 CSV…
+Import from web Beat (.zip)…	从网页版 Beat 导入（.zip）…
+Inspector	检查器
+Involves:	涉及：
+It all lands back — and prints	一切都会落回原位 —— 并且可以打印
+Item	条目
+Jump to	跳转到
+Jump to this beat	跳到这个节拍
+Jump to this card	跳到这张卡片
+Jump to this marker's beat on the canvas	跳到画布上这个标记的节拍
+Jump to this on the canvas	在画布上跳到它
+Jun 21	6月21日
+Keep the current pin	保留当前标记点
+Keyboard shortcuts (?)	键盘快捷键（?）
+Label	标签
+Label (optional)	标签（可选）
+Lamp	灯具
+Library	素材库
+Lightbox	灯箱
+Lighting & mood plan	布光与氛围计划
+Link	链接
+Link a beat…	链接一个节拍…
+Link a card…	链接一张卡片…
+Link a character, location or prop…	链接角色、地点或道具…
+Link card	链接卡片
+Link cards to this scene	链接卡片到这个场景
+Link cards…	链接卡片…
+Link this plan to a card	把这个计划链接到一张卡片
+Link to a beat	链接到节拍
+Linked to beat	已链接到节拍
+Load audio…	载入音频…
+Location	地点
+Location Scout	勘景
+Location Scout — original idea	勘景 —— 最初的想法
+Location from metadata	从元数据取地点
+Locations map	地点地图
+Look & feel	观感
+Loose on canvas	散在画布上
+Made with Beat	用 Beat 制作
+Make main path	设为主线
+Middle or Ctrl drag (left drag selects)	中键或 Ctrl 拖动（左键拖动为框选）
+Mood	情绪
+More	更多
+Move	移动
+Move down	下移
+Move the pin to	把标记点移到
+Move to Vault	移入保险库
+Move to folder…	移到文件夹…
+Move up	上移
+NOTE	备注
+Name	名称
+Name it and pick a starting point	给它起个名字并选一个起点
+Name this version	为这个版本命名
+Need	需求
+New character	新建角色
+New column name (e.g. Audio)	新列名（例如 音频）
+New entry	新建条目
+New field name (e.g. Emotion)	新字段名（例如 情绪）
+New folder	新建文件夹
+New shot list	新建镜头表
+News from Beat	Beat 的消息
+Next	下一步
+Night	夜晚
+No colour	无颜色
+No colour tag	无颜色标签
+No matches	无匹配
+No scene colour	无场景颜色
+Node	节点
+None	无
+Note	备注
+Note (pinned):	备注（已固定）：
+Note:	备注：
+Notes	备注
+Note…	备注…
+Nothing captured yet	还没有捕获任何内容
+OK	确定
+Observation, idea, reference…	观察、想法、参考…
+Observations	观察
+Observations — takes, notes, anything	观察 —— 条次、备注，任何东西
+On set mode	现场模式
+Opacity	不透明度
+Open	打开
+Open Projects	打开项目
+Open a project	打开一个项目
+Open another project (Cmd+T)	打开另一个项目（Cmd+T）
+Open in viewer	在查看器中打开
+Open on	打开方式
+Open on the canvas	在画布上打开
+Open the map	打开地图
+Open — right-click for colour and icon	打开 —— 右键可设颜色和图标
+Optional caption	可选说明文字
+Order	顺序
+Order:	顺序：
+Other ways to start a project	开始项目的其他方式
+Outline	大纲
+Page	页面
+Page to Vault	页面存入保险库
+Pages	页面
+Palette	色板
+Palette name	色板名称
+Palettes	色板
+Paper	纸张
+People	人物
+People &amp; places	人物与地点
+Permanently delete this project	永久删除这个项目
+Phone	电话
+Pin a place	标记一个地点
+Pitch deck (PDF) — 16:9	提案演示（PDF）—— 16:9
+Plan at a location…	在地点做计划…
+Planned	已计划
+Play	播放
+Point	点
+Preferences	偏好设置
+Preferences…	偏好设置…
+Presentation	演示
+Preview on canvas	在画布上预览
+Print layout	印刷排版
+Production	制作
+Project	项目
+Project identity	项目标识
+Project info	项目信息
+Project name	项目名称
+Project overview (PDF)	项目概览（PDF）
+Projects	项目
+Promote this alternative to the main path	把这个备选提升为主线
+Prop	道具
+Pull text from beat	从节拍提取文本
+Quick look	快速查看
+Re-fetch the latest yt-dlp from GitHub	从 GitHub 重新获取最新的 yt-dlp
+Recenter	重新居中
+Redo	重做
+Reference board	参考板
+Reference image	参考图
+Remove	移除
+Remove colour	移除颜色
+Remove connection	移除连接
+Remove document	移除文档
+Remove from Vault	从保险库移除
+Remove image	移除图片
+Remove link	移除链接
+Remove logo	移除标志
+Remove marker	移除标记
+Remove preset	移除预设
+Remove reference	移除参考
+Remove snapshot	移除快照
+Remove the audio track from this project	从这个项目移除音轨
+Remove the old copy	移除旧副本
+Remove this checklist from this card	从这张卡片移除这个清单
+Remove this column (the beat keeps its value)	移除这一列（节拍仍保留其值）
+Remove this field	移除这个字段
+Remove this field from this card	从这张卡片移除这个字段
+Remove this item	移除这个条目
+Remove this person from the project	把这个人从项目中移除
+Removed	已移除
+Rename	重命名
+Rename project:	重命名项目：
+Rendering…	渲染中…
+Replace all beats with the original template	用原始模板替换所有节拍
+Reset	重置
+Reset to	重置为
+Resize	调整大小
+Resize (aspect locked to the paper)	调整大小（比例锁定为纸张）
+Restore the 6 default warm colours	恢复 6 种默认暖色
+Reveal	在访达中显示
+Right-click an element	右键点击一个元素
+Road	道路
+Role	身份
+Runtime <b>	时长 <b>
+Sample — The Last Roll	示例 —— 最后一卷
+Save	保存
+Save as template…	保存为模板…
+Save media as…	媒体另存为…
+Saved	已保存
+Saved · just now	已保存 · 刚刚
+Scan to tip via PayPal	扫码用 PayPal 打赏
+Scene colour	场景颜色
+Scenes	场景
+Screenplay scaffold (.fountain)	剧本骨架（.fountain）
+Search	搜索
+Search…	搜索…
+Section title	章节标题
+Sections	章节
+Select (V) to restyle	选择（V）以重新设置样式
+Select for bulk export	选择以批量导出
+Select many at once	一次选择多个
+Send this page to the Vault as an image	把这一页作为图片存入保险库
+Sequence name	序列名称
+Set Plan	场景计划
+Set Plans	场景计划
+Set plan ·	场景计划 ·
+Set this and every shot below in this scene	设置这个场景里此镜头及以下所有镜头
+Set this palette as the project tag colours	把这个色板设为项目标签色
+Setting	设置
+Setup	设置
+Shared from <b>Beat</b> · view-only	由 <b>Beat</b> 分享 · 仅可查看
+Shoot	拍摄
+Shoot day	拍摄日
+Short description (optional):	简短描述（可选）：
+Shot	镜头
+Shot #	镜头编号
+Shot list	镜头表
+Shot list & coverage	镜头表与覆盖
+Shot list (CSV)	镜头表（CSV）
+Shot list (PDF)	镜头表（PDF）
+Shot lists	镜头表
+Shot type	镜头类型
+Shots	镜头
+Show	显示
+Show in Finder	在访达中显示
+Show me around	带我看看
+Show on canvas	在画布上显示
+Sketch	草图
+Snap to grid	对齐网格
+Sockets	接口
+Sort	排序
+Sound	声音
+Sound & music	声音与音乐
+Stamps	图章
+Star	星形
+Static	固定
+Stats	统计
+Step 3 — Restart & test	第 3 步 —— 重启并测试
+Storage	存储
+Story	故事
+Storyboard (PDF)	故事板（PDF）
+Street view	街景
+Stroke width	描边宽度
+Subject	主体
+Subtitle	副标题
+Sun path	日照轨迹
+Sun path diagrams	日照轨迹图
+Sun path for	日照轨迹用于
+Sun path ·	日照轨迹 ·
+Sun-plan a beat…	为节拍规划日照…
+Synopsis	摘要
+TAKE	条次
+TITLE	标题
+Take	条次
+Taken at	拍摄于
+Template name:	模板名称：
+Templates	模板
+Text	文字
+The AD’s order	副导演的顺序
+The Last Roll	最后一卷
+The Vault	保险库
+The chosen take from this shot	这个镜头选定的条次
+The wrap report as a clean document	杀青报告，做成一份干净的文档
+Theme	主题
+Theme & motif audit	主题与母题审查
+This person’s own call (empty = general call)	此人的单独通告（留空 = 统一通告）
+Thought	想法
+Thoughts	想法
+Three acts, Hero’s journey, Story circle…	三幕、英雄之旅、故事圈…
+Thumbnail size	缩略图大小
+Tilt	俯仰
+Time & light	时间与光线
+Timecode	时间码
+Title	标题
+Title cards	标题卡
+Titles	标题
+Toggle Focus mode (Write)	切换专注模式（写作）
+Toggle Writing Mode	切换写作模式
+Toggle acquired	切换已备妥
+Toggle minimap	切换小地图
+Tone & mood	基调与氛围
+Tones — click to edit	基调 —— 点击编辑
+Total runtime of	总时长：
+Treatment (PDF)	项目书（PDF）
+Treatment (PDF) — section per page	项目书（PDF）—— 每页一节
+Treatment (sections)	项目书（章节）
+Tripod	三脚架
+Type @ to name someone	输入 @ 来指名某人
+Undo	撤销
+Unlink	取消链接
+Unlink Set Plan	取消场景计划链接
+Unlink beat	取消节拍链接
+Untitled beat	未命名节拍
+Upload…	上传…
+Vault	保险库
+Version history	版本历史
+Video importer	视频导入
+Walking	行走
+Walkthrough	引导
+Water	水面
+Weather cover, parking, nearest hospital…	天气备用方案、停车、最近的医院…
+Website	网站
+Welcome to Beat	欢迎使用 Beat
+What exactly? @ mentions work…	具体是什么？@ 提及可用…
+What happens…	会发生什么…
+Word — annotated (.docx)	Word —— 带批注（.docx）
+Word — clean (.docx)	Word —— 干净版（.docx）
+Wrap day	杀青日
+Wrap report (PDF)	杀青报告（PDF）
+Write	写作
+Write a note…	写一条备注…
+Writing Mode	写作模式
+Writing surface:	写作界面：
+You have <b>	你有 <b>
+Your name	你的名字
+Your own symbols	你自己的符号
+Your project's media lives here	你项目的素材放在这里
+Zoom	缩放
+Zoom in	放大
+behind sched</b>	落后计划</b>
+e.g. My short film	例如：我的短片
+her inheritance	她的遗产
+iCloud has not finished downloading	iCloud 还没下载完
+listProjects failed for	listProjects 失败：
+projects listed:	已列出项目：
+the kit	那套器材
+unknown error	未知错误
+× H	× 高
+— fps	— fps
+‹ Back	‹ 返回
+← All projects	← 所有项目
+↓ Export selected (.zip)	↓ 导出所选（.zip）
+↗ Watch	↗ 观看
+↗ Watch on	↗ 在…观看
+⧉ Copy config	⧉ 复制配置
+(Debug panel runs full diagnostics only inside the Tauri app)	（调试面板只在 Tauri 应用内运行完整诊断）
+<br>Try “Link now” on the previous step, then test again.	<br>请在上一步点「立即链接」，然后再测一次。
+A 1-3 sentence description of your story: tone, format, characters, anything that helps the AI.	用 1–3 句话描述你的故事：基调、形式、角色，任何能帮到 AI 的信息。
+A 1970s film SLR. Dented on the left side. Strap stained dark. The mentor's only inheritance to her.	一台 1970 年代的胶片单反。左侧有凹痕，背带染着深色污渍。这是导师留给她的唯一遗物。
+A card carries its fields right on the board — add or hide them per project in Project info, and the rail's Clean cards toggle keeps empties tucked away until you hover. For the deep dive, press I (or the Inspector button up top): a side panel with everything about the selected card.	卡片把字段直接摆在画布上 —— 在「项目信息」里按项目增删字段，左栏的「干净卡片」开关会把空字段收起，直到鼠标移上去。想深入看，按 I（或顶部的检查器按钮）：侧栏会列出选中卡片的全部信息。
+A comma-separated spreadsheet: one block per shot list, a header row with that list’s columns, then one row per shot tagged with its list and scene. Opens in Excel, Numbers or Google Sheets.	一份逗号分隔的表格：每个镜头表一个区块，一行表头写该表的列，之后每个镜头一行，并标注它属于哪个表和哪个场景。可用 Excel、Numbers 或 Google Sheets 打开。
+A company name, contact line and logo that print on every export cover — this project's own letterhead, separate from your personal credit in Preferences.	公司名、联系方式与标志，会印在每份导出封面上 —— 这是项目自己的信头，与「偏好设置」里的个人署名相互独立。
+A converted bathroom in Maya's apartment. Two amber bulbs, a chemical bath, a clothesline of prints, the perpetual smell of stop-bath.	Maya 公寓里一间改造过的暗房。两盏琥珀色灯泡、一盆显影液、一根晾着照片的绳子，还有挥之不去的停影液味道。
+A cover, then one slide per section, title and beat — images included. Nothing on your board changes; this is just a lens on it.	先一个封面，然后每个章节一页，含标题与节拍 —— 图片一并带上。画布上的东西完全不变，这只是看它的一个视角。
+A name that matches nobody offers to become somebody — type @Maya where no Maya exists and the menu offers to make her: a new character, location or prop, born right beside the beat.	输入的名字查无此人时，Beat 会提议把她建出来 —— 在没有 Maya 的地方输入 @Maya，菜单会提供一个新角色、地点或道具，就诞生在这个节拍旁边。
+A new plan starts on Super 35, because that is what most people shoot. Every plan you have already drawn stays on full frame, so nothing you made before this changes shape. Change it whenever you like.	新计划从 Super 35 起步，因为大多数人拍的就是这个。你已经画好的计划仍保持全画幅，所以之前做的任何东西都不会变形。随时可以改。
+A plain-text screenplay scaffold in Fountain format: scene headings from your slugs, action lines from beat text. Opens in any screenwriting app for the real draft.	纯文本剧本骨架，Fountain 格式：场景标题取自你的场景条，动作行取自节拍正文。可在任何剧本软件里打开，去写真正的初稿。
+A polished story document: cover, sections in reading order, beats with their text and images, galleries, reference cards and shot-list tables. No internal annotations — ready to share.	一份打磨过的故事文档：封面、按阅读顺序排列的章节、带文字与图片的节拍、图库、参考卡片和镜头表。不含任何内部批注 —— 可以直接分享。
+A production plan laid out as an ordered timeline of phases.	以有序阶段时间轴排布的制作计划。
+A real-scale floor. Two-finger drag to pan; pinch on a trackpad, or hold Control and scroll, to zoom. Drag the floor’s bottom-right corner to resize the room.	一块真实比例的地面。双指拖动平移；触控板捏合，或按住 Control 滚动来缩放。拖地面右下角可以改变房间大小。
+A song, photos, a location — or click to pick images.	一首歌、一些照片、一个地点 —— 或者点一下挑几张图片。
+A structured Markdown file with your full project content, a reading guide for the assistant, and the development tasks you choose. Export opens the task picker.	一个结构化 Markdown 文件，含你的全部项目内容、给助手的阅读指南，以及你选择的开发任务。导出时会打开任务选择器。
+A treatment for a film/brand piece. Each group is a slide/section of the final document.	用于影片／品牌片的项目书。每个分组就是最终文档的一页／一节。
+A visual reference board. Each group is a theme of references.	一块视觉参考板。每个分组是一个参考主题。
+A whole new look — flat, calm surfaces in ink and amber, one rail of tools down the left, a new mark on the dock and an opening leader when the app wakes. All thirteen card types now share one quiet sheet: a grabber to hold, grouped fields, a single colour strip, and a type label so you always know what you are reading.	全新的样子 —— 墨色与琥珀色构成的平整安静表面，左侧一条工具栏，Dock 上是新的标志，应用唤醒时有一段开场。全部十三种卡片现在共用同一张安静的底板：可抓取的拖柄、成组的字段、一条颜色带，以及类型标签，让你永远知道自己在读什么。
+Add a field to this card only (project-wide fields live in Project info)	只给这张卡片加字段（项目级字段在「项目信息」里）
+Add a shot to a scene here, and add scenes at the bottom. Duplicate a shot, drag scenes to reorder, and fill a value down a column.	在这里往某个场景加一个镜头，在底部加场景。复制镜头、拖动场景重排，或把某个值沿一列填下去。
+Add these beats to a shot list as scene(s) — grouped by their canvas groups	把这些节拍作为场景加进一个镜头表 —— 按它们在画布上的分组来归类
+An 80-second short film. A young photographer (Maya) returns to her childhood darkroom to develop the final roll left by her late mentor — but the chemistry behaves wrong, and the prints aren't what she shot. A study in inheritance, loss, and the patience of the image. Sensorial, restrained, tactile. No score until the final beat.	一部 80 秒的短片。一位年轻摄影师（Maya）回到儿时的暗房，冲洗已故导师留下的最后一卷胶片 —— 但药水不对劲，洗出来的也不是她拍的东西。一出关于传承、失去与影像耐心的习作。感官化、克制、可触。直到最后一个节拍才有配乐。
+An image that lands in a card now shows itself. Add one, drop one in from the Vault, or drag one over from another card, and it lights up for a second. In a gallery it also becomes the big picture. Images arrive at the end of the list, where nobody is looking, so a move that worked used to read as a move that failed.	落进卡片的图片现在会自己亮相。加一张、从保险库拖一张进来，或从另一张卡片拖一张过来，它会亮一下。在图库里它还会成为大图。以前图片会排到列表末尾、没人看到的地方，所以一次成功的移动看起来像一次失败的移动。
+An open profile carries its photos, its full description, the beats that mention it in story order, what it is wired to on the canvas, and any Set Plan it stands in. Click any of those to jump straight there.	打开的人物档案带着它的照片、完整描述、按故事顺序提到它的节拍、它在画布上连着什么，以及它所在的任何场景计划。点其中任一项就能直接跳过去。
+Anamorphic. Pick a squeeze of 1.33x, 1.5x, 1.8x or 2x and the cone widens the way an anamorphic lens really does, horizontally only, while the vertical angle stays put. The inspector reads the horizontal angle the cone is drawn from, the vertical angle, and the desqueezed aspect the format and squeeze give you.	变形宽银幕。选 1.33x、1.5x、1.8x 或 2x 的挤压比，锥形范围就会像真正的变形镜头那样只往横向变宽，垂直角度保持不变。检查器会读出锥形所依据的水平角度、垂直角度，以及画幅与挤压比给出的解挤宽高比。
+Asked which sensor the Set Plan draws its coverage cones from and whether you could change it, then specified the per camera body, format and anamorphic model (Cinematography Mailing List)	他问了场景计划的覆盖锥依据哪颗传感器绘制、能不能改，然后按机身、画幅与变形型号逐项写明（Cinematography 邮件列表）。
+Audited the app and the site unprompted and found eight things, including the unverified yt-dlp download and the inconsistent minimum macOS	主动审查了应用和网站，找出八处问题，包括未经验证的 yt-dlp 下载与不一致的 macOS 最低版本。
+Auto places one page per section. Drag any frame to move it, or pull its corner to resize — a smaller frame means a closer crop.	自动为每个章节排一页。拖动任何画框来移动，拉它的角来缩放 —— 画框越小，裁切越近。
+Auto reads your board in columns: left to right across the board, then top to bottom inside each column. Switch to Custom to drag rows into the exact order you want — that order carries straight into your exports.	按列自动读取你的画布：先自左向右横扫整个画布，再在每列内部自上而下。切到「自定义」可以把行拖成你想要的准确顺序 —— 那个顺序会直接带进导出。
+Beat cannot find your library folder anymore (	Beat 找不到你的素材库文件夹了（
+Beat now opens filling your screen. It used to wake up as a small window in the middle of the desktop, so the first thing you did every single time was drag it bigger before you could see your board. Now the board is already there. You can still resize the window however you like, Beat only starts full.	Beat 现在一打开就铺满屏幕。以前它会在桌面中间以小窗口醒来，所以你每次做的第一件事都是先把它拖大，才看得见画布。现在画布早就在那儿了。你仍然可以随意调整窗口大小，Beat 只是启动时全屏。
+Break the link — these items will move independently again	断开链接 —— 这些条目会重新各自独立移动
+Called out the download and the missing notarization, then asked the one question that turned it from a someday problem into a today one	他指出了下载与未公证的问题，然后问出了那个把「总有一天要解决」变成「今天就得解决」的问题
+Captured stills and GIFs collect on this shelf. Done saves them all into this project's Vault.	捕获的静帧与 GIF 会收在这层架子上。点「完成」会把它们全部存进本项目的保险库。
+Caught images failing to load in custom project folders (RIGHT UP Inc.)	发现自定义项目文件夹里图片加载失败的问题（RIGHT UP Inc.）
+Caught stretched Word-export images, silent export saves, and the lost-library trap	发现 Word 导出图片被拉伸、导出静默未保存，以及素材库丢失的陷阱
+Caught that the window always opened maximised and never remembered where you left it (CML technical services)	发现窗口总是最大化打开、从不记住你上次的位置（CML 技术服务）
+Caught the zoom shortcut hint, then designed the one that shipped: drag out from a port, let go on empty canvas, pick a type, and the new card lands already connected	指出了缩放快捷键的提示问题，然后设计了最终上线的方案：从接口拖出，在空画布上松手，选一个类型，新卡片带着连接落在那里
+Claude can build a whole project — through Link to Claude it can now create the project, write the beats and groups, place images, build linked shot lists, dress set plans, export treatments, check its own work for errors and undo its mistakes.	Claude 能造出整个项目 —— 通过「链接到 Claude」，它现在可以创建项目、写节拍与分组、放图片、建关联镜头表、布置场景计划、导出项目书、自查错误并撤销自己犯的错。
+Clean cards: hide empty fields and buttons until you hover a card	干净卡片：隐藏空字段和按钮，直到鼠标移到卡片上
+Clean prints crisp cards on a white page — best for handouts. As on screen captures your theme exactly as you see it (experimental).	「干净」会在白页上印出利落的卡片 —— 最适合打印分发。「同屏幕」会一模一样地保留你的主题（实验性）。
+Click a row to select its card on the canvas, or use its arrow to fly there. The checkbox hides a beat from exports without deleting it.	点一行即可在画布上选中它的卡片，或用它的箭头飞过去。复选框会把一个节拍从导出中隐藏，但不会删除它。
+Column type — click to switch between free text and a dropdown	列类型 —— 点击在自由文本和下拉菜单之间切换
+Connection options — colour, style, label, condition	连接选项 —— 颜色、样式、标签、条件
+Connector reliability — caught the long save hang	连接器的可靠性 —— 修掉了那次长时间的保存卡死
+Couldn’t link automatically — use “set it up manually” below. (	无法自动链接 —— 请使用下方的「手动设置」。（
+Create a beat on the canvas carrying this timecode	在画布上创建一个带此时间码的节拍
+Crop never throws pixels away. Reopen the crop tool any time to move it — or widen it back out.	裁切从不丢像素。随时重新打开裁切工具来移动它 —— 或者再把它放宽回去。
+Current page — edit to jump, then “Page to Vault” sends it	当前页 —— 编辑以跳转，然后「页面存入保险库」把它送过去
+Customize Beat Nodes · Clean cards view · Quiet cards at every zoom · Connection handles · Checklist fields · Canvas navigation · Mention backlinks · Wires you can see and reach	自定义节拍节点 · 干净卡片视图 · 任意缩放下简洁卡片 · 连接手柄 · 清单字段 · 画布导航 · 提及反链 · 看得见够得着的连线
+Documents, production paperwork and handoff files — pick a format here. Your last choice is remembered per project.	文档、制作文书与交接文件 —— 在这里选一种格式。上次的选择按项目记忆。
+Double-click the waveform to drop a marker at that moment. Drag a flag left or right to move it, double-click the flag to name it.	双击波形在该时刻打一个标记。把旗标左右拖动来移动它，双击旗标给它命名。
+Drag a Camera, Light, the Subject, a prop, a wall, window or door from here onto the floor. Set & grip carries the real gear — C-stand, tripod, crane, apple boxes — each drawn at its true size next to the subject.	把摄影机、灯具、主体、道具、墙、窗或门从这里拖到地面上。器材与握把区放着真实器材 —— C 型架、三脚架、摇臂、苹果箱 —— 每件都按真实尺寸画在主体旁边。
+Drag a tile onto the canvas to place it there. Items stay in the Vault until you drag them out or remove them.	把一块素材拖到画布上即可放到那里。素材会一直留在保险库里，直到你把它拖出去或移除。
+Drag the sun along the path, or use ← → to nudge 5 minutes	拖动太阳沿轨迹走，或用 ← → 微调 5 分钟
+Drag to resize the two faces. The arrows snap to full document or back to canvas. Cmd Shift W toggles Writing Mode from anywhere.	拖动可调整两面的比例。箭头会吸附到整篇文档或回到画布。Cmd Shift W 可在任何地方切换写作模式。
+Draw on the image with the pen, lines, arrows, rectangles, ellipses and text. Stroke colour, width and fill sit just to the right.	用钢笔、直线、箭头、矩形、椭圆和文字在图片上作画。描边颜色、宽度和填充就在右侧。
+Drop a screenplay on the canvas — a Fountain or Final Draft file becomes a board: one group per act, one beat per scene, and the characters arrive as cards with their names woven into the text as mentions.	把剧本拖到画布上 —— Fountain 或 Final Draft 文件会变成一张画布：每一幕一个分组，每一场一个节拍，人物以卡片形式到来，名字以提及的形式织进文本里。
+Each scene gets its own coloured band and heading. Shots number 1, 2, 3 — the # button in the head switches to industry scene letters (1A, 1B, 2A…). Durations total per scene and for the whole list.	每个场景有自己的色带和标题。镜头编号 1、2、3 —— 表头的 # 按钮可切换到行业惯用的场景字母编号（1A、1B、2A…）。时长会按场景和整表合计。
+Edit image opens the crop-and-annotate editor without leaving the lightbox. Palette reads this photo's colours into a palette card placed beside its owner.	「编辑图片」会打开裁切与标注编辑器，不离开灯箱。色板会把这张照片的颜色读成一张色板卡片，放在它主人的旁边。
+Edit this project's settings — name, theme, palette, AI context	编辑本项目的设置 —— 名称、主题、色板、AI 上下文
+Elements — a panel listing every character, location and prop in your story. Click one and the canvas flies to its card and opens a full profile: photos, details, every beat it appears in, its connections, the set plans it stands in.	元素 —— 列出故事里每个角色、地点与道具的面板。点其中一个，画布就飞到它的卡片并打开完整档案：照片、细节、它出现的每个节拍、它的连接、它所在的场景计划。
+Every Set Plan symbol at real scale — all 48 redrawn at their real-world sizes: a car is 4.5 m, a chair half a metre; people, cameras and lights true to the tape.	每个场景计划符号都是真实比例 —— 48 个全部按真实尺寸重绘：一辆车 4.5 米，一把椅子半米；人、摄影机和灯具都照着实尺来。
+Every character, location and prop you have made, grouped in one place. Click a row and Beat flies to that card on the canvas AND opens its profile right here.	你创建的每个角色、地点与道具，全都归在一处。点一行，Beat 就飞到画布上那张卡片，并在右侧打开它的档案。
+Every frame becomes a page in the PDF. Reorder with the arrows; each caption names the section that page covers.	每个画框都会变成 PDF 的一页。用箭头重排；每个说明文字会标明该页覆盖的章节。
+Every on-disk asset in the project as one zip, organized into a folder per section plus Free on canvas and Vault, with a plain-text manifest naming what each file is. Beat desktop app only.	项目里每个磁盘素材打成一个 zip，按章节分文件夹，另加「画布上的自由素材」和「保险库」，并附一份说明每个文件是什么的纯文本清单。仅限 Beat 桌面应用。
+Every shot list in the project is a day — tap one to switch. Below, the day’s scenes with their progress and, when a beat is sun-planned, its planned clock. Drag the divider to resize the rail, or collapse it with the chevron. The small dot recolours a scene, synced with the card.	项目里的每个镜头表就是一天 —— 点一下切换。下方是当天的场景、进度，以及该节拍有日照计划时的计划时刻。拖动分隔条可调整侧栏宽度，或用折角收起。小圆点可给场景改色，与卡片同步。
+Everyone whose suggestion or bug report ships gets credited here.</p>	所有建议或缺陷报告被采纳的人都会在这里署名。</p>
+Everything you can put on the board lives here: Story, People & places, Visual, Production, Attach. Hover a row and its cards slide out. Or skip the menu and just paste — Beat works out whether you gave it an image, a link or text.	你能放到画布上的一切都在这里：故事、人物与地点、视觉、制作、附件。把鼠标移到一行上，它的卡片就滑出来。或者干脆跳过菜单直接粘贴 —— Beat 会自己判断你给的是一张图、一个链接还是一段文字。
+Everything you have made, and the folders you filed it in.	你做过的所有东西，以及你归档它们的文件夹。
+Export this shot list, or manage the shared cheat sheet	导出这个镜头表，或管理共享速查表
+Filter by type, sort by newest, oldest or type, and drag the slider to resize thumbnails. The bar appears once the Vault has items.	按类型筛选，按最新、最早或类型排序，拖动滑块调整缩略图大小。保险库里有内容后，这条工具栏才会出现。
+Frame after frame after frame. Her hands shake. The mentor watches through her now.	一格又一格。她的手在抖。导师此刻正看着她。
+Freeze the clock, print the wrap report, carry the rest	冻结时钟，打印杀青报告，其余带走
+From its canvas group — type to override, clear to follow the group	来自它的画布分组 —— 输入以覆盖，清空以跟随分组
+From the linked beat’s Shot type — click to override	来自关联节拍的镜头类型 —— 点击以覆盖
+Grab a paragraph by its handle — a line shows exactly where it will land, even into another section. Hover between paragraphs for + to add; the three dots remove (undoable). Enter at the end of a title starts the next beat.	抓住段落的拖柄 —— 一条线会精确显示它将落在哪里，甚至能落进另一个章节。在段落之间悬停会出现 + 用于添加；三个点是删除（可撤销）。在标题末尾按 Enter 会开始下一个节拍。
+INT/EXT, shot size, lens and camera move are dropdowns with sensible presets — and you can add your own options. The other columns type like a spreadsheet.	内/外景、景别、镜头与运镜都是带合理预设的下拉菜单 —— 你也可以加自己的选项。其他列像表格一样直接输入。
+Images, links and documents keep their own controls on the board.	图片、链接和文档在画布上各自保留自己的控件。
+In any beat’s description, type @ and then a name. Beat offers your characters, locations and props; pick one and it becomes a chip you can click to jump to that card. That is what fills this list — nothing here is ever typed twice.	在任何节拍的描述里输入 @ 再加一个名字。Beat 会给出你的角色、地点和道具；选一个，它就变成一枚可点击跳到那张卡片的标签。这个列表就是这样填满的 —— 这里的东西永远不需要输入第二次。
+Inspector — everything about the selected card, in a side panel (I)	检查器 —— 关于选中卡片的一切，都在侧栏里（I）
+Lay the canvas itself out on real pages. Beat drops page frames over the board — one per section, or wherever you put them — and you drag the cards into each frame until the spread looks right. Export to PDF from the designer’s own bar when you are happy.	把画布本身铺到真实页面上。Beat 会把页面画框放到画布上 —— 每章节一个，或者你想放哪就放哪 —— 然后你把卡片拖进每个画框，直到版面看起来对。满意后，从设计器自己的工具栏导出 PDF。
+Link cards to this shot — location, set plan, checklist, sketch…	把卡片链接到这个镜头 —— 地点、场景计划、清单、草图…
+Link these items so moving any one moves them all together	把这些条目链接起来，移动任何一个都会带着其它的走
+Link to Claude was writing itself into one Claude app and not the other, so if you drive Beat from Claude Code it registered nothing at all, silently, with no error to explain it. It now sets up both. It also re-points itself every time Beat starts, which fixes the case where you moved Beat to Applications after linking and the connection quietly died pointing at the old place.	「链接到 Claude」以前只把自己写进一个 Claude 应用而不是另一个，所以如果你从 Claude Code 驱动 Beat，它什么都不会注册，静默失败，没有任何错误可查。现在两个都会设置。它还会在 Beat 每次启动时重新指向自己，这修掉了那种情况：你在链接之后把 Beat 移到「应用程序」，连接就悄悄死掉，还指着老位置。
+Load a beat sequence into this list — one linked shot per beat	把一段节拍序列载入这个列表 —— 每个节拍一个关联镜头
+Load a different audio file (markers are kept)	载入另一个音频文件（标记会保留）
+Load a song with the button — or just drag an audio file from Finder onto the dock, or anywhere on the canvas. It becomes a waveform: press and drag to scrub, Space plays and pauses while the dock is focused.	用按钮载入一首歌 —— 或者干脆从访达把音频文件拖到音频面板上，或拖到画布任意位置。它会变成一条波形：按住拖动来擦洗，面板聚焦时按空格播放／暂停。
+Location Scouting — pin a place on a real map, walk its street view, switch between Map and Satellite, capture stills, and save them to a location card with its full address. See every pinned location together on one map.	勘景 —— 在真实地图上标一个地点，走进它的街景，在地图与卫星图之间切换，抓取静帧，并把它们连着完整地址存进一张地点卡片。所有标记过的地点可以在一张地图上一起看。
+Mark Start and End around a moment, pick a frame rate and size, then Make GIF encodes that range.	围绕某个瞬间标出起点和终点，选帧率和尺寸，然后「制作 GIF」会编码这一段。
+Marked follows each card’s picked photos; Card default ignores the picks and uses every card’s default set.	「已标记」跟随每张卡片挑过的照片；「卡片默认」忽略这些挑选，用每张卡片的默认图组。
+Maya cuts the tape on a film canister wrapped in twine. Her mentor's old Pentax sits on the table. **She has been waiting for this for three weeks.**	Maya 剪开一卷用麻绳缠着的胶片罐。导师那台旧 Pentax 放在桌上。**她为这一刻已经等了三周。**
+Mid-twenties photographer finishing her MFA. The mentor was her father's oldest friend. Holds her camera the way some people hold rosaries.	二十多岁的摄影师，正在读完艺术硕士。导师是她父亲的老朋友。她握相机的方式，像某些人握念珠。
+Names remember where they have been — type @Ana in a beat and her card lists every beat she appears in, in story order.	名字记得自己去过哪里 —— 在一个节拍里输入 @Ana，她的卡片就会按故事顺序列出她出现的每一个节拍。
+New column type — click to switch between free text and a dropdown	新列类型 —— 点击在自由文本和下拉菜单之间切换
+New entry — type or paste your ideas and every line becomes a beat; paste a whole outline and Beat builds the connected column for you.	新建条目 —— 输入或粘贴你的想法，每一行都会变成一个节拍；粘贴整份大纲，Beat 会替你把连好的那一列建出来。
+Nothing gets lost — failed saves retry until they land, deleted photos survive for undo, pasted cards carry their images between projects, one broken card can no longer blank a board, and a new Storage section in Project info lists unused files and moves them to a recoverable trash instead of deleting.	什么都不会丢 —— 保存失败会一直重试直到成功，删掉的照片仍可撤销找回，粘贴的卡片会带着图片跨项目走，一张坏卡片再也无法让整块画布变空白，而「项目信息」里新增的「存储」区会列出没用到的文件，把它们移到可恢复的废纸篓而不是直接删除。
+Nothing on this one yet. Add a photo, a description, or name it in a beat with @.	这一张还什么都没有。加一张照片、一段描述，或在节拍里用 @ 给它命名。
+On set — a full-screen room for the shoot day itself. One operator marks shots done or skipped, steps the chosen take and types observations while the crew reads the board from across the room. A day clock anchors to your call time and says how far ahead or behind you are, the current shot opens into a dashboard with its imagery, set plan, map and checklist, and the day can run in a different order than the story without touching the film. A printable day sheet goes to set in your pocket.	现场 —— 为拍摄当天准备的全屏工作区。一名操作员标记镜头已完成或跳过、切换选定的条次、输入观察记录，而剧组可以从房间另一头读画布。日时钟锚定在你的通告时间上，并告诉你领先或落后多少；当前镜头会展开成仪表盘，带图片、场景计划、地图和清单；当天还可以按与故事不同的顺序推进，而不动片子本身。可打印的日程单会跟着你进现场。
+One click opens the Export center: PDF, Word, treatment, storyboard, shot list, screenplay scaffold — with a live preview, in the order your cards sit on the board. The ⋯ menu holds Present, the locations map, and Show me around — every walkthrough, ready to replay. That is everything. Double-click the canvas and write your first beat.	一键打开导出中心：PDF、Word、项目书、故事板、镜头表、剧本骨架 —— 带实时预览，顺序就是卡片在画布上的顺序。⋯ 菜单里是「演示」、「地点地图」和「带我看看」—— 每一段引导都可以重放。就这些了。双击画布，写下你的第一个节拍。
+Outline entry — the outline-first workflow: paste an outline, get beats (PROJECT-JTH)	大纲条目 —— 大纲优先的工作流：粘贴一份大纲，得到节拍（PROJECT-JTH）
+Outline — the document/treatment view of this board (groups → nodes, in reading order)	大纲 —— 这块画布的文档／项目书视图（分组 → 节点，按阅读顺序）
+PDF formats render a real preview of the actual file, refreshed as you change options. The other formats describe exactly what you will get.	PDF 类格式会渲染真实文件的实时预览，随选项变化而刷新。其他格式会准确说明你会得到什么。
+Pick a beat and plan its time of day at this location	挑一个节拍，在这个地点规划它的时间与光线
+Pick the .zip you exported from web Beat (Projects modal → Export all)	选一个从网页版 Beat 导出的 .zip（项目弹窗 → 导出全部）
+Pin items here to give them their own button in the sidebar. Unpinned items live inside the + menu. Applies to all your projects.	把条目固定到这里，它们就会在侧边栏拥有自己的按钮。未固定的条目留在 + 菜单里。适用于你的所有项目。
+Play / pause (Space while the dock is focused)	播放／暂停（音频面板聚焦时按空格）
+Play, drag the timeline, or step frame by frame with the arrow keys. Capture frame saves the exact frame you are on as a still.	播放、拖动时间轴，或用方向键逐帧步进。「捕获帧」会把当前这一帧存成静帧。
+Point Beat at a different projects folder — nothing is moved or copied	让 Beat 指向另一个项目文件夹 —— 不会移动或复制任何东西
+Preferences — your library folder, your name &amp; credit on exports	偏好设置 —— 你的素材库文件夹、你的名字与导出署名
+Prints on this project's export covers: the logo up top, company and contact under the credit.	印在本项目导出封面上：上方是标志，署名下面是公司与联系方式。
+Promote this alternative to the main path. The previous main becomes the new alternative.	把这个备选提升为主线。原来的主线会成为新的备选。
+Read-only columns pulled from each shot's linked beat. Planned time comes from the beat's sun plan; your own fields are defined in Project info.	从每个镜头的关联节拍拉取只读列。计划时间来自节拍的日照计划；你自己的字段在「项目信息」里定义。
+Remove from the pick-list (cells keep their text)	从备选清单中移除（单元格仍保留其文本）
+Reopen the day. Carried copies stay on the other day — unwrap does not pull them back.	重新打开这一天。带走的副本会留在另一天 —— 展开不会把它们拉回来。
+Replay the walkthrough of Beat's core controls	重放 Beat 核心操作的引导
+Restore an earlier snapshot of this project (auto-saved every 3 minutes)	恢复这个项目较早的快照（每 3 分钟自动保存）
+Right arrow, Space or a click on the right half advances; left arrow or the left half goes back. Home jumps to the cover, End to the last slide.	右箭头、空格或点右半屏前进；左箭头或左半屏后退。Home 跳到封面，End 到最后一页。
+Right-click anything on the floor for its own menu: duplicate it, lock it in place, start a movement path, and move it in front of or behind whatever it overlaps.	右键点击地面的任何东西都能打开它自己的菜单：复制它、把它锁在原位、给它开一条移动路径，以及把它移到与它重叠的对象前面或后面。
+Said plainly that the walkthrough got her in the door but never showed what Beat could do. That note is why the sample project exists (Asubakatchin Productions)	她直言那段引导只把她领进门，却从没展示 Beat 能干什么。正是那条留言，才有了这个示例项目（Asubakatchin Productions）
+Save a portable .beattemplate file with every card and asset — import it from the Projects screen	保存一个可移植的 .beattemplate 文件，含每张卡片与素材 —— 在「项目」界面导入
+Save any project as a portable .beattemplate — every card and image included — from Project info or the template button on a project card here. From a template… starts a fresh project from that file.	把任何项目存成可移植的 .beattemplate —— 包含每张卡片和图片 —— 入口在「项目信息」，或项目卡片上的模板按钮。「从模板…」会用那个文件开一个新项目。
+Save keeps your drawings and crop as live objects — reopen the image later and adjust them. Rotate or flip bakes everything in.	「保存」会把你的画和裁切保留为活对象 —— 以后再打开图片还能调整。旋转或翻转会把它们烘焙进去。
+Save project + refresh the thumbnail (autosaves continuously as you type)	保存项目并刷新缩略图（你打字时会持续自动保存）
+Save this project's structure (without images) as a reusable starter template in the new-project picker	把这个项目的结构（不含图片）存成可复用的起步模板，放进新建项目选择器
+Saved shot-list templates (columns + numbering + cheat-sheet presets). Available in every project. Delete removes a template everywhere; it never touches shot lists already created from it.	已保存的镜头表模板（列 + 编号 + 速查表预设）。在所有项目里可用。删除会把这个模板从各处移除；它绝不会动已经用它建好的镜头表。
+Screenplay import reads the page properly — a note or a comment above your title page no longer costs you the title, a comment running over two lines can no longer swallow the scene underneath it, emphasis arrives as clean words instead of stray asterisks and underscores, centred title cards come through as text, and FADE OUT. is no longer mistaken for a character.	剧本导入现在能正确读页 —— 标题页上方的一条备注或评论不再让你丢掉标题，跨两行的评论不会再把下面的场景吞掉，强调会作为干净的词到来而不是散落的星号和下划线，居中的标题卡会作为文字保留，FADE OUT. 也不会再被误认成角色名。
+Select a marker and press + Beat: a beat carrying that timecode lands on the canvas, chained to the previous marker beat. The chain button beside it points the marker at a beat you already wrote instead — same result, no new card. Replace swaps the mix and keeps every marker; the timecode badge on a beat card jumps the playhead back here.	选中一个标记并按 + 节拍：一个带着该时间码的节拍会落在画布上，接在上一个标记节拍之后。旁边的链接按钮则把这个标记指向你已经写好的某个节拍 —— 结果一样，不新建卡片。「替换」会换掉混音并保留所有标记；节拍卡片上的时间码徽标会把播放头带回这里。
+Select an element to edit it — colour, size, light fixture, door swing, Flip to mirror it horizontally or vertically, and a numbered movement / blocking path.	选中一个元素即可编辑 —— 颜色、尺寸、灯具、开门方向，Flip 可水平或垂直镜像，以及一条带编号的移动／走位路径。
+Select picks up anything you have drawn — move it, change its colour, width or fill, or delete it.	「选择」会拾起你画的任何东西 —— 移动它、改它的颜色、宽度或填充，或者删掉它。
+Set the room size in metres, pick the camera sensor every FOV cone is drawn from with Sensor, load a reference floor plan with Underlay and flip the floor to Dark to trace it, and toggle Rays to preview light throw and bounce.	用米设置房间尺寸，用 Sensor 选所有 FOV 锥所依据的摄影机传感器，用 Underlay 载入参考平面图并把地面翻成暗色以便描图，切换 Rays 可预览光线投射与反弹。
+Shape this shot list. Toggle a column to show or hide it, reorder with the arrows, and add your own. Built-in columns can be hidden and reordered but not deleted. Dropdown columns share the project cheat sheet.	塑造这个镜头表。切换某一列来显示或隐藏，用箭头重排，也可以加自己的列。内置列可以隐藏和重排，但不能删除。下拉列共用项目速查表。
+Shared across all your projects. Your name appears as an author credit on export covers (Word, PDF overview, For AI chat). Leave blank to show no credit. Each project can also turn the credit off on its own, in Project info.	在你的所有项目间共享。你的名字会作为作者署名出现在导出封面上（Word、PDF 概览、用于 AI 对话）。留空则不显示署名。每个项目也可以在自己的「项目信息」里关掉署名。
+She holds the strip up to a candle. The image disappears. **She breathes for the first time in weeks.**	她把胶片举到烛光前。影像消失了。**几周来她第一次呼吸。**
+She lifts a print from the bath. The photograph is of her own kitchen — taken from an angle she would never choose. *Someone else stood there.*	她从显影液里提起一张照片。照片上是她自己的厨房 —— 从一个她绝不会选的角度拍的。*有别人站在那儿。*
+Shift-drag on empty canvas to sweep a box around cards, or Shift-click them one by one. The toolbar appears below, and the inspector becomes a bulk editor — colour, tone, group or delete them all in one move.	在空画布上按住 Shift 拖动，可以扫出一个框住卡片的选框，或按住 Shift 一张张点选。工具栏会出现在下方，检查器变成批量编辑器 —— 一次把它们的颜色、基调、分组或删除都搞定。
+Shoot day — date, location, people, call sheet	拍摄日 —— 日期、地点、人员、通告单
+Shot List — a full shot-list table right on the canvas, with Google-Sheets-style dropdown columns (shot size, lens, camera move, INT/EXT) that carry your own presets and definitions. Colour-coded chips, real scenes with 1A/1B numbering, a duration column that totals the day, multi-value cells, and show / hide / reorder / custom columns.	镜头表 —— 一张完整的镜头表就摆在画布上，带 Google 表格式的下拉列（景别、镜头、运镜、内/外景），承载你自己的预设和定义。彩色标签、带 1A/1B 编号的真实场景、合计当天时长的时长列、多值单元格，以及列的显示／隐藏／重排／自定义。
+Shot List — the dropdown shot-list concept & spec (Legacy Productions)	镜头表 —— 下拉式镜头表的概念与规格（Legacy Productions）
+Simplify cards when zoomed far out (faster on huge boards)	缩得很远时简化卡片（大画布上更快）
+Sixty-four, late-stage cancer. Half-Korean, half-Polish, never quite at home anywhere. We never see his face directly — only his hands, the back of his head, his reflection in glass.	六十四岁，癌症晚期。半韩国、半波兰血统，在哪里都不太算在家。我们从不明着看他的脸 —— 只有他的手、他的后脑，和玻璃里的倒影。
+Sketch — placeholder drawings for shots without stills, with the stamp library	草图 —— 给还没有静帧的镜头用的占位画稿，带图章库
+Slides follow the board's reading order — the same order as the Outline and your exports. Hidden-from-export cards stay off stage. Esc leaves the presentation.	幻灯片跟随画布的阅读顺序 —— 与大纲和你的导出一样。从导出隐藏的卡片不会上台。Esc 离开演示。
+Start or pause the day clock — or set a call time from the … next to it	开始或暂停日时钟 —— 或用旁边 … 设置通告时间
+Stills, GIFs, links, video embeds — even whole cards you stash from the canvas. The + button adds images or a video from disk.	静帧、GIF、链接、视频嵌入 —— 甚至你从画布上收进来的整张卡片。+ 按钮会添加图片或从磁盘添加视频。
+Story order mirrors the card. Switch to Shooting order, unlock the padlock, and drag the day into the order production needs — collapse all first and a forty-shot day rearranges in seconds. Lock it again and the day is set.	故事顺序与卡片一致。切到拍摄顺序、打开锁，把当天拖成制作需要的顺序 —— 先全部折叠，四十个镜头的一天几秒就能重排。再锁上，当天就定了。
+Street view opens imagery at the pin in a split panel on the right. Walk around inside — the map pin follows wherever you go.	街景会在右侧分栏里打开标记点处的影像。在里面走动 —— 走到哪，地图上的标记点就跟到哪。
+Sun path shows sunrise, sunset, golden and blue hour for this exact pin, any day of the year. Drag the day slider, then stamp the times onto the location card for the crew. Drag the sun itself along its path to pick a shoot time — the map draws the sun's direction and a true-to-scale shadow band right over the street, and the whole day's sweep with it.	日照轨迹会给出这个标记点一年中任意一天的日出、日落、黄金时刻与蓝调时刻。拖动日期滑块，然后把时间盖到地点卡片上给剧组。沿着轨迹拖动太阳本身来挑拍摄时间 —— 地图会直接在街道上画出太阳方向与真实比例的阴影带，以及一整天的扫过范围。
+Sun path — plan a shoot by light. A pinned location gets the sun's true path for any day of the year: drag the sun on the graph or right on the map, golden and blue hour on the path itself, a day ring around your pin with the golden hours at their real compass bearings, and a true-to-scale shadow band over the streets. Beats carry their own planned moment and it prints in every document.	日照轨迹 —— 按光来规划拍摄。一个标记好的地点能拿到一年中任意一天太阳的真实轨迹：在图表上或地图上直接拖动太阳，轨迹本身上标着黄金与蓝调时刻，标记点周围有一圈日环，把黄金时刻标在真实的罗盘方位上，还有覆盖街道的真实比例阴影带。节拍带着自己计划的时刻，并会印进每一份文档。
+Switch the base layer in the top-right corner of the map. With the street panel open, drag the divider between the two to resize.	在地图右上角切换底图。街景面板打开时，拖动两者之间的分隔条来调整大小。
+Takes and observations become columns on the shot-list card and its PDF, and the printer button builds the DAY SHEET — the wrap report as a clean document for the production chat. Esc leaves; there is nothing to save.	条次与观察记录会变成镜头表卡片及其 PDF 上的列，打印机按钮会生成日程单 —— 给制作群的一份干净杀青报告。Esc 离开；没有东西需要保存。
+Takes rolled — the circled take is marked in On set	条次已拍 —— 圈选的条次会在「现场」里标出
+Tested Beat's Fountain import against the afterwriting suite and found the comment and emphasis handling (afterwriting)	把 Beat 的 Fountain 导入拿去和 afterwriting 套件对比测试，找出了注释与强调的处理问题（afterwriting）
+The Capture pill floats over the street imagery — each press stages a clean 3:2 still. Save location writes the snapshots to the card.	捕获按钮浮在街景影像之上 —— 每次按下会取一张干净的 3:2 静帧。「保存地点」会把快照写进卡片。
+The Custom group holds symbols you draw yourself — open it and hit + Symbol… (right-click one of yours to remove it). They save with the project and print in exports.	「自定义」组放你自己画的符号 —— 打开它点 + 符号…（右键点你画的那个可以删除）。它们随项目保存，并会印进导出。
+The Last Roll — a sample project to learn the app inside: an original short film planned in beats, with characters, a location, a prop, a palette and a checklist, so you can open a real board and take it apart.	最后一卷 —— 一个把应用学透的示例项目：一部用节拍规划出来的原创短片，有角色、地点、道具、色板和清单，让你能打开一块真实画布并把它拆开看。
+The Set Plan grows real gear — a tripod (full and slim), a crane and a camera at its true size; objects flip from the inspector and reorder from the right-click menu.	场景计划里长出了真实器材 —— 三脚架（完整版与细版）、摇臂，以及真实尺寸的摄影机；物体可以在检查器里翻转，也能从右键菜单重排。
+The Set Plan takes the keyboard now. Shift-drag the floor to select a box of elements, nudge a selection with the arrow keys (hold Shift for a bigger step), ⌘D to duplicate, ⌘A to select all, and Delete to remove. The shortcuts sit on the panel whenever nothing is selected.	场景计划现在支持键盘了。在地面上按 Shift 拖动可框选一批元素，用方向键微调选区（按住 Shift 步长更大），⌘D 复制，⌘A 全选，Delete 删除。没有选中任何东西时，面板上会列着这些快捷键。
+The chemistry shifts colour faster than it should — amber to copper to black in seconds. She pulls her hands back.	药水变色比该有的速度快 —— 几秒内从琥珀到铜色再到黑。她把手缩了回来。
+The day runs from call — tap to change or clear	当天从通告时间开始跑 —— 点击更改或清除
+The day that fits — a strip on the shot list stacks every shot's estimated minutes from call to wrap, over bands of night, daylight and golden hour, so you can see whether the day actually fits before you are standing in it.	装得下的一天 —— 镜头表上的一条带子把每个镜头从通告到杀青的预估分钟数叠起来，底下是夜晚、白天与黄金时刻的色带，让你在真正站进去之前就看出这一天到底装不装得下。
+The folder that holds every one of your projects. This folder is the part that travels: put it in iCloud Drive and both your Macs open the same projects — just open a project on one Mac at a time, because two at once makes iCloud pick a winner. Everything else on this page is remembered on this Mac only.	存着你所有项目的文件夹。这个文件夹才是会移动的部分：把它放进 iCloud Drive，你两台 Mac 就能打开同样的项目 —— 只是一次只在一台 Mac 上打开一个项目，因为两台同时开会逼 iCloud 选一个赢家。这一页其他东西只记在这台 Mac 上。
+The gallery grows downward. The thumbnail strip used to scroll sideways, and the only way to move it was to grab the scrollbar, because a two finger swipe pans the board instead. It wraps now and the card just gets taller.	图库现在往下长。缩略图条以前是横向滚动的，而唯一能移动它的方式是抓滚动条，因为双指滑动是平移画布。现在它会换行，卡片也跟着变高。
+The inspector — press I and a side panel holds everything about the selected card: fields, colours, images, sun path, lock, delete. It follows your selection, edits many cards at once, and stays out of the way until you ask.	检查器 —— 按 I，侧栏会装下选中卡片的一切：字段、颜色、图片、日照轨迹、锁定、删除。它跟随你的选择，能一次编辑多张卡片，不需要时就待在旁边。
+The outline is every beat and section on your board, top to bottom — a fast way to see the whole shape and jump around it.	大纲就是你画布上的每个节拍与章节，从上到下 —— 一眼看到整体形状并四处跳转的快办法。
+The rings on a card's edges are its connections — every line gets its own plug and its own colour, with one free ring always waiting. Drag from it to another card to connect, or release over empty canvas and the Add menu opens right there, already wired. Come near a wire and a dot springs in at its middle — ✕ removes it, ⋯ opens its options. A wire also steps around any card in its way rather than hiding behind one. Click a line and press Delete to remove it; right-click opens its editor.	卡片边缘的环是它的连接点 —— 每条线都有自己的插头和自己的颜色，总有一个空环等着。从环拖到另一张卡片即可连接，或在空画布上松手，添加菜单就在那里打开，并且已经接好。靠近一条连线，中间会弹出一个圆点 —— ✕ 删除它，⋯ 打开它的选项。连线还会绕过途中的任何卡片，而不是躲在卡片后面。点一条线按 Delete 删除；右键打开它的编辑器。
+The same story document with the internal layer kept in: pinned comments, alternative beats and working notes, marked as such throughout.	同一份故事文档，但保留内部层：固定的批注、备选节拍和工作备注，并全程标注出来。
+The shape of the film — the minimap gains a strip mode: the whole story as one row of segments in reading order, each as wide as its duration, coloured by its beat, with a you-are-here line. Click or scrub to jump.	片子的形状 —— 小地图新增条带模式：整个故事按阅读顺序排成一行分段，每段宽度等于它的时长、按节拍着色，并有一条「你在这里」的线。点击或拖动即可跳转。
+The shot list listens to your beats — shot type, description, duration, cast, location and elements all flow live from the linked beat, canvas groups become the scenes, and a linked shot carries its beat's number, so the board, the list, On set and every export agree on what shot 3 means.	镜头表会听你的节拍 —— 镜头类型、描述、时长、演员、地点和元素全都从关联节拍实时流入，画布分组变成场景，关联镜头会带着它节拍的编号，于是画布、列表、现场和每一份导出对「镜头 3」的理解都一致。
+The shot you are on expands right in the list — imagery and linked cards as tiles, every pulled fact, the planned sun with its countdown, the chosen take. Done advances to the next open shot; above and below it sit the day’s past and future. Observations save as you type.	你当前所在的镜头会在列表里就地展开 —— 图片与关联卡片以磁贴呈现、每一条拉取来的事实、带倒计时的计划日照、选定的条次。点「完成」前进到下一个未完成的镜头；上下方是当天已过与未到的部分。观察记录边打字边保存。
+The stamp tool drops ready-made placeholder drawings — shot framings, people, day / night, interior / exterior, backgrounds, camera and arrows, grouped by type. Pick one, click to place it, then move or restyle it like any other mark. Perfect for blank Sketch cards.	图章工具会放下现成的占位画稿 —— 取景框、人物、白天／夜晚、内景／外景、背景、摄影机和箭头，按类型分组。挑一个、点一下放下，然后像其他标记一样移动或改样式。空白草图卡片的完美搭档。
+The whisper by the Save button tells you when. Undo names what it undid. The Save button also refreshes your project's cover, and the ⋯ menu keeps full version history — nothing you do here is ever one mistake from lost.	保存按钮旁边的小字会告诉你保存时间。撤销会说出它撤掉了什么。保存按钮也会刷新项目封面，⋯ 菜单保留完整版本历史 —— 你在这里做的任何事都不会因为一次失误而丢掉。
+The whole day as text — paste it in the production chat	一整天，全部变成文字 —— 粘贴到制作群里
+The whole film should sound like it's underwater — even the (sparse) dialogue. Bath bubbles, distant traffic, ticking radiator, no music until the very last beat.	整部片子听起来都该像在水下 —— 连（稀少的）对白也是。浴缸气泡、远处的车流、咔哒作响的暖气片，直到最后一个节拍才有音乐。
+The window remembers the size and position you left it at. It still fills the screen the first time you ever open Beat, so the board is there waiting, but from then on it is yours. Before this it opened maximised every launch and forgot everything, so resizing was the first thing you did every single time.	窗口会记住你上次留下的大小和位置。你第一次打开 Beat 时它仍会铺满屏幕，好让画布在那儿等着你，但从那以后它就归你了。在这之前，它每次启动都最大化，忘掉一切，所以调整大小曾是你每次都要做的第一件事。
+There is a Test the connection button now. It starts the connector for real and tells you how many tools answered. The old screen only told you a setting had been saved, which it kept saying happily while nothing worked.	现在有「测试连接」按钮了。它会真的启动连接器，并告诉你有多少工具应答。旧界面只会说某个设置已经保存 —— 一边什么都不能用，一边高高兴兴地这么说。
+These are the colour tags available on each beat. Click a swatch to change it, hover to remove, + to add. Or extract from an image.	这些是每张节拍卡片可用的颜色标签。点色块更改、悬停删除、+ 添加。或者从图片里提取。
+These presets are shared by every shot list in this project. Rename them, add definitions, give each a colour to read the table at a glance, reorder, or add your own. Removing a preset leaves any cells already using it untouched.	这些预设由本项目的所有镜头表共享。给它们重命名、加定义、各配一个颜色好一眼读懂表格、重排，或者加你自己的。移除预设不会动已经在用它的单元格。
+This document IS your canvas — same beats, same order. Type here and the card updates live; edit a card and the document follows. Click a beat's number to find its card.	这份文档就是你的画布 —— 同样的节拍、同样的顺序。在这里打字，卡片实时更新；改一张卡片，文档也跟着变。点节拍的编号可以找到它的卡片。
+This is your canvas — one endless page for a story. On a fresh board, four dashed cards offer a way in. Otherwise double-click anywhere to drop a beat, or right-click to add any card there. Two-finger swipe pans; pinch zooms.	这就是你的画布 —— 为故事准备的一整页无边长卷。空画布上，四张虚线卡片各给一条入口。否则双击任意位置丢下一个节拍，或右键在那里添加任何卡片。双指滑动平移；捏合缩放。
+This menu holds Columns… (show, hide, reorder or add your own — including Beat fields, read-only columns pulled live from each shot's linked beat), Import CSV and Export CSV. Your shot list also flows into the PDF and Word production docs.	这个菜单里有「列…」（显示、隐藏、重排或新增 —— 包括节拍字段，从每个镜头的关联节拍实时拉取的只读列）、「导入 CSV」和「导出 CSV」。你的镜头表也会流进 PDF 和 Word 制作文档。
+This toggle dims everything except the block you are writing in — the rest of the document fades until you move on. Remembered per project.	这个开关会把除你正在写的那个块以外的一切调暗 —— 文档其余部分淡下去，直到你移到别处。按项目记忆。
+Treatment & print layout — sharing the board the way you arranged it (Steyer)	项目书与印刷排版 —— 按你排布的样子分享画布（Steyer）
+Treatment and Print layout — share the board the way you arranged it: a cover, a map of your board, one section per page; or place page frames right on the canvas and export a print-ready PDF.	项目书与印刷排版 —— 按你排布的样子分享画布：一个封面、一张画布地图、每页一个章节；或者把页面画框直接放在画布上，导出一份可直接印刷的 PDF。
+Type here and the caption prints under this exact photo in your exports. Every image keeps its own.	在这里输入，说明文字就会在导出里印在这张照片下面。每张图片各自保留自己的。
+Type here to highlight matching beats, Enter to fly to the first hit. Or press Cmd+Space (or Cmd+K) anywhere for the command palette — jump straight to a card by name, or run a command without touching the mouse.	在这里输入可高亮匹配的节拍，按 Enter 飞到第一个命中。或在任何地方按 Cmd+Space（或 Cmd+K）打开命令面板 —— 按名字直接跳到一张卡片，或不用碰鼠标就跑一条命令。
+Type or paste your ideas — every line becomes a beat. Inside, mark a line as Shot, Prop, Note and more with one click or Cmd 1-9; indented lines fold into the beat above. The gear edits your categories.	输入或粘贴你的想法 —— 每一行都会变成一个节拍。在里面用一次点击或 Cmd 1-9 把某行标成镜头、道具、备注等；缩进的行会折进上面的节拍。齿轮用来编辑你的分类。
+Vault — stash images, videos, cards and links here for later (Cmd B)	保险库 —— 把图片、视频、卡片和链接先收在这里以后再用（Cmd B）
+Videos arrive here from a link you extract on a video card, or a file you pick from disk. The video itself is never saved — only what you capture.	视频来自你在视频卡片上提取的链接，或你从磁盘挑的文件。视频本身从不保存 —— 只保存你捕获的东西。
+What if the roll was actually his — and the last few exposures are of *her* as a child?	如果这一卷其实是他的 —— 而最后几张曝光的是*她*小时候？
+When you shoot, open this list in On set mode: every shot as a big check-off row with a live progress bar, elapsed time per shot, and a printable day sheet. Two ways in — the menu above, or the On set button in the top bar.	拍摄时，用现场模式打开这个列表：每个镜头一行大号勾选行，带实时进度条、每个镜头的已用时间，以及可打印的日程单。两种进入方式 —— 上面的菜单，或顶栏的「现场」按钮。
+While sweeping that Shift-drag box, tap A — the rectangle becomes a Group that size. Groups and Title cards are your sections: they name the chapters of your exports, and the Sections button in the left rail flies you to any of them.	扫那个 Shift 拖动框时按下 A —— 矩形就变成同样大小的分组。分组和标题卡就是你的章节：它们给导出的各章命名，左栏的「章节」按钮会带你飞到其中任何一个。
+Wires you can see and reach — hover near a wire and a dot springs up offering remove or edit, and wires arc around cards, images and documents instead of hiding behind them. Click one and Delete removes it.	看得见、够得着的连线 —— 靠近连线会有圆点弹出，提供移除或编辑；连线会绕过卡片、图片和文档，而不是躲在它们后面。点一条再按 Delete 就删掉它。
+With a call time the day clock runs on the schedule — no button to press on the morning.	有了通告时间，日时钟就按排期运行 —— 早上不需要按任何按钮。
+Words come through clean. Italics, bold and underline no longer arrive as literal asterisks and underscores in the middle of your sentences, and an escaped \* now reads as a plain asterisk instead of a backslash on the card.	文字进来是干净的。斜体、粗体和下划线不再以字面的星号和下划线出现在句子中间，转义的 \* 现在也读作一个普通的星号，而不是卡片上的一个反斜杠。
+Write the screenplay (traditional script format)	写剧本（传统剧本格式）
+Write to beat@joaolutz.com. It is the address for Beat everywhere now, in this window, inside the download and on the site, and it still reaches me directly.	写信到 beat@joaolutz.com。这是 Beat 现在到处都在用的地址 —— 这个窗口里、下载包里、网站上都是它，而且它仍然直接到我手上。
+Write turns your board into a live document that syncs both ways — edit either side. Outline is the reading order as a draggable list. And the audio timeline, in the left rail, lays your story against a track.	写作会把你的画布变成一份双向同步的活文档 —— 改哪边都行。大纲是可拖动的阅读顺序列表。而左栏的音频时间轴，把你的故事铺在一条音轨上。
+Write — edit your story as a live document; changes sync with the canvas both ways	写作 —— 把你的故事当成一份活文档来编辑；改动与画布双向同步
+Writing Mode — your board as a live written document, side by side with the canvas. Type in the document and the card updates; edit a card and the document follows. Add, reorder and remove beats from either side, all undoable.	写作模式 —— 你的画布变成一份活的书面文档，与画布并排。在文档里打字，卡片就更新；改卡片，文档跟着走。两边都能添加、重排、移除节拍，全部可撤销。
+You can see your selection at any zoom. The ring around a picked card was drawn inside the canvas, so it shrank with the board and vanished long before you were far enough out to want it. It now holds the same thickness on screen whatever the zoom, and it survives both the simplified far-out view and the zoom gesture itself, which used to hide it at exactly the moment you were looking for it.	任何缩放下你都能看见自己的选择。选中卡片周围的环以前是画在画布里的，所以它随画布一起缩小，在你远到需要它之前早就消失了。现在它在屏幕上始终保持同样的粗细，而且在简化远景和缩放动作中都还在 —— 以前恰恰在你找它的那一刻，它被藏了起来。
+Your own fields on every beat card — Emotion, Budget, anything. Give one presets and it becomes a dropdown. Values flow to Writing Mode, exports and shot-list columns.	每张节拍卡片上你自己的字段 —— 情绪、预算，什么都行。给一个字段加预设它就变成下拉菜单。值会流进写作模式、导出和镜头表列。
+Your shot list as a running day. Right-click the clock button to set a CALL TIME — then the day runs itself from the schedule and the bar reads your pace against it. A− and A+ size the whole room; the chevrons button collapses every shot to one slim line.	你的镜头表就是行进中的一天。右键点时钟按钮设置通告时间 —— 之后这一天按排期自己跑，进度条对照它显示你的节奏。A− 和 A+ 调整整个房间的字号；折角按钮把所有镜头收成一行细线。
+macOS no longer calls Beat unidentified. The app, and every helper inside it, is signed with a Developer ID, hardened, and notarised by Apple. It opens the way any other Mac app opens. No right click, no Open Anyway, no warning.	macOS 不再说 Beat 来路不明了。应用以及它内部的每个辅助程序都签了 Developer ID、启用了强化运行时，并通过了 Apple 公证。它像任何其他 Mac 应用一样打开。不用右键、不用「仍要打开」、没有警告。
+send feedback and anything that ships gets credited to you, right here and in the “What’s new” notes.</p>	发送反馈，任何上线的东西都会署名给你，就在这里和「新功能」说明里。</p>
+— tick the content you want in this export.</p>	—— 勾选你希望放进这次导出的内容。</p>
+Block actions	块操作
+Beat snapshots your project automatically as you work. Click a version for a quick look; "Preview on canvas" opens it on the real board — you choose there whether to restore it.	你工作时 Beat 会自动给项目拍快照。点一个版本可以先看一眼；「在画布上预览」会在真实画布上打开它 —— 要不要恢复，你在那里决定。
+Loads "The Last Roll" — a small, complete story that shows how Beat thinks	载入「最后一卷」—— 一个小而完整的故事，让你看到 Beat 是怎么想的
+Prints "by <your name>" + credit line from Preferences (toolbar ··· menu) on this project's export covers.	在本项目的导出封面上印「by 你的名字」+ 来自偏好设置的署名行（工具栏 ··· 菜单）。
+Search an address in the pill at the top left, or just click the map to drop a pin. Drag the pin to fine-tune the spot. A photo shot on a phone usually knows where it was taken — hover it on a card or on the board and a "Location from photo" pin appears; click that and the place is pinned for you.	在左上角的输入框里搜一个地址，或者直接点地图丢一个标记点。拖动标记点微调位置。手机拍的照片通常知道自己是在哪儿拍的 —— 把鼠标移到卡片上或画布上的照片，就会出现「从照片取地点」的标记点；点它，地点就替你标好了。
+What to include, marked photos or all, project identity on the cover, paper size — each format shows just the choices it really has. "Sun path diagrams" appears once a beat shows one on its card, and prints it. Export runs it.	包含什么、用标记过的照片还是全部、封面要不要带项目标识、纸张尺寸 —— 每种格式只显示它真正拥有的选项。「日照轨迹图」会在某个节拍的卡片上出现日照轨迹后才出现，并会一起打印。点「导出」就开跑。
+When the structure clicks, Export then "Treatment (PDF)" makes a shareable document: a map of your board plus one section per page — the board, the way you arranged it.	当结构立起来时，「导出 → 项目书（PDF）」会做出一份可分享的文档：一张画布地图，加上每页一个章节 —— 就是你排布的那块画布。

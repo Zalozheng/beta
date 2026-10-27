@@ -1,0 +1,187 @@
+" as a screenplay	」作为剧本
+" could not be saved to the project.	」无法保存到项目。
+" field from every beat card? Values already typed on beats are kept in the project file, but no longer shown.	」字段从所有节拍卡片上移除？已经输入到节拍里的值会保留在项目文件中，只是不再显示。
+" from template	」模板
+" is too large to store in the project. Try a smaller version.	」太大，无法存进项目。换个小一点的版本试试。
+" symbol? Elements already placed on plans stay (as plain boxes with their label).	」符号？已经放到平面图上的元素会保留（变成带标签的普通方框）。
+"? This cannot be undone.	」？此操作无法撤销。
+(local time) — click to open Sun path	（本地时间）—— 点击打开日照轨迹
+(local time) — planned from the location (Sun-plan a beat…)	（本地时间）—— 由地点计划得出（为节拍规划日照…）
+(sum of durations)	（时长合计）
+). Your projects are wherever that folder went — point Beat at it again, or start fresh below.	）。你的项目就在那个文件夹现在所在的地方 —— 让 Beat 重新指向它，或者在下面重新开始。
+, which on iCloud usually means they have not downloaded.	，在 iCloud 上这通常意味着它们还没下载下来。
+. Don’t delete the old folder until you have moved	。在你把所有东西都搬过去之前，先别删旧文件夹
+. Each line: file <= what it came from.	。每行：文件 <= 它的来源。
+. Every column pulls from its beat.	。每一列都从它的节拍拉取。
+. Open the old folder in Finder and let iCloud finish, then try again.	。在访达里打开旧文件夹，等 iCloud 同步完，然后再试一次。
+. The connection works.	。连接可用。
+10 new "For AI chat development" director prompts: shot lists & coverage, blocking & camera, lighting & mood, shooting order, production breakdowns, theme & continuity audits, comparables, pitch decks, and a full screenplay pass.	10 个新的「用于 AI 对话开发」导演提示词：镜头表与覆盖、走位与摄影机、布光与氛围、拍摄顺序、制作拆解、主题与连续性审查、对标作品、提案演示，以及一次完整剧本通读。
+3–5 beats that could be removed	3–5 个可以删掉的节拍
+8 beats. A simplified hero's journey — great for episodes.	8 个节拍。简化版英雄之旅 —— 适合单集。
+<button class="btn btn-accent lc-linknow" id="lcLinkNow">Link now (set it up for me)</button>	<button class="btn btn-accent lc-linknow" id="lcLinkNow">立即链接（帮我配好）</button>
+<div class="lc-head"><h2>Link to Claude</h2><button class="lc-close" title="Close">✕</button></div>	<div class="lc-head"><h2>链接到 Claude</h2><button class="lc-close" title="关闭">✕</button></div>
+<p class="credits-empty">Your name could be here. Beat is shaped by the people who use it —	<p class="credits-empty">你的名字可以在这里。Beat 是被用它的人塑造出来的 ——
+<p class="lc-lead">Link to Claude lets you sit in a Claude chat and have it read and help build your Beat projects — analyze a board, suggest beats, fill blanks, draft a sequence. Your projects stay as files on your Mac; Claude works on them directly.</p>	<p class="lc-lead">「链接到 Claude」让你在 Claude 对话里直接读取并帮助搭建你的 Beat 项目 —— 分析画布、建议节拍、填空白、起草一段序列。你的项目始终是你 Mac 上的文件；Claude 直接在它们上面工作。</p>
+<p class="lc-note">First time, macOS may ask permission to run the Beat helper — allow it (System Settings → Privacy &amp; Security if prompted).</p>	<p class="lc-note">第一次运行时，macOS 可能会询问是否允许运行 Beat 辅助程序 —— 请允许（如果弹窗被关掉，去系统设置 → 隐私与安全性）。</p>
+<p class="tourhub-sub">Pick any walkthrough — Beat opens that part of the app and starts it for you. If there is nothing to show it on yet, Beat adds a card to demonstrate on (undo removes it).</p>	<p class="tourhub-sub">挑任意一段引导 —— Beat 会打开那一部分并自动播给你看。如果还没有可以演示的东西，Beat 会加一张卡片用来演示（撤销即可移除）。</p>
+<p class="whatsnew-intro">Beat is free, and it grows from the feedback of the people who use it.	<p class="whatsnew-intro">Beat 是免费的，它靠用它的那些人给的反馈长大。
+<span class="proj-empty-hint">Drag project cards onto this folder from All projects, or start a new one with + New project above.</span>	<span class="proj-empty-hint">从「所有项目」把项目卡片拖到这个文件夹上，或用上方的 + 新建项目 开一个新项目。</span>
+<span class="proj-empty-hint">No project is named &ldquo;	<span class="proj-empty-hint">没有项目叫「
+<span class="vimporter-fpshint">~30 fps · arrow keys · space to play</span>	<span class="vimporter-fpshint">约 30 fps · 方向键步进 · 空格播放</span>
+? Beats you created keep their timecodes.	？你创建的节拍会保留它们的时间码。
+A big round of polish driven by real use — redesigned connectors, a sharper dark theme, smarter Link to Claude, and a much more powerful AI export.	一轮由真实使用驱动的打磨 —— 重新设计的连线、更利落的暗色主题、更聪明的「链接到 Claude」，以及强大得多的 AI 导出。
+A built-in News hub — a bell in the toolbar brings version news, credits, and the occasional poll or survey you can answer right inside Beat.	内置消息中心 —— 工具栏上的铃铛带来版本动态、鸣谢名单，偶尔还有可以直接在 Beat 里回答的投票或问卷。
+A full export overhaul — cleaner, better-organised PDFs on one design system, a reorganised Export menu (Documents · Production · Handoff), refreshed Word documents, and the Shot List flowing into PDF, Word, Markdown and CSV.	导出全面重做 —— 一套设计系统下更干净、更有条理的 PDF，重排的导出菜单（文档 · 制作 · 交接），刷新的 Word 文档，以及能流进 PDF、Word、Markdown 和 CSV 的镜头表。
+A newer version of Beat is available.	Beat 有新版本可用。
+A production-grade Shot List — and a full pass over every export.	制作级别的镜头表 —— 以及每一处导出的完整重审。
+A repair round for screenplay import, found by someone who tests parsers for a living.	一轮剧本导入修复，由一位以测试解析器为生的人发现。
+A small one. Beat has an address of its own now.	小更新。Beat 现在有自己的邮箱地址了。
+A small one. Beat opens ready to work.	小更新。Beat 打开就能干活。
+A track under the story — markers become timecoded beats.	故事底下的一条音轨 —— 标记会变成带时间码的节拍。
+Add	添加
+Add "	添加「
+Add / remove from selection	加入／移出选区
+Add a colour	添加颜色
+Add a comment	添加评论
+Add a new beat at cursor	在光标处新建节拍
+Add a photo to any card first, then play this tour.	先给任意一张卡片加张照片，再播这段引导。
+Add a shot list first — On set mode runs on one.	先建一个镜头表 —— 现场模式要靠它运行。
+Add at least one page frame first	先至少加一个页面画框
+Add label / edit connection	添加标签／编辑连接
+Add more points	再加几个点
+Add movement	添加移动
+Add movement points	添加移动点
+Add note…	添加备注…
+Add preset…	添加预设…
+Added to Vault	已加入保险库
+Adds a reference, link card, video embed, or note	添加参考文献、链接卡片、视频嵌入或备注
+All elements are already on this beat	所有元素都已经在这个节拍上了
+All walkthroughs reset — each plays again the next time you open it.	所有引导已重置 —— 下次打开时都会重新播一遍。
+Already pinned where this photo was taken	已经标记在这张照片的拍摄地点
+Alt vs main: which to shoot, what to merge	备选与主线：拍哪个、合并什么
+Annotate, crop and stamp — non-destructive.	标注、裁切、盖章 —— 全部非破坏性。
+Attach image / document to that beat	给那个节拍附加图片／文档
+Authorship — put your name and a credit line on every export cover.	署名 —— 把你的名字和一行署名放到每份导出封面上。
+Auto reads the canvas in columns - left to right first, then top to bottom inside each column.	自动按列读取画布 —— 先自左向右，再在每列内部自上而下。
+Back into exports	重新放回导出
+Back to your current version — nothing was changed	回到你当前的版本 —— 什么都没改
+Beat cannot move your projects there.	Beat 无法把你的项目搬过去。
+Beat cannot read the location out of HEIC photos yet — export that shot as JPEG and drop it again.	Beat 还无法从 HEIC 照片里读出位置 —— 把那张照片导出成 JPEG 再拖进来。
+Beat checks every file is already at the new folder first, and keeps anything it cannot confirm.	Beat 会先检查每个文件是否已经在新文件夹里，无法确认的一律保留。
+Beat copies every project and checks each one arrived whole. The old folder is left exactly as it is — you can clear it afterwards, once you have seen everything open.	Beat 会复制每个项目并检查每一个都完整到达。旧文件夹原样保留 —— 等你确认每个项目都能打开之后，再清掉它。
+Beat copies every project, checks each one arrived whole, and only then clears the old folder.	Beat 会复制每个项目、确认每一个都完整到达，然后才清掉旧文件夹。
+Beat could not read this library’s folders and templates, so it is not saving over them. Reopen Beat to try again.	Beat 读不出这个素材库的文件夹和模板，所以不会覆盖它们。重开 Beat 再试。
+Beat is free and shaped by the people who use it.	Beat 是免费的，是被用它的人塑造出来的。
+Beat is free and shaped by the people who use it. Thank you — and if you are new, tell me everything.	Beat 是免费的，是被用它的人塑造出来的。谢谢 —— 如果你是新手，把你想到的全告诉我。
+Beat is free and shaped by the people who use it. Thank you, Roberto.	Beat 是免费的，是被用它的人塑造出来的。谢谢 Roberto。
+Beat is free and shaped by the people who use it. Thank you.	Beat 是免费的，是被用它的人塑造出来的。谢谢。
+Beat is signed and notarised by Apple now. The warning on first open is gone.	Beat 现在由 Apple 签名并公证。首次打开时的警告没有了。
+Beat just copied. Anything you left out stays where it is.	Beat 刚刚复制完。你漏掉的东西都还在原处。
+Beat now makes lightweight display copies of your images and GIFs so the canvas stays smooth.	Beat 现在会为你的图片和 GIF 生成轻量显示副本，让画布保持流畅。
+Beat opens where you left it.	Beat 在你上次离开的地方打开。
+Below are the questions the writer wants you to answer. Read **all** of them before starting to plan your response — they may inform each other. Then answer each in turn, in the order given, numbered exactly as below. Use the same headings.	下面是作者希望你回答的问题。在开始组织回答之前，把**全部**问题读一遍 —— 它们可能互相提供线索。然后按给出的顺序逐个回答，编号与下面完全一致，并使用相同的小标题。
+Both folders are on the same disk, so your projects move across in one step — nothing is copied and no extra room is used.	两个文件夹在同一块磁盘上，所以项目一步就能搬过去 —— 不复制、不占额外空间。
+Break a link (when selection is exactly one link group)	断开链接（当选中的正好是一组链接时）
+Building the call sheet…	正在生成通告单…
+Building the day sheet…	正在生成日程单…
+Can't connect a beat to itself	不能把节拍连到它自己
+Cancel extraction	取消提取
+Caption under the image grid	图片网格下方的说明文字
+Captions that print in exports, edit and palette from any photo.	会印进导出的说明文字，可从任意照片编辑并取色。
+Capture failed — try again once the imagery has loaded	捕获失败 —— 等影像加载完再试一次
+Cast - from the board	演员 —— 来自画布
+Change the location	更改地点
+Choose a preset	选一个预设
+Choose somewhere else and Beat will ask again.	换个地方，Beat 会再问你一次。
+Choose what to include in your Word exports, and every card type — notes, galleries, characters, locations, props, palettes, Set Plans — can now be exported. Cleaner, professional, emoji-free pages.	可以选择 Word 导出里包含什么，而且每种卡片类型 —— 备注、图库、角色、地点、道具、色板、场景计划 —— 现在都能导出。更干净、更专业、没有 emoji 的页面。
+Choose your Beat library folder	选择你的 Beat 素材库文件夹
+Claude wrote an unreadable file — keeping your version	Claude 写出了一个读不了的文件 —— 已保留你的版本
+Clean snapshot staged — saves with the location	干净快照已就位 —— 会随地点一起保存
+Cleaner toolbar — grouped controls with a tidy overflow menu.	更干净的工具栏 —— 分组控件配一个整齐的溢出菜单。
+Clear the sun plan	清除日照计划
+Click a card and everything about it appears here.	点一张卡片，关于它的一切都会出现在这里。
+Click the map to drop a pin first	先点地图丢一个标记点
+Click to draw	点击开始绘制
+Click to say what — "	点击说明是什么 —— 「
+Close current tab	关闭当前标签页
+Close modals / cancel edit	关闭弹窗／取消编辑
+Close the video importer before extracting another video	提取下一个视频前先关闭视频导入器
+Close-Up — fills the frame with a feature, usually the face.	特写 —— 用某个局部填满画面，通常是脸。
+Collapse the rail	收起侧栏
+Command palette — jump to anything or run a command	命令面板 —— 跳到任何地方，或运行一条命令
+Convert this back to a regular main-path beat	把它改回普通的主线节拍
+Copy failed	复制失败
+Copy them there, keep the originals	把它们复制过去，原件留着
+Could not create a project:	无法创建项目：
+Could not create a shot list	无法创建镜头表
+Could not create the project	无法创建这个项目
+Could not create the project:	无法创建这个项目：
+Could not create the sketch surface	无法创建草图区域
+Could not load that image to edit	无法载入那张图片来编辑
+Could not open that project	无法打开那个项目
+Could not open that project — its file looks damaged	无法打开那个项目 —— 它的文件看起来损坏了
+Could not open that video	无法打开那个视频
+Could not open the file picker	无法打开文件选择器
+Could not play that audio file	无法播放那个音频文件
+Could not reach the clipboard	无法访问剪贴板
+Could not read that CSV	无法读取那个 CSV
+Could not read that audio file	无法读取那个音频文件
+Could not read that file	无法读取那个文件
+Could not read that image	无法读取那张图片
+Could not read that project	无法读取那个项目
+Could not read that snapshot	无法读取那个快照
+Could not remove the old copy:	无法移除旧副本：
+Could not render that page	无法渲染那一页
+Could not save the file	无法保存文件
+Could not save the template	无法保存模板
+Could not save the version name	无法保存版本名称
+Could not store that audio file	无法存储那个音频文件
+Could not store that logo	无法存储那个标志
+Could not turn that CSV into a shot list	无法把那个 CSV 变成镜头表
+Couldn't encode that GIF — try a shorter range	无法编码那个 GIF —— 试试更短的区间
+Cowboy Shot — mid-thigh up.	牛仔景 —— 大腿中段以上。
+Create a connection	创建连接
+Create or update linked project notes in your vault	在你的保险库里新建或更新关联的项目笔记
+Day strip (set a call time)	日带（设置通告时间）
+Delete Beat’s old copy of	删除 Beat 的旧副本：
+Delete card	删除卡片
+Delete column	删除列
+Delete project "	删除项目「
+Delete scene	删除场景
+Delete template	删除模板
+Delete the "	删除「
+Delete this scene and its	删除这个场景及其
+Develop the story	发展故事
+Different angles — mark the strongest	不同角度 —— 标出最强的那个
+Distinct emotional registers, with cost	不同的情绪层次，并带出代价
+Done — tap to clear	完成 —— 点击清除
+Done, with a few left behind.	完成，少数留在原处。
+Don’t delete the old folder until you have checked	在你确认之前，先别删旧文件夹
+Drag entries to set your own order. Exports follow it.	拖动条目设定你自己的顺序。导出会照它来。
+Drag to re-run the day	拖动以重跑这一天
+Draw a group that size	画一个那么大的分组
+Drop a pin first	先丢一个标记点
+Drop an audio file (mp3, m4a, wav…) to load it	拖一个音频文件（mp3、m4a、wav…）进来载入
+Duplicate failed:	创建副本失败：
+EXCLUDED FROM EXPORT	已从导出中排除
+Edit (textarea)	编辑（文本域）
+Edit comment	编辑评论
+Edit connection (type, colour, label)	编辑连接（类型、颜色、标签）
+Editable outline — drag to reorder groups and beats, with Auto or Custom ordering.	可编辑大纲 —— 拖动重排分组与节拍，可选自动或自定义顺序。
+Editor — colour, style, label, condition, Remove connection	编辑器 —— 颜色、样式、标签、条件、移除连接
+Every card type refined — character portraits, map-first location cards, a gallery hero with a thumbnail rail, prop checklists with quantities, colour palettes, and more.	每种卡片都做了打磨 —— 角色头像、以地图为先的地点卡片、带缩略图栏的图库主图、带数量的道具清单、色板，还有更多。
+Every force pushing against the protagonist	所有压在主角身上的力量
+Every format, a live preview, and only the options that matter.	每种格式都有实时预览，只列真正相关的选项。
+Every one of these came from somebody using Beat and telling me what annoyed them. That is the only way this gets better.	这里面每一条，都来自某个用 Beat 的人告诉我哪里烦。这是它变好的唯一方式。
+Exclude from exports	从导出中排除
+Export all media is available in the Beat desktop app	「导出全部素材」只在 Beat 桌面应用中可用
+Exported for AI chat (	已为 AI 对话导出（
+Exports: PDF overview, storyboard, Word treatments, media zip, and a "For AI chat development" package.	导出：PDF 概览、故事板、Word 项目书、素材 zip，以及一个「用于 AI 对话开发」包。
+Extreme Close-Up — a tight detail, like eyes or mouth.	大特写 —— 紧贴某处细节，比如眼睛或嘴。
+Extreme Wide Shot — the environment dominates, the subject is tiny.	大远景 —— 环境占主导，主体很小。
+Failed to load	加载失败
+Faster, more reliable Set Plan — native diagram rendering (offline and consistent), a redesigned subject icon, and a fixed Word-export freeze.	更快、更可靠的场景计划 —— 原生图表渲染（离线且一致）、重新设计的主体图标，以及修好的 Word 导出卡死。
+Finish the preview first (Restore or Back to current)	先结束预览（恢复或回到当前）
+Fit view to all content	让视图适应全部内容
+Flip applied — earlier marks are now part of the image	翻转已应用 —— 之前的标记现在成为图片的一部分
+Focus session complete — nice work	专注时段结束 —— 干得好

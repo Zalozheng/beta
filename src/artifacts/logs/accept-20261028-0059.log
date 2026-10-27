@@ -1,0 +1,38 @@
+== 1. 构建期验收 ==
+node --check src/work/zh/app.js: OK
+PASS x86_64 index.html len=42615 sha256=4a2dee52242b597e
+PASS x86_64 app.js len=2319884 sha256=e491620dc4d77780
+PASS x86_64 templates.js len=8460 sha256=a1619a1eb2649de9
+PASS arm64 index.html len=42615 sha256=4a2dee52242b597e
+PASS arm64 app.js len=2319884 sha256=e491620dc4d77780
+PASS arm64 templates.js len=8460 sha256=a1619a1eb2649de9
+RESULT 6 PASS / 0 FAIL
+
+== 2. 作者信息 ==
+work/zh 中 lutz|joao 命中: src/work/zh/app.js:0 src/work/zh/index.html:0 src/work/zh/templates.js:0 
+已安装 app 二进制内 brotli 资源（解压后）命中: 0 (clean)
+
+== 3. 设置页语言节 / 更新链接（产物里的实际字节）==
+448:      <div class="info-section" id="prefsLangSection">
+452:          <select id="prefUiLang" class="info-input">
+4
+2620:const PROJECT_URL = 'https://github.com/Zalozheng/beta';
+39263:const UPDATE_FEED_URL = PROJECT_URL;   // 更新走项目页，不再拉私有 feed
+beatforfree 残留: src/work/zh/app.js:0 src/work/zh/index.html:0 
+github 链接出现次数:        1
+
+== 4. 语言包一致性 ==
+Traceback (most recent call last):
+  File "<string>", line 7, in <module>
+TypeError: sorted expected 1 argument, got 2
+src/lang: 2334 installed: 2334 identical: True
+
+== 5. 签名 ==
+/Applications/Beat.app: valid on disk
+/Applications/Beat.app: satisfies its Designated Requirement
+35c2f6922484c1537d0679e3aa3b452d930666d440e83ff370ab4420a0f1a70a  /Applications/Beat.app/Contents/MacOS/beat
+== 4. 语言包一致性（补跑）==
+src/lang: 2334 installed: 2334 identical: True
+parts: ['zh-CN.1.json', 'zh-CN.2.json', 'zh-CN.3.json', 'zh-CN.4.json'] merged: 2334 equals pack: True
+分片字符数: [44935, 44993, 44978, 8224] → 最大 44993 < read_doc_text 上限 50000
+manifest entries/parts/prefix_fnv: 2334 4 0x144138d6

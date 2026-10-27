@@ -1,0 +1,8 @@
+*.app/
+*.zip
+.DS_Store
+src/work/beat.*
+src/work/*.log
+src/work/parts/
+src/work/zh/
+src/work/assets-en/

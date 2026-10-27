@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beat</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css?v=10.6-round63c">
+</head>
+<body>
+<div id="bootSplash" hidden>
+  <div class="boot-lockup">
+    <svg class="boot-mark" viewBox="-14 -14 92 92" width="96" height="96" aria-hidden="true">
+      <circle class="boot-ring" cx="32" cy="32" r="43"/>
+      <rect class="boot-plate" x="1" y="1" width="62" height="62" rx="14.5"/>
+      <circle class="boot-pulse" cx="48" cy="18" r="5"/>
+      <path class="boot-tri" d="M26.34 24.09 L26.34 41.91 L41.42 33.00 Z"/>
+      <circle class="boot-dot" cx="48" cy="18" r="5"/>
+    </svg>
+    <div class="boot-word"><i>B</i><i>e</i><i>a</i><i>t</i></div>
+  </div>
+</div>
+<div id="bar">
+  <div class="bar-brand">
+    <!-- Flat white mark (matches src-tauri/icons/icon-source.svg). Rim is a
+         touch stronger than the app icon's: at 24px on a near-white toolbar the
+         .10 rim disappears, so this one holds its edge at .16.
+         Mark A — plate: the accent split runs through the mark itself, ink
+         triangle and amber dot. Alternates B (bare) and C (solid) live in
+         docs/_accentshot.html until the letter comes back.
+         The two hexes are literals, not var(--point): this mark sits on a
+         FIXED white plate in both themes, so its colours are plate-relative,
+         not theme-relative — and favicon.svg, which must match it, cannot read
+         CSS variables at all. Marks B and C do use the tokens. -->
+    <svg class="brand-logo" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <rect width="64" height="64" rx="14.5" fill="#E8A33D"/>
+      <path d="M26.34 24.09 L26.34 41.91 L41.42 33.00 Z" fill="#1A1206" stroke="#1A1206" stroke-width="6" stroke-linejoin="round"/>
+      <circle cx="48" cy="18" r="5" fill="#1A1206"/>
+    </svg>
+    <span class="brand" id="brandLabel">Beat</span>
+    <input class="brand-project" id="brandProjectName" type="text" placeholder="未命名项目" />
+  </div>
+  <div class="bar-center">
+  <input type="search" class="search-inp" id="searchInp" placeholder="搜索节拍" />
+  <span class="search-meta" id="searchMeta"></span>
+  <span class="runtime-meter" id="runtimeMeter" title="已连接节拍的总时长" hidden></span>
+  <span class="bar-div" aria-hidden="true"></span>
+  <button class="btn" id="saveProjectBtn" title="保存项目并刷新缩略图（你打字时会持续自动保存）">保存</button>
+  <span class="saved-pulse" id="savedPulse" hidden>已保存</span>
+  <button class="btn" id="infoBtn" title="编辑本项目的设置 —— 名称、主题、色板、AI 上下文">项目信息</button>
+  <!-- The Canvas·Write·Outline·Audio switcher was tried and rejected (Joao,
+       2026-08-05): Canvas is always on, so segments lied about being tabs. -->
+  <button class="btn" id="outlineBtn" title="大纲 —— 这块画布的文档／项目书视图（分组 → 节点，按阅读顺序）">大纲</button>
+  <button class="btn" id="writeBtn" title="写作 —— 把你的故事当成一份活文档来编辑；改动与画布双向同步">写作</button>
+  <button class="btn" id="onsetBtn" title="拍摄 —— 以拍摄日的方式全屏执行镜头表">拍摄</button>
+  <span class="bar-div" aria-hidden="true"></span>
+  <div class="add-wrap">
+    <button class="btn btn-accent" id="exportBtn" title="导出中心 —— 每种格式都可实时预览">导出</button>
+    <div class="add-menu" id="exportMenu" hidden>
+      <button data-x="export-center">导出中心…</button>
+      <div class="add-sep"></div>
+      <div class="add-menu-head">文档</div>
+      <button data-x="shot-list">项目概览（PDF）</button>
+      <button data-x="treatment">项目书（PDF）—— 每页一节</button>
+      <button data-x="print-layout">画布转 PDF（印刷排版）…</button>
+      <button data-x="storyboard">故事板（PDF）</button>
+      <button data-x="pitch-deck">提案演示（PDF）—— 16:9</button>
+      <button data-x="docx-clean">Word —— 干净版（.docx）</button>
+      <button data-x="docx-annotated">Word —— 带批注（.docx）</button>
+      <div class="add-sep"></div>
+      <div class="add-menu-head">制作</div>
+      <button data-x="shotlist-pdf">镜头表（PDF）</button>
+      <button data-x="shotlist-csv">镜头表（CSV）</button>
+      <button data-x="breakdown">分镜表（PDF）</button>
+      <button data-x="gear-summary">器材汇总（PDF）</button>
+      <div class="add-sep"></div>
+      <div class="add-menu-head">交接</div>
+      <button data-x="fountain">剧本骨架（.fountain）</button>
+      <button data-x="ai-llm">用于 AI 对话开发（.md）</button>
+      <button data-x="media-zip">导出全部素材（.zip）</button>
+    </div>
+  </div>
+  </div>
+  <div class="bar-right">
+  <button class="btn btn-icon" id="projectsBtn" title="你的所有项目" aria-label="你的所有项目">
+    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 11 12 3.5l8.5 7.5"/><path d="M6 12v8.5h12V12"/><path d="M10 20.5V15h4v5.5"/></svg>
+  </button>
+  <button class="btn btn-icon" id="filterBtn" title="筛选视图" aria-label="筛选视图">
+    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16l-6.2 7.2V19l-3.6-2v-4.8Z"/></svg>
+  </button>
+  <button class="btn btn-icon" id="inspectorBtn" title="检查器 —— 关于选中卡片的一切，都在侧栏里（I）" aria-label="检查器">
+    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4.5" width="18" height="15" rx="2.5"/><path d="M14 4.5v15"/><path d="M16.5 9.5h2M16.5 13h2"/></svg>
+  </button>
+  <button class="btn btn-icon news-bell" id="newsBell" title="来自 Beat 的消息" aria-label="Beat 的消息">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none"><path d="M18 8a6 6 0 1 0-12 0c0 7-3 8-3 8h18s-3-1-3-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M13.7 21a2 2 0 0 1-3.4 0" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+  <div class="add-wrap">
+    <button class="btn btn-icon" id="moreBtn" title="更多" aria-haspopup="true" aria-expanded="false">⋯</button>
+    <!-- Grouped the same way the + Add menu is (Joao's tidy-up round): section
+         headers + icons instead of nine unlabelled rows in a row. The things
+         testers actually hunt for — Preferences, Version history, Locations
+         map — were 6th, 9th and 7th of nine; they lead their sections now.
+         Undo / Redo lost the top two slots and sit last: the keyboard is the
+         real route (⌘Z / ⇧⌘Z), and macOS's own Edit menu shows the pair — but
+         those are AppKit's predefined text-editing items, which never reach
+         Beat's canvas history, so the rows stay until that is genuinely true.
+         Ids are load-bearing: app.js binds every action by id. -->
+    <div class="add-menu more-menu" id="moreMenu" hidden>
+      <div class="add-menu-head">本项目</div>
+      <button id="versionHistoryBtn" title="恢复此项目的早期快照"><span class="add-ic"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3.2 12a8.8 8.8 0 1 0 2.6-6.2L3 8.6"/><path d="M3 4.2v4.4h4.4"/><path d="M12 7.6V12l3 1.8"/></svg></span><span class="add-lb">版本历史</span></button>
+      <button id="locationsMapBtn" title="在一张地图上查看所有已标记地点"><span class="add-ic"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s6.5-5.4 6.5-10.5a6.5 6.5 0 1 0-13 0C5.5 15.6 12 21 12 21z"/><circle cx="12" cy="10.2" r="2.4"/></svg></span><span class="add-lb">地点地图</span></button>
+      <div class="add-sep"></div>
+      <div class="add-menu-head">显示</div>
+      <button id="presentBtn" title="全屏演示你的故事"><span class="add-ic"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M12 16v4M8.5 20h7"/><path d="m10.6 8.2 3.8 2-3.8 2z" fill="currentColor" stroke="none"/></svg></span><span class="add-lb">演示</span></button>
+      <button id="walkthroughBtn" title="查看并重播所有引导"><span class="add-ic"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.6"/><path d="m15.4 8.6-2 4.8-4.8 2 2-4.8z"/></svg></span><span class="add-lb">带我逛逛</span></button>
+      <button id="helpBtn" title="键盘快捷键（?）"><span class="add-ic"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.4" y="6" width="19.2" height="12" rx="2"/><path d="M6 10h.01M10 10h.01M14 10h.01M18 10h.01M8 14h8"/></svg></span><span class="add-lb">键盘快捷键</span><kbd class="add-kbd">?</kbd></button>
+      <div class="add-sep"></div>
+      <div class="add-menu-head">设置</div>
+      <button id="prefsBtn" title="偏好设置 —— 你的素材库文件夹、你的名字与导出署名"><span class="add-ic"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h9M19 6h1M4 12h3M13 12h7M4 18h7M17 18h3"/><circle cx="16" cy="6" r="2.2"/><circle cx="10" cy="12" r="2.2"/><circle cx="14" cy="18" r="2.2"/></svg></span><span class="add-lb">偏好设置</span><kbd class="add-kbd">⌘ ,</kbd></button>
+      <button id="changeLibraryMenuBtn" title="把 Beat 指向另一个项目文件夹 —— 不会移动或复制任何文件"><span class="add-ic"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7.5a2 2 0 0 1 2-2h3.6l2 2H19a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></span><span class="add-lb">更改库文件夹…</span></button>
+      <div class="add-sep"></div>
+      <div class="add-menu-head">编辑</div>
+      <button id="undoMenuBtn" title="撤销上一步修改"><span class="add-ic"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 14 4 9l5-5"/><path d="M4 9h10a5.5 5.5 0 0 1 0 11h-3"/></svg></span><span class="add-lb">撤销</span><kbd class="add-kbd">⌘ Z</kbd></button>
+      <button id="redoMenuBtn" title="重做已撤销的修改"><span class="add-ic"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m15 14 5-5-5-5"/><path d="M20 9H10a5.5 5.5 0 0 0 0 11h3"/></svg></span><span class="add-lb">重做</span><kbd class="add-kbd">⇧ ⌘ Z</kbd></button>
+    </div>
+  </div>
+  </div>
+</div>
+<div id="mainRow">
+<div id="viewport">
+  <aside id="mediaTab" class="media-tab" hidden>
+    <header class="media-tab-head">
+      <span class="media-tab-title">保险库</span>
+      <span class="media-tab-count">0</span>
+      <button class="media-tab-add" title="添加到保险库">+</button>
+      <button class="wt-replay" title="引导演示">?</button>
+      <button class="media-tab-close" title="关闭">✕</button>
+    </header>
+    <div class="media-tab-controls" hidden>
+      <select class="media-filter" title="按类型筛选"></select>
+      <select class="media-sort" title="排序">
+        <option value="newest">最新</option>
+        <option value="oldest">最早</option>
+        <option value="type">按类型</option>
+      </select>
+      <input class="media-size" type="range" min="1" max="4" step="1" title="缩略图大小" aria-label="缩略图大小"/>
+    </div>
+    <div class="media-tab-body"></div>
+    <div class="media-tab-empty">把图片、视频、节点和链接暂存到这里，稍后再用。把图块拖回画布即可放回。项目会一直留在保险库里，直到你把它拖出或点 ✕。</div>
+    <div class="media-tab-resize" title="拖动调整大小"></div>
+  </aside>
+  <!-- Cast — the story's people, places and things, and where each one shows up.
+       Same docked-card treatment as the Vault (Joao picked B over a flush panel). -->
+  <aside id="castPanel" class="media-tab cast-panel" hidden>
+    <header class="media-tab-head">
+      <span class="media-tab-title">元素</span>
+      <span class="media-tab-count" id="castCount">0</span>
+      <button class="wt-replay" id="castTourBtn" title="引导">?</button>
+      <button class="media-tab-close" id="castCloseBtn" title="关闭">✕</button>
+    </header>
+    <div class="cast-body" id="castBody"></div>
+    <div class="cast-empty" id="castEmpty">添加人物、地点或道具，它就会出现在这里。点击可飞到它并打开它的档案。输入 <b>@</b> 在节拍里即可命名。</div>
+  </aside>
+  <aside id="sideTools" class="side-tools">
+    <div class="tool-pod">
+    <div class="add-wrap">
+      <button class="tool-btn tool-accent" id="addBtn" title="添加到画布 —— 故事卡片、人物与地点、视觉参考、拍摄制作与附件">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+      </button>
+      <!-- Category rows + icon flyouts. Every card type stays a
+           button[data-type] INSIDE #addMenu — renderSidebarPins() and
+           _openSpawnMenu() walk that selector and set inline display on it.
+           The .add-cat-ic / .add-ic spans are filled from ADDABLE_ITEMS by
+           paintAddMenuIcons() so the icons never drift from the pin prefs. -->
+      <div class="add-menu add-menu-cats" id="addMenu" hidden>
+        <div class="add-cat" data-cat="story">
+          <button type="button" class="add-cat-row" aria-haspopup="true" aria-expanded="false"><span class="add-cat-ic"></span><span class="add-cat-lb">故事</span><span class="add-cat-chev"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></span></button>
+          <div class="add-fly" hidden>
+            <button data-type="beat"><span class="add-ic"></span><span class="add-lb">Beat</span><kbd class="add-kbd">双击画布</kbd></button>
+            <button data-type="title"><span class="add-ic"></span><span class="add-lb">标题</span></button>
+            <button data-type="note"><span class="add-ic"></span><span class="add-lb">备注</span></button>
+            <button data-type="thought"><span class="add-ic"></span><span class="add-lb">想法</span></button>
+          </div>
+        </div>
+        <div class="add-cat" data-cat="people">
+          <button type="button" class="add-cat-row" aria-haspopup="true" aria-expanded="false"><span class="add-cat-ic"></span><span class="add-cat-lb">人物与地点</span><span class="add-cat-chev"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></span></button>
+          <div class="add-fly" hidden>
+            <button data-type="character"><span class="add-ic"></span><span class="add-lb">人物</span></button>
+            <button data-type="location"><span class="add-ic"></span><span class="add-lb">地点</span></button>
+            <button data-type="prop"><span class="add-ic"></span><span class="add-lb">道具</span></button>
+          </div>
+        </div>
+        <div class="add-cat" data-cat="visual">
+          <button type="button" class="add-cat-row" aria-haspopup="true" aria-expanded="false"><span class="add-cat-ic"></span><span class="add-cat-lb">视觉</span><span class="add-cat-chev"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></span></button>
+          <div class="add-fly" hidden>
+            <button data-type="gallery"><span class="add-ic"></span><span class="add-lb">图集</span></button>
+            <button data-type="sketch"><span class="add-ic"></span><span class="add-lb">草图</span></button>
+            <button data-type="image" data-spawn-hide><span class="add-ic"></span><span class="add-lb">参考图</span></button>
+            <button data-type="palette"><span class="add-ic"></span><span class="add-lb">配色板</span></button>
+          </div>
+        </div>
+        <div class="add-cat" data-cat="production">
+          <button type="button" class="add-cat-row" aria-haspopup="true" aria-expanded="false"><span class="add-cat-ic"></span><span class="add-cat-lb">制作</span><span class="add-cat-chev"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></span></button>
+          <div class="add-fly" hidden>
+            <button data-type="shotlist"><span class="add-ic"></span><span class="add-lb">镜头表</span></button>
+            <button data-type="setplan"><span class="add-ic"></span><span class="add-lb">场景计划…</span></button>
+            <button data-type="checklist"><span class="add-ic"></span><span class="add-lb">清单</span></button>
+          </div>
+        </div>
+        <div class="add-cat" data-cat="attach">
+          <button type="button" class="add-cat-row" aria-haspopup="true" aria-expanded="false"><span class="add-cat-ic"></span><span class="add-cat-lb">附件</span><span class="add-cat-chev"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></span></button>
+          <div class="add-fly" hidden>
+            <button data-type="document" data-spawn-hide><span class="add-ic"></span><span class="add-lb">文档…</span></button>
+            <button data-type="importscript" data-spawn-hide><span class="add-ic"></span><span class="add-lb">导入剧本…</span></button>
+            <button data-type="link" data-spawn-hide><span class="add-ic"></span><span class="add-lb">链接卡片</span></button>
+            <button data-type="video-import" data-spawn-hide><span class="add-ic"></span><span class="add-lb">导入视频…</span></button>
+            <button data-type="video-link" data-spawn-hide><span class="add-ic"></span><span class="add-lb">视频链接…</span></button>
+          </div>
+        </div>
+        <div class="add-sep add-tail-sep" data-spawn-hide></div>
+        <button data-type="group" data-spawn-hide>Group<kbd class="add-kbd">&#8679; drag + A</kbd></button>
+        <button data-type="customize-sidebar" data-spawn-hide>自定义侧边栏…</button>
+      </div>
+    </div>
+    <button class="tool-btn" id="sectionsBtn" title="章节 —— 跳转到任意标题或分组">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4H5.5v16H9"/><path d="M15 4h3.5v16H15"/><path d="M12 8.5v7"/></svg>
+    </button>
+    <button class="tool-btn" id="cleanCardsBtn" title="简洁卡片：隐藏空字段和按钮，鼠标悬停时才显示">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="16" height="14" rx="2.5"/><path d="m7.5 16.5 9-9"/></svg>
+    </button>
+    <button class="tool-btn" id="audioDockBtn" title="音频时间轴 —— 载入音轨、放置标记、按时间码生成节拍">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 10v4M8 7v10M12 4v16M16 8v8M20 11v2"/></svg>
+    </button>
+    <button class="tool-btn" id="mediaTabBtn" title="保险库 —— 把图片、视频、卡片和链接先收在这里以后再用（Cmd B）">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="4.5" width="17" height="15" rx="2"/><path d="M3.5 9.5h17"/><path d="M10 13.5h4"/></svg>
+    </button>
+    <button class="tool-btn" id="castBtn" title="元素 —— 所有人物、地点和道具，以及它们出现的每一处">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="3.4"/><path d="M5.5 20c0-3.6 2.9-6 6.5-6s6.5 2.4 6.5 6"/></svg>
+    </button>
+    </div>
+    <div class="tool-pod">
+    <!-- Zoom in / out buttons removed (Joao, round 3): pinch and Control+wheel
+         already zoom anchored on the cursor, which is both faster and more
+         precise than stepping 1.2x from the centre, and the shortcuts panel
+         documents them. The pod keeps the two that are not otherwise reachable:
+         Recenter and the minimap. -->
+    <button class="tool-btn" id="fitBtn" title="重新居中">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none"><circle cx="12" cy="12" r="2.5" fill="currentColor"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <button class="tool-btn" id="minimapBtn" title="显示/隐藏小地图">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none"><rect x="3" y="4" width="18" height="16" rx="2" stroke="currentColor" stroke-width="2"/><rect x="6" y="7" width="7" height="6" rx="1" fill="currentColor" opacity="0.5"/></svg>
+    </button>
+    </div>
+    <span class="status" id="status"></span>
+  </aside>
+  <div id="zoomBadge" class="zoom-badge">100%</div>
+  <div id="minimap" hidden>
+    <canvas id="minimapCanvas"></canvas>
+    <div class="minimap-resize" title="拖动以调整大小"></div>
+  </div>
+  <!-- Empty-board starters. Deliberately OUTSIDE #world: they are chrome, not
+       content, so no pan / zoom / fitView can strand or shrink them. -->
+  <div id="ghostStarters" class="ghost-starters" hidden></div>
+  <div id="world">
+    <svg id="edges"></svg>
+    <div id="groupslayer"></div>
+    <div id="imglayer"></div>
+    <div id="edgelayer"></div>
+    <div id="printFrames"></div>
+    <div id="nodes"></div>
+  </div>
+</div>
+<div id="writeDivider" hidden>
+  <button class="wd-snap" id="writeSnapDoc" title="展开文档">‹</button>
+  <div class="wd-grip" title="拖动以调整大小"></div>
+  <button class="wd-snap" id="writeSnapCanvas" title="返回画布">›</button>
+</div>
+<div id="onsetPane" class="onset-pane" hidden>
+  <div class="onset-top">
+    <button class="btn btn-icon" id="onsetCloseBtn" aria-label="离开拍摄模式">✕</button>
+    <span class="onset-day" id="onsetDayTitle"></span>
+    <span class="onset-date" id="onsetDate"></span>
+    <span class="onset-flex"></span>
+    <button class="btn" id="onsetSizeDown" title="更小">A−</button>
+    <button class="btn" id="onsetSizeUp" title="更大">A+</button>
+    <button class="btn btn-icon" id="onsetCompactBtn" title="收起所有镜头 —— 用于调整当日顺序的紧凑列表"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4l5 4 5-4"/><path d="M7 20l5-4 5 4"/><path d="M4 12h16"/></svg></button>
+    <button class="btn onset-day-btn" id="onsetDayBtn" title="开始或暂停当日计时">▶ 开始当日</button>
+    <div class="onset-order-wrap">
+      <div class="onset-order-stack">
+        <span class="onset-order-k">顺序</span>
+        <div class="onset-order-seg" id="onsetOrderSeg" title="播放顺序 —— 按故事顺序，或按副导演的拍摄顺序">
+          <i class="onset-seg-thumb" id="onsetSegThumb"></i>
+          <button data-order="story">故事</button>
+          <button data-order="custom">拍摄中</button>
+        </div>
+      </div>
+      <button class="btn btn-icon" id="onsetOrderLock" hidden></button>
+    </div>
+    <button class="btn" id="onsetWrapBtn" title="收工 —— 冻结计时、打印报告、把剩余镜头带到下一天">收工</button>
+    <button class="btn btn-icon" id="onsetSheetBtn" title="当日单页 —— 收工报告（PDF）"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 8V3h10v5"/><rect x="4" y="8" width="16" height="8" rx="2"/><path d="M7 14h10v7H7z"/></svg></button>
+    <button class="btn btn-icon" id="onsetTourBtn" title="带我看看">?</button>
+    <span class="onset-prog" id="onsetProg"></span>
+  </div>
+  <div class="onset-progbar"><i id="onsetProgFill"></i></div>
+  <div class="onset-main">
+    <aside class="onset-rail" id="onsetRail"></aside>
+    <div class="onset-rail-drag" id="onsetRailDrag" title="拖动调整大小 —— 双击收起"></div>
+    <div class="onset-list-wrap">
+      <div class="onset-rows" id="onsetRows"></div>
+      <div class="onset-keys" aria-hidden="true"><b>space</b> take · <b>1–9</b> chosen · <b>d</b> done · <b>s</b> skip · <b>↑↓</b> move</div>
+    </div>
+  </div>
+</div>
+<aside id="writePane" hidden>
+  <div class="write-head">
+    <span class="write-count" id="writeCount"></span>
+    <button class="btn btn-icon" id="writeFocusBtn" aria-pressed="false" title="专注：全屏写作 —— 除当前段落外全部变暗">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none"><path d="M4 9V6a2 2 0 0 1 2-2h3M15 4h3a2 2 0 0 1 2 2v3M20 15v3a2 2 0 0 1-2 2h-3M9 20H6a2 2 0 0 1-2-2v-3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/></svg>
+    </button>
+    <button class="btn btn-icon" id="writeThemeBtn" title="写作界面：跟随应用，或强制浅色 / 深色纸张">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none"><circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="2"/><path d="M12 4a8 8 0 0 1 0 16Z" fill="currentColor"/></svg>
+    </button>
+    <button class="btn write-outline-btn" id="writeOutlineBtn" title="添加到故事 —— 输入或粘贴，把行标记为镜头、道具、备注…">新建条目…</button>
+    <button class="wt-replay" id="writeTourBtn" title="引导">?</button>
+    <button class="btn oc-close" id="writeCloseBtn" aria-label="关闭" title="关闭写作模式">✕</button>
+  </div>
+  <div class="write-doc" id="writeDoc"></div>
+  <div class="outline-composer" id="outlineComposer" hidden>
+    <div class="oc-panel">
+      <header class="oc-head"><span class="oc-title">新建条目</span><button class="btn oc-close" id="ocCloseBtn" aria-label="关闭">✕</button></header>
+      <div class="oc-elemrow">
+        <div class="write-elembar" id="writeElemBar"></div>
+        <button class="btn btn-icon write-elem-gear" id="writeElemGearBtn" title="编辑元素 —— 这条栏上的分类" aria-label="编辑元素">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none"><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h.01a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51h.01a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v.01a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+      <textarea class="oc-input" id="ocInput" spellcheck="true" placeholder="镜头：Em 穿裙子，照镜子&#10;镜头：Kat 起床&#10;    造型：白色短上衣&#10;    从伸展到沐浴的连续镜头&#10;备注：强调黑白部分"></textarea>
+      <div class="oc-foot">
+        <span class="oc-count" id="ocCount">粘贴或输入大纲</span>
+        <select id="ocDest" class="pl-select" title="新节拍的去处"></select>
+        <div class="oc-actions">
+          <button class="btn" id="ocCancelBtn">取消</button>
+          <button class="btn btn-accent" id="ocAddBtn" disabled>添加到故事</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="outline-composer" id="elemManager" hidden>
+    <div class="oc-panel">
+      <header class="oc-head"><span class="oc-title">Elements</span><button class="btn oc-close" id="emCloseBtn" aria-label="关闭">✕</button></header>
+      <div class="em-list" id="emList"></div>
+      <div class="oc-foot">
+        <button class="btn" id="emAddBtn">+ 添加元素</button>
+        <div class="oc-actions">
+          <button class="btn" id="emCancelBtn">取消</button>
+          <button class="btn btn-accent" id="emSaveBtn">保存</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</aside>
+</div>
+<div id="printLayoutBar" class="pl-bar" hidden>
+  <span class="pl-title">打印版式</span>
+  <select id="plPaper" class="pl-select" title="纸张">
+    <option value="a4-l">A4 横向</option><option value="a4-p">A4 纵向</option>
+    <option value="letter-l">Letter 横向</option><option value="letter-p">Letter 纵向</option>
+    <option value="169">16:9</option>
+  </select>
+  <button class="btn" id="plAddBtn" title="在视图中心添加页面边框">+ 添加页面</button>
+  <button class="btn" id="plAutoBtn" title="每个章节一页">自动：每章节一页</button>
+  <select id="plMode" class="pl-select" title="页面渲染方式">
+    <option value="clean">Clean (print)</option><option value="screen">As on screen (experimental)</option>
+  </select>
+  <span class="pl-flex"></span>
+  <button class="btn btn-accent" id="plExportBtn">导出 PDF</button>
+  <button class="btn" id="plCloseBtn" title="关闭（Esc）">✕</button>
+</div>
+<div id="printLayoutRail" class="pl-rail" hidden><div class="pl-rail-head">页面</div><div id="plPageList"></div></div>
+<div id="selToolbar" class="sel-toolbar" hidden></div>
+<aside id="infoPanel" class="info-panel" hidden>
+  <header class="info-head">
+    <h2 class="info-title">项目信息</h2>
+    <button class="btn" id="closeInfoBtn" aria-label="关闭">✕</button>
+  </header>
+  <div class="info-body" id="infoBody">
+    <!-- filled by renderInfoPanel() -->
+  </div>
+</aside>
+<aside id="inspPanel" class="info-panel insp-panel" hidden>
+  <header class="info-head">
+    <h2 class="info-title" id="inspHeadTitle">卡片</h2>
+    <button class="btn" id="closeInspBtn" aria-label="关闭">✕</button>
+  </header>
+  <div class="info-body" id="inspBody">
+    <!-- filled by renderInspector() -->
+  </div>
+</aside>
+<aside id="outlinePanel" class="info-panel outline-panel" hidden>
+  <header class="info-head">
+    <h2 class="info-title">大纲</h2>
+    <button class="wt-replay" id="outlineTourBtn" title="引导">?</button>
+    <button class="btn" id="closeOutlineBtn" aria-label="关闭">✕</button>
+  </header>
+  <div class="info-body" id="outlineTree">
+    <!-- filled by renderOutline() -->
+  </div>
+</aside>
+<div id="filterPop" class="filter-pop" hidden>
+  <header class="filter-head">
+    <h3>筛选视图</h3>
+    <button class="btn" id="clearFiltersBtn">全部清除</button>
+    <button class="btn" id="closeFilterBtn" aria-label="关闭">✕</button>
+  </header>
+  <div class="filter-body" id="filterBody"></div>
+</div>
+<div id="projectsModal" class="modal" hidden>
+  <div class="modal-backdrop"></div>
+  <div class="modal-panel">
+    <header class="modal-head">
+      <h2 class="modal-title">项目</h2>
+      <button class="btn" id="closeProjectsBtn" aria-label="关闭">✕</button>
+    </header>
+    <div class="modal-body" id="projectsBody">
+      <!-- list view and new-project flow render here -->
+    </div>
+    <footer class="modal-credit">
+      <span class="credit-made">制作者 <strong>Lutz</strong></span>
+      <button class="credit-touch" id="linkClaudeBtn" type="button">连接 Claude</button>
+      <button class="credit-touch" id="changeLibraryBtn" type="button" hidden title="把 Beat 指向另一个库文件夹。项目不会被移动或复制 —— 与首次启动时相同。">更改素材库文件夹…</button>
+      <button class="credit-touch" id="getInTouchBtn" type="button">联系我们</button>
+      <div class="contact-card" id="contactCard" hidden>
+        <a class="contact-row" data-href="https://instagram.com/____lutz">
+          <span class="contact-ic"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></span><span class="contact-meta"><b>Instagram</b><span>@____lutz</span></span>
+        </a>
+        <a class="contact-row" data-href="mailto:beat@joaolutz.com">
+          <span class="contact-ic"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span><span class="contact-meta"><b>Email</b><span>beat@joaolutz.com</span></span>
+        </a>
+        <a class="contact-row" data-href="https://beatforfree.com/#feedback">
+          <span class="contact-ic"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 15a2 2 0 0 1-2 2H8l-5 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span><span class="contact-meta"><b>发送反馈</b><span>告诉我们下一步要做什么</span></span>
+        </a>
+        <a class="contact-row" data-href="https://paypal.me/JoaoLutz">
+          <span class="contact-ic"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 8h13v5a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z"/><path d="M17 9h2.4a2.5 2.5 0 0 1 0 5H17"/><path d="M7 3v2M11 3v2M15 3v2"/></svg></span><span class="contact-meta"><b>请我喝杯咖啡</b><span>paypal.me/JoaoLutz</span></span>
+        </a>
+        <div class="contact-qr">
+          <img alt="扫码用 PayPal 打赏" src="https://api.qrserver.com/v1/create-qr-code/?size=240x240&margin=0&data=https%3A%2F%2Fpaypal.me%2FJoaoLutz" />
+          <span>扫码用 PayPal 打赏</span>
+        </div>
+      </div>
+    </footer>
+    <!-- Docked selection footer: slides up flush over the credit footer while
+         project cards are selected. Lives outside #projectsBody so re-renders
+         never replay its entrance. Content is filled by updateProjSelFoot(). -->
+    <div class="proj-selfoot" id="projSelFoot"></div>
+  </div>
+</div>
+<div id="prefsPanel" class="modal" hidden>
+  <div class="modal-backdrop" data-prefs-close></div>
+  <div class="modal-panel prefs-panel">
+    <header class="modal-head">
+      <h2 class="modal-title">偏好设置</h2>
+      <button class="btn" id="closePrefsBtn" aria-label="关闭" data-prefs-close>✕</button>
+    </header>
+    <div class="modal-body">
+      <!-- Only settings that are the same in every project belong here. Anything
+           that lives on state.* (theme, card fields, snap to grid, numbering…)
+           is per project and stays in Project info. -->
+      <div class="info-section" id="prefsLibSection">
+        <h3>库</h3>
+        <p class="help">存着你所有项目的文件夹。这个文件夹才是会移动的部分：把它放进 iCloud Drive，你两台 Mac 就能打开同样的项目 —— 只是一次只在一台 Mac 上打开一个项目，因为两台同时开会逼 iCloud 选一个赢家。这一页其他东西只记在这台 Mac 上。</p>
+        <div class="prefs-path" id="prefsLibPath" title="你的库文件夹"></div>
+        <div class="prefs-actions">
+          <button class="btn" id="prefsRevealLibBtn" type="button">在访达中显示</button>
+          <button class="btn" id="prefsChangeLibBtn" type="button">更改素材库文件夹…</button>
+        </div>
+      </div>
+      <div class="info-section">
+        <h3>导出件上的署名</h3>
+        <p class="help">在你的所有项目间共享。你的名字会作为作者署名出现在导出封面上（Word、PDF 概览、用于 AI 对话）。留空则不显示署名。每个项目也可以在自己的「项目信息」里关掉署名。</p>
+        <label class="prefs-row"><span>名称</span><input type="text" id="prefName" class="info-input" maxlength="80" placeholder="你的名字"></label>
+        <label class="prefs-row"><span>身份</span><input type="text" id="prefRole" class="info-input" maxlength="80" placeholder="导演、编剧…"></label>
+        <label class="prefs-row"><span>邮箱</span><input type="text" id="prefEmail" class="info-input" maxlength="120" placeholder="you@studio.com"></label>
+        <label class="prefs-row"><span>网站</span><input type="text" id="prefWebsite" class="info-input" maxlength="120" placeholder="studio.com"></label>
+        <label class="prefs-row"><span>署名行</span><input type="text" id="prefCredit" class="info-input" maxlength="120" placeholder="简短的工作室名 / 署名"></label>
+      </div>
+      <div class="info-section">
+        <h3>画布</h3>
+        <p class="help">画布在你手下的移动方式，以及右下角整块画布的小地图。无论这些如何设置，Shift + 拖动始终是框选。</p>
+        <label class="prefs-row"><span>平移画布的方式</span>
+          <select id="prefNavPan" class="info-input">
+            <option value="left">拖动空白画布</option>
+            <option value="modifier">中键或 Ctrl 拖动（左键拖动为框选）</option>
+          </select></label>
+        <label class="prefs-row"><span>鼠标滚轮</span>
+          <select id="prefNavWheel" class="info-input">
+            <option value="pan">平移画布</option>
+            <option value="zoom">缩放</option>
+          </select></label>
+        <p class="help">触控板捏合可双向缩放。</p>
+        <label class="info-check"><input type="checkbox" id="prefMinimap"><span>显示小地图</span></label>
+      </div>
+      <div class="info-section">
+        <h3>引导演示</h3>
+        <p class="help">首次打开某个工具时自动播放的简短引导。</p>
+        <button class="btn" id="prefsReplayToursBtn" type="button">全部重播</button>
+      </div>
+      <div class="info-section" id="prefsUpdateSection">
+        <h3>更新</h3>
+        <p class="help">Beat 只会检查自己网站上的一个小文件，用来得知是否有新版本。绝不会发送任何与你或你的项目相关的信息。</p>
+        <label class="prefs-row"><span>出现新版本时</span>
+          <select id="prefUpdateMode" class="info-input">
+            <option value="notify">通知我，由我决定</option>
+            <option value="auto">替我自动开始下载</option>
+            <option value="silent">不提示 —— 我手动更新</option>
+          </select></label>
+        <div class="prefs-update-row" id="prefsUpdateRow" hidden>
+          <span class="prefs-update-tx" id="prefsUpdateTx"></span>
+          <button class="btn" id="prefsUpdateGetBtn" type="button">下载</button>
+        </div>
+        <div class="prefs-actions">
+          <button class="btn" id="prefsUpdateCheckBtn" type="button">立即检查</button>
+        </div>
+      </div>
+    </div>
+    <footer class="prefs-foot">
+      <button class="btn" id="prefsCancelBtn" data-prefs-close>取消</button>
+      <button class="btn btn-accent" id="prefsSaveBtn">保存</button>
+    </footer>
+  </div>
+</div>
+<div id="printDoc" hidden></div>
+<div id="docViewer" class="doc-viewer" hidden>
+  <div class="doc-viewer-backdrop"></div>
+  <div class="doc-viewer-panel">
+    <header class="doc-viewer-head">
+      <span class="doc-viewer-title">文档</span>
+      <button class="btn doc-viewer-download" title="下载">⤓ 下载</button>
+      <button class="btn doc-viewer-close" title="关闭（Esc）">✕</button>
+    </header>
+    <div class="doc-viewer-body"></div>
+  </div>
+</div>
+<div id="sidebarPrefs" class="sidebar-prefs" hidden>
+  <div class="sidebar-prefs-backdrop"></div>
+  <div class="sidebar-prefs-panel">
+    <header class="sidebar-prefs-head">
+      <h2>自定义侧边栏</h2>
+      <button class="btn sidebar-prefs-close">✕</button>
+    </header>
+    <p class="sidebar-prefs-hint">把条目固定到这里，它们就会在侧边栏拥有自己的按钮。未固定的条目留在 + 菜单里。适用于你的所有项目。</p>
+    <div class="sidebar-prefs-list"></div>
+  </div>
+</div>
+<div id="debugPanel" class="debug-modal" hidden>
+  <div class="debug-backdrop"></div>
+  <div class="debug-panel">
+    <header class="debug-head">
+      <h2 class="debug-title">Beat 调试</h2>
+      <button class="btn debug-close-btn" title="关闭（Esc）">✕</button>
+    </header>
+    <div class="debug-body">
+      <section class="debug-section">
+        <div class="debug-section-head">
+          <h3>自检</h3>
+          <button class="btn btn-accent debug-run-btn">运行诊断</button>
+          <button class="btn debug-update-btn" title="从 GitHub 重新获取最新的 yt-dlp">⤓ 更新提取器</button>
+          <button class="btn debug-copy-result-btn" title="复制结果到剪贴板">复制</button>
+        </div>
+        <pre class="debug-result">点「运行诊断」测试提取器。</pre>
+      </section>
+      <section class="debug-section">
+        <div class="debug-section-head">
+          <h3>最近日志 <span class="debug-log-hint"></span></h3>
+          <button class="btn debug-refresh-log-btn">刷新</button>
+          <button class="btn debug-copy-log-btn" title="复制完整日志到剪贴板">复制</button>
+          <button class="btn debug-open-log-btn" title="在访达中显示日志文件夹">显示</button>
+        </div>
+        <pre class="debug-log">点「刷新」加载。</pre>
+      </section>
+    </div>
+  </div>
+</div>
+<div id="welcomeModal" class="welcome-modal" hidden>
+  <div class="welcome-backdrop"></div>
+  <div class="welcome-panel">
+    <svg class="welcome-logo" viewBox="0 0 64 64" width="56" height="56" aria-hidden="true">
+      <rect width="64" height="64" rx="14.5" fill="#E8A33D"/>
+      <path d="M26.34 24.09 L26.34 41.91 L41.42 33.00 Z" fill="#1A1206" stroke="#1A1206" stroke-width="6" stroke-linejoin="round"/>
+      <circle cx="48" cy="18" r="5" fill="#1A1206"/>
+    </svg>
+    <h2 class="welcome-title">欢迎使用 Beat</h2>
+    <p class="welcome-body">
+      选择一个存放项目的文件夹。每个项目会成为一个文件夹，
+      你可以像普通文件夹一样备份、复制或移动它。
+    </p>
+    <div class="welcome-default">
+      <span class="welcome-default-label">默认：</span>
+      <code class="welcome-default-path" id="welcomeDefaultPath">~/Documents/Beat Projects</code>
+    </div>
+    <div class="welcome-actions">
+      <button class="btn" id="welcomePickBtn">选择文件夹…</button>
+      <button class="btn btn-accent" id="welcomeUseDefaultBtn">使用默认</button>
+    </div>
+  </div>
+</div>
+<script src="templates.js?v=10.6-round63c"></script>
+<script src="app.js?v=10.6-round63c"></script>
+</body>
+</html>

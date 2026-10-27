@@ -1,0 +1,217 @@
+Focus toolbar search	聚焦工具栏搜索
+Focus, shot, duration, fields, tones, sequence — the crew view	重点、镜头、时长、字段、基调、序列 —— 剧组视图
+From the linked beat	来自关联的节拍
+From the linked beat — click to view	来自关联的节拍 —— 点击查看
+From the linked beat — edit it on the beat card	来自关联的节拍 —— 在节拍卡片上修改
+From the linked beat — its element chips and their notes	来自关联的节拍 —— 它的元素标签及其备注
+From the linked beat — type to override, clear to follow again	来自关联的节拍 —— 输入以覆盖，清空以重新跟随
+From the script…	来自剧本…
+Full Shot — fills the frame with the subject.	全景 —— 主体填满画面。
+Full background. Click to clear.	整幅背景。点击清除。
+Full tint — again to clear	整幅染色 —— 再点一次清除
+Generates a Markdown file with your full project content, a reading guide for the AI, and the tasks you select below. Paste into ChatGPT, Claude, Gemini, or any AI chat.	生成一个 Markdown 文件，含你的全部项目内容、给 AI 的阅读指南，以及你在下面选择的任务。粘贴进 ChatGPT、Claude、Gemini 或任何 AI 对话。
+Give the project a name	给项目起个名字
+Give the symbol a name	给符号起个名字
+Got it — click to un-check	知道了 —— 点击取消勾选
+Grab handle appears — drag to re-attach	拖柄出现 —— 拖动即重新接上
+Grab stills and GIFs from a link or a file.	从链接或文件里抓取静帧和 GIF。
+Group created — drag its edge to resize, name it in the head	分组已创建 —— 拖边缘调整大小，在标题栏给它命名
+Group deleted — Cmd-Z to undo	分组已删除 —— Cmd-Z 撤销
+Group hidden from exports — click to show	分组已从导出隐藏 —— 点击显示
+Here is why, and what you can still do:	原因在这里，以及你还能做什么：
+Hidden from exports — click to show	已从导出隐藏 —— 点击显示
+Hidden — click to show	已隐藏 —— 点击显示
+Hide (grey out + leave out of exports)	隐藏（变灰 + 不导出）
+Hide group (grey out + leave its beats out of exports)	隐藏分组（变灰 + 它的节拍不导出）
+Hide on canvas	在画布上隐藏
+Housekeeping you can mostly see on the map.	一些收拾整理的活，大部分能在地图上看到。
+Hundreds of smaller fixes and refinements across menus, panels, the projects library, and everyday canvas behavior.	数百项小修复与打磨，遍布菜单、面板、项目库和日常画布行为。
+Identity on export covers, plus your own custom fields on beats.	导出封面上的身份信息，以及节拍上你自己的自定义字段。
+Image added to Vault	图片已加入保险库
+Image moved to "	图片已移到「
+Image moved to canvas	图片已移到画布
+Import spreadsheets — drop an .xlsx or .csv onto the canvas and read it as a table.	导入表格 —— 把 .xlsx 或 .csv 拖到画布上，当作表格读取。
+Importing first video — drop the others separately to extract from them	正在导入第一个视频 —— 其他的请分开拖进来提取
+Importing the first video — pick one at a time	正在导入第一个视频 —— 一次挑一个
+In exports — tap to leave it out	在导出中 —— 点击可排除
+Include in exports	包含在导出中
+Jump to anything, or run a command…	跳到任何地方，或运行一条命令…
+Jump to anything…	跳到任何地方…
+Jump to tab N	跳到标签页 N
+Jump to that node	跳到那个节点
+Just point at this folder	就指向这个文件夹
+Large audio file — browser storage may not hold it. The desktop app keeps audio on disk.	音频文件较大 —— 浏览器存储可能放不下。桌面应用会把音频存在磁盘上。
+Lighting design from tones + Set Plans	基于基调 + 场景计划的布光设计
+Link a Set Plan…	链接一个场景计划…
+Link card added from clipboard	链接卡片已从剪贴板加入
+Link this marker to a beat that already exists	把这个标记链接到一个已存在的节拍
+Link this marker to a different beat, or unlink it	把这个标记改链到另一个节拍，或取消链接
+Link this shot to a beat (chain button in the # cell) to pull this value	把这个镜头链接到一个节拍（# 单元格里的链按钮）就能拉取这个值
+Link this shot to a beat or Set Plan	把这个镜头链接到节拍或场景计划
+Link to Claude actually connects now, and the board answers the way you expect it to.	「链接到 Claude」现在真的能连上了，画布也会按你预期的方式回应。
+Link to Claude enabled	「链接到 Claude」已启用
+Link to Claude off	「链接到 Claude」已关闭
+Link to Claude — an AI that reads and edits your real project.	链接到 Claude —— 一个会读取并编辑你真实项目的 AI。
+Link to a beat…	链接到节拍…
+Link to move together	链接后一起移动
+Linked to "	已链接到「
+Linked to the scene	已链接到场景
+Linked to the scene — tap to open	已链接到场景 —— 点击打开
+Linked to this shot	已链接到这个镜头
+Linked to this shot — tap to open	已链接到这个镜头 —— 点击打开
+Load a sequence	载入一段序列
+Load it into the audio timeline	把它载入音频时间轴
+Loaded the first track — the timeline holds one at a time	第一个音轨已载入 —— 时间轴一次只放一条
+Lock in place	锁定在原位
+Locked. Click the lock on the shot-list card to unlock first.	已锁定。先点镜头表卡片上的锁解锁。
+Locked. Click the lock to unlock first.	已锁定。先点锁解锁。
+Locked. Click the lock to unlock.	已锁定。点锁解锁。
+Log only exists inside the app	日志只在应用内存在
+Loops - a film by Lubs	Loops —— Lubs 的一部影片
+Make this beat the start of a new sequence / episode (numbering restarts here)	把这个节拍设为新序列／新一集的开始（编号从这里重新算）
+Map library failed to load	地图库加载失败
+Mark this as an alternative version of another beat (you can swap them later)	把它标为另一个节拍的备选版本（之后可以互换）
+Mark this shot as got	把这条镜头标为已拍到
+Medium Close-Up — chest up, some background connection.	近景 —— 胸部以上，还带着一点背景关系。
+Medium Shot — waist up, common for dialogue.	中景 —— 腰部以上，对白常用。
+Mention a Character / Location / Prop	提及角色／地点／道具
+Moved to "	已移到「
+Moves alongside a subject through a scene.	跟着主体一起穿过场景。
+Moves closer (push-in) or further (pull-out), often on tracks.	靠近（推）或远离（拉），常在轨道上完成。
+Moving them is still fine — both folders are on the same disk, so a move takes no extra room.	照样可以搬 —— 两个文件夹在同一块磁盘上，搬过去不占额外空间。
+Name a character in a beat with @, then see every beat they appear in.	在节拍里用 @ 指名一个角色，然后就能看到他出现的每一个节拍。
+New dark theme, redesigned to match beatforfree.com — cool slate with a warm amber accent.	新的暗色主题，按 beatforfree.com 重新设计 —— 冷板岩底色配温暖的琥珀色点缀。
+New exports: Breakdown sheets (cast, locations, props and runtime per beat) and a Fountain screenplay scaffold, plus a more powerful "For AI chat development" package and new director's AI prompts.	新的导出：拆解表（每个节拍的演员、地点、道具与时长）与 Fountain 剧本骨架，加上更强大的「用于 AI 对话开发」包和新的导演 AI 提示词。
+News & Thanks from Beat	来自 Beat 的消息与鸣谢
+No Set Plans yet. Add one to link it.	还没有场景计划。加一个再来链接。
+No Street View window to capture yet	还没有可捕获的街景窗口
+No beats on the board yet	画布上还没有节拍
+No beats to pitch	没有可提案的节拍
+No beats to storyboard	没有可做故事板的节拍
+No beats yet	还没有节拍
+No beats yet. Add a beat to link it.	还没有节拍。加一个节拍再来链接。
+No beats yet. Use + Beat to make one.	还没有节拍。用 + 节拍 造一个。
+No cards yet. Add one to link it.	还没有卡片。加一张再来链接。
+No characters, locations or props yet. Add cards to link them.	还没有角色、地点或道具。加卡片再来链接。
+No gear found — add shots or set plan elements	没找到器材 —— 加镜头或场景计划元素
+No image files	没有图片文件
+No images on this card	这张卡片上没有图片
+No library folder set yet	还没有设置素材库文件夹
+No live preview for this format — Export builds the file directly.	这种格式没有实时预览 —— 导出会直接生成文件。
+No location cards on this board yet — add one first	画布上还没有地点卡片 —— 先加一张
+No locations with a map pin yet — open a Location card and click Map	还没有带地图标记点的地点 —— 打开一张地点卡片点「地图」
+No match.	没有匹配。
+No match. Type in the cell to add free text.	没有匹配。在单元格里输入即可添加自由文本。
+No media files to export	没有可导出的素材文件
+No pinned locations yet. Scout a location on the map first.	还没有标记过的地点。先去地图上勘一个。
+No preview to show — this one opens on the canvas, and exports from there.	没有可显示的预览 —— 这个要在画布上打开，并从那里导出。
+No projects selected	没有选中项目
+No reference image	没有参考图
+No results for "	没有结果：「
+No scenes found in "	在「
+No sections to frame	没有可排版成画框的章节
+No sections yet — Titles and groups become sections	还没有章节 —— 标题卡和分组会变成章节
+No sequences on this board yet — mark a beat ▶ Start sequence first.	这块画布上还没有序列 —— 先标一个节拍为 ▶ 开始序列。
+No sessions yet today.	今天还没有场次。
+No shot list in this project	这个项目里没有镜头表
+No shot lists on this board yet.	这块画布上还没有镜头表。
+No shots on this list yet — add them on the shot-list card.	这个表里还没有镜头 —— 在镜头表卡片上添加。
+No specific tasks were selected on export. Read the project carefully and ask the writer what they'd like help with. Suggest 3–5 things you could meaningfully contribute to right now, based on what you see in the spine.	导出时没有选择具体任务。仔细读这个项目，问作者希望你在哪儿帮忙。基于你在故事主干里看到的东西，提出 3–5 件你现在就能实实在在贡献的事。
+No sun plan on the linked beat yet — plan one from the location card (Sun-plan a beat…)	关联的节拍上还没有日照计划 —— 从地点卡片上规划一个（为节拍规划日照…）
+No sunrise or sunset to export on this date	这一天没有可导出的日出或日落
+No tasks selected — export will include project content only	没有选中任务 —— 导出只包含项目内容
+No track loaded	没有载入音轨
+Non-destructive image editing — annotate, crop, and restyle reference images any time; your edits stay editable and never alter the original.	非破坏性图片编辑 —— 随时标注、裁切、重设样式；你的编辑始终可改，绝不动原图。
+Not a Beat template	不是 Beat 模板
+Not a Beat template (missing template.json)	不是 Beat 模板（缺少 template.json）
+Not a Beat template (unreadable template.json)	不是 Beat 模板（template.json 无法读取）
+Not a valid Beat project file	不是有效的 Beat 项目文件
+Not in exports — tap to include it	不在导出中 —— 点击加入
+Note added from clipboard	备注已从剪贴板加入
+Nothing is moved or copied. Beat looks in this folder from now on, and whatever is in the old one stays exactly where it is.	不移动也不复制。Beat 从今往后只看这个文件夹，旧文件夹里的东西原封不动。
+Nothing is moved or copied. Your	不移动也不复制。你的
+Nothing linkable on the board yet	画布上还没有可链接的东西
+Nothing to drop	没有可放下的东西
+Nothing to export	没有可导出的内容
+Nothing to present yet — add beats or titles first	还没有可演示的内容 —— 先加节拍或标题
+Nothing to redo	没有可重做的
+Nothing to undo	没有可撤销的
+Nothing to write yet —	还没有可写的内容 ——
+Now the main path	现在是主线
+Numbering: flat (1, 2, 3). Click for scene letters (1A, 1B, 2A…).	编号：平铺（1、2、3）。点击切换为场景字母（1A、1B、2A…）。
+Numbering: scene letters (1A, 1B, 2A…). Click for flat 1, 2, 3.	编号：场景字母（1A、1B、2A…）。点击切换为平铺的 1、2、3。
+On set and beyond — check shots off with a live progress bar, read shot stats (setups, lens swaps, sizes), import an existing CSV in one drop, save your whole setup as a reusable template, and hand out a printed studio-grade Shot List PDF.	现场与之后 —— 用实时进度条勾掉镜头、读镜头统计（机位、换镜、景别）、一次拖入现有 CSV、把整套设置存成可复用模板，并发出印刷级的制片镜头表 PDF。
+On set — pick a list	现场 —— 选一个表
+Only locations with a map pin can carry a sun plan	只有带地图标记点的地点才能携带日照计划
+Open Beat in the native app to load the sample	在原生应用里打开 Beat 以载入示例
+Open Project info	打开项目信息
+Open Projects window	打开项目窗口
+Open Set Plan editor	打开场景计划编辑器
+Open a Beat project folder	打开一个 Beat 项目文件夹
+Open a project first	先打开一个项目
+Open a project folder	打开一个项目文件夹
+Open designer	打开设计器
+Open full-size in lightbox	在灯箱中打开原尺寸
+Open the Debug panel	打开调试面板
+Open the Projects modal	打开项目弹窗
+Open the add menu at cursor	在光标处打开添加菜单
+Open the inspector — everything about the selected card	打开检查器 —— 关于选中卡片的一切
+Open the map and street imagery at the pinned spot	在标记点打开地图与街景影像
+Open the old folder in Finder, download them, then try again. First:	在访达里打开旧文件夹，把它们下载下来，然后再试一次。首先：
+Order locked — tap the padlock in the top bar to rearrange	顺序已锁定 —— 点顶栏的锁扣来重新排列
+Order locked — tap to rearrange the day	顺序已锁定 —— 点击以重排这一天
+Order unlocked — drag rows, tap to lock	顺序已解锁 —— 拖动行，点击锁定
+Original image for these edits is missing — opening flattened	这些编辑的原图不见了 —— 以合并后的形态打开
+Out of beta, for everyone. Everything the 2.0 era built, gathered in one place: a whole new face, a room for the shoot day itself, and your story readable as a film. Shaped round by round by the people who tested it.	正式版，对所有人开放。2.0 时代搭起的一切收在一处：全新的面貌、一个专属于拍摄当天的房间，以及可以把你的故事当片子来读。它由参与测试的人一轮一轮打磨出来。
+Out of exports ✓	已排除导出 ✓
+PDF library failed to load	PDF 库加载失败
+Palette created from image	已从图片创建色板
+Palette reset to default	色板已重置为默认
+Pan the canvas	平移画布
+Pan, zoom, add and connect beats — plus the inspector, groups, sections and exports.	平移、缩放、添加和连接节拍 —— 还有检查器、分组、章节和导出。
+Paste or type an outline	粘贴或输入一份大纲
+Photo has a different location — confirm it on the card	照片带的是另一个地点 —— 在卡片上确认
+Pick a Beat template	选一个 Beat 模板
+Pick a different folder	选另一个文件夹
+Pick a folder for Beat projects	选一个放 Beat 项目的文件夹
+Pick a location…	选一个地点…
+Pick a video — the walkthrough starts once it loads.	选一个视频 —— 加载完就开始引导。
+Pick an image or a video	选一张图片或一个视频
+Pick the .zip exported from web Beat	选从网页版 Beat 导出的 .zip
+Pin a location in the Location Scout first.	先在勘景里标记一个地点。
+Pin a place, walk its street view, follow the sun path, capture stills.	标一个地点、走它的街景、追日照轨迹、抓静帧。
+Pinning from the photo…	正在从照片取地点…
+Place page frames on the board, then export to PDF.	把页面画框放到画布上，然后导出 PDF。
+Presets (comma to add)…	预设（用逗号添加）…
+Previewing a version — nothing is saved (Restore or Back to current first)	正在预览某个版本 —— 不会保存任何东西（先恢复或回到当前）
+Print these times under the address in PDF and DOCX exports	在 PDF 和 DOCX 导出里把时间印在地址下面
+Project duplicated, but its images failed to copy	项目已复制，但它的图片复制失败
+Project reset to "	项目已重置为「
+Project revealed in Finder — right-click → Share	项目已在访达中显示 —— 右键 → 共享
+Project tag colours updated from this palette	项目标签色已按这个色板更新
+Propose content for every [BLANK BEAT]	为每个 [BLANK BEAT] 提出内容
+Propose the next 5 beats	提出接下来的 5 个节拍
+Props - from the board	道具 —— 来自画布
+Range is empty	区间为空
+Reference image added from clipboard	参考图已从剪贴板加入
+Reference — click to view	参考 —— 点击查看
+Reload to try again, and tell Joao what this card holds.	重新载入再试，并告诉 Joao 这张卡片里装的是什么。
+Remove audio	移除音频
+Remove field	移除字段
+Remove symbol	移除符号
+Remove that connection	移除那条连接
+Remove the "	移除「
+Remove the audio track	移除音轨
+Rename failed:	重命名失败：
+Restored the version from	已恢复版本：
+Results from inside every project appear below.	每个项目内部的结果会显示在下面。
+Reveal project in Finder	在访达中显示项目
+Rotate applied — earlier marks are now part of the image	旋转已应用 —— 之前的标记现在成为图片的一部分
+Rotates around the lens axis, tilting the frame for a disorienting effect.	绕镜头轴旋转，把画面斜过来，制造失衡感。
+Rotates horizontally on a fixed axis, like a head turning.	在固定轴上水平转动，像头转过去。
+Rotates vertically on a fixed axis, like nodding.	在固定轴上垂直转动，像点头。
+Run a shot list as a shoot day — takes, skips, observations, full screen.	把镜头表当成拍摄日来跑 —— 条次、跳过、观察记录，全屏。
+Save any project as a portable file a new project can start from.	把任何项目存成可移植文件，新项目可以从它开始。
+Save project + refresh thumbnail	保存项目 + 刷新缩略图
+Saved to your Downloads folder —	已保存到你的「下载」文件夹 ——
+Scout this location on a map	在地图上勘这个地点

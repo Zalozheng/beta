@@ -1,0 +1,292 @@
+(card deleted)	（卡片已删除）
+(from template)	（来自模板）
+(storage error)	（存储出错）
+(untitled beat)	（未命名节拍）
+(untitled location)	（未命名地点）
+(untitled plan)	（未命名计划）
++ Tone on	+ 基调 开启
+12 stages (Campbell / Vogler). Mythic stories, features, novels.	12 个阶段（Campbell / Vogler）。神话故事、长片、小说。
+24 elements max	最多 24 个元素
+<span>Done</span>	<span>完成</span>
+<span>Type</span><span>Est</span><span>Elements</span><span>Take</span>	<span>类型</span><span>预估</span><span>元素</span><span>条次</span>
+A shot list needs at least one scene.	镜头表至少需要一个场景。
+ACT ONE	第一幕
+AFTER DARK	天黑之后
+Active height	有效高度
+Active width	有效宽度
+Align bottom	底部对齐
+Align centres (vertical axis)	居中（垂直轴）
+Align left	左对齐
+Align middles (horizontal axis)	居中（水平轴）
+Align right	右对齐
+Align top	顶部对齐
+All projects	所有项目
+Amber bulbs (two)	琥珀色灯泡（两个）
+Apple box	苹果箱
+Audio removed	音频已移除
+Beat at	Beat 位于
+Beat cannot move your	Beat 无法搬动你的
+Beat created at	Beat 创建于
+Beat overview (PDF)	Beat 概览（PDF）
+Beat project	Beat 项目
+Beats into standard screenplay pages	把节拍变成标准剧本页
+Bind selected items so they move together	绑定所选条目，让它们一起移动
+Board image	画布图片
+Board map	画布地图
+Brand frame	品牌画框
+Breakdown sheets exported	拆解表已导出
+Building PDF…	正在生成 PDF…
+Building contact sheet…	正在生成联系表…
+Building gear summary…	正在生成器材汇总…
+Building media zip…	正在打包素材 zip…
+Building pitch deck…	正在生成提案演示…
+Building shot list PDF…	正在生成镜头表 PDF…
+Building storyboard PDF…	正在生成故事板 PDF…
+Building template…	正在生成模板…
+Call sheet saved	通告单已保存
+Call time	通告时间
+Camera moves	运镜方式
+Card default	卡片默认
+Change colour	更改颜色
+Change linked Set Plan…	更换关联的场景计划…
+Change linked beat…	更换关联的节拍…
+Change logo…	更换标志…
+Character:	角色：
+Character…	角色…
+China ball	中国灯笼
+Choose logo…	选择标志…
+Clear all	全部清除
+Clear movement	清除移动
+Clear search	清除搜索
+Clear selection	取消选择
+Collapse / expand beat	收起／展开节拍
+Collapse beat	收起节拍
+Collapse scene	收起场景
+Colour picker row	取色行
+Colour tag	颜色标签
+Colour temp	色温
+Completed today:	今天已完成：
+Connected to	连接到
+Connection re-attached	连接已重新接上
+Connection removed	连接已移除
+Contact sheet saved	联系表已保存
+Convert into…	转换为…
+Converted to	已转换为
+Crane / jib	摇臂／悬臂
+Credit: Written by	署名：编剧
+Custom (removed)	自定义（已移除）
+Custom size	自定义尺寸
+Cycle through matches	在匹配项之间循环
+DOCX export failed:	DOCX 导出失败：
+DOCX library not available	DOCX 库不可用
+Day	日
+Day report copied	日报已复制
+Day sheet saved	日程单已保存
+Day wrapped	当日杀青
+Description, mood, key details…	描述、氛围、关键细节…
+Director chair	导演椅
+Distribute horizontally	水平分布
+Distribute vertically	垂直分布
+Document added:	文档已添加：
+Document card	文档卡片
+Dolly track	推轨轨道
+Done ✓	完成 ✓
+Download again	重新下载
+Draft date:	初稿日期：
+ELEMENT TALLIES	元素统计
+Elements saved	元素已保存
+Empty board	空画布
+Empty plan	空计划
+End must be after start	结束必须晚于开始
+Est. runtime	预估时长
+Expand beat	展开节拍
+Expand scene	展开场景
+Extract failed:	提取失败：
+Extract: unknown content kind	提取：未知的内容类型
+Extractor updated to	提取器已更新到
+FOV cone	视场角锥
+Filled down	已向下填充
+Find beats by title / body / focus / shot type / tones	按标题／正文／重点／镜头类型／基调查找节拍
+Finish ✓	完成 ✓
+First time here?	第一次来？
+Flag / Cut	旗标／切换
+Flip horizontally	水平翻转
+Flip vertically	垂直翻转
+Floor lamp	落地灯
+Focus:	重点：
+Frame captured	已捕获帧
+Fresh stop-bath	新鲜停影液
+Full tint	整幅染色
+Gear summary	器材汇总
+Gear summary saved	器材汇总已保存
+Go	开始
+Group them	把它们分组
+Hide day strip	隐藏日带
+Hide group	隐藏分组
+Image added	图片已添加
+Image export failed	图片导出失败
+Image lightbox	图片灯箱
+Image saved	图片已保存
+Keep at least one element	至少保留一个元素
+Kino/tube	基诺灯／灯管
+Kitchen counter	厨房台面
+LED panel	LED 面板
+Leads to:	导致：
+Lens focal-length change — subject appears closer/further, camera still.	镜头焦距变化 —— 主体看起来更近或更远，摄影机不动。
+Letter landscape	Letter 横版
+Letter portrait	Letter 竖版
+Link Set Plan…	链接场景计划…
+Link beat…	链接节拍…
+Linked reference	关联参考
+Loading DOCX export…	正在载入 DOCX 导出…
+Loading export library…	正在载入导出库…
+Loading image…	正在载入图片…
+Location card	地点卡片
+Location scout…	勘景…
+Location:	地点：
+Log folder:	日志文件夹：
+Log read failed	日志读取失败
+Logo set	标志已设置
+Manage story links	管理故事链接
+Mark as alternative	标为备选
+Marker at	标记位于
+Marker unlinked	标记已取消链接
+Media export failed	素材导出失败
+Media optimized.	素材已优化。
+Media vault	素材保险库
+Mentioned in	提及于
+Monitor cart	监视器推车
+Move your	移动你的
+Moves vertically up or down without changing angle (crane/jib).	垂直上下移动而不改变角度（摇臂／悬臂）。
+NOW	现在
+Name cannot be empty	名称不能为空
+Need at least one colour	至少需要一种颜色
+Next ›	下一步 ›
+Next ▶	下一步 ▶
+Not now	暂不
+Notes:	备注：
+Nothing exported (could not read any selected project)	什么都没导出（读不出任何选中的项目）
+Nothing moved.	什么都没移动。
+Opening Street View…	正在打开街景…
+Optimizing media…	正在优化素材…
+Order follows canvas position	顺序跟随画布位置
+Original template not found — cannot reset	找不到原始模板 —— 无法重置
+Overview saved	概览已保存
+PDF saved	PDF 已保存
+PDF saved — some pages used clean rendering (screen capture failed)	PDF 已保存 —— 部分页面改用干净渲染（截屏失败）
+PDF tools unavailable	PDF 工具不可用
+PLANNED SUN	计划日照
+Palette + filmmaker refs + recurring motif	色板 + 导演参考 + 反复出现的母题
+Palette extracted	色板已提取
+Pan	平移
+Pause focus session	暂停专注时段
+Pitch & packaging	提案与包装
+Pitch deck	提案演示
+Pitch deck saved	提案演示已保存
+Previous / next image	上一张／下一张图片
+Production breakdown	制作拆解
+Project media	项目素材
+Projects & tabs	项目与标签页
+Prop:	道具：
+Pulled from	拉取自
+Reference added	参考已添加
+Reference image added	参考图已添加
+Render markdown (bold, italic, lists, etc.)	渲染 Markdown（粗体、斜体、列表等）
+Rendering image…	正在渲染图片…
+Rendering page	正在渲染页面
+Resume focus session	继续专注时段
+Role, traits, arc…	身份、特质、弧线…
+Room Floor	房间地面
+Room set:	房间设置：
+SET PLAN	场景计划
+STORY DOCUMENT	故事文档
+Sample project opened — explore!	示例项目已打开 —— 去看看吧！
+Satellite imagery	卫星影像
+Saving location…	正在保存地点…
+Scene-by-scene elements + scheduling red flags	逐场元素 + 排期风险点
+Schedule & breakdown	排期与拆解
+Screen capture unavailable — using clean rendering	截屏不可用 —— 改用干净渲染
+Section name	章节名称
+Select one or more beats first	先选中一个或多个节拍
+Selection (multi-select)	选区（多选）
+Sequence start ✓	序列起点 ✓
+Set	设置
+Set Plan image exported	场景计划图片已导出
+Set Plan saved	场景计划已保存
+Set facing here	朝向设在这里
+Set plan	场景计划
+Set plans:	场景计划：
+Share via Finder	通过访达共享
+Shoot location	拍摄地点
+Shoot-ready shot list per scene	逐场的可拍摄镜头表
+Shot:	镜头：
+Show day strip	显示日带
+Show group	显示分组
+Size reset	尺寸已重置
+Slug line	场景条
+Some projects did not make it.	有些项目没能搬过来。
+Stands in	位于
+Start sequence	开始序列
+Storage full — could not save template	存储已满 —— 无法保存模板
+Storage full — image too large	存储已满 —— 图片太大
+Storage full — try fewer or smaller images	存储已满 —— 试试更少或更小的图片
+Storage full — try fewer projects or smaller images	存储已满 —— 试试更少的项目或更小的图片
+Storage full — try smaller images	存储已满 —— 试试更小的图片
+Story links…	故事链接…
+Storyboard saved	故事板已保存
+Street map imagery	街道地图影像
+Sun	太阳
+TV / screen	电视／屏幕
+Template deleted	模板已删除
+Template saved	模板已保存
+That CSV looks empty	那个 CSV 看起来是空的
+That URL isn't supported	不支持那个网址
+That card doesn't take connections	那张卡片不接受连接
+That preset already exists	那个预设已存在
+That usually means iCloud has not downloaded	这通常意味着 iCloud 还没下载完
+Title:	标题：
+Toggle Writing Mode (document view)	切换写作模式（文档视图）
+Tone tags	基调标签
+Tongs, two pairs	夹子，两副
+Traits vs actions — contradictions, smallest fixes	特质与行为 —— 矛盾点、最小的修法
+Treatment saved	项目书已保存
+Tripod (slim)	三脚架（细版）
+Underdeveloped beats, causal gaps, pacing holes	未展开的节拍、因果缺口、节奏漏洞
+Unknown Vault item type	未知的保险库条目类型
+Untitled folder	未命名文件夹
+Untitled project	未命名项目
+Update failed:	更新失败：
+Updated by Claude	由 Claude 更新
+Used in:	用于：
+Video embed	视频嵌入
+Video not ready	视频尚未就绪
+Visual & on-set	视觉与现场
+Wall (draw)	墙（绘制）
+Want / need / secret / arc per character	每个角色的想要／需要／秘密／弧线
+Wide, CU, drone…	远景、特写、无人机…
+Word — annotated copy	Word —— 带批注版
+Word — clean copy	Word —— 干净版
+You	你
+Zip library not available	Zip 库不可用
+blue hour	蓝调时刻
+but cannot yet read	但还读不了
+edits sidecar write failed	编辑旁写文件写入失败
+golden at	黄金时刻
+golden hour	黄金时刻
+golden until	黄金时刻直到
+if she still hopes	如果她还抱着希望
+is available	可用
+is out	已发布
+there yet.	那里。
+· blue hour	· 蓝调时刻
+— (ambient Lubs products)	——（环境音 Lubs 产品）
+— **[BLANK BEAT]**	—— **[BLANK BEAT]**
+— Beat (read-only)	—— Beat（只读）
+— Beat project export	—— Beat 项目导出
+— media export	—— 素材导出
+” created as a	」创建为
+↺ Mark as undone	↺ 标为未完成
+▶ Sequence start	▶ 序列开始
+▶ Start day	▶ 开始这一天
+▶ Start sequence	▶ 开始序列
+✓ Done	✓ 完成

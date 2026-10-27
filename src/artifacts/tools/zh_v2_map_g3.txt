@@ -1,0 +1,157 @@
+Scroll the card into view first	先把卡片滚动到可见区域
+Search inside folder…	在文件夹内搜索…
+Search or add…	搜索或添加…
+Search or add… (pick several)	搜索或添加…（可多选）
+Search projects…	搜索项目…
+Search unavailable (offline?)	搜索不可用（离线？）
+Set Plan added — double-click it (or “Edit plan”) to open the editor	场景计划已添加 —— 双击它（或「编辑计划」）打开编辑器
+Set Plan added — double-click it to open the editor	场景计划已添加 —— 双击它打开编辑器
+Set Plan overhaul — clearer light and camera glyphs, a 42-piece prop library, lens presets, real-world scale labels, and faster, offline-consistent rendering.	场景计划重做 —— 更清晰的光源与摄影机图形、42 件道具库、镜头预设、真实比例标注，以及更快、离线一致的渲染。
+Set Plan — a top-down scene planner with cameras, real-fixture lights & beam falloff, blocking paths, and real-world scale.	场景计划 —— 俯视视角的场景规划工具，带摄影机、真实灯具与光束衰减、走位路径和真实比例。
+Set and grip	布景与握把
+Several of you hit that warning and wrote to me about it instead of just walking away. That is the only reason it got fixed. Thank you.	你们有好几个人撞上了那个警告，然后写信告诉我，而不是就这么走开。它被修好，全靠这个。谢谢。
+Shot List	镜头表
+Shot Lists	镜头表
+Shot list PDF saved	镜头表 PDF 已保存
+Shot list exported as CSV	镜头表已导出为 CSV
+Shot list —	镜头表 ——
+Shot lists exported as CSV	镜头表已导出为 CSV
+Shot sizes	景别
+Shot-list cheat sheet	镜头表速查表
+Shot-list columns	镜头表列
+Shot-list stats	镜头表统计
+Shot-list templates	镜头表模板
+Show / hide this cheat sheet	显示／隐藏这份速查表
+Show shot lists and scenes	显示镜头表与场景
+Shown — click to hide	已显示 —— 点击隐藏
+Sketch added — click the paper to draw	草图已添加 —— 点纸面开始画
+Skip in exports	导出时跳过
+Slide-by-slide deck, what goes on each	逐页演示稿，每页放什么
+Smarter AI layout — when Claude arranges your canvas it now uses each card's real size, and it can render the board to check its own work.	更聪明的 AI 排版 —— Claude 排布画布时会用每张卡片的真实尺寸，还能把画布渲染出来自查。
+Smarter Link to Claude — Claude can lay out your canvas (it knows where everything is), and the canvas updates live as Claude edits your project. Native File/Edit menus restored.	更聪明的「链接到 Claude」—— Claude 能排布你的画布（它知道每样东西在哪），它编辑项目时画布实时更新。原生「文件／编辑」菜单已恢复。
+Source: Developed in Beat	来源：在 Beat 中开发
+Spreadsheet muscle memory — Tab / Enter / arrow between cells, duplicate a shot, and fill a column down.	表格的肌肉记忆 —— Tab / Enter / 方向键在单元格间移动，复制镜头，把某列往下填充。
+Start a focus session	开始一个专注时段
+Storyboard library failed to load	故事板库加载失败
+Street View window failed to open	街景窗口打开失败
+Street view needs the Beat desktop app	街景需要 Beat 桌面应用
+Strip — again for full tint	条带 —— 再点一次整幅染色
+Strip. Click again for full background.	条带。再点一次改整幅背景。
+Tap to mark done	点击标为完成
+That URL looks off — try again with https://	那个网址看起来不对 —— 用 https:// 再试一次
+That card is locked. Click the lock to unlock first.	那张卡片锁着。先点锁解锁。
+That folder is not a Beat project (missing .beat or project.json)	那个文件夹不是 Beat 项目（缺少 .beat 或 project.json）
+That is its real size — bigger than this floor. Grow the room, or scale it down on the right.	这就是它的真实尺寸 —— 比这块地面还大。把房间放大，或在右侧把它缩小。
+That is the day — everything is marked.	这一天就这样 —— 全都标好了。
+The Link to Claude fault was reported by someone who set it up correctly and still got nothing. That is the most useful kind of bug report and the easiest one to never send. Thank you.	「链接到 Claude」的故障，是一位配置完全正确却什么也没得到的人报上来的。那是最有用的一类缺陷报告，也是最容易被咽下去不发的。谢谢。
+The Set Plan now knows what you are shooting on. Found by a working cinematographer.	场景计划现在知道你在用什么机子拍。由一位在职摄影师发现。
+The Set Plan now knows your camera, per camera. Found and shaped by a working cinematographer.	场景计划现在按机子认得你的摄影机。由一位在职摄影师发现并塑造。
+The Shot List speaks to your story: link a shot to a beat to pull its script and action, link cast, locations and props to real cards (one entry that also feeds your Breakdown), attach a reference image per shot, and jump to a Set Plan.	镜头表会跟你的故事对话：把镜头链到节拍就能拉取剧本与动作，把演员、地点和道具链到真实卡片（一条记录同时喂给你的拆解表），为每个镜头附参考图，并跳到场景计划。
+The audio timeline is not available in the viewer	查看器里不能使用音频时间轴
+The biggest update yet — a complete redesign, Location Scouting with real maps and street view, a built-in News hub, and a deep pass of polish and performance across the whole app.	迄今最大的一次更新 —— 彻底重做、带真实地图与街景的勘景、内置消息中心，以及一次覆盖全应用的深度打磨与性能优化。
+The board answers you now: you can see what you picked, and you can see what you moved.	画布现在会回应你：你看得见自己选了什么，也看得见自己搬了什么。
+The camera follows the subject.	摄影机跟着主体走。
+The camera is still, usually on a tripod.	摄影机不动，通常在三脚架上。
+The fifteen beat template was renamed and rewritten in plain structural terms. The shape is the same, the names are no longer someone else's.	那个十五节拍模板改了名，并用平实的结构术语重写。形状一样，名字不再是别人的了。
+The first public release. Thanks for trying it — it's free, and feedback shapes what comes next.	首个公开版本。谢谢你来试 —— 它是免费的，而反馈决定接下来做什么。
+The order is locked — tap the padlock to rearrange	顺序已锁定 —— 点锁扣来重排
+The sun never rises on this date	这一天太阳不升起
+The sun never sets on this date	这一天太阳不落下
+The top-down scene, lighting and blocking editor.	俯视场景、布光与走位编辑器。
+The whole story as a reorderable list.	整个故事变成一份可重排的列表。
+This beat begins a sequence / episode. Click to unset.	这个节拍是新序列／新一集的开始。点击取消。
+This column holds one value — click to allow several	这一列存一个值 —— 点击可以允许多个
+This column holds several values — click for a single value	这一列存多个值 —— 点击改为单个值
+This link has an unsupported address and was not opened	这个链接的地址不受支持，未打开
+This photo has a location. Pin "	这张照片带地点。标记「
+Those cards are already connected	那些卡片已经连上了
+Those cards are locked — unlock to group them	那些卡片锁着 —— 解锁后再分组
+Those cards are locked. Click a lock to unlock first.	那些卡片锁着。先点锁解锁。
+Title, body and colour — the writing view	标题、正文与颜色 —— 写作视图
+Toggle the Vault	切换保险库
+Type 3+ characters to also search inside projects.	输入 3 个字符以上，就会同时搜索项目内部。
+Type a location, or link a beat to pull its location	输入一个地点，或链接一个节拍来拉取它的地点
+Type your answer…	输入你的回答…
+Universal build (Apple Silicon + Intel), shared as a .dmg.	通用版本（Apple Silicon + Intel），以 .dmg 分享。
+Unlink this plan	取消这个计划的链接
+Update extractor is unavailable	更新提取器不可用
+Update only works inside the Mac app	更新只能在 Mac 应用内进行
+Use the order you set here	用你在这里设定的顺序
+Version history needs an open project	版本历史需要先打开一个项目
+Version history — name checkpoints and restore them, with a full-canvas preview before you roll back.	版本历史 —— 给检查点命名并恢复它们，回滚前可以先看整块画布预览。
+Video embed added from clipboard	视频嵌入已从剪贴板加入
+What it is about; dramatized vs stated; motifs	它讲的是什么；被戏剧化的部分与被直说的部分；母题
+What it is, what it signals…	它是什么，它暗示什么…
+What should happen to them?	它们应该怎样？
+What this beat must deliver	这个节拍必须交付什么
+Wide Shot — subject head to toe, anchored in the setting.	远景 —— 主体全身入画，扎在环境里。
+Write the note…	写下这条备注…
+You are on the newest Beat (	你已经是最新的 Beat（
+Your board as a written document, in two-way sync.	你的画布变成一份双向同步的书面文档。
+Your project's stash of media and references.	你项目的素材与参考存放处。
+Your projects are still in the old folder and Beat is still pointing at it.	你的项目还在旧文件夹里，Beat 也还指着它。
+Your project’s content won’t change — the originals are kept at full quality and load whenever you open or export them.	你的项目内容不会变 —— 原件保留完整画质，你打开或导出时随时加载。
+Your story as full-screen slides for the room.	把你的故事变成给一屋子人看的全屏幻灯片。
+Zoom in / out	放大／缩小
+added to Vault	已加入保险库
+ahead of sched	领先计划
+already in this one instead.	已经在现在这个里面了。
+already on the board)	已在画布上）
+are in the old one.	都在旧的那个里。
+as a scene	作为场景
+beat added — ⌘Z to undo	节拍已添加 —— ⌘Z 撤销
+beats added — ⌘Z to undo	个节拍已添加 —— ⌘Z 撤销
+behind in the old folder, because	落后了，因为在旧文件夹里
+card failed to render	卡片渲染失败
+characters already on the board	画布上已有的角色
+dark paper (click to match the app)	深色纸（点击匹配应用配色）
+documents to "	文档移到「
+exported to .zip	已导出为 .zip
+from the old folder.	从旧文件夹里。
+from the project? They come off every shoot day too.	从项目里移除？它们也会从每个拍摄日上移除。
+in the can	已完成
+in the old folder:	在旧文件夹里：
+in this project are not used by any card. Thumbnails are not counted, because Beat makes those itself and remakes them when needed.	在这个项目里，没有任何卡片用到。缩略图不计入，因为那是 Beat 自己生成的，需要时会重建。
+in your old library, so Beat cannot read	在你旧的素材库里，所以 Beat 读不到
+is now the main path	现在是主线
+is on its way to your Downloads	正在送往你的「下载」文件夹
+it as a project	它当成项目
+items moved to canvas	个条目已移到画布
+left where it was	留在原处
+library settings are not readable	素材库设置无法读取
+light paper (click for dark)	浅色纸（点击改为深色）
+matches the app (click for light paper)	匹配应用配色（点击改为浅色纸）
+moved to Vault	已移到保险库
+not something it can read as a project:	不是能当项目读取的东西：
+out of the project file	从项目文件里移除
+out of this project? They go to a .trash folder inside the project, so you can put any of them back by hand. Nothing is destroyed.	从这个项目里移除？它们会进项目内部的 .trash 文件夹，你可以手动把任何一个放回去。不会有东西被销毁。
+out — my copy stays behind in the old folder	搬出去 —— 我的副本留在旧文件夹里
+over under a new name	用新名字覆盖
+projects? This cannot be undone.	项目？此操作无法撤销。
+reload from disk	从磁盘重新载入
+scenes (from your canvas groups)	场景（来自你的画布分组）
+settings options config library folder your name credit exports minimap walkthroughs	设置 选项 配置 素材库文件夹 你的名字 署名 导出 小地图 引导
+stay in the old folder, and Beat shows	留在旧文件夹里，Beat 会显示
+still in iCloud and not downloaded to this Mac, so copying them would produce empty files.	还在 iCloud 上没下载到这台 Mac，复制它们只会得到空文件。
+this as a project	这个当成项目
+this one instead — which is empty right now.	改用这个 —— 它现在是空的。
+to .trash inside this project	移到本项目的 .trash
+to start, or add beats on the canvas. (Characters, locations, props, palettes and galleries live on the canvas, not in the document.)	开始，或者在画布上加节拍。（角色、地点、道具、色板和图库都存在画布上，不在文档里。）
+to the Vault	到保险库
+to this folder?	到这个文件夹？
+whatever is already in this one.	这个文件夹里已有的东西。
+· Made with Beat	· 用 Beat 制作
+— Cmd-Z to undo	—— Cmd-Z 撤销
+— clear some media to add more.	—— 清掉一些素材再加。
+— click to open Sun path	—— 点击打开日照轨迹
+— click to open the audio timeline there	—— 点击在那里打开音频时间轴
+— double-click its flag to name it	—— 双击它的旗标来命名
+— drag to move, double-click to rename	—— 拖动移动，双击重命名
+— edit this beat's sun plan	—— 编辑这个节拍的日照计划
+— it is on the board beside this card.	—— 它就在这张卡片旁边的画布上。
+— look around freely; nothing is saved.	—— 随便看，什么都不会保存。
+— pick a preset	—— 选一个预设
+— pick what to do with	—— 选择要怎么处理
+— right-click to reset / configure	—— 右键重置／配置
+— tap to open	—— 点击打开
+— the previous state was snapshotted	—— 上一个状态已拍快照

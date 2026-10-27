@@ -1,0 +1,312 @@
+[
+ {
+  "name": "/vendor/jspdf.umd.min.js",
+  "file": "vendor/jspdf.umd.min.js",
+  "file_off": "0xab86a4",
+  "br_off": "0xab86bc",
+  "br_len": 105883,
+  "raw_len": 365730,
+  "gap_after": 0,
+  "sha256": "85ba2cc3ff858a20fa49fe6e457bec863ea40b55a9f3725e58a940e62f6f61a4"
+ },
+ {
+  "name": "/vendor/gif.worker.js",
+  "file": "vendor/gif.worker.js",
+  "file_off": "0xad2457",
+  "br_off": "0xad246c",
+  "br_len": 5146,
+  "raw_len": 16636,
+  "gap_after": 0,
+  "sha256": "ca9e3048557ec05d619e18b83403cd3669c88939e5fa2d6034ce7625d445970d"
+ },
+ {
+  "name": "/vendor/leaflet/images/marker-icon.png",
+  "file": "vendor/leaflet/images/marker-icon.png",
+  "file_off": "0xad3886",
+  "br_off": "0xad38ac",
+  "br_len": 1470,
+  "raw_len": 1466,
+  "gap_after": 0,
+  "sha256": "574c3a5cca85f4114085b6841596d62f00d7c892c7b03f28cbfa301deb1dc437"
+ },
+ {
+  "name": "/app.js",
+  "file": "app.js",
+  "file_off": "0xad3e6a",
+  "br_off": "0xad3e71",
+  "br_len": 559746,
+  "raw_len": 2279174,
+  "gap_after": 0,
+  "sha256": "f07cf2c13e3af0fe55b582d93e66309311e0bb2afb231c30afc28b1bd589ac54"
+ },
+ {
+  "name": "/vendor/docx.iife.js",
+  "file": "vendor/docx.iife.js",
+  "file_off": "0xb5c8f3",
+  "br_off": "0xb5c907",
+  "br_len": 137993,
+  "raw_len": 807605,
+  "gap_after": 0,
+  "sha256": "bb2908d72ffd8a3d896b455563733d3a2e708e1384a5140e05b3c6dd0b2f676d"
+ },
+ {
+  "name": "/fonts/ibm-plex-mono-v20-latin_latin-ext-600.woff2",
+  "file": "fonts/ibm-plex-mono-v20-latin_latin-ext-600.woff2",
+  "file_off": "0xb7e410",
+  "br_off": "0xb7e442",
+  "br_len": 22973,
+  "raw_len": 22972,
+  "gap_after": 0,
+  "sha256": "3117d8962d0f038f64c70a8b38586561fdeebf426f644d1d34f84a90ec5359f0"
+ },
+ {
+  "name": "/style.css",
+  "file": "style.css",
+  "file_off": "0xb83dff",
+  "br_off": "0xb83e09",
+  "br_len": 94533,
+  "raw_len": 510478,
+  "gap_after": 0,
+  "sha256": "5fb8cc85631a350e7a7c23a14375b0eb2fb5c412e8a49a395e9d58ac95d12179"
+ },
+ {
+  "name": "/vendor/jszip.min.js",
+  "file": "vendor/jszip.min.js",
+  "file_off": "0xb9af4e",
+  "br_off": "0xb9af62",
+  "br_len": 27131,
+  "raw_len": 97630,
+  "gap_after": 0,
+  "sha256": "acc7e41455a80765b5fd9c7ee1b8078a6d160bbbca455aeae854de65c947d59e"
+ },
+ {
+  "name": "/vendor/html2canvas.min.js",
+  "file": "vendor/html2canvas.min.js",
+  "file_off": "0xba195d",
+  "br_off": "0xba1977",
+  "br_len": 41950,
+  "raw_len": 198689,
+  "gap_after": 0,
+  "sha256": "e87e550794322e574a1fda0c1549a3c70dae5a93d9113417a429016838eab8cb"
+ },
+ {
+  "name": "/vendor/gif.js",
+  "file": "vendor/gif.js",
+  "file_off": "0xbabd55",
+  "br_off": "0xbabd63",
+  "br_len": 4014,
+  "raw_len": 13451,
+  "gap_after": 0,
+  "sha256": "a8b111071bb3b123c302e6182c01d6b3550f93a4b627398b07c46875d84090bb"
+ },
+ {
+  "name": "/vendor/mammoth.browser.min.js",
+  "file": "vendor/mammoth.browser.min.js",
+  "file_off": "0xbacd11",
+  "br_off": "0xbacd2f",
+  "br_len": 129064,
+  "raw_len": 642759,
+  "gap_after": 0,
+  "sha256": "596ef52239e52d8ee3cee10b2ee4a72596abf900d0e4f468593f956e9f1809b0"
+ },
+ {
+  "name": "/fonts/bricolage-grotesque-v9-latin_latin-ext-700.woff2",
+  "file": "fonts/bricolage-grotesque-v9-latin_latin-ext-700.woff2",
+  "file_off": "0xbcc557",
+  "br_off": "0xbcc58e",
+  "br_len": 28876,
+  "raw_len": 28876,
+  "gap_after": 0,
+  "sha256": "e5f3cef4e7ed80bff05f3feca76740b8f8da0657f281f00651dd009d947deb5b"
+ },
+ {
+  "name": "/vendor/leaflet/images/layers.png",
+  "file": "vendor/leaflet/images/layers.png",
+  "file_off": "0xbd365a",
+  "br_off": "0xbd367b",
+  "br_len": 700,
+  "raw_len": 696,
+  "gap_after": 0,
+  "sha256": "1dbbe9d028e292f36fcba8f8b3a28d5e8932754fc2215b9ac69e4cdecf5107c6"
+ },
+ {
+  "name": "/vendor/leaflet/images/marker-shadow.png",
+  "file": "vendor/leaflet/images/marker-shadow.png",
+  "file_off": "0xbd3937",
+  "br_off": "0xbd395f",
+  "br_len": 622,
+  "raw_len": 618,
+  "gap_after": 0,
+  "sha256": "264f5c640339f042dd729062cfc04c17f8ea0f29882b538e3848ed8f10edb4da"
+ },
+ {
+  "name": "/vendor/leaflet/images/marker-icon-2x.png",
+  "file": "vendor/leaflet/images/marker-icon-2x.png",
+  "file_off": "0xbd3bcd",
+  "br_off": "0xbd3bf6",
+  "br_len": 2468,
+  "raw_len": 2464,
+  "gap_after": 0,
+  "sha256": "00179c4c1ee830d3a108412ae0d294f55776cfeb085c60129a39aa6fc4ae2528"
+ },
+ {
+  "name": "/fonts/familjen-grotesk-v11-latin_latin-ext-500.woff2",
+  "file": "fonts/familjen-grotesk-v11-latin_latin-ext-500.woff2",
+  "file_off": "0xbd459a",
+  "br_off": "0xbd45cf",
+  "br_len": 17309,
+  "raw_len": 17308,
+  "gap_after": 0,
+  "sha256": "a9f7bb5e1344e4a14d470559112b5ac9979185193b26ea64a6b6fdf9bfdaa3a9"
+ },
+ {
+  "name": "/fonts/ibm-plex-mono-v20-latin_latin-ext-regular.woff2",
+  "file": "fonts/ibm-plex-mono-v20-latin_latin-ext-regular.woff2",
+  "file_off": "0xbd896c",
+  "br_off": "0xbd89a2",
+  "br_len": 21730,
+  "raw_len": 21728,
+  "gap_after": 0,
+  "sha256": "bb73982652a95d06d00078be2582f227ca1bf0f30345f3af0c5493c630b9c65e"
+ },
+ {
+  "name": "/fonts/bricolage-grotesque-v9-latin_latin-ext-600.woff2",
+  "file": "fonts/bricolage-grotesque-v9-latin_latin-ext-600.woff2",
+  "file_off": "0xbdde84",
+  "br_off": "0xbddebb",
+  "br_len": 29088,
+  "raw_len": 29088,
+  "gap_after": 0,
+  "sha256": "60526632e1b228e2d36b4220292e2e86738ab7a34f1c108521f51ac78c63588f"
+ },
+ {
+  "name": "/vendor/pdf.min.js",
+  "file": "vendor/pdf.min.js",
+  "file_off": "0xbe505b",
+  "br_off": "0xbe506d",
+  "br_len": 80051,
+  "raw_len": 320004,
+  "gap_after": 0,
+  "sha256": "5b5799e6f8c680663207ac5b42ee14eed2a406fa7af48f50c154f0c0b1566946"
+ },
+ {
+  "name": "/vendor/xlsx.full.min.js",
+  "file": "vendor/xlsx.full.min.js",
+  "file_off": "0xbf8920",
+  "br_off": "0xbf8938",
+  "br_len": 251274,
+  "raw_len": 951904,
+  "gap_after": 0,
+  "sha256": "cc015130aa8521e7f088f88898eba949ccdcbfb38df0bd129b44b7273c3a6f41"
+ },
+ {
+  "name": "/fonts/familjen-grotesk-v11-latin_latin-ext-600.woff2",
+  "file": "fonts/familjen-grotesk-v11-latin_latin-ext-600.woff2",
+  "file_off": "0xc35ec2",
+  "br_off": "0xc35ef7",
+  "br_len": 17251,
+  "raw_len": 17252,
+  "gap_after": 0,
+  "sha256": "e63953a245353a31731e9568f39689c09cfc92ba7eb03d954df890d973ec2d26"
+ },
+ {
+  "name": "/vendor/leaflet/leaflet.js",
+  "file": "vendor/leaflet/leaflet.js",
+  "file_off": "0xc3a25a",
+  "br_off": "0xc3a274",
+  "br_len": 39946,
+  "raw_len": 147552,
+  "gap_after": 0,
+  "sha256": "db49d009c841f5ca34a888c96511ae936fd9f5533e90d8b2c4d57596f4e5641a"
+ },
+ {
+  "name": "/favicon.svg",
+  "file": "favicon.svg",
+  "file_off": "0xc43e7e",
+  "br_off": "0xc43e8a",
+  "br_len": 489,
+  "raw_len": 822,
+  "gap_after": 0,
+  "sha256": "3dd0582fd4d0ca84c1c16ec5e9ed075161a43363f89b0d97ee8e21f65318f8f8"
+ },
+ {
+  "name": "/vendor/leaflet/images/layers-2x.png",
+  "file": "vendor/leaflet/images/layers-2x.png",
+  "file_off": "0xc44073",
+  "br_off": "0xc44097",
+  "br_len": 1263,
+  "raw_len": 1259,
+  "gap_after": 0,
+  "sha256": "066daca850d8ffbef007af00b06eac0015728dee279c51f3cb6c716df7c42edf"
+ },
+ {
+  "name": "/vendor/leaflet/leaflet.css",
+  "file": "vendor/leaflet/leaflet.css",
+  "file_off": "0xc44586",
+  "br_off": "0xc445a1",
+  "br_len": 3261,
+  "raw_len": 14806,
+  "gap_after": 0,
+  "sha256": "a7837102824184820dfa198d1ebcd109ff6d0ff9a2672a074b9a1b4d147d04c6"
+ },
+ {
+  "name": "/templates.js",
+  "file": "templates.js",
+  "file_off": "0xc4525e",
+  "br_off": "0xc4526b",
+  "br_len": 2663,
+  "raw_len": 8460,
+  "gap_after": 0,
+  "sha256": "a1619a1eb2649de95012b67d7176999d2a96ab72c33d3555b9c63b275175b257"
+ },
+ {
+  "name": "/vendor/pdf.worker.min.js",
+  "file": "vendor/pdf.worker.min.js",
+  "file_off": "0xc45cd2",
+  "br_off": "0xc45ceb",
+  "br_len": 261230,
+  "raw_len": 1087212,
+  "gap_after": 0,
+  "sha256": "feabdf309770ed24bba31a5467836cdc8cf639c705af27d52b585b041bb8527b"
+ },
+ {
+  "name": "/fonts/familjen-grotesk-v11-latin_latin-ext-regular.woff2",
+  "file": "fonts/familjen-grotesk-v11-latin_latin-ext-regular.woff2",
+  "file_off": "0xc85959",
+  "br_off": "0xc85992",
+  "br_len": 16688,
+  "raw_len": 16684,
+  "gap_after": 0,
+  "sha256": "226d86f73c967a8223d91a4d46234ba308621d3a9b73db9899c6c4045173eddb"
+ },
+ {
+  "name": "/fonts/ibm-plex-mono-v20-latin_latin-ext-500.woff2",
+  "file": "fonts/ibm-plex-mono-v20-latin_latin-ext-500.woff2",
+  "file_off": "0xc89ac2",
+  "br_off": "0xc89af4",
+  "br_len": 22126,
+  "raw_len": 22128,
+  "gap_after": 0,
+  "sha256": "38e48e6eb3149c03a86959d8b24c81f36378d4698518cc2d18e5d4d272486420"
+ },
+ {
+  "name": "/fonts/familjen-grotesk-v11-latin_latin-ext-700.woff2",
+  "file": "fonts/familjen-grotesk-v11-latin_latin-ext-700.woff2",
+  "file_off": "0xc8f162",
+  "br_off": "0xc8f197",
+  "br_len": 16901,
+  "raw_len": 16900,
+  "gap_after": 0,
+  "sha256": "c0fd28a4d9652a3cf69c31857e9d083608e11973db3d931452c9aa3bc81b13dd"
+ },
+ {
+  "name": "/index.html",
+  "file": "index.html",
+  "file_off": "0xc9339c",
+  "br_off": "0xc933a7",
+  "br_len": 10319,
+  "raw_len": 44278,
+  "gap_after": 0,
+  "sha256": "5f67e8781e6e72053701a889b43744508041ac400932f0b555f41e615efd026a"
+ }
+]

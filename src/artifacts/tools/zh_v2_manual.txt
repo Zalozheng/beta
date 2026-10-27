@@ -1,0 +1,17 @@
+app.js	1026554	Shot list created from "	镜头表创建自「
+app.js	1026610	"	」
+app.js	1047674	Add "	添加「
+app.js	1047688	"	」
+app.js	1135154	" as a screenplay	」作为剧本
+app.js	1141289	From "	来自「
+app.js	1141314	"	」
+app.js	1142999	Could not read "	无法读取「
+app.js	1937598	Reset this project to its original "	把项目重置为最初的「
+app.js	1937650	" template? Every beat, image, and connection in this project will be replaced.	」模板？本项目里的每个节拍、图片和连接都会被替换。
+app.js	2097376	Delete folder "	删除文件夹「
+app.js	2097433	"? Projects inside will return to All projects.	」？里面的项目会回到「所有项目」。
+app.js	2121183	Delete saved template "	删除已保存模板「
+app.js	2121222	"? Projects already created from it are unaffected.	」？已经用它创建的项目不受影响。
+app.js	2143674	Saved from "	保存自「
+app.js	2143721	"	」
+app.js	2143900	" as a template	」作为模板

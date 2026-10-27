@@ -1,0 +1,11 @@
+{
+ "core_entries": 560,
+ "pack_entries": 2334,
+ "scrubbed": 64,
+ "out": "/Users/zalo/Downloads/beta/src/work/zh",
+ "files": {
+  "index.html": 42615,
+  "app.js": 2319884,
+  "templates.js": 8460
+ }
+}

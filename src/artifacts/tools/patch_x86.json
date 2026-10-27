@@ -1,0 +1,32 @@
+[
+ {
+  "name": "/index.html",
+  "name_off": "0xe1170c",
+  "data_off": "0xe11717",
+  "old_br_len": 10319,
+  "new_br_len": 9829,
+  "pad": 490,
+  "old_raw": 44278,
+  "new_raw": 44301
+ },
+ {
+  "name": "/app.js",
+  "name_off": "0xc521da",
+  "data_off": "0xc521e1",
+  "old_br_len": 559746,
+  "new_br_len": 513393,
+  "pad": 46353,
+  "old_raw": 2279174,
+  "new_raw": 2279295
+ },
+ {
+  "name": "/templates.js",
+  "name_off": "0xdc35ce",
+  "data_off": "0xdc35db",
+  "old_br_len": 2663,
+  "new_br_len": 2618,
+  "pad": 45,
+  "old_raw": 8460,
+  "new_raw": 8257
+ }
+]
