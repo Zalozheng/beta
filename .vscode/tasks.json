@@ -1,0 +1,41 @@
+{
+  "version": "2.0.0",
+  "inputs": [
+    {
+      "id": "version",
+      "type": "promptString",
+      "description": "版本 tag（例如 v2.3.2-zh.1）",
+      "default": "v2.3.2-zh.1"
+    }
+  ],
+  "tasks": [
+    {
+      "label": "发布：打 tag 并推送",
+      "detail": "调用 release.sh，Actions 自动创建 Release",
+      "type": "shell",
+      "command": "bash release.sh ${input:version}",
+      "problemMatcher": []
+    },
+    {
+      "label": "重新打包成品 zip",
+      "detail": "从 /Applications/Beat.app 生成 dist/Beat-zh.app.zip",
+      "type": "shell",
+      "command": "rm -rf dist/Beat-zh.app dist/Beat-zh.app.zip && cp -R /Applications/Beat.app dist/Beat-zh.app && ditto -c -k --keepParent dist/Beat-zh.app dist/Beat-zh.app.zip && rm -rf dist/Beat-zh.app && shasum -a 256 dist/Beat-zh.app.zip",
+      "problemMatcher": []
+    },
+    {
+      "label": "推送到 GitHub",
+      "detail": "push 当前分支和所有 tag",
+      "type": "shell",
+      "command": "git push -u origin main && git push --tags",
+      "problemMatcher": []
+    },
+    {
+      "label": "构建并安装到 /Applications",
+      "detail": "前端 + 菜单 dylib + 重签 + 安装",
+      "type": "shell",
+      "command": "bash build-all.sh /Applications/Beat.app.en.bak && pkill -f '/Applications/Beat.app/Contents/MacOS/beat' || true",
+      "problemMatcher": []
+    }
+  ]
+}
