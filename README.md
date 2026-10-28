@@ -51,6 +51,55 @@ bash src/artifacts/tools/menuzh/rebuild-menuzh.sh                  # 原生菜�
 python3 src/artifacts/tools/split_lang_pack.py
 ```
 
+## 说明书（docs/）
+
+面向使用者的中文手册，不涉及汉化实现：`docs/使用手册.md`（源，改这份）。
+
+```bash
+PY=/Users/zalo/.dsh/dsh-runtimes/dsh-primary-runtime/dependencies/python/bin/python3
+$PY docs/md2pdf.py  docs/使用手册.md docs/Beat-使用手册.pdf    # 7 页 A4，Pillow 直绘
+$PY docs/md2docx.py docs/使用手册.md docs/Beat-使用手册.docx   # Word 版
+```
+
+中文排版注意事项：PDF 用 Pillow 直绘（本机 LibreOffice Kit 渲染 CJK 输出空白页，不可用）；
+`⌘ ⇧ ⌫ ▶ ✕ ＋` 在 Hiragino 里缺字形，`docs/md2pdf.py` 会按字符级回退到 Menlo / Apple Symbols。
+
+## 本次补强（v2.3.2-zh.2）
+
+界面残留英文的三条真因，都已修掉：
+
+1. **语言包死键**（约 250 条永远匹配不到）：键带前导/尾随空格、留着未解转义 `\n` `\u2014` `\'`、或是整段 HTML。
+   `src/i18n/i18n.js` 的 `mergeInto()` 现在用 `normKey()` 统一清洗，运行期即生效。
+2. **匹配规则太窄**：`SKIP_SEL` 原来把 `select/option/kbd` 一起跳过了（14 个下拉框选项因此永远英文），
+   已放开；`applyTextNode` 的闸门改成「先折空白再判长度」，换行不再一票否决，
+   长文走白名单容器（`LONG_OK`，上限 2000 字符），用户正文三条硬护栏（contenteditable / `.xxx-body` / `[data-i18n-skip]`）不动。
+3. **拼接串翻不出来**（`Delete project "x"?`、`12 beats · Oct 28`、`Appears in 7 beats`）：`lookup()` 变成三级
+   精确 → 空白折叠 → 模式匹配，语言包支持两种特殊键：
+   - `"Could not read *"` 前缀键，`{x}` 是剩余部分
+   - `"Appears in {n} beats"` / `"Jump to {name}"` 槽位键，`{n}` 只吃数字，其他占位符吃任意片段
+   整段锚定，回填不完整就放弃 —— 宁可留英文，不出半句中文。
+
+另外把 `Date.prototype.toLocaleDateString/toLocaleTimeString` 的 locale 钉到界面语言，
+否则系统是英文时项目卡片会出现 `12 beats · Oct 28` 这种半中半英（现在 `12 个节拍 · 10月28日`）。
+
+语言包从 2353 条补到 2752 条（`src/lang/zh-CN.extra.json` 是人工补充包，`design/i18n-residual.json` 是静态分析产出，
+两者缺则补、不覆盖已有译法）。
+
+## 导出中文（jsPDF）
+
+**病根**：jsPDF 只带 helvetica/times 五个拉丁字体，中文被写成 UTF-16 码位塞进 WinAnsi 8-bit 字符串
+（`中`→`N-`、`文`→`e‡`），渲染成乱码且宽度翻倍、整行拉伸。Word / CSV / Markdown / Fountain / ZIP 不受影响。
+
+**为什么不用「嵌 TTF + addFont」**：实测 Tauri 把 `fs` 与 `path` 插件都 ACL 掉了
+（`plugin:path|resolve_directory not allowed by ACL`），字体文件放 `Contents/Resources/` 前端也读不到。
+
+**现在的做法**（`src/artifacts/embedded-web/app.js` 的 `_pdfInstallCN`）：包住 jsPDF 实例的 `pdf.text()` ——
+含 CJK 的整行用离屏 canvas 以系统 PingFang 渲染成 PNG 再 `addImage`；纯 ASCII 行仍走原生文本（保留可选文本）。
+同一层顺带把字面量过一遍 `BeatI18n.t()`，导出的固定标题/表头/页眉跟着界面语言走，用户写的内容原样输出。
+任何一步失败都回退原生 `pdf.text`，绝不产出坏 PDF。11 个 `new jsPDF(...)` 之后各接一行 `await _pdfUseCNFont(pdf)`。
+
+代价：中文行是图片，不可选；体积每行约 +14 KB（整页 A4 中文约 +0.9 MB）。要可选中文字的长文档，用「画布 → PDF」打印版式走系统打印另存。
+
 ## 运行时切换是怎么做的
 
 1. **源码保持英文**：`src/artifacts/embedded-web/` 是英文原版（加三处本工程改动：界面语言设置项、移除作者信息、更新链接指向 GitHub）。
@@ -59,7 +108,8 @@ python3 src/artifacts/tools/split_lang_pack.py
 4. **还原**：原文存在 `WeakMap`，`setLang('en')` 逐个写回，`document.title` 一起还。
 5. **动态内容**：`MutationObserver`（childList/characterData/attributes，60ms 防抖）处理异步渲染与重绘。
 6. **语言状态**：`localStorage.beat.uiLang`；设置页「界面语言」下拉 `change` 即生效并落盘。
-7. **原生菜单**：`BeatMenuZh.dylib` 每 0.5s 读一次 `beat.uiLang`（WKWebView 的 localStorage sqlite，只读），英文界面时把菜单标题反向还原成英文，中文界面照旧英→中。
+7. **插件文案（timeline / 库）**：`src/timeline/timeline.js`、`src/library/library.js` 的界面文案一律「英文源 + `L('English','中文')`」——先查语言包，包里没有就用内置中文兜底，切到英文时原样显示英文；监听 `beat:langchange` 重贴文案并重绘。自检：`node src/timeline/test_lang.js`（17 项中英断言）。
+8. **原生菜单**：`BeatMenuZh.dylib` 每 0.5s 读一次 `beat.uiLang`（WKWebView 的 localStorage sqlite，只读），英文界面时把菜单标题反向还原成英文，中文界面照旧英→中。
 
 ## 语言包怎么读（实测结论，别走弯路）
 
@@ -85,10 +135,11 @@ plugin:fs|read_file / exists / stat → 同样被拒
 node --check src/work/zh/app.js
 node src/artifacts/tools/verify_slots.js src/work/beat.fat.zh src/work/zh   # 期望 6 PASS / 0 FAIL
 grep -ci 'lutz\|joao' src/work/zh/app.js src/work/zh/index.html             # 期望 0
+node src/timeline/test_lang.js                                             # 插件文案中英自检，期望 all pass
 
 # 运行期（beat.log 里的 js: 行）
 grep '\[i18n\]' ~/Library/Logs/Beat/beat.log | tail
-# [i18n] boot lang=zh-CN stored=null dict=2334 src=file+parts path=…/zh-CN.json
+# [i18n] boot lang=zh-CN stored=null dict=2353 src=file+parts path=…/zh-CN.json
 # [i18n] lang=zh-CN translated=277 dict=2334 src=file+parts sample=[Preferences → 偏好设置 | …]
 ```
 

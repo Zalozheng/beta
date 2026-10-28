@@ -404,6 +404,9 @@ static void bz_build_dict(void) {
         @"Show Beat.log":                    @"打开 Beat.log",
         @"Update Extractor (yt-dlp)":        @"更新提取器（yt-dlp）",
         @"Bring All to Front":               @"全部置于顶层",
+        @"Quit and Close All Windows":        @"退出并关闭所有窗口",
+        @"Close All":                        @"全部关闭",
+        @"Close Others":                     @"关闭其他",
         // —— About 面板 ——
         @"Beat \u2014 story planning canvas": @"Beat —— 故事规划画布",
         // —— rfd 原生对话框 ——
@@ -414,6 +417,16 @@ static void bz_build_dict(void) {
 
         // —— 额外：街景子窗口 App 自有按钮（DOM 侧同时做了字节补丁）——
         @"Capture snapshot":                 @"截取快照",
+
+        // —— rfd 文件/文件夹选择对话框标题 ——
+        @"Pick a folder":                    @"选择文件夹",
+        @"Pick a file":                      @"选择文件",
+        @"Choose your Beat library folder":  @"选择 Beat 素材库文件夹",
+        @"Open a Beat project folder":       @"打开一个 Beat 项目文件夹",
+        @"Pick a Beat template":             @"选择 Beat 模板",
+        @"Pick the .zip exported from web Beat": @"选择从网页版 Beat 导出的 .zip",
+        @"Pick a folder for Beat projects":  @"选一个放 Beat 项目的文件夹",
+        @"Could not open the file picker":   @"文件选择器打开失败",
 
         // —— 额外：AppKit 自带项（系统语言为英文时出现的）——
         @"Services":                         @"服务",

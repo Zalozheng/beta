@@ -1,0 +1,2417 @@
+[
+ {
+  "class": "A",
+  "en": "New dark theme — cool slate with a warm amber accent.",
+  "zh": "新的深色主题 —— 冷调石板灰，配暖琥珀色点缀。",
+  "where": "app.js:2816",
+  "note": "_markOnboardingDone 的 changelog 文案，渲染进 What's new 弹层"
+ },
+ {
+  "class": "A",
+  "en": "Infinite story canvas: beats, connections, characters / locations / props, groups, templates.",
+  "zh": "无限故事画布：节拍、连线、角色 / 地点 / 道具、分组、模板。",
+  "where": "app.js:2833",
+  "note": "同上"
+ },
+ {
+  "class": "A",
+  "en": "Beat is free and shaped by the people who use it.",
+  "zh": "Beat 免费，由使用它的人一起塑造。",
+  "where": "app.js:2692",
+  "note": "What's new 弹层的社区段"
+ },
+ {
+  "class": "A",
+  "en": "Everyone whose suggestion or bug report ships gets credited here.",
+  "zh": "每条被采纳的建议与 bug 报告，都会在这里署名致谢。",
+  "where": "app.js:3205",
+  "note": "鸣谢区空态说明"
+ },
+ {
+  "class": "A",
+  "en": "Your name could be here. Beat is shaped by the people who use it —",
+  "zh": "你的名字也可以出现在这里。Beat 由使用它的人一起塑造 ——",
+  "where": "app.js:3187",
+  "note": "鸣谢区空态，末尾接 <a> 链接"
+ },
+ {
+  "class": "A",
+  "en": "The on-canvas shot spreadsheet — scenes, columns, totals.",
+  "zh": "画布上的分镜表 —— 场景、列、合计。",
+  "where": "app.js:33307",
+  "note": "Tour hub 卡片简介"
+ },
+ {
+  "class": "A",
+  "en": "Room size — sets the floor and the real-world scale. (You can also drag the floor’s bottom-right corner.)",
+  "zh": "房间尺寸 —— 决定地面与真实比例。（也可以拖地面右下角来改。）",
+  "where": "app.js:17745",
+  "note": "Set Plan 尺寸浮层说明"
+ },
+ {
+  "class": "A",
+  "en": "Claude is editing…",
+  "zh": "Claude 正在编辑…",
+  "where": "app.js:40757",
+  "note": "Claude 连接状态条"
+ },
+ {
+  "class": "A",
+  "en": "Claude updated this project ·",
+  "zh": "Claude 更新了这个项目 ·",
+  "where": "app.js:40785",
+  "note": "Claude 重载提示前缀"
+ },
+ {
+  "class": "A",
+  "en": "Bring to front",
+  "zh": "移到最前",
+  "where": "app.js:17707",
+  "note": "Set Plan 元素右键菜单"
+ },
+ {
+  "class": "A",
+  "en": "Send to back",
+  "zh": "移到最后",
+  "where": "app.js:17712",
+  "note": "同上"
+ },
+ {
+  "class": "A",
+  "en": "Bring forward",
+  "zh": "上移一层",
+  "where": "app.js:17708",
+  "note": "同上"
+ },
+ {
+  "class": "A",
+  "en": "Send backward",
+  "zh": "下移一层",
+  "where": "app.js:17711",
+  "note": "同上"
+ },
+ {
+  "class": "A",
+  "en": "Free on canvas",
+  "zh": "画布内自由摆放",
+  "where": "app.js:26967",
+  "note": "素材库条目所在位置标签"
+ },
+ {
+  "class": "A",
+  "en": "Description…",
+  "zh": "描述…",
+  "where": "app.js:13172",
+  "note": "素材库卡片占位/按钮"
+ },
+ {
+  "class": "A",
+  "en": "Custom…",
+  "zh": "自定义…",
+  "where": "app.js:17538",
+  "note": "Set Plan 机身/镜头下拉的自定义项"
+ },
+ {
+  "class": "A",
+  "en": "Spherical (1×)",
+  "zh": "球面（1×）",
+  "where": "app.js:17552",
+  "note": "镜头畸变下拉项"
+ },
+ {
+  "class": "A",
+  "en": "Export .docx",
+  "zh": "导出 .docx",
+  "where": "app.js:26488",
+  "note": "导出中心按钮"
+ },
+ {
+  "class": "A",
+  "en": "Basic shapes",
+  "zh": "基础形状",
+  "where": "app.js:5677",
+  "note": "Set Plan 素材面板分组"
+ },
+ {
+  "class": "A",
+  "en": "Set & grip",
+  "zh": "布景与器械",
+  "where": "app.js:5686",
+  "note": "同上"
+ },
+ {
+  "class": "A",
+  "en": "Untitled section",
+  "zh": "未命名段落",
+  "where": "app.js:27412",
+  "note": "写作页段落默认名"
+ },
+ {
+  "class": "A",
+  "en": "Untitled shot",
+  "zh": "未命名镜头",
+  "where": "app.js:32219",
+  "note": "On set 分镜默认名"
+ },
+ {
+  "class": "A",
+  "en": "Unnamed character",
+  "zh": "未命名角色",
+  "where": "app.js:29695",
+  "note": "角色卡默认名"
+ },
+ {
+  "class": "A",
+  "en": "Unnamed location",
+  "zh": "未命名地点",
+  "where": "app.js:29706",
+  "note": "地点卡默认名"
+ },
+ {
+  "class": "A",
+  "en": "Unnamed prop",
+  "zh": "未命名道具",
+  "where": "app.js:29722",
+  "note": "道具卡默认名"
+ },
+ {
+  "class": "A",
+  "en": "First time here?",
+  "zh": "第一次来？",
+  "where": "app.js:38144",
+  "note": "项目面板引导入口"
+ },
+ {
+  "class": "A",
+  "en": "Search by Photon · OpenStreetMap",
+  "zh": "搜索由 Photon · OpenStreetMap 提供",
+  "where": "app.js:36387",
+  "note": "地点搜索框下的署名行"
+ },
+ {
+  "class": "A",
+  "en": "In exports",
+  "zh": "导出时包含",
+  "where": "app.js:31472",
+  "note": "导出包含项标签"
+ },
+ {
+  "class": "A",
+  "en": "Not set yet",
+  "zh": "尚未设置",
+  "where": "app.js:31697",
+  "note": "偏好设置素材库路径空态"
+ },
+ {
+  "class": "A",
+  "en": "Move them",
+  "zh": "移动它们",
+  "where": "app.js:34830",
+  "note": "存储清理对话框按钮"
+ },
+ {
+  "class": "A",
+  "en": "Something went wrong",
+  "zh": "出了点问题",
+  "where": "app.js:37418",
+  "note": "Claude 连接错误提示"
+ },
+ {
+  "class": "A",
+  "en": "Moved.",
+  "zh": "已移动。",
+  "where": "app.js:37792",
+  "note": "素材库迁移结果"
+ },
+ {
+  "class": "A",
+  "en": "Copied.",
+  "zh": "已复制。",
+  "where": "app.js:37792",
+  "note": "同上"
+ },
+ {
+  "class": "A",
+  "en": "Export failed",
+  "zh": "导出失败",
+  "where": "app.js:38847",
+  "note": "导出中心"
+ },
+ {
+  "class": "A",
+  "en": "Imported project",
+  "zh": "已导入项目",
+  "where": "app.js:38905",
+  "note": "导入结果"
+ },
+ {
+  "class": "A",
+  "en": "Importing…",
+  "zh": "正在导入…",
+  "where": "app.js:41541",
+  "note": "导入进度"
+ },
+ {
+  "class": "A",
+  "en": "Capturing…",
+  "zh": "正在抓取…",
+  "where": "app.js:37101",
+  "note": "视频抽帧进度"
+ },
+ {
+  "class": "A",
+  "en": "Location saved",
+  "zh": "地点已保存",
+  "where": "app.js:37188",
+  "note": "地图节点"
+ },
+ {
+  "class": "A",
+  "en": "Location pinned from the photo",
+  "zh": "已按照片定位",
+  "where": "app.js:14671",
+  "note": "照片带 EXIF 时的提示"
+ },
+ {
+  "class": "A",
+  "en": "Map style unavailable (offline?)",
+  "zh": "地图样式不可用（离线？）",
+  "where": "app.js:13430",
+  "note": "地图降级提示"
+ },
+ {
+  "class": "A",
+  "en": "Map thumbnail unavailable (offline?) — pin saved",
+  "zh": "地图缩略图不可用（离线？）—— 定位点已保存",
+  "where": "app.js:14662",
+  "note": "地图节点降级提示"
+ },
+ {
+  "class": "A",
+  "en": "No address on this card yet",
+  "zh": "这张卡片还没有地址",
+  "where": "app.js:21101",
+  "note": "地点卡空态"
+ },
+ {
+  "class": "A",
+  "en": "Paste a YouTube or Vimeo URL",
+  "zh": "粘贴 YouTube 或 Vimeo 链接",
+  "where": "app.js:15158",
+  "note": "视频嵌入对话框"
+ },
+ {
+  "class": "A",
+  "en": "Imported shot list",
+  "zh": "已导入的分镜表",
+  "where": "app.js:19571",
+  "note": "CSV 导入生成的分镜表名"
+ },
+ {
+  "class": "A",
+  "en": "Those cards were already connected",
+  "zh": "那些卡片已经连上了",
+  "where": "app.js:24885",
+  "note": "批量连线结果提示"
+ },
+ {
+  "class": "A",
+  "en": "Exported screenplay scaffold (.fountain)",
+  "zh": "已导出剧本骨架（.fountain）",
+  "where": "app.js:30032",
+  "note": "导出结果 toast"
+ },
+ {
+  "class": "A",
+  "en": "SHOT LIST",
+  "zh": "分镜表",
+  "where": "app.js:28830",
+  "note": "导出文档标题行"
+ },
+ {
+  "class": "A",
+  "en": "Cast list",
+  "zh": "角色表",
+  "where": "app.js:29175",
+  "note": "导出文档小节名"
+ },
+ {
+  "class": "A",
+  "en": "INTERNAL — ANNOTATED",
+  "zh": "内部 —— 含批注",
+  "where": "app.js:30751",
+  "note": "导出封面副标题"
+ },
+ {
+  "class": "A",
+  "en": "Beat's Focus:",
+  "zh": "Beat 的重点：",
+  "where": "app.js:30991",
+  "note": "导出/Inspector 字段名"
+ },
+ {
+  "class": "A",
+  "en": "Note (pinned):",
+  "zh": "备注（已固定）：",
+  "where": "app.js:31038",
+  "note": "同上"
+ },
+ {
+  "class": "A",
+  "en": "Could not save folders",
+  "zh": "文件夹保存失败",
+  "where": "app.js:1330",
+  "note": "toast"
+ },
+ {
+  "class": "A",
+  "en": "Could not move project",
+  "zh": "项目移动失败",
+  "where": "app.js:1499",
+  "note": "toast"
+ },
+ {
+  "class": "A",
+  "en": "Could not list snapshots",
+  "zh": "快照列表读取失败",
+  "where": "app.js:3808",
+  "note": "版本历史弹窗"
+ },
+ {
+  "class": "A",
+  "en": "Could not save image",
+  "zh": "图片保存失败",
+  "where": "app.js:11838",
+  "note": "图片裁切/保存"
+ },
+ {
+  "class": "A",
+  "en": "Could not save extracted image",
+  "zh": "导出的图片保存失败",
+  "where": "app.js:15384",
+  "note": "视频抽帧"
+ },
+ {
+  "class": "A",
+  "en": "Could not load GIF library",
+  "zh": "GIF 库加载失败",
+  "where": "app.js:15787",
+  "note": "视频转 GIF"
+ },
+ {
+  "class": "A",
+  "en": "GIF library not available",
+  "zh": "GIF 库还没装上",
+  "where": "app.js:15788",
+  "note": "视频转 GIF"
+ },
+ {
+  "class": "A",
+  "en": "Could not read encoded GIF",
+  "zh": "生成的 GIF 读取失败",
+  "where": "app.js:15876",
+  "note": "视频转 GIF"
+ },
+ {
+  "class": "A",
+  "en": "Could not extract palette",
+  "zh": "配色提取失败",
+  "where": "app.js:16048",
+  "note": "参考图配色"
+ },
+ {
+  "class": "A",
+  "en": "Could not add those files",
+  "zh": "这些文件添加失败",
+  "where": "app.js:25910",
+  "note": "素材库导入"
+ },
+ {
+  "class": "A",
+  "en": "Vault item not found",
+  "zh": "保险库里找不到这个条目",
+  "where": "app.js:26354",
+  "note": "画布放素材"
+ },
+ {
+  "class": "A",
+  "en": "Could not load DOCX library",
+  "zh": "DOCX 库加载失败",
+  "where": "app.js:30684",
+  "note": "Word 导出"
+ },
+ {
+  "class": "A",
+  "en": "Could not open Finder",
+  "zh": "打开「访达」失败",
+  "where": "app.js:33120",
+  "note": "定位文件"
+ },
+ {
+  "class": "A",
+  "en": "Could not load zip library",
+  "zh": "zip 库加载失败",
+  "where": "app.js:38870",
+  "note": "项目打包"
+ },
+ {
+  "class": "A",
+  "en": "Could not open log directory",
+  "zh": "日志目录打开失败",
+  "where": "app.js:40910",
+  "note": "菜单动作"
+ },
+ {
+  "class": "A",
+  "en": "Could not reveal log folder",
+  "zh": "日志文件夹定位失败",
+  "where": "app.js:41489",
+  "note": "调试面板"
+ },
+ {
+  "class": "A",
+  "en": "Could not open sample:",
+  "zh": "示例项目打开失败：",
+  "where": "app.js:3588",
+  "note": "新建示例项目"
+ },
+ {
+  "class": "A",
+  "en": "Could not set library:",
+  "zh": "素材库设置失败：",
+  "where": "app.js:37444",
+  "note": "迁移素材库"
+ },
+ {
+  "class": "A",
+  "en": "Could not delete:",
+  "zh": "删除失败：",
+  "where": "app.js:38493",
+  "note": "批量删项目"
+ },
+ {
+  "class": "A",
+  "en": "Could not remove the old copy:",
+  "zh": "旧副本删除失败：",
+  "where": "app.js:37855",
+  "note": "素材库迁移"
+ },
+ {
+  "class": "A",
+  "en": "Could not preview this document:",
+  "zh": "这份文档预览失败：",
+  "where": "app.js:41050",
+  "note": "文档预览器"
+ },
+ {
+  "class": "A",
+  "en": "Could not save",
+  "zh": "保存失败",
+  "where": "app.js:14372",
+  "note": "通用"
+ },
+ {
+  "class": "A",
+  "en": "Could not read",
+  "zh": "读取失败",
+  "where": "app.js:14376",
+  "note": "通用"
+ },
+ {
+  "class": "A",
+  "en": "Could not create project:",
+  "zh": "项目创建失败：",
+  "where": "app.js:38673",
+  "note": "新建项目"
+ },
+ {
+  "class": "A",
+  "en": "Could not create the project",
+  "zh": "项目创建失败",
+  "where": "app.js:39095",
+  "note": "模板建项目"
+ },
+ {
+  "class": "A",
+  "en": "Rename failed:",
+  "zh": "重命名失败：",
+  "where": "app.js:38741",
+  "note": "项目面板"
+ },
+ {
+  "class": "A",
+  "en": "Duplicate failed:",
+  "zh": "创建副本失败：",
+  "where": "app.js:38776",
+  "note": "项目面板"
+ },
+ {
+  "class": "A",
+  "en": "Import failed:",
+  "zh": "导入失败：",
+  "where": "app.js:38910",
+  "note": "项目导入"
+ },
+ {
+  "class": "A",
+  "en": "Update failed:",
+  "zh": "更新失败：",
+  "where": "app.js:41511",
+  "note": "调试面板"
+ },
+ {
+  "class": "A",
+  "en": "Extract failed:",
+  "zh": "提取失败：",
+  "where": "app.js:15319",
+  "note": "视频抽帧"
+ },
+ {
+  "class": "A",
+  "en": "DOCX export failed:",
+  "zh": "DOCX 导出失败：",
+  "where": "app.js:31071",
+  "note": "Word 导出"
+ },
+ {
+  "class": "A",
+  "en": "Log folder:",
+  "zh": "日志文件夹：",
+  "where": "app.js:41487",
+  "note": "调试面板"
+ },
+ {
+  "class": "A",
+  "en": "Library not set up yet",
+  "zh": "素材库还没设置",
+  "where": "app.js:41538",
+  "note": "项目导入"
+ },
+ {
+  "class": "A",
+  "en": "library path not configured",
+  "zh": "素材库路径还没配置",
+  "where": "app.js:673",
+  "note": "文件选择前置检查"
+ },
+ {
+  "class": "A",
+  "en": "Drag on empty canvas",
+  "zh": "拖动空白画布",
+  "where": "app.js:10264",
+  "note": "作弊纸/教练标注"
+ },
+ {
+  "class": "A",
+  "en": "Double-click on empty canvas",
+  "zh": "双击空白画布",
+  "where": "app.js:10265",
+  "note": "同上"
+ },
+ {
+  "class": "A",
+  "en": "Right-click on empty canvas",
+  "zh": "右键空白画布",
+  "where": "app.js:10266",
+  "note": "同上"
+ },
+ {
+  "class": "A",
+  "en": "Drop an audio file anywhere",
+  "zh": "把音频文件拖到任意位置",
+  "where": "app.js:10268",
+  "note": "同上"
+ },
+ {
+  "class": "A",
+  "en": "Shift + click on element",
+  "zh": "Shift + 点击元素",
+  "where": "app.js:10273",
+  "note": "同上"
+ },
+ {
+  "class": "A",
+  "en": "Drag from Finder onto a beat",
+  "zh": "从「访达」拖到节拍上",
+  "where": "app.js:10283",
+  "note": "同上"
+ },
+ {
+  "class": "A",
+  "en": "Click out of textarea",
+  "zh": "点一下输入框外面",
+  "where": "app.js:10287",
+  "note": "同上"
+ },
+ {
+  "class": "A",
+  "en": "Type @ in body",
+  "zh": "在正文里输入 @",
+  "where": "app.js:10288",
+  "note": "同上"
+ },
+ {
+  "class": "A",
+  "en": "Click a mention chip",
+  "zh": "点一下提及标签",
+  "where": "app.js:10289",
+  "note": "同上"
+ },
+ {
+  "class": "A",
+  "en": "Chevron in beat head",
+  "zh": "节拍头部的箭头",
+  "where": "app.js:10290",
+  "note": "同上"
+ },
+ {
+  "class": "A",
+  "en": "Drag a ring on a card edge onto another card",
+  "zh": "把卡片边上的圆环拖到另一张卡片",
+  "where": "app.js:10293",
+  "note": "同上"
+ },
+ {
+  "class": "A",
+  "en": "Hover an edge endpoint",
+  "zh": "悬停连线端点",
+  "where": "app.js:10294",
+  "note": "同上"
+ },
+ {
+  "class": "A",
+  "en": "Click a connection, then Delete",
+  "zh": "点一条连线，再按 Delete",
+  "where": "app.js:10295",
+  "note": "同上"
+ },
+ {
+  "class": "A",
+  "en": "Right-click a connection",
+  "zh": "右键连线",
+  "where": "app.js:10296",
+  "note": "同上"
+ },
+ {
+  "class": "A",
+  "en": "Esc or click outside",
+  "zh": "Esc 或点外面",
+  "where": "app.js:10324",
+  "note": "同上"
+ },
+ {
+  "class": "A",
+  "en": "Two-finger swipe / mouse wheel",
+  "zh": "双指滑动 / 滚轮",
+  "where": "app.js:10262",
+  "note": "同上（导航设置项）"
+ },
+ {
+  "class": "A",
+  "en": "Ctrl + wheel · pinch",
+  "zh": "Ctrl + 滚轮 · 捏合",
+  "where": "app.js:10263",
+  "note": "同上"
+ },
+ {
+  "class": "A",
+  "en": "Shift + drag, then A",
+  "zh": "Shift + 拖动，再按 A",
+  "where": "app.js:10267",
+  "note": "同上"
+ },
+ {
+  "class": "A",
+  "en": "Unlink button",
+  "zh": "断开按钮",
+  "where": "app.js:10275",
+  "note": "同上"
+ },
+ {
+  "class": "A",
+  "en": "Esc / click empty canvas",
+  "zh": "Esc / 点空白画布",
+  "where": "app.js:10276",
+  "note": "同上"
+ },
+ {
+  "class": "A",
+  "en": "Paste image / URL / text",
+  "zh": "粘贴图片 / 链接 / 文字",
+  "where": "app.js:10282",
+  "note": "同上"
+ },
+ {
+  "class": "A",
+  "en": "Click rendered body",
+  "zh": "点渲染后的正文",
+  "where": "app.js:10286",
+  "note": "同上"
+ },
+ {
+  "class": "A",
+  "en": "Toolbar search field",
+  "zh": "工具栏搜索框",
+  "where": "app.js:10301",
+  "note": "同上"
+ },
+ {
+  "class": "A",
+  "en": "Click any thumbnail",
+  "zh": "点任意缩略图",
+  "where": "app.js:10322",
+  "note": "同上"
+ },
+ {
+  "class": "A",
+  "en": "Link button (in selection bar)",
+  "zh": "链接按钮（在选择栏里）",
+  "where": "app.js:10274",
+  "note": "同上"
+ },
+ {
+  "class": "A",
+  "en": "beat added — ⌘Z to undo",
+  "zh": "已添加节拍 —— ⌘Z 撤销",
+  "where": "app.js:33987",
+  "note": "拖拽建节拍 toast"
+ },
+ {
+  "class": "A",
+  "en": "beats added — ⌘Z to undo",
+  "zh": "已添加多个节拍 —— ⌘Z 撤销",
+  "where": "app.js:33987",
+  "note": "同上（复数分支）"
+ },
+ {
+  "class": "A",
+  "en": "To which shot list?",
+  "zh": "加到哪个分镜表？",
+  "where": "app.js:23763",
+  "note": "多分镜表时的询问"
+ },
+ {
+  "class": "A",
+  "en": "Removed — Cmd+Z to undo",
+  "zh": "已删除 —— Cmd+Z 撤销",
+  "where": "app.js:34209",
+  "note": "写作页删除 toast"
+ },
+ {
+  "class": "A",
+  "en": "Nothing to write yet —",
+  "zh": "还没东西可写 ——",
+  "where": "app.js:34231",
+  "note": "写作页空态"
+ },
+ {
+  "class": "A",
+  "en": "+ Add element",
+  "zh": "+ 添加元素",
+  "where": "index.html:353",
+  "note": "画布「添加元素」按钮"
+ },
+ {
+  "class": "A",
+  "en": "+ Add page",
+  "zh": "+ 添加页面",
+  "where": "index.html:370",
+  "note": "写作页加页按钮"
+ },
+ {
+  "class": "A",
+  "en": "places",
+  "zh": "地点",
+  "where": "index.html:186",
+  "note": "品牌行 '& places' 图例（与 &amp; 拆成两个文本节点）"
+ },
+ {
+  "class": "A",
+  "en": "take ·",
+  "zh": "实拍 ·",
+  "where": "index.html:310",
+  "note": "图例"
+ },
+ {
+  "class": "A",
+  "en": "chosen ·",
+  "zh": "已选 ·",
+  "where": "index.html:310",
+  "note": "图例"
+ },
+ {
+  "class": "A",
+  "en": "done ·",
+  "zh": "已完成 ·",
+  "where": "index.html:310",
+  "note": "图例"
+ },
+ {
+  "class": "A",
+  "en": "skip ·",
+  "zh": "跳过 ·",
+  "where": "index.html:310",
+  "note": "图例"
+ },
+ {
+  "class": "A",
+  "en": "move",
+  "zh": "移动",
+  "where": "index.html:310",
+  "note": "图例"
+ },
+ {
+  "class": "A",
+  "en": "space",
+  "zh": "空格",
+  "where": "index.html:310",
+  "note": "图例（快捷键说明）"
+ },
+ {
+  "class": "A",
+  "en": "Preferences — your library folder, your name & credit on exports",
+  "zh": "偏好设置 —— 素材库文件夹、你的名字与导出署名",
+  "where": "index.html:119",
+  "note": "设置按钮的 title 属性（tooltip）"
+ },
+ {
+  "class": "A",
+  "en": "Clean (print)",
+  "zh": "简洁（打印）",
+  "where": "index.html:373",
+  "note": "导出模式下拉项；选项本体被 SKIP_SEL 吞掉，键也缺"
+ },
+ {
+  "class": "A",
+  "en": "As on screen (experimental)",
+  "zh": "与屏幕一致（实验性）",
+  "where": "index.html:373",
+  "note": "同上"
+ },
+ {
+  "class": "A",
+  "en": "Size",
+  "zh": "尺寸",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：分镜表列头/列编辑器字段名"
+ },
+ {
+  "class": "A",
+  "en": "Width",
+  "zh": "宽度",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：分镜表列头"
+ },
+ {
+  "class": "A",
+  "en": "Height",
+  "zh": "高度",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：分镜表列头"
+ },
+ {
+  "class": "A",
+  "en": "Type",
+  "zh": "类型",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：分镜表列头"
+ },
+ {
+  "class": "A",
+  "en": "Scene",
+  "zh": "场景",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：分镜表列头"
+ },
+ {
+  "class": "A",
+  "en": "Date",
+  "zh": "日期",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：分镜表列头"
+ },
+ {
+  "class": "A",
+  "en": "Focus",
+  "zh": "重点",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：分镜表列头（剧本术语 Focus）"
+ },
+ {
+  "class": "A",
+  "en": "Body",
+  "zh": "正文",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：分镜表列头 / 卡片正文段名"
+ },
+ {
+  "class": "A",
+  "en": "Caption",
+  "zh": "说明",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：分镜表列头"
+ },
+ {
+  "class": "A",
+  "en": "Light",
+  "zh": "光线",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：分镜表列头"
+ },
+ {
+  "class": "A",
+  "en": "Field",
+  "zh": "字段",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：列编辑器 / Inspector 行名"
+ },
+ {
+  "class": "A",
+  "en": "View",
+  "zh": "视图",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：视图切换"
+ },
+ {
+  "class": "A",
+  "en": "Section",
+  "zh": "段落",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：大纲/写作页段落标题"
+ },
+ {
+  "class": "A",
+  "en": "Folder",
+  "zh": "文件夹",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：项目面板"
+ },
+ {
+  "class": "A",
+  "en": "Template",
+  "zh": "模板",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：模板菜单/导出"
+ },
+ {
+  "class": "A",
+  "en": "Status",
+  "zh": "状态",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：On set / 项目状态列"
+ },
+ {
+  "class": "A",
+  "en": "Runtime",
+  "zh": "时长",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：运行时字段名（Est. runtime 之外的单列）"
+ },
+ {
+  "class": "A",
+  "en": "Format",
+  "zh": "格式",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：相机/导出字段"
+ },
+ {
+  "class": "A",
+  "en": "Length",
+  "zh": "长度",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：Inspector 行名"
+ },
+ {
+  "class": "A",
+  "en": "Angle",
+  "zh": "角度",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：Set Plan 角度行"
+ },
+ {
+  "class": "A",
+  "en": "Tone",
+  "zh": "基调",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：基调标签字段"
+ },
+ {
+  "class": "A",
+  "en": "Address",
+  "zh": "地址",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：地点卡字段"
+ },
+ {
+  "class": "A",
+  "en": "Remaining",
+  "zh": "剩余",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：On set 进度"
+ },
+ {
+  "class": "A",
+  "en": "Schedule",
+  "zh": "排期",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：Outline / 导出行名"
+ },
+ {
+  "class": "A",
+  "en": "Sequence",
+  "zh": "序列",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：大纲结构"
+ },
+ {
+  "class": "A",
+  "en": "Structure",
+  "zh": "结构",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：大纲视图标题"
+ },
+ {
+  "class": "A",
+  "en": "Treatment",
+  "zh": "梗概",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：写作/导出模板"
+ },
+ {
+  "class": "A",
+  "en": "Quantity",
+  "zh": "数量",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：Set Plan 元素行"
+ },
+ {
+  "class": "A",
+  "en": "Details",
+  "zh": "详情",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：面板标题"
+ },
+ {
+  "class": "A",
+  "en": "Version",
+  "zh": "版本",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：版本历史"
+ },
+ {
+  "class": "A",
+  "en": "Characters",
+  "zh": "角色",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：大纲分组 / 导出小节名"
+ },
+ {
+  "class": "A",
+  "en": "Locations",
+  "zh": "地点",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：同上"
+ },
+ {
+  "class": "A",
+  "en": "Props",
+  "zh": "道具",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：同上"
+ },
+ {
+  "class": "A",
+  "en": "Cameras",
+  "zh": "摄影机",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：Set Plan 分组"
+ },
+ {
+  "class": "A",
+  "en": "Lenses",
+  "zh": "镜头",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：Set Plan 分组"
+ },
+ {
+  "class": "A",
+  "en": "Fixtures",
+  "zh": "灯具",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：Set Plan 分组"
+ },
+ {
+  "class": "A",
+  "en": "Modifiers",
+  "zh": "控光件",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：Set Plan 分组"
+ },
+ {
+  "class": "A",
+  "en": "Wardrobe",
+  "zh": "服装",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：导出/卡片分组"
+ },
+ {
+  "class": "A",
+  "en": "Sketches",
+  "zh": "草图",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：素材分组"
+ },
+ {
+  "class": "A",
+  "en": "Stills",
+  "zh": "剧照",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：素材分组"
+ },
+ {
+  "class": "A",
+  "en": "Videos",
+  "zh": "视频",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：素材分组"
+ },
+ {
+  "class": "A",
+  "en": "Photos",
+  "zh": "照片",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：素材分组"
+ },
+ {
+  "class": "A",
+  "en": "Images",
+  "zh": "图片",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：素材分组/过滤器"
+ },
+ {
+  "class": "A",
+  "en": "Files",
+  "zh": "文件",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：素材/导入"
+ },
+ {
+  "class": "A",
+  "en": "Items",
+  "zh": "条目",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：列表计数"
+ },
+ {
+  "class": "A",
+  "en": "Links",
+  "zh": "链接",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：卡片类型/统计"
+ },
+ {
+  "class": "A",
+  "en": "Connections",
+  "zh": "连线",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：统计/导出小节"
+ },
+ {
+  "class": "A",
+  "en": "Nodes",
+  "zh": "节点",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：调试/统计"
+ },
+ {
+  "class": "A",
+  "en": "Notes",
+  "zh": "备注",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：导出小节名 / 字段名"
+ },
+ {
+  "class": "A",
+  "en": "References",
+  "zh": "参考",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：导出小节名"
+ },
+ {
+  "class": "A",
+  "en": "Cast",
+  "zh": "演员表",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：导出小节名"
+ },
+ {
+  "class": "A",
+  "en": "Colours",
+  "zh": "颜色",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：导出小节名（英式拼写，与项目其余 Colour 一致）"
+ },
+ {
+  "class": "A",
+  "en": "Contains",
+  "zh": "包含",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：导出包含项说明"
+ },
+ {
+  "class": "A",
+  "en": "Exported",
+  "zh": "已导出",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：导出结果行"
+ },
+ {
+  "class": "A",
+  "en": "Timecode",
+  "zh": "时间码",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：导出/音频字段名"
+ },
+ {
+  "class": "A",
+  "en": "Author",
+  "zh": "作者",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：DOCX/PDF 属性行"
+ },
+ {
+  "class": "A",
+  "en": "Modifier",
+  "zh": "修改者",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：DOCX/PDF 属性行"
+ },
+ {
+  "class": "A",
+  "en": "Include",
+  "zh": "包含",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：导出包含面板"
+ },
+ {
+  "class": "A",
+  "en": "Export",
+  "zh": "导出",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：按钮"
+ },
+ {
+  "class": "A",
+  "en": "Import",
+  "zh": "导入",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：按钮"
+ },
+ {
+  "class": "A",
+  "en": "Auto",
+  "zh": "自动",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：模式开关"
+ },
+ {
+  "class": "A",
+  "en": "Manual",
+  "zh": "手动",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：模式开关"
+ },
+ {
+  "class": "A",
+  "en": "Lock",
+  "zh": "锁定",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：图层/元素"
+ },
+ {
+  "class": "A",
+  "en": "Unlock",
+  "zh": "解锁",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：同上"
+ },
+ {
+  "class": "A",
+  "en": "Locked",
+  "zh": "已锁定",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：状态"
+ },
+ {
+  "class": "A",
+  "en": "Pause",
+  "zh": "暂停",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：播放条"
+ },
+ {
+  "class": "A",
+  "en": "Resume",
+  "zh": "继续",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：播放条"
+ },
+ {
+  "class": "A",
+  "en": "Start",
+  "zh": "开始",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：按钮"
+ },
+ {
+  "class": "A",
+  "en": "End",
+  "zh": "结束",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：字段"
+ },
+ {
+  "class": "A",
+  "en": "Top",
+  "zh": "顶部",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：对齐/列名"
+ },
+ {
+  "class": "A",
+  "en": "Map",
+  "zh": "地图",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：视图切换"
+ },
+ {
+  "class": "A",
+  "en": "Plan",
+  "zh": "方案",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：视图切换"
+ },
+ {
+  "class": "A",
+  "en": "List",
+  "zh": "列表",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：视图切换"
+ },
+ {
+  "class": "A",
+  "en": "Doc",
+  "zh": "文档",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：卡片类型"
+ },
+ {
+  "class": "A",
+  "en": "Pin",
+  "zh": "固定",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：按钮/状态"
+ },
+ {
+  "class": "A",
+  "en": "Free",
+  "zh": "空闲",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：状态"
+ },
+ {
+  "class": "A",
+  "en": "Normal",
+  "zh": "常规",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：模式"
+ },
+ {
+  "class": "A",
+  "en": "Overview",
+  "zh": "概览",
+  "where": "app.js / index.html（短标签，多处出现；见 note）",
+  "note": "/tmp/ui_candidates.json 判定：面板标题"
+ },
+ {
+  "class": "B",
+  "en": "Newest",
+  "zh": "最新",
+  "where": "index.html:142",
+  "note": "<option> 被 SKIP_SEL 的 select,option 整段跳过；包里已有此条"
+ },
+ {
+  "class": "B",
+  "en": "Oldest",
+  "zh": "最早",
+  "where": "index.html:143",
+  "note": "同上"
+ },
+ {
+  "class": "B",
+  "en": "By type",
+  "zh": "按类型",
+  "where": "index.html:144",
+  "note": "同上"
+ },
+ {
+  "class": "B",
+  "en": "A4 landscape",
+  "zh": "A4 横向",
+  "where": "index.html:365",
+  "note": "同上（页面尺寸下拉）"
+ },
+ {
+  "class": "B",
+  "en": "A4 portrait",
+  "zh": "A4 纵向",
+  "where": "index.html:365",
+  "note": "同上"
+ },
+ {
+  "class": "B",
+  "en": "Letter landscape",
+  "zh": "Letter 横向",
+  "where": "index.html:365",
+  "note": "同上"
+ },
+ {
+  "class": "B",
+  "en": "Letter portrait",
+  "zh": "Letter 纵向",
+  "where": "index.html:365",
+  "note": "同上"
+ },
+ {
+  "class": "B",
+  "en": "Dragging empty canvas",
+  "zh": "拖动空白画布",
+  "where": "index.html:479",
+  "note": "导航设置下拉"
+ },
+ {
+  "class": "B",
+  "en": "Middle or Ctrl drag (left drag selects)",
+  "zh": "中键或 Ctrl 拖动（左键拖动为框选）",
+  "where": "index.html:479",
+  "note": "同上"
+ },
+ {
+  "class": "B",
+  "en": "Pans the board",
+  "zh": "平移画布",
+  "where": "index.html:484",
+  "note": "滚轮行为下拉"
+ },
+ {
+  "class": "B",
+  "en": "Zooms in and out",
+  "zh": "缩放",
+  "where": "index.html:484",
+  "note": "同上"
+ },
+ {
+  "class": "B",
+  "en": "Tell me, and I decide",
+  "zh": "通知我，由我决定",
+  "where": "index.html:500",
+  "note": "更新模式下拉"
+ },
+ {
+  "class": "B",
+  "en": "Start the download for me",
+  "zh": "替我自动开始下载",
+  "where": "index.html:500",
+  "note": "同上"
+ },
+ {
+  "class": "B",
+  "en": "Say nothing — I update by hand",
+  "zh": "不提示 —— 我手动更新",
+  "where": "index.html:503",
+  "note": "同上"
+ },
+ {
+  "class": "B",
+  "en": "click canvas",
+  "zh": "点击画布",
+  "where": "index.html:179",
+  "note": "<kbd>click canvas</kbd> 被 kbd 跳过"
+ },
+ {
+  "class": "B",
+  "en": "drag + A",
+  "zh": "拖动 + A",
+  "where": "index.html:221",
+  "note": "<kbd>drag + A</kbd> 同上"
+ },
+ {
+  "class": "B",
+  "en": "Pick a folder where your projects will live. Each project becomes a folder you can back up, copy, or move around like any other folder.",
+  "zh": "选一个文件夹来放你的项目。每个项目就是一个文件夹，可以像别的文件夹一样备份、复制、搬走。",
+  "where": "index.html:581",
+  "note": "HTML 里是跨行写的一段，文本节点带 \\n，applyTextNode 直接 return 0"
+ },
+ {
+  "class": "B",
+  "en": "This photo has a location. Pin ",
+  "zh": "这张照片带位置信息。要定位到",
+  "where": "app.js:14631",
+  "note": "字面量里含 \\n，拼进提示后整段带换行"
+ },
+ {
+  "class": "B",
+  "en": "from the project?\nThey come off every shoot day too.",
+  "zh": "要从项目里拿掉？它们也会从每个拍摄日上消失。",
+  "where": "app.js:21132",
+  "note": "含 \\n，拼接后仍带换行"
+ },
+ {
+  "class": "B",
+  "en": "out of this project?\n\nThey go to a .trash folder inside the project, so you can put any of them back by hand.",
+  "zh": "要移出这个项目？\n\n它们会进项目内的 .trash 文件夹，随时可以手工放回来。",
+  "where": "app.js:34829",
+  "note": "含双换行"
+ },
+ {
+  "class": "B",
+  "en": "\" field from every beat card?\nValues already typed on beats are kept in the project file, but no longer shown.",
+  "zh": "这一列从所有节拍卡片上撤掉？\n已经填过的值仍留在项目文件里，只是不再显示。",
+  "where": "app.js:35188",
+  "note": "含 \\n"
+ },
+ {
+  "class": "B",
+  "en": "?\nBeats you created keep their timecodes.",
+  "zh": "？\n你建的节拍照旧保留时间码。",
+  "where": "app.js:40244",
+  "note": "含 \\n"
+ },
+ {
+  "class": "B",
+  "en": "\"?\nThis cannot be undone.",
+  "zh": "」？\n这一步撤不回来。",
+  "where": "app.js:38483",
+  "note": "confirm() 文案含 \\n"
+ },
+ {
+  "class": "B",
+  "en": "projects?\nThis cannot be undone.",
+  "zh": "这些项目？\n这一步撤不回来。",
+  "where": "app.js:38486",
+  "note": "同上"
+ },
+ {
+  "class": "B",
+  "en": "Every camera on a Set Plan now carries its own body, recording format and lens, so its coverage cone is drawn from that camera instead of a generic full frame.",
+  "zh": "现在 Set Plan 上每台机器都带自己的机身、记录格式和镜头，覆盖锥按这台机器画，而不是按一个通用的全画幅。",
+  "where": "app.js:2699",
+  "note": "长度 672 > 400，更新日志条目"
+ },
+ {
+  "class": "B",
+  "en": "Set Plan coverage cones are true to your camera. Beat always drew them for a full frame sensor, with no way to say otherwise.",
+  "zh": "Set Plan 的覆盖锥现在贴合你真正用的机器。以前一律按全画幅传感器画，改不了。",
+  "where": "app.js:2720",
+  "note": "长度 582 > 400"
+ },
+ {
+  "class": "B",
+  "en": "Screenplay import no longer loses your work. Notes you leave yourself in a script, wrapped in /* */ or [[ ]], used to vanish on import.",
+  "zh": "导入剧本不再丢东西。以前写在 /* */ 或 [[ ]] 里的自留备注，导入后就没了。",
+  "where": "app.js:2731",
+  "note": "长度 501 > 400"
+ },
+ {
+  "class": "B",
+  "en": "On set — a full-screen room for the shoot day itself. One operator marks shots done or skipped, steps the chosen take and wraps the day without leaving the page.",
+  "zh": "On set —— 拍摄日专用的全屏工作区。一个人就能标镜头完成或跳过、推进选中的 take，不离开这一页就收工。",
+  "where": "app.js:2744",
+  "note": "长度 493 > 400；也是包里仅有的两条 > 400 键之一"
+ },
+ {
+  "class": "B",
+  "en": "The rings on a card's edges are its connections — every line gets its own plug and its own colour, with one free ring always waiting on the side you are dragging toward.",
+  "zh": "卡片边上的圆环就是它的连线接口 —— 每条线都有自己的插头和颜色，你往外拖的那一侧总留着一个空环。",
+  "where": "app.js:3343",
+  "note": "长度 509 > 400；包里另一条 > 400 键"
+ },
+ {
+  "class": "B",
+  "en": "behind sched",
+  "zh": "落后计划",
+  "where": "app.js:20660",
+  "note": "包里只有 ' behind sched</b>' 这种带标签的整段键，文本节点永远对不上"
+ },
+ {
+  "class": "B",
+  "en": "of ",
+  "zh": "/ ",
+  "where": "app.js:20660",
+  "note": "'</b> of ' 键同理，取文本节点后是 'of '"
+ },
+ {
+  "class": "B",
+  "en": "— tick the content you want in this export.",
+  "zh": "—— 勾选这次导出要包含的内容。",
+  "where": "app.js:26457",
+  "note": "包里的键带着 '</p>' 尾巴"
+ },
+ {
+  "class": "B",
+  "en": "Try “Link now” on the previous step, then test again.",
+  "zh": "上一步点「立即链接」，然后再测一次。",
+  "where": "app.js:37374",
+  "note": "包里的键是 '<br>Try …' 整段"
+ },
+ {
+  "class": "B",
+  "en": "(storage error)",
+  "zh": "（存储出错）",
+  "where": "app.js:15939",
+  "note": "包里只有 ' (storage error)'（前导空格），trim 后对不上"
+ },
+ {
+  "class": "B",
+  "en": "added to Vault",
+  "zh": "已加入保险库",
+  "where": "app.js:41181",
+  "note": "包里键带前导空格 ' added to Vault'"
+ },
+ {
+  "class": "B",
+  "en": "in the can",
+  "zh": "已完成",
+  "where": "app.js:32168",
+  "note": "包里键带前导空格 ' in the can'"
+ },
+ {
+  "class": "B",
+  "en": "moved to Vault",
+  "zh": "已移到保险库",
+  "where": "app.js:26295",
+  "note": "包里键带前导空格 ' moved to Vault'"
+ },
+ {
+  "class": "B",
+  "en": "as a scene",
+  "zh": "作为场景",
+  "where": "app.js:23737",
+  "note": "包里键带前导空格 ' as a scene'"
+ },
+ {
+  "class": "B",
+  "en": "exported to .zip",
+  "zh": "已导出为 .zip",
+  "where": "app.js:27044",
+  "note": "包里键带前导空格 ' exported to .zip'"
+ },
+ {
+  "class": "B",
+  "en": "ahead of sched",
+  "zh": "领先计划",
+  "where": "app.js:32480",
+  "note": "包里键带前导空格 ' ahead of sched'"
+ },
+ {
+  "class": "B",
+  "en": "is available",
+  "zh": "可用",
+  "where": "app.js:2997",
+  "note": "包里键带前导空格 ' is available'"
+ },
+ {
+  "class": "B",
+  "en": "Can't connect a beat to itself",
+  "zh": "节拍连不到自己",
+  "where": "app.js:24893",
+  "note": "包里键是 \"Can\\'t connect a beat to itself\"，带反斜杠"
+ },
+ {
+  "class": "B",
+  "en": "Add image…",
+  "zh": "添加图片…",
+  "where": "app.js:18816",
+  "note": "包里键是 'Add image\\u2026'，字面量没解转义"
+ },
+ {
+  "class": "B",
+  "en": "Building the call sheet…",
+  "zh": "正在生成通话单…",
+  "where": "app.js:32006",
+  "note": "包里键是 'Building the call sheet\\u2026'"
+ },
+ {
+  "class": "B",
+  "en": "Clear — back to the manual clock",
+  "zh": "清除 —— 回到手动时钟",
+  "where": "app.js:32401",
+  "note": "包里键是 'Clear \\u2014 back …'"
+ },
+ {
+  "class": "B",
+  "en": "— it is on the board beside this card.",
+  "zh": "—— 它就在这张卡片旁边的画布上。",
+  "where": "app.js:23099",
+  "note": "包里键是 ' \\u2014 it is on the board …'（前导空格 + 未解转义，双重不可达）"
+ },
+ {
+  "class": "C",
+  "en": "Appears in {n} beats",
+  "zh": "出现在 {n} 个节拍中",
+  "where": "app.js:1192",
+  "note": "'Appears in ' + n + (n===1?' beat':' beats')，包里有 'Appears in ' 片段键但从没机会命中"
+ },
+ {
+  "class": "C",
+  "en": "Delete project \"{q}\"?\nThis cannot be undone.",
+  "zh": "删除项目「{q}」？\n这一步撤不回来。",
+  "where": "app.js:38483",
+  "note": "拼接 + 换行，双重卡死"
+ },
+ {
+  "class": "C",
+  "en": "Saved to Downloads — {file}",
+  "zh": "已保存到「下载」文件夹 —— {file}",
+  "where": "app.js:27662",
+  "note": "'Saved to Downloads — ' + filename"
+ },
+ {
+  "class": "C",
+  "en": "Scene total: {dur}",
+  "zh": "场景合计：{dur}",
+  "where": "app.js:22532",
+  "note": "textContent 拼接"
+ },
+ {
+  "class": "C",
+  "en": "List total: {dur}",
+  "zh": "全表合计：{dur}",
+  "where": "app.js:22541",
+  "note": "同上"
+ },
+ {
+  "class": "C",
+  "en": "Jump to {name}",
+  "zh": "跳到 {name}",
+  "where": "app.js:12074",
+  "note": "chip.title 拼接"
+ },
+ {
+  "class": "C",
+  "en": "Jump to {name} · {date} · sun {deg}°, {deg}° high (local time)",
+  "zh": "跳到 {name} · {date} · 太阳 {deg}°、高度 {deg}°（本地时间）",
+  "where": "app.js:14049",
+  "note": "四个动态值串在一条 title 里"
+ },
+ {
+  "class": "C",
+  "en": "Shoot {time}",
+  "zh": "拍摄 {time}",
+  "where": "app.js:13242",
+  "note": "'Shoot ' + si.time"
+ },
+ {
+  "class": "C",
+  "en": "Planned {time}",
+  "zh": "计划 {time}",
+  "where": "app.js:5260",
+  "note": "'Planned ' + p.time"
+ },
+ {
+  "class": "C",
+  "en": "Day {n}",
+  "zh": "第 {n} 天",
+  "where": "app.js:21579",
+  "note": "'Day ' + n"
+ },
+ {
+  "class": "C",
+  "en": "Shot {n}",
+  "zh": "镜头 {n}",
+  "where": "app.js:18827",
+  "note": "'Shot ' + idx"
+ },
+ {
+  "class": "C",
+  "en": "Column {name}",
+  "zh": "列 {name}",
+  "where": "app.js:19597",
+  "note": "'Column ' + name"
+ },
+ {
+  "class": "C",
+  "en": "Est. {dur}",
+  "zh": "预计 {dur}",
+  "where": "app.js:20936",
+  "note": "'Est. ' + dur"
+ },
+ {
+  "class": "C",
+  "en": "Est. runtime {dur}",
+  "zh": "预计时长 {dur}",
+  "where": "app.js:29095",
+  "note": "同上"
+ },
+ {
+  "class": "C",
+  "en": "Duration: {dur}",
+  "zh": "时长：{dur}",
+  "where": "app.js:28292",
+  "note": "'Duration: ' + v"
+ },
+ {
+  "class": "C",
+  "en": "Address: {addr}",
+  "zh": "地址：{addr}",
+  "where": "app.js:28134",
+  "note": "'Address: ' + v"
+ },
+ {
+  "class": "C",
+  "en": "Involves: {list}",
+  "zh": "涉及：{list}",
+  "where": "app.js:28294",
+  "note": "'Involves: ' + joined"
+ },
+ {
+  "class": "C",
+  "en": "Tones: {list}",
+  "zh": "基调：{list}",
+  "where": "app.js:29628",
+  "note": "'Tones: ' + joined"
+ },
+ {
+  "class": "C",
+  "en": "Location: {name}",
+  "zh": "地点：{name}",
+  "where": "app.js:29120",
+  "note": "'Location: ' + name"
+ },
+ {
+  "class": "C",
+  "en": "Set plan · {name}",
+  "zh": "布景方案 · {name}",
+  "where": "app.js:28273",
+  "note": "'Set plan · ' + name"
+ },
+ {
+  "class": "C",
+  "en": "Move {n} unused files to .trash",
+  "zh": "把 {n} 个没用到的文件移到 .trash",
+  "where": "app.js:34826",
+  "note": "'Move ' + n + ' unused file' + (n===1?'':'s') + ' to .trash'"
+ },
+ {
+  "class": "C",
+  "en": "Reset to {name}",
+  "zh": "重置为 {name}",
+  "where": "app.js:35284",
+  "note": "'Reset to ' + tplName"
+ },
+ {
+  "class": "C",
+  "en": "Reset this project to its original \"{q}\" template? Every beat, image, and connection in this project will be replaced.",
+  "zh": "把这个项目重置回原来的「{q}」模板？项目里每个节拍、图片、连线都会被替换。",
+  "where": "app.js:35339",
+  "note": "confirm 拼接"
+ },
+ {
+  "class": "C",
+  "en": "Project reset to \"{q}\"",
+  "zh": "项目已重置为「{q}」",
+  "where": "app.js:35354",
+  "note": "拼接"
+ },
+ {
+  "class": "C",
+  "en": "Beat {ver} is on its way to your Downloads",
+  "zh": "Beat {ver} 正在下载到「下载」文件夹",
+  "where": "app.js:39278",
+  "note": "'Beat ' + info.version + ' is on its way …'"
+ },
+ {
+  "class": "C",
+  "en": "Beat {ver} is out",
+  "zh": "Beat {ver} 已发布",
+  "where": "app.js:39278",
+  "note": "同上另一分支"
+ },
+ {
+  "class": "C",
+  "en": "Page {n} added to Vault",
+  "zh": "第 {n} 页已加入保险库",
+  "where": "app.js:41181",
+  "note": "'Page ' + p + ' added to Vault'"
+ },
+ {
+  "class": "C",
+  "en": "Completed today: {n}",
+  "zh": "今天已完成：{n}",
+  "where": "app.js:4118",
+  "note": "'Completed today: ' + n"
+ },
+ {
+  "class": "C",
+  "en": "Timecode {dur} — click to open the audio timeline there",
+  "zh": "时间码 {dur} —— 点这里打开对应的音频时间轴",
+  "where": "app.js:13812",
+  "note": "title 拼接"
+ },
+ {
+  "class": "C",
+  "en": "Wrapped {date} · {n} carried to {day}",
+  "zh": "已收工 {date} · {n} 条带到 {day}",
+  "where": "app.js:32722",
+  "note": "三处动态值 + 可选片段"
+ },
+ {
+  "class": "C",
+  "en": "Still in the old folder: {list}",
+  "zh": "还留在旧文件夹里：{list}",
+  "where": "app.js:37809",
+  "note": "'Still in the old folder: ' + names"
+ },
+ {
+  "class": "C",
+  "en": "Saved {n}, skipped {n} (storage error)",
+  "zh": "已保存 {n} 个，跳过 {n} 个（存储出错）",
+  "where": "app.js:15939",
+  "note": "三段拼接，其中一段是括号说明"
+ },
+ {
+  "class": "C",
+  "en": "Discard {n} captured items?",
+  "zh": "放弃这 {n} 个抓取项？",
+  "where": "app.js:15194",
+  "note": "confirm 拼接 + 复数分支"
+ },
+ {
+  "class": "C",
+  "en": "Could not read \"{q}\"",
+  "zh": "读取「{q}」失败",
+  "where": "app.js:20516",
+  "note": "'Could not read \"' + name + '\"'"
+ },
+ {
+  "class": "C",
+  "en": "No scenes found in \"{q}\"",
+  "zh": "在「{q}」里没找到场景",
+  "where": "app.js:20528",
+  "note": "拼接"
+ },
+ {
+  "class": "C",
+  "en": "Delete the \"{q}\" field from every beat card?",
+  "zh": "要把这一列从所有节拍卡片上撤掉吗？",
+  "where": "app.js:18399",
+  "note": "拼接"
+ },
+ {
+  "class": "C",
+  "en": "Remove the \"{q}\"",
+  "zh": "把「{q}」拿掉",
+  "where": "app.js:17224",
+  "note": "拼接"
+ },
+ {
+  "class": "C",
+  "en": "Add \"{q}\"",
+  "zh": "添加「{q}」",
+  "where": "app.js:18682",
+  "note": "拼接"
+ },
+ {
+  "class": "C",
+  "en": "Shot list created from \"{q}\"",
+  "zh": "已用「{q}」生成分镜表",
+  "where": "app.js:18335",
+  "note": "拼接"
+ },
+ {
+  "class": "C",
+  "en": "Saved from \"{q}\"",
+  "zh": "保存自「{q}」",
+  "where": "app.js:39155",
+  "note": "拼接"
+ },
+ {
+  "class": "C",
+  "en": "Linked to \"{q}\"",
+  "zh": "已链接到「{q}」",
+  "where": "app.js:40186",
+  "note": "拼接"
+ },
+ {
+  "class": "C",
+  "en": "Delete folder \"{q}\"? Projects inside will return to All projects.",
+  "zh": "删除文件夹「{q}」？里面的项目会回到「全部项目」。",
+  "where": "app.js:38192",
+  "note": "confirm 拼接"
+ },
+ {
+  "class": "C",
+  "en": "Delete saved template \"{q}\"? Projects already created from it are unaffected.",
+  "zh": "删除保存的模板「{q}」？已经用它建好的项目不受影响。",
+  "where": "app.js:38643",
+  "note": "confirm 拼接"
+ },
+ {
+  "class": "C",
+  "en": "Search failed: {msg}",
+  "zh": "搜索失败：{msg}",
+  "where": "app.js:38399",
+  "note": "拼接"
+ },
+ {
+  "class": "C",
+  "en": "No results for \"{q}\"",
+  "zh": "「{q}」没有结果",
+  "where": "app.js:36374",
+  "note": "拼接"
+ },
+ {
+  "class": "C",
+  "en": "Moved to \"{path}\"",
+  "zh": "已移到「{path}」",
+  "where": "app.js:24057",
+  "note": "拼接"
+ },
+ {
+  "class": "C",
+  "en": "Image moved to \"{path}\"",
+  "zh": "图片已移到「{path}」",
+  "where": "app.js:24092",
+  "note": "拼接"
+ },
+ {
+  "class": "C",
+  "en": "Download {file}",
+  "zh": "下载 {file}",
+  "where": "app.js:10199",
+  "note": "dlBtn.title 拼接"
+ },
+ {
+  "class": "C",
+  "en": "Total runtime of {n} connected beats (sum of durations)",
+  "zh": "已连接 {n} 个节拍的总时长（时长合计）",
+  "where": "app.js:14330",
+  "note": "title 拼接 + 复数分支"
+ },
+ {
+  "class": "C",
+  "en": "Runtime {dur}",
+  "zh": "时长 {dur}",
+  "where": "app.js:14330",
+  "note": "innerHTML 拼接"
+ },
+ {
+  "class": "C",
+  "en": "You have {n} blank beats in this project. Consider including \"Fill the blank beats\" below.",
+  "zh": "这个项目里有 {n} 个空白节拍。可以考虑把下面的「补齐空白节拍」也勾上。",
+  "where": "app.js:29862",
+  "note": "innerHTML 拼接 + <b>/<i> 标签"
+ },
+ {
+  "class": "C",
+  "en": "Done {n} of {total}",
+  "zh": "已完成 {n} / {total}",
+  "where": "app.js:32487",
+  "note": "innerHTML 拼接"
+ },
+ {
+  "class": "C",
+  "en": "{n} elements",
+  "zh": "{n} 个元素",
+  "where": "app.js:16099",
+  "note": "拼接 + 复数分支"
+ },
+ {
+  "class": "D",
+  "en": "Runtime <b>{dur}</b>",
+  "zh": "时长 <b>{dur}</b>",
+  "where": "app.js:14330",
+  "note": "innerHTML = 'Runtime <b>' + … + '</b>'；<b> 内的数字可翻，外壳英文残留"
+ },
+ {
+  "class": "D",
+  "en": "You have <b>{n} blank beats</b> in this project. Consider including <i>\"Fill the blank beats\"</i> below.",
+  "zh": "这个项目里有 <b>{n} 个空白节拍</b>，可以考虑把下面的<i>「补齐空白节拍」</i>也勾上。",
+  "where": "app.js:29862",
+  "note": "innerHTML 拼三段；只翻文本节点会留下英文骨架"
+ },
+ {
+  "class": "D",
+  "en": "<b>{done}</b> of {total}",
+  "zh": "已完成 <b>{done}</b> / {total}",
+  "where": "app.js:32487",
+  "note": "On set 进度条 innerHTML"
+ },
+ {
+  "class": "D",
+  "en": "<b>{n}/{total}</b>",
+  "zh": "<b>{n}/{total}</b>",
+  "where": "app.js:33081",
+  "note": "只含数字，无需译，但要保证不被误改成中文标点"
+ },
+ {
+  "class": "D",
+  "en": "<b>{day}</b>",
+  "zh": "<b>{day}</b>",
+  "where": "app.js:32563",
+  "note": "日期数字"
+ },
+ {
+  "class": "D",
+  "en": "Wrap {day}",
+  "zh": "收工 · {day}",
+  "where": "app.js:32643",
+  "note": "'<span>Wrap ' + day + '</span>'"
+ },
+ {
+  "class": "D",
+  "en": "{kind} · scene",
+  "zh": "{kind} · 场景",
+  "where": "app.js:33095",
+  "note": "'<span>' + kind + (fromScene ? ' · scene' : '')"
+ },
+ {
+  "class": "D",
+  "en": "Lens",
+  "zh": "镜头",
+  "where": "app.js:17571",
+  "note": "lr.innerHTML = '<span title=\"Field of view for …\">Lens</span>'；属性里的英文也要一起换"
+ },
+ {
+  "class": "D",
+  "en": "New symbol",
+  "zh": "新符号",
+  "where": "app.js:17258",
+  "note": "overlay.innerHTML = '<div class=\"simple-prompt\"><label>New symbol</label>'"
+ },
+ {
+  "class": "D",
+  "en": "Your library",
+  "zh": "你的素材库",
+  "where": "app.js:38127",
+  "note": "innerHTML 空态 kicker"
+ },
+ {
+  "class": "D",
+  "en": "Welcome to Beat.",
+  "zh": "欢迎使用 Beat。",
+  "where": "app.js:38127",
+  "note": "同上 <h3>"
+ },
+ {
+  "class": "D",
+  "en": "No matches",
+  "zh": "没有匹配结果",
+  "where": "app.js:38332",
+  "note": "搜索空态"
+ },
+ {
+  "class": "D",
+  "en": "Empty folder",
+  "zh": "空文件夹",
+  "where": "app.js:38341",
+  "note": "文件夹空态"
+ },
+ {
+  "class": "D",
+  "en": "Beat could not read your library.",
+  "zh": "Beat 读不到你的素材库。",
+  "where": "app.js:38092",
+  "note": "错误态 <h3>"
+ },
+ {
+  "class": "D",
+  "en": "Could not preview this document: {msg}",
+  "zh": "这份文档预览失败：{msg}",
+  "where": "app.js:41050",
+  "note": "innerHTML 拼错误信息"
+ },
+ {
+  "class": "D",
+  "en": "The connection works.",
+  "zh": "连接可用。",
+  "where": "app.js:37372",
+  "note": "'✓ ' + r + '. The connection works.'"
+ },
+ {
+  "class": "D",
+  "en": "Try “Link now” on the previous step, then test again.",
+  "zh": "上一步点「立即链接」，然后再测一次。",
+  "where": "app.js:37374",
+  "note": "'✕ ' + e + '<br>Try …'"
+ },
+ {
+  "class": "D",
+  "en": "Couldn’t link automatically — use “set it up manually” below. ({msg})",
+  "zh": "自动链接没成功 —— 用下面的「手动设置」吧。（{msg}）",
+  "where": "app.js:37389",
+  "note": "innerHTML 拼异常文本"
+ },
+ {
+  "class": "D",
+  "en": "Mark this beat as an alternative? It will use the slate \"Alt\" badge and stay off the main path until you \"Make main path\" it again.",
+  "zh": "把这个节拍标成备选？它会带上灰色的「Alt」标记，在你点「设为主线」之前不进入主线。",
+  "where": "app.js:14164",
+  "note": "confirm() 原生对话框，DOM 翻译完全碰不到"
+ },
+ {
+  "class": "D",
+  "en": "Discard changes to this Set Plan?",
+  "zh": "放弃这次对 Set Plan 的改动？",
+  "where": "app.js:17808",
+  "note": "confirm()"
+ },
+ {
+  "class": "D",
+  "en": "Discard {n} captured item(s)?",
+  "zh": "放弃这 {n} 个抓取项？",
+  "where": "app.js:15194",
+  "note": "confirm() 拼接"
+ },
+ {
+  "class": "D",
+  "en": "Group name:",
+  "zh": "分组名：",
+  "where": "app.js:12174",
+  "note": "prompt() 原生输入框"
+ },
+ {
+  "class": "D",
+  "en": "Rename project:",
+  "zh": "重命名项目：",
+  "where": "app.js:38692",
+  "note": "prompt()"
+ },
+ {
+  "class": "D",
+  "en": "Template name:",
+  "zh": "模板名：",
+  "where": "app.js:39137",
+  "note": "prompt()"
+ },
+ {
+  "class": "D",
+  "en": "Short description (optional):",
+  "zh": "简短描述（可选）：",
+  "where": "app.js:39139",
+  "note": "prompt()"
+ },
+ {
+  "class": "D",
+  "en": "Your library folder, your name & credit on exports",
+  "zh": "素材库文件夹、你的名字与导出署名",
+  "where": "app.js:38056",
+  "note": "设置面板 <h3> 由 innerHTML 写入（见 index.html:119 title 同文案）"
+ },
+ {
+  "class": "D",
+  "en": "Add to Vault",
+  "zh": "加入保险库",
+  "where": "app.js:25917",
+  "note": "pick_files 的 title（原生对话框，见 E）"
+ },
+ {
+  "class": "E",
+  "en": "Beat — {name}",
+  "zh": "Beat —— {name}",
+  "where": "app.js:39310",
+  "note": "document.title = 'Beat — ' + state.name；applyTitle 只整串查表，拼接标题永远对不上"
+ },
+ {
+  "class": "E",
+  "en": "{name} — Beat (read-only)",
+  "zh": "{name} —— Beat（只读）",
+  "where": "app.js:40694",
+  "note": "document.title 拼接，含 fallback 'Beat project'"
+ },
+ {
+  "class": "E",
+  "en": "Beat project",
+  "zh": "未命名项目",
+  "where": "app.js:40694",
+  "note": "无项目名时的 title 兜底；也不会走 DOM 翻译"
+ },
+ {
+  "class": "E",
+  "en": "Empty board",
+  "zh": "空白画布",
+  "where": "app.js:3779",
+  "note": "ctx.fillText('Empty board', …) —— canvas 里画上去的字，DOM 翻译碰不到"
+ },
+ {
+  "class": "E",
+  "en": "No beats yet",
+  "zh": "还没有节拍",
+  "where": "app.js:5207",
+  "note": "ctx.fillText('No beats yet', …) 同上"
+ },
+ {
+  "class": "E",
+  "en": "Pick a folder",
+  "zh": "选择文件夹",
+  "where": "app.js:639",
+  "note": "rfd pick_folder 的原生 NSOpenPanel 标题，由 Rust 侧显示"
+ },
+ {
+  "class": "E",
+  "en": "Pick a file",
+  "zh": "选择文件",
+  "where": "app.js:643",
+  "note": "rfd pick_file 的原生标题"
+ },
+ {
+  "class": "E",
+  "en": "Add to Vault",
+  "zh": "加入保险库",
+  "where": "app.js:25917",
+  "note": "pick_files 原生标题"
+ },
+ {
+  "class": "E",
+  "en": "Choose your Beat library folder",
+  "zh": "选择 Beat 素材库文件夹",
+  "where": "app.js:37503",
+  "note": "pickFolder() 传进去的原生标题"
+ },
+ {
+  "class": "E",
+  "en": "Open a Beat project folder",
+  "zh": "打开一个 Beat 项目文件夹",
+  "where": "app.js:37972",
+  "note": "原生标题（40825 复用同一句）"
+ },
+ {
+  "class": "E",
+  "en": "Pick a Beat template",
+  "zh": "选择 Beat 模板",
+  "where": "app.js:39010",
+  "note": "原生标题"
+ },
+ {
+  "class": "E",
+  "en": "Pick the .zip exported from web Beat",
+  "zh": "选择从网页版 Beat 导出的 .zip",
+  "where": "app.js:41539",
+  "note": "原生标题"
+ },
+ {
+  "class": "E",
+  "en": "Pick a folder for Beat projects",
+  "zh": "选一个放 Beat 项目的文件夹",
+  "where": "app.js:41608",
+  "note": "原生标题"
+ },
+ {
+  "class": "E",
+  "en": "Could not open the file picker",
+  "zh": "文件选择器打开失败",
+  "where": "app.js:25919",
+  "note": "文件选择失败 toast（原生调用结果）"
+ }
+]

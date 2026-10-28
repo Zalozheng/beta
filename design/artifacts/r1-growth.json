@@ -1,0 +1,44 @@
+[
+  {
+    "uniq": 0,
+    "pages": 1,
+    "size": 54430,
+    "delta": 51372
+  },
+  {
+    "uniq": 50,
+    "pages": 1,
+    "size": 61471,
+    "delta": 58413
+  },
+  {
+    "uniq": 200,
+    "pages": 1,
+    "size": 88808,
+    "delta": 85750
+  },
+  {
+    "uniq": 500,
+    "pages": 1,
+    "size": 147929,
+    "delta": 144871
+  },
+  {
+    "uniq": 1000,
+    "pages": 1,
+    "size": 212309,
+    "delta": 209251
+  },
+  {
+    "uniq": 2000,
+    "pages": 1,
+    "size": 212309,
+    "delta": 209251
+  },
+  {
+    "uniq": 3755,
+    "pages": 1,
+    "size": 212309,
+    "delta": 209251
+  }
+]

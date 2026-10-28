@@ -22,6 +22,9 @@ import sys
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 SRC_WEB = os.path.join(ROOT, 'src', 'artifacts', 'embedded-web')
 SRC_I18N = os.path.join(ROOT, 'src', 'i18n', 'i18n.js')
+SRC_TIMELINE = os.path.join(ROOT, 'src', 'timeline', 'timeline.js')
+SRC_LIBRARY = os.path.join(ROOT, 'src', 'library', 'library.js')
+SRC_CAMERA = os.path.join(ROOT, 'src', 'camera', 'camera.js')
 SRC_PACK = os.path.join(ROOT, 'src', 'lang', 'zh-CN.json')
 WORK = os.path.join(ROOT, 'src', 'work')
 OUT = os.path.join(WORK, 'zh')
@@ -103,6 +106,7 @@ def main():
     ap.add_argument('--check-slots', metavar='APP', help='构建前对着 app 的 fat 二进制做槽位尺寸预检')
     ap.add_argument('--install-lang', action='store_true', help='把完整语言包装到库目录 .beat-lang/')
     ap.add_argument('--probe', action='store_true', help='额外注入 i18n.probe.js（诊断用，正常构建别开）')
+    ap.add_argument('--miss-probe', action='store_true', help='额外注入 i18n.missprobe.js（抓未翻译英文残留，诊断用）')
     args = ap.parse_args()
 
     pack = load_pack()
@@ -137,7 +141,21 @@ def main():
     if args.probe:
         with open(os.path.join(ROOT, 'src', 'i18n', 'i18n.probe.js'), encoding='utf-8') as fh:
             probe = '\n/* ---- probe (diagnostic build) ---- */\n' + fh.read()
-    src['app.js'] = src['app.js'] + banner + core_js + i18n_src + probe + '\n'
+    if args.miss_probe:
+        with open(os.path.join(ROOT, 'src', 'i18n', 'i18n.missprobe.js'), encoding='utf-8') as fh:
+            probe += '\n/* ---- miss-probe (diagnostic build) ---- */\n' + fh.read()
+    # 3b) 注入 timeline / library 模块（可选：文件存在才注入）
+    extra = ''
+    if os.path.exists(SRC_TIMELINE):
+        with open(SRC_TIMELINE, encoding='utf-8') as fh:
+            extra += '\n/* ===================== beat-timeline (build-injected) ===================== */\n' + fh.read()
+    if os.path.exists(SRC_LIBRARY):
+        with open(SRC_LIBRARY, encoding='utf-8') as fh:
+            extra += '\n/* ===================== beat-library (build-injected) ===================== */\n' + fh.read()
+    if os.path.exists(SRC_CAMERA):
+        with open(SRC_CAMERA, encoding='utf-8') as fh:
+            extra += '\n/* ===================== beat-camera (build-injected) ===================== */\n' + fh.read()
+    src['app.js'] = src['app.js'] + banner + core_js + i18n_src + extra + probe + '\n'
 
     os.makedirs(OUT, exist_ok=True)
     for name in FILES:

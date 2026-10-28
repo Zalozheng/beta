@@ -1768,6 +1768,106 @@ function setCurrentProjectId(id){
 }
 
 const _loadedScripts = new Set();
+/* ── 导出中文：jsPDF 文本层补丁 ────────────────────────────────────────────
+ * 病根：jsPDF 只有 helvetica/times 五个拉丁字体，中文被写成 UTF-16 码位塞进
+ * WinAnsi 8-bit 字符串（`中`→`N-`、`文`→`e‡`），渲染成乱码、宽度翻倍、整行拉伸。
+ * 可用资源：Tauri 把 fs / path 插件都 ACL 掉了（实测 path|resolve_directory 被拒），
+ * 所以「把 TTF 放进 Resources 再 addFont」这条路在本构建里不可用。
+ * 采用：纯 Canvas 栅格化 —— 含 CJK 的整行用系统字体画进离屏 canvas，再 addImage 贴回 PDF；
+ * 纯 ASCII 行走原生 pdf.text（保留可选文本）。整页矢量排版、字号、颜色、对齐都不变。
+ * 同时把 pdf.text 的字面量过一遍 BeatI18n.t()，导出的固定标签跟着界面语言走。
+ * 任何一步失败都回退原生 pdf.text —— 宁可出英文，也不出坏 PDF。 */
+const _CJK_RE = /[\u2E80-\u9FFF\uF900-\uFAFF\u3000-\u303F\uFF00-\uFFEF]/;
+const _PDF_CN_DPI = 200;
+
+function _pdfLabel(s){
+  try{
+    if(window.BeatI18n && typeof window.BeatI18n.t === 'function'){
+      const v = window.BeatI18n.t(s);
+      if(v) return v;
+    }
+  }catch(e){}
+  return s;
+}
+
+function _pdfCssColor(args){
+  try{
+    if(args.length === 1){
+      const a = args[0];
+      if(typeof a === 'string') return a.charAt(0) === '#' ? a : '#' + a;
+      if(Array.isArray(a)) return 'rgb(' + a.slice(0,3).join(',') + ')';
+      if(typeof a === 'number') return '#' + ('000000' + a.toString(16)).slice(-6);
+    }
+    if(args.length >= 3) return 'rgb(' + args[0] + ',' + args[1] + ',' + args[2] + ')';
+  }catch(e){}
+  return '#000000';
+}
+
+function _pdfRaster(pdf, text, x, y, opts){
+  const fs = (pdf.getFontSize && pdf.getFontSize()) || 10;
+  const S = _PDF_CN_DPI / 72;
+  const px = Math.max(8, Math.round(fs * S));
+  const lines = String(text).split('\n');
+  const c = document.createElement('canvas');
+  const probe = c.getContext('2d');
+  const fontStr = px + 'px "PingFang SC","Hiragino Sans GB","Heiti SC","STHeiti",sans-serif';
+  probe.font = fontStr;
+  let maxW = 0;
+  for(let i = 0; i < lines.length; i++) maxW = Math.max(maxW, probe.measureText(lines[i]).width);
+  const lh = Math.round(px * 1.38);
+  c.width = Math.ceil(maxW) + 6;
+  c.height = lh * lines.length + 4;
+  const ctx = c.getContext('2d');
+  ctx.font = fontStr;
+  ctx.textBaseline = 'alphabetic';
+  ctx.fillStyle = pdf.__cnColor || '#000000';
+  for(let i = 0; i < lines.length; i++) ctx.fillText(lines[i], 2, Math.round(px * 1.02) + i * lh);
+
+  const url = c.toDataURL('image/png');
+  const wPt = c.width / S;
+  const hPt = c.height / S;
+  let x0 = x;
+  const align = (opts && (opts.align || opts.textAlign)) || 'left';
+  if(align === 'center') x0 = x - wPt / 2;
+  else if(align === 'right') x0 = x - wPt;
+  // jsPDF 的 y 是基线，图片左上角要往上提 ≈0.88em
+  pdf.addImage(url, 'PNG', x0, y - fs * 0.88, wPt, hPt, undefined, 'FAST');
+  return pdf;
+}
+
+function _pdfInstallCN(pdf){
+  if(!pdf || pdf.__cnPatch) return pdf;
+  pdf.__cnPatch = true;
+  pdf.__cnColor = '#000000';
+
+  try{
+    const _setTextColor = pdf.setTextColor.bind(pdf);
+    pdf.setTextColor = function(){
+      try{ pdf.__cnColor = _pdfCssColor(arguments); }catch(e){}
+      return _setTextColor.apply(null, arguments);
+    };
+  }catch(e){}
+
+  const _text = pdf.text.bind(pdf);
+  pdf.text = function(t, x, y, o){
+    let v = t;
+    if(typeof v === 'string') v = _pdfLabel(v);
+    else if(Array.isArray(v)) v = v.map(function(w){ return typeof w === 'string' ? _pdfLabel(w) : w; });
+    const flat = Array.isArray(v) ? v.join('\n') : String(v == null ? '' : v);
+    if(_CJK_RE.test(flat)){
+      try{ return _pdfRaster(pdf, flat, x, y, o); }
+      catch(e){ console.warn('[pdf-cn] raster failed', e); }
+    }
+    return _text(v, x, y, o);
+  };
+  return pdf;
+}
+
+// 兼容旧调用点：现在直接装文本层补丁（字体文件在 ACL 下拿不到，不再尝试 addFont）
+async function _pdfUseCNFont(pdf){
+  return _pdfInstallCN(pdf);
+}
+
 function loadScript(src){
   return new Promise((resolve, reject) => {
     if(_loadedScripts.has(src)) return resolve();
@@ -3776,7 +3876,7 @@ function drawStatePreview(cv, s){
   if(!any){
     ctx.fillStyle = _miniNode; ctx.font = '12px system-ui, sans-serif';
     ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
-    ctx.fillText('Empty board', W / 2, H / 2);
+    ctx.fillText((window.BeatI18n && window.BeatI18n.t('Empty board')) || 'Empty board', W / 2, H / 2);
     return;
   }
   const pad = Math.max(120, Math.max(maxX - minX, maxY - minY) * 0.1);
@@ -5204,7 +5304,7 @@ function buildStripCache(){
   if(!model.segs.length){
     ctx.fillStyle = faint; ctx.font = '10px "IBM Plex Mono", ui-monospace, monospace';
     ctx.textAlign = 'center'; ctx.globalAlpha = 0.8;
-    ctx.fillText('No beats yet', W / 2, 35);
+    ctx.fillText((window.BeatI18n && window.BeatI18n.t('No beats yet')) || 'No beats yet', W / 2, 35);
   } else {
     model.segs.forEach(sg => {
       const w = Math.max(1, sg.x1 - sg.x0);
@@ -20920,6 +21020,7 @@ async function _newShotListPdf(coverOpts){
   catch(e){ return null; }
   if(!jsPDF) return null;
   const pdf = new jsPDF({ orientation: 'landscape', unit: 'pt', format: 'a4' });
+  await _pdfUseCNFont(pdf);          // 中文字体 + 导出标签中文化（失败则整段跳过）
   pdf.setLineHeightFactor(1.3);
   await pdfCover(pdf, coverOpts);
   const geom = _shotListPdfGeom(pdf);
@@ -27893,6 +27994,7 @@ async function exportContactSheetPdf(node){
   if(!jsPDF){ note('PDF library failed to load'); return; }
 
   const pdf = new jsPDF({ orientation: 'landscape', unit: 'pt', format: 'a4' });
+  await _pdfUseCNFont(pdf);          // 中文字体 + 导出标签中文化（失败则整段跳过）
   pdf.setLineHeightFactor(1.3);
   const pageW = pdf.internal.pageSize.getWidth();
   const pageH = pdf.internal.pageSize.getHeight();
@@ -27996,6 +28098,7 @@ async function printShotListPdf(opts){
   items.forEach(it => { if(it.kind === 'node' && it.node.type !== 'setplan') liveTargets.set(it.node.id, it.node); });
 
   const pdf = new jsPDF({ orientation: 'portrait', unit: 'pt', format: opts.paper === 'letter' ? 'letter' : 'a4' });
+  await _pdfUseCNFont(pdf);          // 中文字体 + 导出标签中文化（失败则整段跳过）
   const pageW = pdf.internal.pageSize.getWidth();
   const pageH = pdf.internal.pageSize.getHeight();
   const M = PDF_M, contentW = pageW - 2 * M;
@@ -28396,6 +28499,7 @@ async function exportTreatmentPdf(opts){
   if(!jsPDF){ note('PDF library failed to load'); return; }
 
   const pdf = new jsPDF({ orientation: 'portrait', unit: 'pt', format: opts.paper === 'letter' ? 'letter' : 'a4' });
+  await _pdfUseCNFont(pdf);          // 中文字体 + 导出标签中文化（失败则整段跳过）
   const pageW = pdf.internal.pageSize.getWidth();
   const pageH = pdf.internal.pageSize.getHeight();
   const M = PDF_M, contentW = pageW - 2 * M;
@@ -28972,6 +29076,7 @@ async function exportPrintLayoutPdf(){
   const dims = PL_DIMS[state.printLayout.paper] || PL_DIMS['a4-l'];
   const orient = dims[0] >= dims[1] ? 'l' : 'p'; // jsPDF normalizes [w,h] against orientation — keep them agreeing
   const pdf = new jsPDF({ orientation: orient, unit: 'pt', format: [dims[0], dims[1]] });
+  await _pdfUseCNFont(pdf);          // 中文字体 + 导出标签中文化（失败则整段跳过）
   const pageW = pdf.internal.pageSize.getWidth();
   const pageH = pdf.internal.pageSize.getHeight();
   pdf.setLineHeightFactor(1.3);
@@ -29057,6 +29162,7 @@ async function exportBreakdownPdf(opts){
   if(!jsPDF){ note('PDF library failed to load'); return; }
 
   const pdf = new jsPDF({ orientation: 'portrait', unit: 'pt', format: opts.paper === 'letter' ? 'letter' : 'a4' });
+  await _pdfUseCNFont(pdf);          // 中文字体 + 导出标签中文化（失败则整段跳过）
   const pageW = pdf.internal.pageSize.getWidth();
   const pageH = pdf.internal.pageSize.getHeight();
   const M = PDF_M, contentW = pageW - 2 * M, indent = 14, labelW = contentW - indent;
@@ -29482,6 +29588,19 @@ Ask me for the vault path if you don't know it. When you're done, report what yo
   }
 ];
 
+/* AI 导出文档的本地化：模板是整段英文硬编码，这里在成文之后逐行过一遍语言包
+ * （精确 → 空白折叠 → 前缀/槽位匹配），中文界面下整篇说明变成中文，
+ * 用户自己写的正文、@提及、slug-line 一律原样保留。英文界面完全不动。 */
+function _adDocLine(line){
+  if(!line || !line.trim()) return line;
+  try{
+    if(!(window.BeatI18n && window.BeatI18n.lang === 'zh-CN')) return line;
+    const v = window.BeatI18n.t(line);
+    if(v && v !== line) return v;
+  }catch(e){}
+  return line;
+}
+
 function buildAiExportMarkdown(project, selectedPromptIds){
   const lines = [];
   const projectName = project.name || 'Untitled project';
@@ -29828,7 +29947,7 @@ function buildAiExportMarkdown(project, selectedPromptIds){
     lines.push('');
   }
 
-  return lines.join('\n');
+  return lines.map(_adDocLine).join('\n');
 }
 
 // Modal: pick which prompts go into the export, then download .md.
@@ -30050,6 +30169,7 @@ async function printStoryboardPdf(opts){
   if(!jsPDF){ note('Storyboard library failed to load'); return; }
 
   const pdf = new jsPDF({ orientation: 'landscape', unit: 'pt', format: 'a4' });
+  await _pdfUseCNFont(pdf);          // 中文字体 + 导出标签中文化（失败则整段跳过）
   const pageW = pdf.internal.pageSize.getWidth();
   const pageH = pdf.internal.pageSize.getHeight();
   const M = PDF_M, contentW = pageW - 2 * M;
@@ -30166,6 +30286,7 @@ async function exportPitchDeckPdf(opts){
   // True 16:9 page (960×540pt) via the custom-dims constructor (print-layout
   // precedent: orientation must agree with [w,h] or jsPDF swaps them).
   const pdf = new jsPDF({ orientation: 'landscape', unit: 'pt', format: [960, 540] });
+  await _pdfUseCNFont(pdf);          // 中文字体 + 导出标签中文化（失败则整段跳过）
   const pageW = pdf.internal.pageSize.getWidth();
   const pageH = pdf.internal.pageSize.getHeight();
   const M = PDF_M;
@@ -30357,6 +30478,7 @@ async function exportGearSummaryPdf(opts){
   if(!jsPDF){ note('PDF library failed to load'); return; }
 
   const pdf = new jsPDF({ orientation: 'portrait', unit: 'pt', format: opts.paper === 'letter' ? 'letter' : 'a4' });
+  await _pdfUseCNFont(pdf);          // 中文字体 + 导出标签中文化（失败则整段跳过）
   pdf.setLineHeightFactor(1.3);
   const pageW = pdf.internal.pageSize.getWidth();
   const pageH = pdf.internal.pageSize.getHeight();
@@ -32008,6 +32130,7 @@ async function exportCallSheetPdf(node){
   try { await loadScript('vendor/jspdf.umd.min.js'); jsPDF = (window.jspdf && window.jspdf.jsPDF) || window.jsPDF; } catch(e){}
   if(!jsPDF){ note('PDF library failed to load'); return; }
   const pdf = new jsPDF({ orientation: 'portrait', unit: 'pt', format: 'a4' });
+  await _pdfUseCNFont(pdf);          // 中文字体 + 导出标签中文化（失败则整段跳过）
   pdf.setLineHeightFactor(1.32);
   const M = 44, pageW = pdf.internal.pageSize.getWidth(), pageH = pdf.internal.pageSize.getHeight();
   const contentW = pageW - M * 2, bottom = pageH - 48;
@@ -32140,6 +32263,7 @@ async function exportOnsetDaySheet(node){
   try { await loadScript('vendor/jspdf.umd.min.js'); jsPDF = (window.jspdf && window.jspdf.jsPDF) || window.jsPDF; } catch(e){}
   if(!jsPDF){ note('PDF library failed to load'); return; }
   const pdf = new jsPDF({ orientation: 'portrait', unit: 'pt', format: 'a4' });
+  await _pdfUseCNFont(pdf);          // 中文字体 + 导出标签中文化（失败则整段跳过）
   pdf.setLineHeightFactor(1.32);
   const M = 44, pageW = pdf.internal.pageSize.getWidth(), pageH = pdf.internal.pageSize.getHeight();
   const contentW = pageW - M * 2, bottom = pageH - 48;

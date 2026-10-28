@@ -33,8 +33,8 @@
   // 不翻译的容器：脚本/样式/画布/表单控件/代码块 + 用户自己写的正文容器。
   // 正文容器宁可多排除，也不能把用户写的东西换掉。
   var SKIP_SEL = [
-    'script', 'style', 'noscript', 'canvas', 'svg', 'textarea', 'select', 'option',
-    'code', 'pre', 'kbd', 'samp', 'iframe', 'video', 'audio', 'math', '[translate="no"]',
+    'script', 'style', 'noscript', 'canvas', 'svg', 'textarea',
+    'code', 'pre', 'samp', 'iframe', 'video', 'audio', 'math', '[translate="no"]',
     '[data-i18n-skip]', '[contenteditable=""]', '[contenteditable="true"]',
     '.wd-body', '.wd-elem-note', '.n-body', '.nb-body', '.n-note-body', '.n-body-preview',
     '.card-body', '.node-body', '.beat-body', '.shot-body',
@@ -167,10 +167,29 @@
     return '0x' + ('00000000' + h.toString(16)).slice(-8);
   }
 
+  // 键归一化：语言包里有大量「带前导/尾随空格」「留着未解转义 \n \u2014 \'」「整段 HTML」
+  // 的键，而运行期拿到的是 trim 过、折过空白、没有反斜杠的字符串 —— 这些键永远匹配不到。
+  // 在这里一次性清洗，等于把约 250 条死条目救回来，不用手改 2300 多条语言包。
+  var HTML_KEY = /<[a-z][^>]*>/i;
+  function normKey(k) {
+    if (typeof k !== 'string' || !k) return '';
+    var s = k.replace(/\\u([0-9a-fA-F]{4})/g, function (_, h) { return String.fromCharCode(parseInt(h, 16)); })
+             .replace(/\\n/g, '\n').replace(/\\t/g, '\t')
+             .replace(/\\'/g, "'").replace(/\\"/g, '"');
+    s = s.replace(/\s+/g, ' ').trim();
+    if (!s || HTML_KEY.test(s)) return '';
+    return s;
+  }
+
   function mergeInto(dict, obj) {
     var n = 0;
     for (var k in obj) {
-      if (Object.prototype.hasOwnProperty.call(obj, k) && typeof obj[k] === 'string') { dict[k] = obj[k]; n++; }
+      if (!Object.prototype.hasOwnProperty.call(obj, k) || typeof obj[k] !== 'string') continue;
+      var key = normKey(k);
+      var val = obj[k];
+      if (!key || !val) continue;
+      dict[key] = val;
+      n++;
     }
     return n;
   }
@@ -239,8 +258,7 @@
     }
     var core = window.__BEAT_I18N_CORE__;
     if (core && typeof core === 'object') {
-      var m = 0;
-      for (var key in core) if (Object.prototype.hasOwnProperty.call(core, key) && typeof core[key] === 'string') { state.dict[key] = core[key]; m++; }
+      var m = mergeInto(state.dict, core);
       state.source = 'core';
       state.packCount = m;
       log('falling back to embedded core dict entries=' + m);
@@ -252,6 +270,67 @@
   }
 
   /* ---------------------------------------------------------------- 翻译 --- */
+  /* 拼接串匹配（语言包里的两种特殊键）：
+   *   "Could not read \"*"   前缀键，`{x}` 是键后面剩下的部分（键长 ≥ 8 才生效，防误伤）
+   *   "{n} shots"            数字键，`{n}` 对应原文里的数字
+   * 只在精确匹配失败后才用，整段命中才替换。 */
+  var patterns = { prefix: [], numeric: [] };
+
+  function escRe(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
+
+  var SLOT_G = /\{[a-zA-Z_][a-zA-Z0-9_]*\}/g;
+  var SLOT_SPLIT = /(\{[a-zA-Z_][a-zA-Z0-9_]*\})/;      // 带捕获组：split 后占位符本身保留
+  var SLOT_RE = /^\{[a-zA-Z_][a-zA-Z0-9_]*\}$/;
+
+  function buildPatterns() {
+    var pre = [], num = [];
+    for (var k in state.dict) {
+      var v = state.dict[k];
+      if (typeof v !== 'string' || !v) continue;
+      if (k.length > 1 && k.charAt(k.length - 1) === '*') {
+        var base = k.slice(0, -1);
+        if (base.length >= 8) pre.push({ base: base, zh: v });
+      } else if (SLOT_SPLIT.test(k)) {
+        // 通用槽位：`{n}` 只吃数字，`{name}` / `{q}` / `{dur}` / `{deg}` / `{file}` … 吃任意片段。
+        // 整段锚定（^…$），任一槽位回填不完整就放弃 —— 宁可留英文，也不输出半句中文。
+        try {
+          var keysInKey = k.match(SLOT_G) || [];
+          var src = k.split(SLOT_SPLIT).map(function (p) {
+            if (!SLOT_RE.test(p)) return escRe(p);
+            var nm = p.slice(1, -1);
+            return nm === 'n' ? '(\\d+(?:\\.\\d+)?)' : '(.+?)';
+          }).join('');
+          num.push({ re: new RegExp('^' + src + '$'), zh: v, n: keysInKey.length });
+        } catch (e) {}
+      }
+    }
+    pre.sort(function (a, b) { return b.base.length - a.base.length; });
+    patterns.prefix = pre;
+    patterns.numeric = num;
+    log('patterns prefix=' + pre.length + ' numeric=' + num.length);
+  }
+
+  function lookupPattern(s) {
+    var i, p, m;
+    for (i = 0; i < patterns.numeric.length; i++) {
+      p = patterns.numeric[i];
+      m = s.match(p.re);
+      if (m) {
+        var idx = 1;
+        var out = p.zh.replace(SLOT_G, function () { return m[idx] != null ? m[idx++] : ''; });
+        if (out) return out;
+      }
+    }
+    for (i = 0; i < patterns.prefix.length; i++) {
+      p = patterns.prefix[i];
+      if (s.length > p.base.length && s.indexOf(p.base) === 0) {
+        var rest = s.slice(p.base.length).replace(/^\s+|\s+$/g, '');
+        return p.zh.indexOf('{x}') >= 0 ? p.zh.replace(/\{x\}/g, rest) : p.zh + rest;
+      }
+    }
+    return null;
+  }
+
   function lookup(s) {
     if (!s) return null;
     var v = state.dict[s];
@@ -262,6 +341,9 @@
       v = state.dict[collapsed];
       if (typeof v === 'string' && v && v !== collapsed) return v;
     }
+    // 拼接串：`Could not read "x.txt"` / `3 shots`
+    v = lookupPattern(s);
+    if (typeof v === 'string' && v && v !== s) return v;
     return null;
   }
 
@@ -276,21 +358,38 @@
     try { node.nodeValue = value; } finally { writing = false; }
   }
 
+  // 长文白名单：引导、更新日志、欢迎语、确认框正文这些整段说明放在这些容器里，
+  // 允许突破 400 字符上限（上限仍保留，避免把用户正文当文案换掉）。
+  var LONG_OK = '.whatsnew-*, .credits-*, .tourhub-*, .onboard-*, .ui-confirm-msg, .lc-lead,' +
+                ' .lc-step-body, .welcome-body, .proj-empty-hint, .snapshot-title, [data-i18n="long"]';
+  var LONG_MAX = 2000;
+
+  function longOk(node) {
+    var el = node.nodeType === 1 ? node : node.parentElement;
+    if (!el || !el.closest) return false;
+    try { return !!el.closest(LONG_OK); } catch (e) { return false; }
+  }
+
   function applyTextNode(node) {
     if (state.lang === 'en') return 0;
     var raw = node.nodeValue;
     if (!raw) return 0;
     var trimmed = raw.trim();
-    if (!trimmed || trimmed.length > MAX_TEXT_LEN) return 0;
-    if (trimmed.indexOf('\n') >= 0) return 0;
+    if (!trimmed) return 0;
+    // 先折叠空白再判长度：HTML 折行 / 多行说明以前在「含 \n 就放弃」这一步就漏了
+    var flat = trimmed.replace(/\s+/g, ' ');
+    if (flat.length > (longOk(node) ? LONG_MAX : MAX_TEXT_LEN)) return 0;
     if (!inTranslatableContext(node)) return 0;
-    if (origText.has(node) && origText.get(node) === raw) return 0;   // 已经是译文
-    var zh = lookup(trimmed);
+    // 关键：origText 存的是「英文原文」。若当前值 ≠ 原文，说明已经是译文 → 跳过；
+    // 若当前值 === 原文，说明 app.js 重绘时把它重置回了英文 → 必须再翻一遍。
+    // （旧判断方向反了：原文===原文时跳过，导致被重绘重置的节点永远留在英文。）
+    if (origText.has(node) && origText.get(node) !== raw) return 0;   // 已经是译文
+    var zh = lookup(flat) || (flat !== trimmed ? lookup(trimmed) : null);
     if (!zh) return 0;
     var at = raw.indexOf(trimmed);
     if (at < 0) return 0;
     if (!origText.has(node)) origText.set(node, raw);
-    if (state._samples && state._samples.length < 3) state._samples.push(trimmed + ' → ' + zh);
+    if (state._samples && state._samples.length < 3) state._samples.push(trimmed.slice(0, 60) + ' → ' + zh.slice(0, 60));
     setText(node, raw.slice(0, at) + zh + raw.slice(at + trimmed.length));
     return 1;
   }
@@ -544,6 +643,7 @@
   async function reloadPack() {
     state.dict = Object.create(null);
     await loadPack();
+    buildPatterns();
     if (state.lang !== 'en') { restore(); apply(); }
     return { source: state.source, entries: Object.keys(state.dict).length, path: state.packPath };
   }
@@ -552,6 +652,26 @@
     if (state.lang === 'en') return s;
     return lookup(s) || s;
   }
+
+  /* 日期/时间跟随界面语言：app.js 里到处是裸的 toLocaleDateString()，系统语言是英文时
+     项目卡片会冒出 "12 beats · Oct 28" 这种半中半英。这里把 locale 固定到界面语言，
+     再交给原生实现 —— 一处改动覆盖全部日期显示。 */
+  (function patchDateLocale(){
+    try{
+      function pick(locale){
+        var want = state.lang === 'en' ? 'en-US' : 'zh-CN';
+        if(!locale) return want;
+        if(state.lang !== 'zh-CN') return locale;
+        return /^en/i.test(String(locale)) ? want : locale;
+      }
+      var d1 = Date.prototype.toLocaleDateString;
+      Date.prototype.toLocaleDateString = function(locale, opts){ return d1.call(this, pick(locale), opts); };
+      var d2 = Date.prototype.toLocaleTimeString;
+      Date.prototype.toLocaleTimeString = function(locale, opts){ return d2.call(this, pick(locale), opts); };
+      var d3 = Date.prototype.toLocaleString;
+      Date.prototype.toLocaleString = function(locale, opts){ return d3.call(this, pick(locale), opts); };
+    }catch(e){}
+  })();
 
   window.BeatI18n = {
     __beatI18n: true,
@@ -578,6 +698,7 @@
     if (started) return;
     started = true;
     await loadPack();
+    buildPatterns();
     state.ready = true;
     var stored = null;
     try { stored = localStorage.getItem(LS_KEY); } catch (e) {}
